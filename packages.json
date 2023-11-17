@@ -2964,8 +2964,7 @@
         "DelayedArray",
         "GenomicRanges",
         "MultiAssayExperiment",
-        "SummarizedExperiment",
-        "piano"
+        "SummarizedExperiment"
     ],
     "Cormotif": [],
     "corral": [
@@ -9545,8 +9544,7 @@
         "MultiAssayExperiment",
         "SummarizedExperiment",
         "biomaRt",
-        "genefu",
-        "piano"
+        "genefu"
     ],
     "pdInfoBuilder": [
         "Biostrings",
@@ -9627,8 +9625,7 @@
         "DelayedArray",
         "GenomicRanges",
         "MultiAssayExperiment",
-        "SummarizedExperiment",
-        "piano"
+        "SummarizedExperiment"
     ],
     "phemd": [
         "DelayedArray",
@@ -9691,7 +9688,6 @@
     "Pi": [
         "GenomicRanges"
     ],
-    "piano": [],
     "pickgene": [],
     "PICS": [
         "Biostrings",
@@ -10368,8 +10364,7 @@
         "DelayedArray",
         "GenomicRanges",
         "MultiAssayExperiment",
-        "SummarizedExperiment",
-        "piano"
+        "SummarizedExperiment"
     ],
     "RaggedExperiment": [
         "DelayedArray",
@@ -13705,8 +13700,7 @@
         "DelayedArray",
         "GenomicRanges",
         "MultiAssayExperiment",
-        "SummarizedExperiment",
-        "piano"
+        "SummarizedExperiment"
     ],
     "TPP": [],
     "TPP2D": [],
@@ -14447,8 +14441,7 @@
         "GenomicRanges",
         "MultiAssayExperiment",
         "PharmacoGx",
-        "SummarizedExperiment",
-        "piano"
+        "SummarizedExperiment"
     ],
     "xmapbridge": [],
     "XNAString": [
