@@ -7566,7 +7566,6 @@
         "beachmat",
         "scuttle"
     ],
-    "ggtreeExtra": [],
     "GIGSEA": [],
     "girafe": [
         "Biostrings",
@@ -10614,8 +10613,7 @@
         "GenomicRanges",
         "S4Arrays",
         "SummarizedExperiment",
-        "XVector",
-        "ggtreeExtra"
+        "XVector"
     ],
     "microRNA": [
         "Biostrings",
