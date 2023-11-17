@@ -7,7 +7,6 @@
         "XVector",
         "a4Base",
         "a4Classif",
-        "a4Preproc",
         "annaffy",
         "annotate",
         "genefilter",
@@ -19,16 +18,12 @@
         "GenomeInfoDb",
         "KEGGREST",
         "XVector",
-        "a4Preproc",
         "annaffy",
         "annotate",
         "genefilter",
         "multtest"
     ],
-    "a4Classif": [
-        "a4Preproc"
-    ],
-    "a4Preproc": [],
+    "a4Classif": [],
     "ABarray": [
         "multtest"
     ],
