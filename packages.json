@@ -14326,7 +14326,6 @@
         "fgsea"
     ],
     "Omixer": [],
-    "OmnipathR": [],
     "ompBAM": [],
     "oncomix": [
         "DelayedArray",
@@ -22360,9 +22359,7 @@
         "SummarizedExperiment",
         "XVector"
     ],
-    "wppi": [
-        "OmnipathR"
-    ],
+    "wppi": [],
     "xcms": [
         "DelayedArray",
         "GenomeInfoDb",
