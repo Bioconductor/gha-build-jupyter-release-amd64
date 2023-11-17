@@ -8183,7 +8183,6 @@
         "MultiAssayExperiment",
         "SummarizedExperiment"
     ],
-    "nethet": [],
     "netOmics": [
         "AnnotationDbi",
         "Biostrings",
