@@ -6626,7 +6626,6 @@
         "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "mbQTL": [],
     "MBttest": [],
     "MCbiclust": [
         "AnnotationDbi",
