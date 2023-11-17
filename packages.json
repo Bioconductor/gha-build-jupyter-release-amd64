@@ -1041,7 +1041,6 @@
         "beachmat",
         "densvis",
         "genefilter",
-        "metagenomeSeq",
         "mia",
         "phyloseq",
         "scater",
@@ -6991,9 +6990,7 @@
         "SummarizedExperiment",
         "rtracklayer"
     ],
-    "Maaslin2": [
-        "metagenomeSeq"
-    ],
+    "Maaslin2": [],
     "Macarron": [
         "AnnotationDbi",
         "Biostrings",
@@ -7001,8 +6998,7 @@
         "GenomicRanges",
         "KEGGREST",
         "Maaslin2",
-        "SummarizedExperiment",
-        "metagenomeSeq"
+        "SummarizedExperiment"
     ],
     "macat": [
         "AnnotationDbi",
@@ -7247,9 +7243,7 @@
         "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "mbQTL": [
-        "metagenomeSeq"
-    ],
+    "mbQTL": [],
     "MBttest": [],
     "MCbiclust": [
         "AnnotationDbi",
@@ -7498,7 +7492,6 @@
         "SummarizedExperiment",
         "rtracklayer"
     ],
-    "metagenomeSeq": [],
     "metahdep": [],
     "metaMS": [
         "CAMERA",
@@ -7833,15 +7826,13 @@
     ],
     "microbiomeDASim": [
         "Biostrings",
-        "metagenomeSeq",
         "phyloseq"
     ],
     "microbiomeExplorer": [
         "DESeq2",
         "DelayedArray",
         "GenomicRanges",
-        "SummarizedExperiment",
-        "metagenomeSeq"
+        "SummarizedExperiment"
     ],
     "microbiomeMarker": [
         "ALDEx2",
@@ -7860,7 +7851,6 @@
         "TreeSummarizedExperiment",
         "beachmat",
         "densvis",
-        "metagenomeSeq",
         "mia",
         "phyloseq",
         "scater",
@@ -8168,8 +8158,7 @@
         "rtracklayer"
     ],
     "MMUPHin": [
-        "Maaslin2",
-        "metagenomeSeq"
+        "Maaslin2"
     ],
     "moanin": [
         "AnnotationDbi",
