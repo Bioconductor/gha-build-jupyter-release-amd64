@@ -2016,7 +2016,6 @@
         "regioneR",
         "rtracklayer"
     ],
-    "coRdon": [],
     "CoRegNet": [],
     "CoreGx": [
         "MultiAssayExperiment",
