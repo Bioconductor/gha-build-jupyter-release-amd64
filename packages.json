@@ -9949,7 +9949,6 @@
     "rfaRm": [
         "Biostrings"
     ],
-    "Rfastp": [],
     "rfPred": [
         "Biostrings",
         "GenomicRanges",
