@@ -17923,7 +17923,6 @@
         "SummarizedExperiment",
         "XVector"
     ],
-    "SPEM": [],
     "SPIA": [
         "KEGGgraph"
     ],
@@ -18947,9 +18946,7 @@
         "biomaRt",
         "rtracklayer"
     ],
-    "TMixClust": [
-        "SPEM"
-    ],
+    "TMixClust": [],
     "TNBC.CMS": [
         "AnnotationDbi",
         "BiocSingular",
