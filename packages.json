@@ -384,7 +384,6 @@
         "biomaRt",
         "rtracklayer"
     ],
-    "AlpsNMR": [],
     "altcdfenvs": [
         "Biostrings",
         "XVector",
