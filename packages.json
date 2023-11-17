@@ -1592,7 +1592,6 @@
         "biocViews"
     ],
     "BiocDockerManager": [],
-    "BiocFHIR": [],
     "biocGraph": [
         "AnnotationDbi",
         "Biostrings",
