@@ -22027,9 +22027,7 @@
         "preprocessCore",
         "zlibbioc"
     ],
-    "PANR": [
-        "RedeR"
-    ],
+    "PANR": [],
     "PanViz": [],
     "pareg": [
         "AnnotationDbi",
@@ -24741,7 +24739,6 @@
         "rtracklayer",
         "zlibbioc"
     ],
-    "RedeR": [],
     "RedisParam": [
         "BiocParallel"
     ],
@@ -26472,7 +26469,6 @@
         "GenomicRanges",
         "IRanges",
         "MatrixGenerics",
-        "RedeR",
         "S4Arrays",
         "S4Vectors",
         "SummarizedExperiment",
@@ -26491,7 +26487,6 @@
         "IRanges",
         "MatrixGenerics",
         "RTN",
-        "RedeR",
         "S4Arrays",
         "S4Vectors",
         "SummarizedExperiment",
@@ -26511,7 +26506,6 @@
         "MatrixGenerics",
         "RTN",
         "RTNduals",
-        "RedeR",
         "S4Arrays",
         "S4Vectors",
         "SummarizedExperiment",
@@ -31851,7 +31845,6 @@
         "GenomeInfoDb",
         "IRanges",
         "KEGGREST",
-        "RedeR",
         "S4Vectors",
         "XVector",
         "biomaRt",
@@ -32009,9 +32002,7 @@
         "slingshot",
         "zlibbioc"
     ],
-    "TreeAndLeaf": [
-        "RedeR"
-    ],
+    "TreeAndLeaf": [],
     "treeio": [],
     "treekoR": [
         "Biobase",
