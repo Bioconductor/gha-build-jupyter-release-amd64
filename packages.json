@@ -13099,7 +13099,6 @@
         "SummarizedExperiment",
         "XVector"
     ],
-    "ROSeq": [],
     "RPA": [
         "Biostrings",
         "XVector",
