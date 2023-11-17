@@ -5282,7 +5282,6 @@
         "S4Arrays",
         "SummarizedExperiment",
         "XVector",
-        "progeny",
         "quantiseqr"
     ],
     "EasyCellType": [
@@ -12798,7 +12797,6 @@
         "soGGi"
     ],
     "profileScoreDist": [],
-    "progeny": [],
     "projectR": [
         "AnnotationDbi",
         "Biostrings",
