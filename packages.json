@@ -2149,7 +2149,6 @@
         "AnnotationDbi",
         "Biostrings",
         "DelayedArray",
-        "EBImage",
         "GenomeInfoDb",
         "GenomicRanges",
         "IRanges",
@@ -2679,7 +2678,6 @@
         "snpStats"
     ],
     "Cardinal": [
-        "EBImage",
         "matter"
     ],
     "casper": [
@@ -4367,7 +4365,6 @@
         "sparseMatrixStats"
     ],
     "CONFESS": [
-        "EBImage",
         "Rgraphviz",
         "flowClust",
         "flowCore",
@@ -4699,7 +4696,6 @@
         "rtracklayer"
     ],
     "CRImage": [
-        "EBImage",
         "aCGH",
         "multtest"
     ],
@@ -5169,7 +5165,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "DropletUtils",
-        "EBImage",
         "GenomeInfoDb",
         "GenomicRanges",
         "HDF5Array",
@@ -5219,7 +5214,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "DropletUtils",
-        "EBImage",
         "GenomeInfoDb",
         "GenomicRanges",
         "HDF5Array",
@@ -6453,7 +6447,6 @@
     "EBcoexpress": [
         "EBarrays"
     ],
-    "EBImage": [],
     "EBSEA": [
         "DESeq2",
         "DelayedArray",
@@ -7645,9 +7638,7 @@
         "biomaRt",
         "rtracklayer"
     ],
-    "FISHalyseR": [
-        "EBImage"
-    ],
+    "FISHalyseR": [],
     "fishpond": [
         "DelayedArray",
         "GenomeInfoDb",
@@ -7738,11 +7729,8 @@
         "flowFP",
         "flowViz"
     ],
-    "flowcatchR": [
-        "EBImage"
-    ],
+    "flowcatchR": [],
     "flowCHIC": [
-        "EBImage",
         "flowCore"
     ],
     "flowClean": [
@@ -9402,7 +9390,6 @@
     "HDTD": [],
     "heatmaps": [
         "Biostrings",
-        "EBImage",
         "GenomeInfoDb",
         "GenomicRanges",
         "IRanges",
@@ -9962,7 +9949,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "DropletUtils",
-        "EBImage",
         "GenomeInfoDb",
         "GenomicRanges",
         "HDF5Array",
@@ -12745,7 +12731,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "DropletUtils",
-        "EBImage",
         "GenomeInfoDb",
         "GenomicRanges",
         "HDF5Array",
@@ -16269,9 +16254,7 @@
         "dada2"
     ],
     "RBGL": [],
-    "RBioFormats": [
-        "EBImage"
-    ],
+    "RBioFormats": [],
     "RBioinf": [],
     "RBM": [],
     "Rbowtie2": [
@@ -18851,7 +18834,6 @@
         "ChIPseeker",
         "DOSE",
         "DelayedArray",
-        "EBImage",
         "GOSemSim",
         "GenomeInfoDb",
         "GenomicAlignments",
@@ -19354,7 +19336,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "DropletUtils",
-        "EBImage",
         "GenomeInfoDb",
         "GenomicRanges",
         "HDF5Array",
@@ -19969,7 +19950,6 @@
     ],
     "SpatialOmicsOverlay": [
         "Biostrings",
-        "EBImage",
         "GenomeInfoDb",
         "GeomxTools",
         "IRanges",
@@ -20667,9 +20647,7 @@
         "SummarizedExperiment",
         "XVector"
     ],
-    "synapsis": [
-        "EBImage"
-    ],
+    "synapsis": [],
     "synapter": [
         "Biostrings",
         "GenomeInfoDb",
@@ -22441,7 +22419,6 @@
     ],
     "yamss": [
         "DelayedArray",
-        "EBImage",
         "GenomeInfoDb",
         "GenomicRanges",
         "IRanges",
