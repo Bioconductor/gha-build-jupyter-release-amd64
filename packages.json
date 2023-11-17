@@ -79,7 +79,6 @@
         "MultiAssayExperiment",
         "SummarizedExperiment"
     ],
-    "affyContam": [],
     "affycoretools": [
         "AnnotationDbi",
         "AnnotationFilter",
@@ -571,7 +570,6 @@
         "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
-        "affyContam",
         "annotate",
         "biomaRt",
         "bumphunter",
