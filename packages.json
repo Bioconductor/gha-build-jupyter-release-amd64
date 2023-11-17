@@ -18351,7 +18351,6 @@
     ],
     "statTarget": [],
     "STdeconvolve": [],
-    "stepNorm": [],
     "stJoincount": [
         "DelayedArray",
         "DelayedMatrixStats",
