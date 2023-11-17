@@ -1077,9 +1077,7 @@
     "BiFET": [
         "GenomicRanges"
     ],
-    "BiGGR": [
-        "hyperdraw"
-    ],
+    "BiGGR": [],
     "bigmelon": [
         "AnnotationDbi",
         "Biostrings",
@@ -6253,7 +6251,6 @@
         "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "hyperdraw": [],
     "iASeq": [],
     "iasva": [
         "DelayedArray",
