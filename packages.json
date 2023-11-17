@@ -18359,7 +18359,6 @@
         "KEGGREST",
         "XVector"
     ],
-    "subSeq": [],
     "SUITOR": [],
     "SummarizedBenchmark": [
         "DelayedArray",
