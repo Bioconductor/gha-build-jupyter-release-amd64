@@ -10589,7 +10589,6 @@
         "vsn",
         "xcms"
     ],
-    "metabCombiner": [],
     "metabinR": [],
     "MetaboAnnotation": [
         "AnnotationDbi",
