@@ -3273,7 +3273,6 @@
         "flowDensity",
         "flowWorkspace"
     ],
-    "cycle": [],
     "cydar": [
         "DelayedArray",
         "GenomicRanges",
