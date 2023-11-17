@@ -23727,7 +23727,6 @@
         "zinbwave",
         "zlibbioc"
     ],
-    "SCBN": [],
     "scBubbletree": [
         "ggtree"
     ],
@@ -27367,7 +27366,6 @@
         "MatrixGenerics",
         "S4Arrays",
         "S4Vectors",
-        "SCBN",
         "SummarizedExperiment",
         "XVector",
         "apeglm",
