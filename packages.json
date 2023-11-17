@@ -3474,7 +3474,6 @@
         "rtracklayer"
     ],
     "COMPASS": [],
-    "compcodeR": [],
     "compEpiTools": [
         "AnnotationDbi",
         "AnnotationFilter",
