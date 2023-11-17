@@ -10503,7 +10503,6 @@
         "graphite"
     ],
     "REBET": [],
-    "rebook": [],
     "receptLoss": [
         "DelayedArray",
         "GenomicRanges",
