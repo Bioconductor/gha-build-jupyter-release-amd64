@@ -489,7 +489,6 @@
         "GenomeInfoDb",
         "XVector",
         "affy",
-        "hypergraph",
         "makecdfenv"
     ],
     "AMARETTO": [
@@ -1465,8 +1464,7 @@
         "XVector"
     ],
     "BiGGR": [
-        "hyperdraw",
-        "hypergraph"
+        "hyperdraw"
     ],
     "bigmelon": [
         "AnnotationDbi",
@@ -8117,7 +8115,6 @@
         "XVector",
         "affy",
         "altcdfenvs",
-        "hypergraph",
         "makecdfenv"
     ],
     "hca": [],
@@ -8406,10 +8403,7 @@
         "XVector"
     ],
     "HybridMTest": [],
-    "hyperdraw": [
-        "hypergraph"
-    ],
-    "hypergraph": [],
+    "hyperdraw": [],
     "iASeq": [],
     "iasva": [
         "DelayedArray",
