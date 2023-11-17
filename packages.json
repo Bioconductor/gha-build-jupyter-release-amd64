@@ -2606,9 +2606,7 @@
         "scuttle",
         "slingshot"
     ],
-    "CONFESS": [
-        "flowMerge"
-    ],
+    "CONFESS": [],
     "consensus": [],
     "consensusDE": [
         "AnnotationDbi",
@@ -4650,7 +4648,6 @@
     ],
     "flowGraph": [],
     "flowMap": [],
-    "flowMerge": [],
     "flowPloidy": [],
     "flowPlots": [],
     "FlowSOM": [],
