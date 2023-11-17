@@ -15743,7 +15743,6 @@
         "SummarizedExperiment",
         "XVector"
     ],
-    "wppi": [],
     "xcms": [
         "DelayedArray",
         "GenomicRanges",
