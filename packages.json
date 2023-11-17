@@ -10434,10 +10434,7 @@
         "KEGGREST"
     ],
     "RCSL": [],
-    "Rcwl": [],
-    "RcwlPipelines": [
-        "Rcwl"
-    ],
+    "RcwlPipelines": [],
     "RCy3": [],
     "rDGIdb": [],
     "Rdisop": [],
@@ -10738,7 +10735,6 @@
     ],
     "retrofit": [],
     "ReUseData": [
-        "Rcwl",
         "RcwlPipelines"
     ],
     "rexposome": [],
