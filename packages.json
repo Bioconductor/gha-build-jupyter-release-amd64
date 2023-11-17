@@ -1640,7 +1640,6 @@
         "RBGL"
     ],
     "BiocWorkflowTools": [],
-    "biodbHmdb": [],
     "biomaRt": [
         "AnnotationDbi",
         "Biostrings",
