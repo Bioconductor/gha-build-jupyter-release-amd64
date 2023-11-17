@@ -1678,7 +1678,6 @@
         "RBGL"
     ],
     "BiocWorkflowTools": [],
-    "biodbChebi": [],
     "biodbHmdb": [],
     "biodbKegg": [],
     "biomaRt": [
@@ -13364,7 +13363,6 @@
         "S4Arrays",
         "SummarizedExperiment",
         "XVector",
-        "biodbChebi",
         "ropls"
     ],
     "phenopath": [
