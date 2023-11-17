@@ -1527,8 +1527,7 @@
     ],
     "BiGGR": [
         "hyperdraw",
-        "hypergraph",
-        "rsbml"
+        "hypergraph"
     ],
     "bigmelon": [
         "AnnotationDbi",
@@ -15983,7 +15982,6 @@
         "Rhtslib",
         "XVector"
     ],
-    "rsbml": [],
     "rScudo": [
         "DelayedArray",
         "GenomeInfoDb",
