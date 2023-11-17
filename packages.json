@@ -8445,7 +8445,6 @@
         "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "OLINgui": [],
     "omada": [],
     "OmaDB": [
         "AnnotationDbi",
