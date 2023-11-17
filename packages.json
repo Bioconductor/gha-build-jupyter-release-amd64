@@ -10511,7 +10511,6 @@
         "RTNduals",
         "SummarizedExperiment"
     ],
-    "RTopper": [],
     "rtracklayer": [
         "Biostrings",
         "GenomicAlignments",
