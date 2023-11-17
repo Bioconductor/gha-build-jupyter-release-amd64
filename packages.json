@@ -1681,7 +1681,6 @@
     "biodbChebi": [],
     "biodbHmdb": [],
     "biodbKegg": [],
-    "biodbNcbi": [],
     "biomaRt": [
         "AnnotationDbi",
         "Biostrings",
