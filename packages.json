@@ -5289,7 +5289,6 @@
         "multtest"
     ],
     "dcGSA": [],
-    "ddCt": [],
     "ddPCRclust": [
         "DelayedArray",
         "IRanges",
