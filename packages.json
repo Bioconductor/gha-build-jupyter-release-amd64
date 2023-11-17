@@ -11830,7 +11830,6 @@
         "annotate",
         "genefilter"
     ],
-    "qckitfastq": [],
     "QDNAseq": [
         "Biostrings",
         "GenomicRanges",
