@@ -10226,7 +10226,6 @@
         "oligoClasses"
     ],
     "iterativeBMAsurv": [],
-    "iterClust": [],
     "IVAS": [
         "AnnotationDbi",
         "BiocIO",
