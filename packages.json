@@ -9894,7 +9894,6 @@
         "RBGL",
         "graph"
     ],
-    "FGNet": [],
     "fgsea": [],
     "FilterFFPE": [
         "Biostrings",
@@ -13341,9 +13340,7 @@
         "XVector",
         "zlibbioc"
     ],
-    "IntramiRExploreR": [
-        "FGNet"
-    ],
+    "IntramiRExploreR": [],
     "IONiseR": [
         "Biobase",
         "Biostrings",
