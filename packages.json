@@ -3914,7 +3914,6 @@
         "KEGGREST",
         "annotate"
     ],
-    "GeneRegionScan": [],
     "geneRxCluster": [],
     "GENESIS": [
         "GWASTools",
