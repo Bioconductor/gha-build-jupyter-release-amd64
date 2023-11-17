@@ -2439,9 +2439,7 @@
         "rtracklayer",
         "snpStats"
     ],
-    "Cardinal": [
-        "matter"
-    ],
+    "Cardinal": [],
     "casper": [
         "AnnotationDbi",
         "BiocIO",
@@ -10183,7 +10181,6 @@
         "annotate",
         "rtracklayer"
     ],
-    "matter": [],
     "MBAmethyl": [],
     "MBASED": [
         "DelayedArray",
