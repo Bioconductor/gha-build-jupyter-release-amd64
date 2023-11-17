@@ -4014,9 +4014,7 @@
     "graphite": [
         "AnnotationDbi"
     ],
-    "GraphPAC": [
-        "iPAC"
-    ],
+    "GraphPAC": [],
     "GRENITS": [],
     "GreyListChIP": [
         "BSgenome",
@@ -4526,7 +4524,6 @@
         "ShortRead",
         "SummarizedExperiment"
     ],
-    "iPAC": [],
     "iPath": [],
     "ipdDb": [
         "AnnotationDbi",
@@ -7029,8 +7026,7 @@
     ],
     "QuartPAC": [
         "GraphPAC",
-        "SpacePAC",
-        "iPAC"
+        "SpacePAC"
     ],
     "QuasR": [
         "AnnotationDbi",
@@ -8707,9 +8703,7 @@
         "rtracklayer"
     ],
     "SOMNiBUS": [],
-    "SpacePAC": [
-        "iPAC"
-    ],
+    "SpacePAC": [],
     "Spaniel": [
         "BiocSingular",
         "DropletUtils",
