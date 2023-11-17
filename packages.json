@@ -6171,7 +6171,6 @@
         "GenomicRanges",
         "IRanges",
         "MatrixGenerics",
-        "Rbwa",
         "Rhtslib",
         "Rsamtools",
         "S4Arrays",
@@ -21396,7 +21395,6 @@
     "rbsurv": [
         "Biobase"
     ],
-    "Rbwa": [],
     "RCAS": [
         "AnnotationDbi",
         "BSgenome",
