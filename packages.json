@@ -12252,7 +12252,6 @@
         "genefilter"
     ],
     "PhenStat": [],
-    "philr": [],
     "PhIPData": [
         "DelayedArray",
         "GenomeInfoDb",
