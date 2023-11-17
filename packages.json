@@ -10829,7 +10829,6 @@
     "makecdfenv": [
         "affy"
     ],
-    "MANOR": [],
     "MantelCorr": [],
     "maPredictDSC": [
         "AnnotationDbi",
