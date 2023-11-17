@@ -911,7 +911,6 @@
         "siggenes",
         "sparseMatrixStats"
     ],
-    "arrayQuality": [],
     "arrayQualityMetrics": [
         "AnnotationDbi",
         "Biostrings",
