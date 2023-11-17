@@ -8643,7 +8643,6 @@
         "SummarizedExperiment",
         "XVector",
         "biomaRt",
-        "plgem",
         "rtracklayer"
     ],
     "INTACT": [],
@@ -13051,7 +13050,6 @@
         "SummarizedExperiment",
         "XVector"
     ],
-    "plgem": [],
     "plier": [
         "affy"
     ],
