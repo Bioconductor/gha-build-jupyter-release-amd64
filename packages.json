@@ -5620,7 +5620,6 @@
         "XVector"
     ],
     "EBSeqHMM": [],
-    "ecolitk": [],
     "EDASeq": [
         "AnnotationDbi",
         "Biostrings",
