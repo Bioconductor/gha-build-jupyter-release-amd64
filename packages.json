@@ -3801,7 +3801,6 @@
         "enrichplot"
     ],
     "ClusterSignificance": [],
-    "clusterStab": [],
     "clustifyr": [
         "DelayedArray",
         "GenomeInfoDb",
