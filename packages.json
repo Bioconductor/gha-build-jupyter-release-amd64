@@ -695,7 +695,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "HybridMTest",
         "KEGGREST",
         "Rhtslib",
         "Rsamtools",
@@ -8391,7 +8390,6 @@
         "SummarizedExperiment",
         "XVector"
     ],
-    "HybridMTest": [],
     "hyperdraw": [],
     "iASeq": [],
     "iasva": [
