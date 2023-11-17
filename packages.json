@@ -12064,7 +12064,6 @@
         "graphite",
         "miRNAtap"
     ],
-    "STATegRa": [],
     "Statial": [
         "DelayedMatrixStats",
         "DropletUtils",
