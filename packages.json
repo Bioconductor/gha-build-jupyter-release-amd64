@@ -11817,7 +11817,6 @@
         "siggenes",
         "sparseMatrixStats"
     ],
-    "MetID": [],
     "MetNet": [
         "DelayedArray",
         "GenomeInfoDb",
