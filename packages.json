@@ -10299,7 +10299,6 @@
         "AnnotationDbi",
         "Biostrings",
         "KEGGREST",
-        "RandomWalkRestartMH",
         "XVector"
     ],
     "NetPathMiner": [],
@@ -12067,7 +12066,6 @@
         "XVector",
         "biomaRt"
     ],
-    "RandomWalkRestartMH": [],
     "randRotation": [],
     "RAREsim": [],
     "RareVariantVis": [
