@@ -6459,7 +6459,6 @@
         "sparseMatrixStats",
         "topGO"
     ],
-    "eiR": [],
     "eisaR": [
         "DelayedArray",
         "GenomeInfoDb",
