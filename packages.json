@@ -1678,7 +1678,6 @@
     ],
     "BiocWorkflowTools": [],
     "biodbHmdb": [],
-    "biodbKegg": [],
     "biomaRt": [
         "AnnotationDbi",
         "Biostrings",
