@@ -713,9 +713,7 @@
         "multtest",
         "zlibbioc"
     ],
-    "alevinQC": [
-        "tximport"
-    ],
+    "alevinQC": [],
     "AllelicImbalance": [
         "AnnotationDbi",
         "AnnotationFilter",
@@ -2265,7 +2263,6 @@
         "rhdf5",
         "rhdf5filters",
         "rtracklayer",
-        "tximport",
         "zlibbioc"
     ],
     "BgeeDB": [
@@ -8141,7 +8138,6 @@
         "XVector",
         "edgeR",
         "limma",
-        "tximport",
         "zlibbioc"
     ],
     "diffGeneAnalysis": [],
@@ -9945,7 +9941,6 @@
         "rhdf5",
         "rhdf5filters",
         "rtracklayer",
-        "tximport",
         "zlibbioc"
     ],
     "EWCE": [
@@ -14294,7 +14289,6 @@
         "satuRn",
         "sva",
         "tximeta",
-        "tximport",
         "zlibbioc"
     ],
     "ISoLDE": [],
@@ -26835,7 +26829,6 @@
         "scuttle",
         "sparseMatrixStats",
         "sva",
-        "tximport",
         "zellkonverter",
         "zinbwave",
         "zlibbioc"
@@ -28750,7 +28743,6 @@
         "IRanges",
         "S4Vectors",
         "XVector",
-        "tximport",
         "zlibbioc"
     ],
     "TDbasedUFEadv": [
@@ -28773,7 +28765,6 @@
         "fgsea",
         "ggtree",
         "qvalue",
-        "tximport",
         "zlibbioc"
     ],
     "TEKRABber": [
@@ -29963,10 +29954,8 @@
         "ensembldb",
         "interactiveDisplayBase",
         "rtracklayer",
-        "tximport",
         "zlibbioc"
     ],
-    "tximport": [],
     "TypeInfo": [],
     "UCell": [
         "Biobase",
