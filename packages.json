@@ -5723,7 +5723,6 @@
     "MSA2dist": [],
     "MsBackendMgf": [],
     "MsBackendRawFileReader": [],
-    "MsBackendSql": [],
     "MsDataHub": [
         "AnnotationDbi",
         "AnnotationHub",
