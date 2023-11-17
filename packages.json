@@ -14784,7 +14784,6 @@
     "RBGL": [],
     "RBioFormats": [],
     "RBioinf": [],
-    "RBM": [],
     "Rbowtie2": [
         "Biostrings",
         "GenomeInfoDb",
