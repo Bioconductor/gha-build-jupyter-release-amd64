@@ -202,7 +202,6 @@
         "SummarizedExperiment",
         "apeglm",
         "beachmat",
-        "densvis",
         "scater",
         "scuttle"
     ],
@@ -396,7 +395,6 @@
         "SummarizedExperiment",
         "TreeSummarizedExperiment",
         "beachmat",
-        "densvis",
         "mia",
         "scater",
         "scuttle"
@@ -946,7 +944,6 @@
         "SummarizedExperiment",
         "beachmat",
         "bluster",
-        "densvis",
         "scater",
         "scran",
         "scuttle"
@@ -1037,7 +1034,6 @@
         "TreeSummarizedExperiment",
         "annotate",
         "beachmat",
-        "densvis",
         "genefilter",
         "mia",
         "phyloseq",
@@ -1747,7 +1743,6 @@
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
-        "densvis",
         "scater",
         "scuttle"
     ],
@@ -1871,7 +1866,6 @@
         "SummarizedExperiment",
         "beachmat",
         "bluster",
-        "densvis",
         "scater",
         "scran",
         "scuttle"
@@ -1918,7 +1912,6 @@
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
-        "densvis",
         "scater",
         "scuttle"
     ],
@@ -1938,7 +1931,6 @@
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
-        "densvis",
         "scater",
         "scuttle"
     ],
@@ -2285,7 +2277,6 @@
         "batchelor",
         "beachmat",
         "bluster",
-        "densvis",
         "rtracklayer",
         "scater",
         "scran",
@@ -2825,7 +2816,6 @@
         "SummarizedExperiment",
         "TrajectoryUtils",
         "beachmat",
-        "densvis",
         "distinct",
         "scater",
         "scuttle",
@@ -3340,7 +3330,6 @@
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
-        "densvis",
         "scater",
         "scuttle"
     ],
@@ -3654,7 +3643,6 @@
         "sva"
     ],
     "demuxmix": [],
-    "densvis": [],
     "DEP": [
         "DelayedArray",
         "GenomicRanges",
@@ -3881,7 +3869,6 @@
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
-        "densvis",
         "scater",
         "scuttle"
     ],
@@ -4680,7 +4667,6 @@
         "SpatialExperiment",
         "SummarizedExperiment",
         "beachmat",
-        "densvis",
         "rtracklayer",
         "scater",
         "scuttle"
@@ -5025,7 +5011,6 @@
         "biomaRt",
         "biovizBase",
         "bluster",
-        "densvis",
         "ensembldb",
         "ggbio",
         "rtracklayer",
@@ -6614,7 +6599,6 @@
         "beachmat",
         "bluster",
         "clusterProfiler",
-        "densvis",
         "enrichplot",
         "scater",
         "scran",
@@ -7335,7 +7319,6 @@
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
-        "densvis",
         "scater",
         "scuttle"
     ],
@@ -7783,7 +7766,6 @@
         "SummarizedExperiment",
         "TreeSummarizedExperiment",
         "beachmat",
-        "densvis",
         "scater",
         "scuttle"
     ],
@@ -7808,7 +7790,6 @@
         "SummarizedExperiment",
         "TreeSummarizedExperiment",
         "beachmat",
-        "densvis",
         "mia",
         "scater",
         "scuttle"
@@ -7843,7 +7824,6 @@
         "SummarizedExperiment",
         "TreeSummarizedExperiment",
         "beachmat",
-        "densvis",
         "mia",
         "phyloseq",
         "scater",
@@ -8660,7 +8640,6 @@
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
-        "densvis",
         "scater",
         "scuttle",
         "variancePartition"
@@ -8896,7 +8875,6 @@
         "annotate",
         "beachmat",
         "clusterExperiment",
-        "densvis",
         "genefilter",
         "mbkmeans",
         "scater",
@@ -9572,7 +9550,6 @@
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
-        "densvis",
         "scater",
         "scuttle"
     ],
@@ -9732,7 +9709,6 @@
         "SummarizedExperiment",
         "beachmat",
         "bluster",
-        "densvis",
         "scater",
         "scran",
         "scuttle"
@@ -11592,7 +11568,6 @@
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
-        "densvis",
         "scuttle"
     ],
     "scatterHatch": [],
@@ -11659,7 +11634,6 @@
         "SummarizedExperiment",
         "beachmat",
         "bluster",
-        "densvis",
         "rtracklayer",
         "scater",
         "scran",
@@ -11766,7 +11740,6 @@
         "batchelor",
         "beachmat",
         "bluster",
-        "densvis",
         "scater",
         "scran",
         "scuttle"
@@ -12009,7 +11982,6 @@
         "biomaRt",
         "bluster",
         "bumphunter",
-        "densvis",
         "ensembldb",
         "epivizr",
         "epivizrData",
@@ -12035,7 +12007,6 @@
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
-        "densvis",
         "scater",
         "scuttle"
     ],
@@ -12512,7 +12483,6 @@
         "biomaRt",
         "bluster",
         "celda",
-        "densvis",
         "ensembldb",
         "genefilter",
         "rtracklayer",
@@ -12742,7 +12712,6 @@
         "SummarizedExperiment",
         "beachmat",
         "bluster",
-        "densvis",
         "scater",
         "scran",
         "scuttle"
@@ -12841,7 +12810,6 @@
         "annotate",
         "beachmat",
         "bluster",
-        "densvis",
         "genefilter",
         "scater",
         "scran",
@@ -13875,7 +13843,6 @@
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
-        "densvis",
         "scater",
         "scuttle"
     ],
@@ -14092,7 +14059,6 @@
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
-        "densvis",
         "scater",
         "scuttle"
     ],
