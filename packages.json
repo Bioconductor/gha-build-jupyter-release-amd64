@@ -1523,7 +1523,6 @@
         "annotate",
         "epiNEM",
         "genefilter",
-        "mnem",
         "sva",
         "vsn"
     ],
@@ -3785,8 +3784,7 @@
         "KEGGREST",
         "XVector",
         "epiNEM",
-        "graphite",
-        "mnem"
+        "graphite"
     ],
     "dcGSA": [],
     "ddPCRclust": [
@@ -4892,9 +4890,7 @@
         "rtracklayer",
         "siggenes"
     ],
-    "epiNEM": [
-        "mnem"
-    ],
+    "epiNEM": [],
     "epistack": [
         "DelayedArray",
         "GenomicRanges",
@@ -8902,7 +8898,6 @@
         "Maaslin2",
         "metagenomeSeq"
     ],
-    "mnem": [],
     "moanin": [
         "AnnotationDbi",
         "Biostrings",
@@ -9662,8 +9657,7 @@
         "XVector"
     ],
     "nempi": [
-        "epiNEM",
-        "mnem"
+        "epiNEM"
     ],
     "NetActivity": [
         "DESeq2",
