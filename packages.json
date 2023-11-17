@@ -14629,7 +14629,6 @@
         "rtracklayer"
     ],
     "QuaternaryProd": [],
-    "qusage": [],
     "R3CPET": [
         "AnnotationDbi",
         "AnnotationFilter",
