@@ -15460,7 +15460,6 @@
         "SummarizedExperiment",
         "XVector"
     ],
-    "synapsis": [],
     "synapter": [
         "Biostrings",
         "MSnbase",
