@@ -2294,7 +2294,6 @@
         "GenomicRanges"
     ],
     "ComPrAn": [],
-    "concordexR": [],
     "condiments": [
         "BiocSingular",
         "GenomicRanges",
