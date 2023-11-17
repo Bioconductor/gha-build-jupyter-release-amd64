@@ -2596,7 +2596,6 @@
     "CompoundDb": [
         "AnnotationFilter",
         "GenomicRanges",
-        "MetaboCoreUtils",
         "Spectra"
     ],
     "ComPrAn": [],
@@ -6861,13 +6860,11 @@
         "CompoundDb",
         "GenomicRanges",
         "KEGGREST",
-        "MetaboCoreUtils",
         "MultiAssayExperiment",
         "QFeatures",
         "Spectra",
         "SummarizedExperiment"
     ],
-    "MetaboCoreUtils": [],
     "metabolomicsWorkbenchR": [
         "GenomicRanges",
         "MultiAssayExperiment",
@@ -7553,7 +7550,6 @@
     "MobilityTransformR": [
         "GenomicRanges",
         "MSnbase",
-        "MetaboCoreUtils",
         "MsFeatures",
         "Spectra",
         "SummarizedExperiment",
