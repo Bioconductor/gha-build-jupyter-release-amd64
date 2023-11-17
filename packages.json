@@ -564,9 +564,7 @@
         "biomaRt",
         "rtracklayer"
     ],
-    "AlpsNMR": [
-        "mixOmics"
-    ],
+    "AlpsNMR": [],
     "altcdfenvs": [
         "Biostrings",
         "GenomeInfoDb",
@@ -5673,9 +5671,7 @@
         "pcaMethods",
         "vsn"
     ],
-    "DepecheR": [
-        "mixOmics"
-    ],
+    "DepecheR": [],
     "DepInfeR": [],
     "DEqMS": [],
     "derfinder": [
@@ -12600,7 +12596,6 @@
         "deepSNV",
         "rtracklayer"
     ],
-    "mixOmics": [],
     "MLInterfaces": [
         "AnnotationDbi",
         "Biostrings",
@@ -13432,7 +13427,6 @@
         "enrichplot",
         "fgsea",
         "graphite",
-        "mixOmics",
         "multtest",
         "ropls"
     ],
@@ -15347,8 +15341,7 @@
         "IRanges",
         "S4Arrays",
         "SummarizedExperiment",
-        "XVector",
-        "mixOmics"
+        "XVector"
     ],
     "POWSC": [
         "DelayedArray",
@@ -21116,9 +21109,7 @@
         "vsn"
     ],
     "timecourse": [],
-    "timeOmics": [
-        "mixOmics"
-    ],
+    "timeOmics": [],
     "timescape": [],
     "TimiRGeN": [
         "AnnotationDbi",
