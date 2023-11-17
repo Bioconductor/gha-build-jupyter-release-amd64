@@ -1,0 +1,10 @@
+BiGGR
+CNORfuzzy
+BiocCheck
+CRImage
+CNORdt
+BiocPkgTools
+RcwlPipelines
+monocle
+CNORfeeder
+CNORode
