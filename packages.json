@@ -5077,7 +5077,6 @@
         "DelayedArray"
     ],
     "fmrs": [],
-    "fobitools": [],
     "FoldGO": [
         "AnnotationDbi",
         "Biostrings",
