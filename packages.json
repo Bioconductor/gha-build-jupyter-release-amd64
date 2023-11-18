@@ -2525,7 +2525,6 @@
         "OmaDB"
     ],
     "pickgene": [],
-    "PICS": [],
     "Pigengene": [
         "ReactomePA",
         "clusterProfiler",
@@ -2535,7 +2534,6 @@
         "BSgenome",
         "GenomicFeatures",
         "Gviz",
-        "PICS",
         "VariantAnnotation",
         "biovizBase",
         "ensembldb"
