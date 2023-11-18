@@ -567,7 +567,6 @@
     "bandle": [
         "AnnotationDbi",
         "MLInterfaces",
-        "MSnbase",
         "SummarizedExperiment",
         "annotate",
         "biomaRt",
@@ -1129,7 +1128,6 @@
     ],
     "calm": [],
     "CAMERA": [
-        "MSnbase",
         "MsFeatures",
         "SummarizedExperiment",
         "xcms"
@@ -1655,16 +1653,13 @@
         "rtracklayer"
     ],
     "cliqueMS": [
-        "MSnbase",
         "MsFeatures",
         "SummarizedExperiment",
         "xcms"
     ],
     "Clomial": [],
     "Clonality": [],
-    "CluMSID": [
-        "MSnbase"
-    ],
+    "CluMSID": [],
     "clustComp": [],
     "clusterExperiment": [
         "AnnotationDbi",
@@ -2007,7 +2002,6 @@
         "biomaRt"
     ],
     "cosmiq": [
-        "MSnbase",
         "MsFeatures",
         "SummarizedExperiment",
         "xcms"
@@ -2333,9 +2327,7 @@
         "rtracklayer",
         "sva"
     ],
-    "DAPAR": [
-        "MSnbase"
-    ],
+    "DAPAR": [],
     "DART": [],
     "dasper": [
         "AnnotationDbi",
@@ -2464,7 +2456,6 @@
     ],
     "demuxmix": [],
     "DEP": [
-        "MSnbase",
         "SummarizedExperiment"
     ],
     "DepInfeR": [],
@@ -3401,7 +3392,6 @@
     "FitHiC": [],
     "flagme": [
         "CAMERA",
-        "MSnbase",
         "MsFeatures",
         "SummarizedExperiment",
         "xcms"
@@ -4481,7 +4471,6 @@
     ],
     "IPO": [
         "CAMERA",
-        "MSnbase",
         "MsFeatures",
         "SummarizedExperiment",
         "xcms"
@@ -4691,7 +4680,6 @@
     "lmdme": [],
     "LOBSTAHS": [
         "CAMERA",
-        "MSnbase",
         "MsFeatures",
         "SummarizedExperiment",
         "xcms"
@@ -4814,7 +4802,6 @@
     ],
     "MAIT": [
         "CAMERA",
-        "MSnbase",
         "MsFeatures",
         "SummarizedExperiment",
         "xcms"
@@ -5025,7 +5012,6 @@
     ],
     "messina": [],
     "Metab": [
-        "MSnbase",
         "MsFeatures",
         "SummarizedExperiment",
         "xcms"
@@ -5086,7 +5072,6 @@
     "metahdep": [],
     "metaMS": [
         "CAMERA",
-        "MSnbase",
         "MsFeatures",
         "SummarizedExperiment",
         "xcms"
@@ -5528,7 +5513,6 @@
         "topGO"
     ],
     "MobilityTransformR": [
-        "MSnbase",
         "MsFeatures",
         "SummarizedExperiment",
         "xcms"
@@ -5696,18 +5680,13 @@
     "mslp": [
         "AnnotationDbi"
     ],
-    "msmsEDA": [
-        "MSnbase"
-    ],
+    "msmsEDA": [],
     "msmsTests": [
-        "MSnbase",
         "msmsEDA"
     ],
-    "MSnbase": [],
     "MSnID": [
         "AnnotationDbi",
         "AnnotationHub",
-        "MSnbase",
         "msmsEDA",
         "msmsTests"
     ],
@@ -5742,11 +5721,8 @@
         "MSstats",
         "MSstatsTMT"
     ],
-    "MSstatsQC": [
-        "MSnbase"
-    ],
+    "MSstatsQC": [],
     "MSstatsQCgui": [
-        "MSnbase",
         "MSstatsQC"
     ],
     "MSstatsSampleSize": [
@@ -5954,7 +5930,6 @@
         "genefilter"
     ],
     "ncGTW": [
-        "MSnbase",
         "MsFeatures",
         "SummarizedExperiment",
         "xcms"
@@ -6434,9 +6409,7 @@
         "oligoClasses"
     ],
     "PeacoQC": [],
-    "peakPantheR": [
-        "MSnbase"
-    ],
+    "peakPantheR": [],
     "PECA": [
         "AnnotationDbi",
         "annotate",
@@ -6665,9 +6638,7 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "PrInCE": [
-        "MSnbase"
-    ],
+    "PrInCE": [],
     "proActiv": [
         "AnnotationDbi",
         "DESeq2",
@@ -6721,7 +6692,6 @@
     "pRoloc": [
         "AnnotationDbi",
         "MLInterfaces",
-        "MSnbase",
         "SummarizedExperiment",
         "annotate",
         "biomaRt",
@@ -6730,7 +6700,6 @@
     "pRolocGUI": [
         "AnnotationDbi",
         "MLInterfaces",
-        "MSnbase",
         "SummarizedExperiment",
         "annotate",
         "biomaRt",
@@ -6749,8 +6718,7 @@
         "sva"
     ],
     "Prostar": [
-        "DAPAR",
-        "MSnbase"
+        "DAPAR"
     ],
     "proteasy": [
         "AnnotationDbi",
@@ -6814,9 +6782,7 @@
         "biomaRt",
         "topGO"
     ],
-    "ptairMS": [
-        "MSnbase"
-    ],
+    "ptairMS": [],
     "puma": [
         "SummarizedExperiment",
         "oligo",
@@ -6883,9 +6849,7 @@
         "biomaRt",
         "rtracklayer"
     ],
-    "qPLEXanalyzer": [
-        "MSnbase"
-    ],
+    "qPLEXanalyzer": [],
     "qsea": [
         "BSgenome",
         "GenomicAlignments",
@@ -7426,7 +7390,6 @@
         "rtracklayer"
     ],
     "Risa": [
-        "MSnbase",
         "MsFeatures",
         "SummarizedExperiment",
         "xcms"
@@ -7466,9 +7429,7 @@
         "regioneR",
         "rtracklayer"
     ],
-    "RMassBank": [
-        "MSnbase"
-    ],
+    "RMassBank": [],
     "rmelting": [],
     "Rmmquant": [
         "AnnotationDbi",
@@ -8931,9 +8892,7 @@
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
-    "synapter": [
-        "MSnbase"
-    ],
+    "synapter": [],
     "synergyfinder": [],
     "SynExtend": [],
     "synlet": [],
@@ -9177,9 +9136,7 @@
         "annotate",
         "genefilter"
     ],
-    "topdownr": [
-        "MSnbase"
-    ],
+    "topdownr": [],
     "topGO": [
         "AnnotationDbi"
     ],
@@ -9673,7 +9630,6 @@
         "SummarizedExperiment"
     ],
     "xcms": [
-        "MSnbase",
         "MsFeatures",
         "SummarizedExperiment"
     ],
