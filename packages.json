@@ -596,7 +596,6 @@
         "GSVA"
     ],
     "consICA": [],
-    "CONSTANd": [],
     "contiBAIT": [
         "BSgenome",
         "GenomicFeatures",
