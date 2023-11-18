@@ -242,7 +242,6 @@
         "biomaRt",
         "rtracklayer"
     ],
-    "altcdfenvs": [],
     "AMARETTO": [
         "AnnotationDbi",
         "AnnotationHub",
@@ -4155,9 +4154,7 @@
     "h5vc": [
         "Rsamtools"
     ],
-    "Harshlight": [
-        "altcdfenvs"
-    ],
+    "Harshlight": [],
     "hca": [],
     "HDTD": [],
     "heatmaps": [],
