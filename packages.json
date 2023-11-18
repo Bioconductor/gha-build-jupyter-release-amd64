@@ -1179,7 +1179,6 @@
     "GOTHiC": [
         "BSgenome"
     ],
-    "gpuMagic": [],
     "GRaNIE": [
         "GenomicFeatures",
         "ensembldb"
