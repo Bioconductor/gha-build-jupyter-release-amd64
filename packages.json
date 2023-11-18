@@ -1230,7 +1230,6 @@
     "HiCDOC": [],
     "hierGWAS": [],
     "hierinf": [],
-    "HilbertVisGUI": [],
     "HiLDA": [
         "BSgenome",
         "GenomicFeatures"
