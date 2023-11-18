@@ -3962,7 +3962,6 @@
         "enrichplot"
     ],
     "REBET": [],
-    "receptLoss": [],
     "recount": [
         "BSgenome",
         "GenomicFeatures",
