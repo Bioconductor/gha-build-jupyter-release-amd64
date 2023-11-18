@@ -317,7 +317,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "calm": [],
     "cardelino": [
         "BSgenome",
         "GenomicFeatures",
