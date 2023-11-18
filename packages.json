@@ -69,7 +69,6 @@
         "regioneR"
     ],
     "antiProfiles": [],
-    "AnVILPublish": [],
     "APAlyzer": [
         "BSgenome",
         "GenomicFeatures",
