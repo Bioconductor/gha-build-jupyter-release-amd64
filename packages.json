@@ -3167,7 +3167,6 @@
     ],
     "proteasy": [
         "GenomicFeatures",
-        "Rcpi",
         "ensembldb",
         "rtracklayer"
     ],
@@ -3301,7 +3300,6 @@
         "AUCell"
     ],
     "Rcollectl": [],
-    "Rcpi": [],
     "RCSL": [],
     "RCy3": [],
     "rDGIdb": [],
