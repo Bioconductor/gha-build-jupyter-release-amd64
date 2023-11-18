@@ -2535,7 +2535,6 @@
     "TOP": [
         "ClassifyR"
     ],
-    "TPP2D": [],
     "trackViewer": [
         "BSgenome",
         "GenomicFeatures",
