@@ -1205,7 +1205,6 @@
         "ensembldb"
     ],
     "HiCDOC": [],
-    "hierinf": [],
     "HiLDA": [
         "BSgenome",
         "GenomicFeatures"
