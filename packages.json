@@ -96,7 +96,6 @@
     "artMS": [
         "MSstats"
     ],
-    "ASGSCA": [],
     "ASpli": [
         "BSgenome",
         "GenomicFeatures",
