@@ -2529,7 +2529,6 @@
         "GenomicFeatures",
         "ensembldb"
     ],
-    "scMerge": [],
     "scmeth": [
         "BSgenome",
         "GenomicFeatures",
@@ -2649,7 +2648,6 @@
         "celda",
         "ensembldb",
         "scDblFinder",
-        "scMerge",
         "zinbwave"
     ],
     "SingleMoleculeFootprinting": [
