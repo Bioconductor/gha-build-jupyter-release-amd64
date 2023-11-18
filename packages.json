@@ -2029,7 +2029,6 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "ggmanh": [],
     "GGPA": [],
     "ggspavis": [
         "DropletUtils",
