@@ -427,9 +427,7 @@
         "ensembldb"
     ],
     "calm": [],
-    "CAMERA": [
-        "xcms"
-    ],
+    "CAMERA": [],
     "canceR": [
         "Category",
         "phenoTest"
@@ -639,9 +637,7 @@
     "cliProfiler": [
         "BSgenome"
     ],
-    "cliqueMS": [
-        "xcms"
-    ],
+    "cliqueMS": [],
     "Clomial": [],
     "Clonality": [],
     "clustComp": [],
@@ -775,9 +771,7 @@
     "CORREP": [],
     "coseq": [],
     "CoSIA": [],
-    "cosmiq": [
-        "xcms"
-    ],
+    "cosmiq": [],
     "cosmosR": [],
     "COSNet": [],
     "COTAN": [],
@@ -1322,8 +1316,7 @@
     "fishpond": [],
     "FitHiC": [],
     "flagme": [
-        "CAMERA",
-        "xcms"
+        "CAMERA"
     ],
     "FLAMES": [
         "BSgenome",
@@ -1726,8 +1719,7 @@
     "iPath": [],
     "ipdDb": [],
     "IPO": [
-        "CAMERA",
-        "xcms"
+        "CAMERA"
     ],
     "IRISFGM": [
         "clusterProfiler",
@@ -1808,8 +1800,7 @@
     ],
     "lmdme": [],
     "LOBSTAHS": [
-        "CAMERA",
-        "xcms"
+        "CAMERA"
     ],
     "LPEadj": [],
     "lpNet": [],
@@ -1855,8 +1846,7 @@
     ],
     "magrene": [],
     "MAIT": [
-        "CAMERA",
-        "xcms"
+        "CAMERA"
     ],
     "MantelCorr": [],
     "mapscape": [],
@@ -1938,9 +1928,7 @@
         "Category"
     ],
     "messina": [],
-    "Metab": [
-        "xcms"
-    ],
+    "Metab": [],
     "metabinR": [],
     "MetaboAnnotation": [],
     "metabomxtr": [],
@@ -1962,8 +1950,7 @@
     "metagene2": [],
     "metahdep": [],
     "metaMS": [
-        "CAMERA",
-        "xcms"
+        "CAMERA"
     ],
     "MetaPhOR": [
         "RCy3",
@@ -2136,9 +2123,7 @@
         "Maaslin2"
     ],
     "moanin": [],
-    "MobilityTransformR": [
-        "xcms"
-    ],
+    "MobilityTransformR": [],
     "ModCon": [],
     "MOGAMUN": [
         "RCy3"
@@ -2309,9 +2294,7 @@
     ],
     "nanotatoR": [],
     "NBAMSeq": [],
-    "ncGTW": [
-        "xcms"
-    ],
+    "ncGTW": [],
     "NCIgraph": [
         "RCy3"
     ],
@@ -2859,9 +2842,7 @@
         "karyoploteR",
         "regioneR"
     ],
-    "Risa": [
-        "xcms"
-    ],
+    "Risa": [],
     "RITAN": [
         "GenomicFeatures",
         "ensembldb"
@@ -3652,7 +3633,6 @@
     ],
     "weaver": [],
     "wiggleplotr": [],
-    "xcms": [],
     "XDE": [
         "GeneMeta"
     ],
