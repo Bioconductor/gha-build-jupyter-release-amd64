@@ -287,7 +287,7 @@ packaged installation of ‘DEP’ as ‘DEP_1.22.0_R_x86_64-pc-linux-gnu.tar.gz
 * DONE (DEP)
 
 The downloaded source packages are in
-	‘/tmp/Rtmp07L6OQ/downloaded_packages’
+	‘/tmp/RtmpvkL6PQ/downloaded_packages’
 Old packages: 'dbplyr', 'dplyr', 'DT', 'evaluate', 'fansi', 'GenomicRanges',
   'ggplot2', 'ggrepel', 'htmltools', 'httpuv', 'httr2', 'knitr', 'lattice',
   'leiden', 'lifecycle', 'Matrix', 'matrixStats', 'plotly', 'ragg',
@@ -298,6 +298,6 @@ Old packages: 'dbplyr', 'dplyr', 'DT', 'evaluate', 'fansi', 'GenomicRanges',
   'systemfonts', 'testthat', 'textshaping', 'tinytex', 'utf8', 'vctrs',
   'waldo', 'withr', 'xfun', 'XML'
 
-real	0m59.714s
-user	0m52.397s
-sys	0m21.005s
+real	0m57.258s
+user	0m51.268s
+sys	0m21.066s
