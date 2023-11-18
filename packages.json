@@ -2256,9 +2256,7 @@
         "xcms"
     ],
     "metabinR": [],
-    "MetaboAnnotation": [
-        "QFeatures"
-    ],
+    "MetaboAnnotation": [],
     "metabolomicsWorkbenchR": [],
     "metabomxtr": [],
     "MetaboSignal": [
@@ -2547,9 +2545,7 @@
     "MPFE": [],
     "MQmetrics": [],
     "MsDataHub": [],
-    "MsExperiment": [
-        "QFeatures"
-    ],
+    "MsExperiment": [],
     "msgbsR": [
         "BSgenome",
         "GenomicFeatures",
@@ -2569,12 +2565,9 @@
     "MSPrep": [
         "sva"
     ],
-    "msqrob2": [
-        "QFeatures"
-    ],
+    "msqrob2": [],
     "MsQuality": [
-        "MsExperiment",
-        "QFeatures"
+        "MsExperiment"
     ],
     "MSstats": [],
     "MSstatsLiP": [
@@ -3044,9 +3037,7 @@
         "recount",
         "rtracklayer"
     ],
-    "PSMatch": [
-        "QFeatures"
-    ],
+    "PSMatch": [],
     "psygenet2r": [],
     "ptairMS": [],
     "puma": [
@@ -3071,7 +3062,6 @@
     ],
     "pwOmics": [],
     "pwrEWAS": [],
-    "QFeatures": [],
     "qmtools": [],
     "qpgraph": [
         "GenomicFeatures",
@@ -3584,9 +3574,7 @@
         "VariantAnnotation",
         "rtracklayer"
     ],
-    "scp": [
-        "QFeatures"
-    ],
+    "scp": [],
     "scPipe": [
         "DropletUtils",
         "rtracklayer"
