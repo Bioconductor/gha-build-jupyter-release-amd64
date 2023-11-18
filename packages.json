@@ -1555,7 +1555,6 @@
         "methylumi",
         "minfi"
     ],
-    "mitch": [],
     "mitoClone2": [
         "BSgenome",
         "GenomicFeatures",
