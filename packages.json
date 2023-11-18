@@ -1240,7 +1240,6 @@
         "OrganismDbi",
         "VariantAnnotation"
     ],
-    "ERSSA": [],
     "esATAC": [
         "BSgenome",
         "CNEr",
