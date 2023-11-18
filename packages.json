@@ -1065,7 +1065,6 @@
         "BSgenome"
     ],
     "GDCRNATools": [],
-    "gemini": [],
     "genbankr": [
         "BSgenome",
         "GenomicFeatures",
