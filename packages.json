@@ -68,7 +68,6 @@
         "GenomicFeatures",
         "regioneR"
     ],
-    "antiProfiles": [],
     "APAlyzer": [
         "BSgenome",
         "GenomicFeatures",
