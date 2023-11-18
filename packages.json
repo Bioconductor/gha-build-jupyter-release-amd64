@@ -3039,7 +3039,6 @@
     "scDD": [
         "scran"
     ],
-    "scds": [],
     "SCFA": [],
     "scFeatureFilter": [],
     "scFeatures": [
@@ -3223,7 +3222,6 @@
         "scDblFinder",
         "scMerge",
         "scater",
-        "scds",
         "scran",
         "sva",
         "zellkonverter",
