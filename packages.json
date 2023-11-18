@@ -2,9 +2,7 @@
     "abseqR": [],
     "ABSSeq": [],
     "acde": [],
-    "ADaCGH2": [
-        "snapCGH"
-    ],
+    "ADaCGH2": [],
     "ADAM": [],
     "ADAMgui": [
         "ADAM"
@@ -2737,7 +2735,6 @@
         "goseq"
     ],
     "SNAGEE": [],
-    "snapCGH": [],
     "snm": [],
     "SNPediaR": [],
     "SNPhood": [
