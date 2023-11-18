@@ -210,7 +210,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "biobtreeR": [],
     "bioCancer": [],
     "BiocDockerManager": [],
     "BiocOncoTK": [
