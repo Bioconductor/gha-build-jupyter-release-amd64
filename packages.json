@@ -222,7 +222,6 @@
         "VariantAnnotation",
         "ensembldb"
     ],
-    "BiRewire": [],
     "biscuiteer": [
         "BSgenome",
         "GenomicFeatures",
