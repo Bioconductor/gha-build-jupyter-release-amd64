@@ -2838,7 +2838,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "tradeSeq": [],
     "TrajectoryGeometry": [],
     "transcriptR": [
         "GenomicFeatures"
