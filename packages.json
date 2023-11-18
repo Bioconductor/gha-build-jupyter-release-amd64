@@ -4282,7 +4282,6 @@
     ],
     "TrajectoryGeometry": [],
     "TrajectoryUtils": [],
-    "transcriptogramer": [],
     "transcriptR": [
         "GenomicFeatures",
         "ShortRead",
