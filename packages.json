@@ -2513,7 +2513,6 @@
         "goseq"
     ],
     "snm": [],
-    "SNPediaR": [],
     "SNPhood": [
         "BSgenome",
         "GenomicFeatures",
