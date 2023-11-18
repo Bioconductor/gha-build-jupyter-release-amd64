@@ -1075,7 +1075,6 @@
         "GenomicFeatures",
         "VariantAnnotation"
     ],
-    "GAprediction": [],
     "garfield": [],
     "GARS": [
         "DaMiRseq",
