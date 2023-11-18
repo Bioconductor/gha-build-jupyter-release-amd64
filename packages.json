@@ -1607,7 +1607,6 @@
         "minfi",
         "missMethyl"
     ],
-    "MethylMix": [],
     "methylPipe": [
         "BSgenome",
         "GenomicFeatures",
