@@ -1427,7 +1427,6 @@
         "methylumi",
         "minfi"
     ],
-    "M3C": [],
     "m6Aboost": [
         "BSgenome"
     ],
