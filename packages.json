@@ -1681,7 +1681,6 @@
         "rtracklayer"
     ],
     "CNVgears": [],
-    "cnvGSA": [],
     "CNViz": [
         "AnnotationDbi",
         "BSgenome",
