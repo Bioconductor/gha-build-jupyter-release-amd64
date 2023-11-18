@@ -9,9 +9,7 @@
     "abseqR": [],
     "ABSSeq": [],
     "acde": [],
-    "ACE": [
-        "QDNAseq"
-    ],
+    "ACE": [],
     "ADaCGH2": [
         "genefilter",
         "snapCGH",
@@ -463,7 +461,6 @@
         "ExperimentHub",
         "GenomicFeatures",
         "OrganismDbi",
-        "QDNAseq",
         "VariantAnnotation",
         "annotatr",
         "bsseq",
@@ -2037,9 +2034,7 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "GeneBreak": [
-        "QDNAseq"
-    ],
+    "GeneBreak": [],
     "genefilter": [],
     "genefu": [],
     "GeneGA": [],
@@ -3848,7 +3843,6 @@
         "ExperimentHub",
         "genefilter"
     ],
-    "QDNAseq": [],
     "QFeatures": [],
     "qmtools": [],
     "qpgraph": [
