@@ -276,7 +276,6 @@
     ],
     "BiocDockerManager": [],
     "biocGraph": [],
-    "BiocHubsShiny": [],
     "BiocOncoTK": [
         "GenomicFeatures"
     ],
