@@ -1943,7 +1943,6 @@
     "PhyloProfile": [
         "OmaDB"
     ],
-    "pickgene": [],
     "PING": [
         "BSgenome",
         "GenomicFeatures",
