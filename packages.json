@@ -2786,7 +2786,6 @@
         "GenomicFeatures",
         "ensembldb"
     ],
-    "TypeInfo": [],
     "Ularcirc": [
         "BSgenome",
         "GenomicFeatures",
