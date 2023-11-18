@@ -4,8 +4,7 @@
     "ABSSeq": [],
     "acde": [],
     "ADaCGH2": [
-        "snapCGH",
-        "tilingArray"
+        "snapCGH"
     ],
     "ADAM": [],
     "ADAMgui": [
@@ -3102,9 +3101,7 @@
         "goseq"
     ],
     "SNAGEE": [],
-    "snapCGH": [
-        "tilingArray"
-    ],
+    "snapCGH": [],
     "snm": [],
     "SNPediaR": [],
     "SNPhood": [
@@ -3308,7 +3305,6 @@
         "ORFik"
     ],
     "TFutils": [],
-    "tilingArray": [],
     "timescape": [],
     "TimiRGeN": [
         "RCy3",
