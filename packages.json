@@ -769,7 +769,6 @@
     "Clonality": [],
     "clustComp": [],
     "clusterExperiment": [
-        "mbkmeans",
         "zinbwave"
     ],
     "ClusterJudge": [],
@@ -2239,7 +2238,6 @@
     "MBECS": [
         "sva"
     ],
-    "mbkmeans": [],
     "mBPCR": [
         "GWASTools",
         "oligoClasses"
@@ -2762,7 +2760,6 @@
     "netprioR": [],
     "netSmooth": [
         "clusterExperiment",
-        "mbkmeans",
         "scater",
         "scuttle",
         "zinbwave"
