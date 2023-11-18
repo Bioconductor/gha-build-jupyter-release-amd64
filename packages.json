@@ -1133,7 +1133,6 @@
         "GenomicFeatures"
     ],
     "GeneGeneInteR": [],
-    "geneplast": [],
     "GENESIS": [
         "GWASTools",
         "SeqVarTools"
