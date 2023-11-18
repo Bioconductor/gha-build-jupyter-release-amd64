@@ -497,8 +497,7 @@
         "BSgenome",
         "DiffBind",
         "GenomicFeatures",
-        "GreyListChIP",
-        "systemPipeR"
+        "GreyListChIP"
     ],
     "ChIPseeker": [
         "GenomicFeatures"
@@ -876,8 +875,7 @@
     "DEXSeq": [],
     "DiffBind": [
         "BSgenome",
-        "GreyListChIP",
-        "systemPipeR"
+        "GreyListChIP"
     ],
     "diffcoexp": [],
     "diffcyt": [
@@ -3002,7 +3000,6 @@
     "synergyfinder": [],
     "synlet": [],
     "syntenet": [],
-    "systemPipeR": [],
     "systemPipeShiny": [],
     "TADCompare": [],
     "TAPseq": [
@@ -3216,8 +3213,7 @@
         "GenomicFeatures",
         "GreyListChIP",
         "ensembldb",
-        "regioneR",
-        "systemPipeR"
+        "regioneR"
     ],
     "waddR": [],
     "wateRmelon": [
