@@ -1586,7 +1586,6 @@
     "HIREewas": [],
     "HiTC": [],
     "HPAanalyze": [],
-    "hpar": [],
     "HPAStainR": [],
     "HPiP": [],
     "HTSeqGenie": [
@@ -1895,7 +1894,6 @@
         "GenomicFeatures",
         "MWASTools",
         "ensembldb",
-        "hpar",
         "mygene"
     ],
     "metaCCA": [],
