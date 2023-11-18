@@ -475,7 +475,6 @@
     "clusterExperiment": [
         "zinbwave"
     ],
-    "ClusterSignificance": [],
     "cn.farms": [
         "oligo",
         "oligoClasses"
