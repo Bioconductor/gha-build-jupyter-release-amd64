@@ -2201,9 +2201,7 @@
         "SummarizedExperiment",
         "scuttle"
     ],
-    "CytoML": [
-        "openCyto"
-    ],
+    "CytoML": [],
     "CytoPipeline": [],
     "cytoviewer": [
         "DropletUtils",
@@ -6071,7 +6069,6 @@
         "AnnotationHub",
         "SummarizedExperiment"
     ],
-    "openCyto": [],
     "openPrimeR": [],
     "openPrimeRui": [
         "openPrimeR"
