@@ -1341,7 +1341,6 @@
         "bsseq"
     ],
     "LACE": [],
-    "limmaGUI": [],
     "lineagespot": [
         "BSgenome",
         "GenomicFeatures",
