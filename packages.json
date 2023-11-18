@@ -2542,7 +2542,6 @@
         "GenomicFeatures"
     ],
     "TargetDecoy": [],
-    "TargetScore": [],
     "TBSignatureProfiler": [
         "GSVA",
         "singscore"
