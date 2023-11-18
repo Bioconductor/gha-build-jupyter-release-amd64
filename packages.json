@@ -487,7 +487,6 @@
         "Rhisat2",
         "SGSeq"
     ],
-    "cisPath": [],
     "ClassifyR": [],
     "cleanUpdTSeq": [
         "BSgenome"
