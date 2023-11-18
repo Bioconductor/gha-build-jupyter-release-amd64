@@ -1829,7 +1829,6 @@
         "oligo",
         "oligoClasses"
     ],
-    "pepXMLTab": [],
     "periodicDNA": [
         "BSgenome"
     ],
