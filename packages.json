@@ -232,7 +232,6 @@
     ],
     "BiocWorkflowTools": [],
     "BioNERO": [],
-    "BioTIP": [],
     "biovizBase": [
         "BSgenome",
         "GenomicFeatures",
