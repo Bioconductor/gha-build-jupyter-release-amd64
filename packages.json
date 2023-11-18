@@ -716,10 +716,7 @@
         "FlowSOM"
     ],
     "CytoGLMM": [],
-    "cytomapper": [],
-    "cytoviewer": [
-        "cytomapper"
-    ],
+    "cytoviewer": [],
     "dagLogo": [
         "BSgenome",
         "CNEr",
@@ -1397,9 +1394,7 @@
         "GenomicFeatures",
         "IVAS"
     ],
-    "imcRtools": [
-        "cytomapper"
-    ],
+    "imcRtools": [],
     "immunotation": [],
     "IMPCdata": [],
     "INDEED": [],
@@ -2595,9 +2590,7 @@
         "VariantAnnotation"
     ],
     "similaRpeak": [],
-    "simpleSeg": [
-        "cytomapper"
-    ],
+    "simpleSeg": [],
     "sincell": [],
     "singleCellTK": [
         "GSVA",
