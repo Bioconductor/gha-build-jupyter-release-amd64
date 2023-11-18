@@ -1745,7 +1745,6 @@
     "NxtIRFcore": [
         "BSgenome"
     ],
-    "occugene": [],
     "octad": [
         "EDASeq",
         "GSVA",
