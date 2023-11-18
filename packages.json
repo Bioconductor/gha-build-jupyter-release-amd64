@@ -289,7 +289,6 @@
     "bumphunter": [
         "GenomicFeatures"
     ],
-    "BUS": [],
     "BUSpaRse": [
         "BSgenome",
         "GenomicFeatures",
