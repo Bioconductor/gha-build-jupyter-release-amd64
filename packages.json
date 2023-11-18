@@ -2341,7 +2341,6 @@
     ],
     "scTensor": [],
     "scTGIF": [],
-    "scTHI": [],
     "scTreeViz": [
         "GenomicFeatures",
         "OrganismDbi",
