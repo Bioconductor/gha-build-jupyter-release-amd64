@@ -1054,7 +1054,6 @@
         "GenomicFeatures",
         "VariantAnnotation"
     ],
-    "garfield": [],
     "GARS": [
         "DaMiRseq",
         "EDASeq",
