@@ -1051,7 +1051,6 @@
     "flowMap": [],
     "flowPloidy": [],
     "FlowSOM": [],
-    "fmrs": [],
     "FRASER": [
         "BSgenome",
         "GenomicFeatures",
