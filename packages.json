@@ -813,7 +813,6 @@
     "dpeak": [
         "BSgenome"
     ],
-    "DriverNet": [],
     "drugTargetInteractions": [
         "GenomicFeatures",
         "ensembldb"
