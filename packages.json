@@ -1128,7 +1128,6 @@
     "GDCRNATools": [],
     "GEM": [],
     "gemini": [],
-    "genArise": [],
     "genbankr": [
         "BSgenome",
         "GenomicFeatures",
