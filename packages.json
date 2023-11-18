@@ -747,7 +747,6 @@
         "bsseq"
     ],
     "DepInfeR": [],
-    "DEqMS": [],
     "derfinder": [
         "BSgenome",
         "GenomicFeatures",
