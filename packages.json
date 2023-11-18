@@ -515,9 +515,7 @@
         "plyranges"
     ],
     "CGEN": [],
-    "cghMCR": [
-        "CNTools"
-    ],
+    "cghMCR": [],
     "ChAMP": [
         "BSgenome",
         "DMRcate",
@@ -656,7 +654,6 @@
     "CNAnorm": [],
     "CNEr": [],
     "CNORfuzzy": [],
-    "CNTools": [],
     "CNVfilteR": [
         "BSgenome",
         "CopyNumberPlots",
