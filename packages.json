@@ -409,7 +409,6 @@
     "ccmap": [],
     "ccrepe": [],
     "celda": [],
-    "cellHTS2": [],
     "CelliD": [],
     "cellmigRation": [],
     "CellMixS": [],
@@ -1303,9 +1302,7 @@
     "GEOfastq": [],
     "GeomxTools": [],
     "GeoTcgaData": [],
-    "gespeR": [
-        "cellHTS2"
-    ],
+    "gespeR": [],
     "geva": [],
     "GEWIST": [],
     "ggbio": [
@@ -2545,9 +2542,7 @@
         "GenomicFeatures",
         "bumphunter"
     ],
-    "RNAinteract": [
-        "cellHTS2"
-    ],
+    "RNAinteract": [],
     "RNAmodR": [
         "BSgenome",
         "GenomicFeatures",
@@ -2928,9 +2923,7 @@
         "RUVSeq",
         "SpatialExperiment"
     ],
-    "staRank": [
-        "cellHTS2"
-    ],
+    "staRank": [],
     "Statial": [
         "SpatialExperiment"
     ],
