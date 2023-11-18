@@ -365,9 +365,7 @@
         "rtracklayer"
     ],
     "BEclear": [],
-    "beer": [
-        "PhIPData"
-    ],
+    "beer": [],
     "benchdamic": [
         "ALDEx2",
         "ANCOMBC",
@@ -3670,7 +3668,6 @@
         "genefilter"
     ],
     "PhenStat": [],
-    "PhIPData": [],
     "phosphonormalizer": [],
     "PhosR": [],
     "PhyloProfile": [
