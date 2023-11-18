@@ -2052,7 +2052,6 @@
         "rtracklayer"
     ],
     "gcatest": [],
-    "gCrisprTools": [],
     "GDCRNATools": [
         "DESeq2",
         "DOSE",
