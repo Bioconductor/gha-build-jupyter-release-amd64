@@ -1557,9 +1557,7 @@
     "MAIT": [],
     "MantelCorr": [],
     "mapscape": [],
-    "mariner": [
-        "plotgardener"
-    ],
+    "mariner": [],
     "maser": [
         "BSgenome",
         "GenomicFeatures",
@@ -2083,7 +2081,6 @@
         "BSgenome"
     ],
     "PloGO2": [],
-    "plotgardener": [],
     "plotGrouper": [],
     "pmm": [],
     "PoDCall": [],
@@ -2910,8 +2907,7 @@
     "Ularcirc": [
         "BSgenome",
         "GenomicFeatures",
-        "Organism.dplyr",
-        "plotgardener"
+        "Organism.dplyr"
     ],
     "UMI4Cats": [
         "BSgenome",
