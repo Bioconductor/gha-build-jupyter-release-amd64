@@ -1092,7 +1092,6 @@
         "GenomicFeatures"
     ],
     "FitHiC": [],
-    "flagme": [],
     "FLAMES": [
         "BSgenome",
         "GenomicFeatures",
