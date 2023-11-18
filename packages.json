@@ -2535,7 +2535,6 @@
         "rtracklayer"
     ],
     "MGFM": [],
-    "MGFR": [],
     "mgsa": [],
     "mia": [
         "TreeSummarizedExperiment",
@@ -3726,8 +3725,7 @@
     ],
     "sagenhaft": [],
     "sampleClassifier": [
-        "MGFM",
-        "MGFR"
+        "MGFM"
     ],
     "SANTA": [],
     "savR": [],
