@@ -678,7 +678,6 @@
     "CSSQ": [
         "GenomicFeatures"
     ],
-    "ctsGE": [],
     "cummeRbund": [
         "BSgenome",
         "GenomicFeatures",
