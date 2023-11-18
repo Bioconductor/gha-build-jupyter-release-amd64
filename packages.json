@@ -2186,7 +2186,6 @@
         "GenomicFeatures",
         "ensembldb"
     ],
-    "RLassoCox": [],
     "RLSeq": [
         "BSgenome",
         "GenomicFeatures",
