@@ -2715,7 +2715,6 @@
         "GenomicFeatures",
         "VariantAnnotation"
     ],
-    "SimBindProfiles": [],
     "similaRpeak": [],
     "simpleSeg": [
         "SpatialExperiment",
