@@ -1720,7 +1720,6 @@
     "nearBynding": [
         "GenomicFeatures"
     ],
-    "netprioR": [],
     "netSmooth": [
         "clusterExperiment",
         "zinbwave"
