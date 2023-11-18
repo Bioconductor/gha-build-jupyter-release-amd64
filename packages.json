@@ -44,7 +44,6 @@
         "GenomicFeatures",
         "VariantAnnotation"
     ],
-    "alevinQC": [],
     "AllelicImbalance": [
         "BSgenome",
         "GenomicFeatures",
