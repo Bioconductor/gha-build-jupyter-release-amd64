@@ -278,7 +278,6 @@
     "BiocOncoTK": [
         "GenomicFeatures"
     ],
-    "BioCor": [],
     "BiocWorkflowTools": [],
     "BioNERO": [
         "sva"
