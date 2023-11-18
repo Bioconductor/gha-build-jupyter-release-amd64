@@ -570,7 +570,6 @@
     "condiments": [
         "distinct"
     ],
-    "consensus": [],
     "consensusDE": [
         "EDASeq",
         "GenomicFeatures",
