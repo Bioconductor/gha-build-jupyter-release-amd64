@@ -1301,7 +1301,6 @@
         "goseq",
         "pcaExplorer"
     ],
-    "iGC": [],
     "igvR": [
         "BSgenome",
         "GenomicFeatures",
