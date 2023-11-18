@@ -488,7 +488,6 @@
     "cleanUpdTSeq": [
         "BSgenome"
     ],
-    "clevRvis": [],
     "clipper": [
         "GenomicFeatures",
         "qpgraph"
