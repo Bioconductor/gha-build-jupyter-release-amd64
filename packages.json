@@ -1556,7 +1556,6 @@
     ],
     "fdrame": [],
     "FEAST": [
-        "SC3",
         "TSCAN",
         "TrajectoryUtils"
     ],
@@ -3563,7 +3562,6 @@
     "savR": [],
     "SBGNview": [],
     "SBMLR": [],
-    "SC3": [],
     "SCAN.UPC": [
         "oligo",
         "oligoClasses",
