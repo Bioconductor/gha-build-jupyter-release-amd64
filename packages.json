@@ -506,7 +506,6 @@
     "Cogito": [
         "GenomicFeatures"
     ],
-    "COHCAP": [],
     "comapr": [
         "BSgenome",
         "GenomicFeatures",
