@@ -2819,7 +2819,6 @@
         "minfi",
         "rtracklayer"
     ],
-    "EnrichedHeatmap": [],
     "EnrichmentBrowser": [
         "AnnotationDbi",
         "GSEABase",
@@ -3164,7 +3163,6 @@
     "extraChIPs": [
         "AnnotationDbi",
         "BSgenome",
-        "EnrichedHeatmap",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicInteractions",
@@ -6506,7 +6504,6 @@
         "AnnotationDbi",
         "ChIPseeker",
         "DOSE",
-        "EnrichedHeatmap",
         "GOSemSim",
         "GenomicAlignments",
         "GenomicFeatures",
