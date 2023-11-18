@@ -300,8 +300,7 @@
         "VariantAnnotation",
         "biovizBase",
         "ensembldb",
-        "ggbio",
-        "plyranges"
+        "ggbio"
     ],
     "borealis": [
         "BSgenome",
@@ -349,8 +348,7 @@
     "BUSpaRse": [
         "BSgenome",
         "GenomicFeatures",
-        "ensembldb",
-        "plyranges"
+        "ensembldb"
     ],
     "CAFE": [
         "BSgenome",
@@ -465,8 +463,7 @@
     ],
     "CFAssay": [],
     "cfDNAPro": [
-        "BSgenome",
-        "plyranges"
+        "BSgenome"
     ],
     "CGEN": [],
     "cghMCR": [],
@@ -831,8 +828,7 @@
     "DAPAR": [],
     "DART": [],
     "dasper": [
-        "GenomicFeatures",
-        "plyranges"
+        "GenomicFeatures"
     ],
     "dcanr": [],
     "dcGSA": [],
@@ -1556,8 +1552,7 @@
     "InPAS": [
         "BSgenome",
         "GenomicFeatures",
-        "cleanUpdTSeq",
-        "plyranges"
+        "cleanUpdTSeq"
     ],
     "INPower": [],
     "INSPEcT": [
@@ -1629,8 +1624,7 @@
     "katdetectr": [
         "BSgenome",
         "GenomicFeatures",
-        "VariantAnnotation",
-        "plyranges"
+        "VariantAnnotation"
     ],
     "KBoost": [],
     "KinSwingR": [],
@@ -1709,8 +1703,7 @@
     "MantelCorr": [],
     "mapscape": [],
     "mariner": [
-        "plotgardener",
-        "plyranges"
+        "plotgardener"
     ],
     "maser": [
         "BSgenome",
@@ -1824,8 +1817,7 @@
         "GenomicFeatures",
         "bsseq",
         "bumphunter",
-        "minfi",
-        "plyranges"
+        "minfi"
     ],
     "methylclock": [
         "AnnotationHubData",
@@ -2058,7 +2050,6 @@
         "biovizBase",
         "ensembldb",
         "karyoploteR",
-        "plyranges",
         "regioneR"
     ],
     "multiGSEA": [],
@@ -2128,8 +2119,7 @@
     ],
     "ndexr": [],
     "nearBynding": [
-        "GenomicFeatures",
-        "plyranges"
+        "GenomicFeatures"
     ],
     "NetPathMiner": [],
     "netprioR": [],
@@ -2158,9 +2148,7 @@
     "NPARC": [],
     "NTW": [],
     "nuCpos": [],
-    "nullranges": [
-        "plyranges"
-    ],
+    "nullranges": [],
     "NuPoP": [],
     "NxtIRFcore": [
         "BSgenome"
@@ -2179,8 +2167,7 @@
         "VariantAnnotation",
         "bumphunter",
         "dasper",
-        "derfinder",
-        "plyranges"
+        "derfinder"
     ],
     "OGRE": [
         "BSgenome",
@@ -2321,11 +2308,8 @@
     "PloGO2": [
         "GOstats"
     ],
-    "plotgardener": [
-        "plyranges"
-    ],
+    "plotgardener": [],
     "plotGrouper": [],
-    "plyranges": [],
     "pmm": [],
     "PoDCall": [],
     "podkat": [
@@ -3255,8 +3239,7 @@
         "BSgenome",
         "GenomicFeatures",
         "Organism.dplyr",
-        "plotgardener",
-        "plyranges"
+        "plotgardener"
     ],
     "UMI4Cats": [
         "BSgenome",
