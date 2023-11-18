@@ -1452,7 +1452,6 @@
         "ensembldb",
         "mygene"
     ],
-    "metaCCA": [],
     "MetaCyto": [
         "FlowSOM"
     ],
