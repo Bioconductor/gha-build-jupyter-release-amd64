@@ -3015,7 +3015,6 @@
         "ensembldb",
         "scran"
     ],
-    "scGPS": [],
     "scMerge": [
         "batchelor",
         "scater",
