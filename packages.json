@@ -1143,9 +1143,7 @@
         "VariantAnnotation"
     ],
     "fdrame": [],
-    "FEAST": [
-        "TSCAN"
-    ],
+    "FEAST": [],
     "fedup": [
         "RCy3"
     ],
@@ -2784,7 +2782,6 @@
     "singleCellTK": [
         "GSVA",
         "GenomicFeatures",
-        "TSCAN",
         "celda",
         "ensembldb",
         "scDblFinder",
@@ -3065,7 +3062,6 @@
     "tRNAscanImport": [
         "BSgenome"
     ],
-    "TSCAN": [],
     "tscR": [],
     "TVTB": [
         "BSgenome",
