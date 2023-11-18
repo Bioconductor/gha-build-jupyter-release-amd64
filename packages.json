@@ -4657,7 +4657,6 @@
         "GSEABase"
     ],
     "tidySingleCellExperiment": [],
-    "tidySummarizedExperiment": [],
     "tigre": [],
     "tilingArray": [
         "genefilter"
