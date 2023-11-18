@@ -480,8 +480,7 @@
         "GOSemSim",
         "ReactomePA",
         "clusterProfiler",
-        "enrichplot",
-        "graphite"
+        "enrichplot"
     ],
     "BiocDockerManager": [],
     "biocGraph": [
@@ -793,8 +792,7 @@
         "ExperimentHub",
         "GOSemSim",
         "clusterProfiler",
-        "enrichplot",
-        "graphite"
+        "enrichplot"
     ],
     "ccfindR": [
         "SingleCellExperiment"
@@ -1533,9 +1531,7 @@
         "rtracklayer"
     ],
     "dcanr": [],
-    "dce": [
-        "graphite"
-    ],
+    "dce": [],
     "dcGSA": [],
     "ddPCRclust": [
         "flowDensity"
@@ -1916,7 +1912,6 @@
     ],
     "EnrichmentBrowser": [
         "GSEABase",
-        "graphite",
         "pathview",
         "safe"
     ],
@@ -2575,7 +2570,6 @@
     "granulator": [],
     "graper": [],
     "GraphAlignment": [],
-    "graphite": [],
     "GRENITS": [],
     "GreyListChIP": [
         "BSgenome",
@@ -2595,7 +2589,6 @@
         "EnrichmentBrowser",
         "ExperimentHub",
         "GSEABase",
-        "graphite",
         "pathview",
         "safe"
     ],
@@ -3522,7 +3515,6 @@
         "SPONGE",
         "clusterProfiler",
         "enrichplot",
-        "graphite",
         "miRspongeR"
     ],
     "miRspongeR": [
@@ -3531,8 +3523,7 @@
         "ReactomePA",
         "SPONGE",
         "clusterProfiler",
-        "enrichplot",
-        "graphite"
+        "enrichplot"
     ],
     "mirTarRnaSeq": [],
     "missMethyl": [
@@ -3595,8 +3586,7 @@
     ],
     "mogsa": [
         "GSEABase",
-        "genefilter",
-        "graphite"
+        "genefilter"
     ],
     "MoleculeExperiment": [
         "DropletUtils",
@@ -3756,9 +3746,7 @@
         "rtracklayer"
     ],
     "MultiDataSet": [],
-    "multiGSEA": [
-        "graphite"
-    ],
+    "multiGSEA": [],
     "multiHiCcompare": [
         "HiCcompare",
         "InteractionSet"
@@ -3778,7 +3766,6 @@
         "biosigner",
         "clusterProfiler",
         "enrichplot",
-        "graphite",
         "ropls"
     ],
     "mumosa": [
@@ -4226,8 +4213,7 @@
         "GOSemSim",
         "ReactomePA",
         "clusterProfiler",
-        "enrichplot",
-        "graphite"
+        "enrichplot"
     ],
     "PING": [
         "BSgenome",
@@ -4553,8 +4539,7 @@
     "ReactomePA": [
         "DOSE",
         "GOSemSim",
-        "enrichplot",
-        "graphite"
+        "enrichplot"
     ],
     "REBET": [],
     "receptLoss": [],
@@ -5209,7 +5194,6 @@
         "SingleCellExperiment",
         "enrichplot",
         "genefilter",
-        "graphite",
         "meshr",
         "schex"
     ],
@@ -5675,9 +5659,7 @@
     "SQUADD": [],
     "sRACIPE": [],
     "ssize": [],
-    "sSNAPPY": [
-        "graphite"
-    ],
+    "sSNAPPY": [],
     "ssPATHS": [],
     "ssviz": [],
     "stageR": [],
@@ -5700,8 +5682,7 @@
         "genefilter"
     ],
     "StarBioTrek": [
-        "SpidermiR",
-        "graphite"
+        "SpidermiR"
     ],
     "Statial": [
         "DropletUtils",
@@ -6283,7 +6264,6 @@
     "zenith": [
         "EnrichmentBrowser",
         "GSEABase",
-        "graphite",
         "pathview",
         "safe",
         "variancePartition"
