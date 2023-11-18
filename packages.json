@@ -462,7 +462,6 @@
     "cliProfiler": [
         "BSgenome"
     ],
-    "clustComp": [],
     "clusterExperiment": [
         "zinbwave"
     ],
