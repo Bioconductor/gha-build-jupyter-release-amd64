@@ -2654,7 +2654,6 @@
     "SpatialDecon": [
         "GeomxTools"
     ],
-    "SpatialFeatureExperiment": [],
     "spatialHeatmap": [],
     "SpatialOmicsOverlay": [
         "GeomxTools"
@@ -2917,9 +2916,7 @@
     "veloviz": [],
     "VennDetail": [],
     "VERSO": [],
-    "Voyager": [
-        "SpatialFeatureExperiment"
-    ],
+    "Voyager": [],
     "vtpnet": [
         "BSgenome",
         "GenomicFeatures",
