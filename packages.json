@@ -892,7 +892,6 @@
         "ensembldb",
         "minfi"
     ],
-    "epistasisGA": [],
     "EpiTxDb": [
         "GenomicFeatures"
     ],
