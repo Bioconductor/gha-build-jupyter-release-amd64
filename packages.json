@@ -2709,7 +2709,6 @@
         "GenomicFiles",
         "VariantAnnotation"
     ],
-    "veloviz": [],
     "vtpnet": [
         "BSgenome",
         "GenomicFeatures",
