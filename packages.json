@@ -3425,10 +3425,7 @@
     "flowPloidy": [],
     "flowPlots": [],
     "FlowSOM": [],
-    "flowStats": [],
-    "flowVS": [
-        "flowStats"
-    ],
+    "flowVS": [],
     "fmrs": [],
     "FoldGO": [
         "AnnotationDbi",
