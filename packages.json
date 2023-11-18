@@ -1911,7 +1911,6 @@
         "ensembldb"
     ],
     "mdp": [],
-    "MDTS": [],
     "MEAL": [
         "BSgenome",
         "GenomicFeatures",
