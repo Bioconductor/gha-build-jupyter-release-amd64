@@ -1779,7 +1779,6 @@
     ],
     "maCorrPlot": [],
     "MACSQuantifyR": [],
-    "MACSr": [],
     "MADSEQ": [
         "BSgenome",
         "GenomicFeatures",
