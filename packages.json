@@ -2475,7 +2475,6 @@
         "minfi",
         "rtracklayer"
     ],
-    "MGFM": [],
     "mgsa": [],
     "mia": [
         "TreeSummarizedExperiment",
@@ -3638,9 +3637,7 @@
         "rtracklayer"
     ],
     "sagenhaft": [],
-    "sampleClassifier": [
-        "MGFM"
-    ],
+    "sampleClassifier": [],
     "SANTA": [],
     "savR": [],
     "SBGNview": [],
