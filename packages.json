@@ -2749,8 +2749,7 @@
     ],
     "matchBox": [],
     "MatrixQCvis": [
-        "ExperimentHub",
-        "proDA"
+        "ExperimentHub"
     ],
     "MatrixRider": [
         "BSgenome",
@@ -3764,7 +3763,6 @@
         "rtracklayer"
     ],
     "PROcess": [],
-    "proDA": [],
     "profileplyr": [
         "ChIPseeker",
         "DOSE",
