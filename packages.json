@@ -271,7 +271,6 @@
         "clusterProfiler"
     ],
     "BiocDockerManager": [],
-    "biocGraph": [],
     "BiocOncoTK": [
         "GenomicFeatures"
     ],
