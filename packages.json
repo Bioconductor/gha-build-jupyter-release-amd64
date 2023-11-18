@@ -1420,7 +1420,6 @@
         "TRESS"
     ],
     "magrene": [],
-    "MantelCorr": [],
     "maser": [
         "BSgenome",
         "GenomicFeatures",
