@@ -3207,7 +3207,6 @@
         "scater",
         "scran",
         "sva",
-        "zellkonverter",
         "zinbwave"
     ],
     "SingleMoleculeFootprinting": [
@@ -3618,9 +3617,7 @@
         "VariantAnnotation"
     ],
     "VDJdive": [],
-    "velociraptor": [
-        "zellkonverter"
-    ],
+    "velociraptor": [],
     "veloviz": [],
     "VennDetail": [],
     "VERSO": [],
@@ -3687,7 +3684,6 @@
         "minfi",
         "quantro"
     ],
-    "zellkonverter": [],
     "zenith": [
         "EnrichmentBrowser",
         "variancePartition"
