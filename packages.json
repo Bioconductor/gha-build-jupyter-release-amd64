@@ -6179,8 +6179,7 @@
         "rtracklayer"
     ],
     "QuartPAC": [
-        "GraphPAC",
-        "SpacePAC"
+        "GraphPAC"
     ],
     "QuasR": [
         "BSgenome",
@@ -7679,7 +7678,6 @@
         "rtracklayer"
     ],
     "SOMNiBUS": [],
-    "SpacePAC": [],
     "Spaniel": [
         "DropletUtils",
         "SingleCellExperiment",
