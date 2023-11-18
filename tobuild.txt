@@ -1,4 +1,0 @@
-DEXSeq
-oligoClasses
-BSgenome
-Prostar
