@@ -721,7 +721,6 @@
         "DSS",
         "bsseq"
     ],
-    "DepInfeR": [],
     "derfinder": [
         "BSgenome",
         "GenomicFeatures",
