@@ -2960,7 +2960,6 @@
         "MSstats",
         "MSstatsTMT"
     ],
-    "MSstatsQCgui": [],
     "MSstatsSampleSize": [
         "MSstats"
     ],
