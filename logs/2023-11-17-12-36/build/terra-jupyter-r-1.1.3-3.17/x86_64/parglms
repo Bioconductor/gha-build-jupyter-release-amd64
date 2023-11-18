@@ -1,0 +1,382 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''parglms'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.17 (BiocManager 1.30.22), R 4.3.1 (2023-06-16)
+Installing package(s) 'parglms'
+also installing the dependencies ‘BSgenome’, ‘BBmisc’, ‘checkmate’, ‘sendmailR’, ‘snpStats’, ‘VariantAnnotation’, ‘bookdown’, ‘BatchJobs’, ‘sandwich’, ‘gwascat’, ‘BiocStyle’
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/BSgenome_1.68.0.tar.gz'
+Content type 'application/x-gzip' length 5908570 bytes (5.6 MB)
+==================================================
+downloaded 5.6 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/BBmisc_1.13.tar.gz'
+Content type 'application/x-gzip' length 85959 bytes (83 KB)
+==================================================
+downloaded 83 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/checkmate_2.3.0.tar.gz'
+Content type 'application/x-gzip' length 230302 bytes (224 KB)
+==================================================
+downloaded 224 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/sendmailR_1.4-0.tar.gz'
+Content type 'application/x-gzip' length 21265 bytes (20 KB)
+==================================================
+downloaded 20 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/snpStats_1.50.0.tar.gz'
+Content type 'application/x-gzip' length 7055189 bytes (6.7 MB)
+==================================================
+downloaded 6.7 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/VariantAnnotation_1.46.0.tar.gz'
+Content type 'application/x-gzip' length 1759760 bytes (1.7 MB)
+==================================================
+downloaded 1.7 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/bookdown_0.36.tar.gz'
+Content type 'application/x-gzip' length 859015 bytes (838 KB)
+==================================================
+downloaded 838 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/BatchJobs_1.9.tar.gz'
+Content type 'application/x-gzip' length 117092 bytes (114 KB)
+==================================================
+downloaded 114 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/sandwich_3.0-2.tar.gz'
+Content type 'application/x-gzip' length 1356080 bytes (1.3 MB)
+==================================================
+downloaded 1.3 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/gwascat_2.32.0.tar.gz'
+Content type 'application/x-gzip' length 35371862 bytes (33.7 MB)
+==================================================
+downloaded 33.7 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/BiocStyle_2.28.1.tar.gz'
+Content type 'application/x-gzip' length 788179 bytes (769 KB)
+==================================================
+downloaded 769 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/parglms_1.32.0.tar.gz'
+Content type 'application/x-gzip' length 280312 bytes (273 KB)
+==================================================
+downloaded 273 KB
+
+* installing *source* package ‘BSgenome’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BSgenome’ as ‘BSgenome_1.68.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BSgenome)
+* installing *source* package ‘checkmate’ ...
+** package ‘checkmate’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c all_missing.c -o all_missing.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c any_infinite.c -o any_infinite.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c any_missing.c -o any_missing.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c any_nan.c -o any_nan.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c checks.c -o checks.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c find_nchar.c -o find_nchar.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c guess_type.c -o guess_type.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c helper.c -o helper.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c init.c -o init.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c integerish.c -o integerish.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c is_sorted.c -o is_sorted.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c qassert.c -o qassert.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c which_first.c -o which_first.o
+gcc -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o checkmate.so all_missing.o any_infinite.o any_missing.o any_nan.o checks.o find_nchar.o guess_type.o helper.o init.o integerish.o is_sorted.o qassert.o which_first.o -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-checkmate/00new/checkmate/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘checkmate’ as ‘checkmate_2.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (checkmate)
+* installing *source* package ‘sendmailR’ ...
+** package ‘sendmailR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘sendmailR’ as ‘sendmailR_1.4-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sendmailR)
+* installing *source* package ‘snpStats’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c Runcertain.c -o Runcertain.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c bind.c -o bind.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c count_gt.c -o count_gt.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c covwin.c -o covwin.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c force_hom.c -o force_hom.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c fst.c -o fst.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c glm_test.c -o glm_test.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c glm_test_R.c -o glm_test_R.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c hash_index.c -o hash_index.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c hphase.c -o hphase.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c imputation.c -o imputation.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c in.c -o in.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c input.c -o input.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c invert.c -o invert.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c ipf.c -o ipf.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c ld.c -o ld.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c misc.c -o misc.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c mla.c -o mla.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c mvphenotype.c -o mvphenotype.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c outdata.c -o outdata.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c plink.c -o plink.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c read_uncertain.c -o read_uncertain.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c readped.c -o readped.o
+readped.c: In function ‘readped’:
+readped.c:234:33: warning: ‘%d’ directive output may be truncated writing between 1 and 11 bytes into a region of size between 0 and 127 [-Wformat-truncation=]
+  234 |     snprintf(fmid, MAX_ID, "%s%c%d", fid, sepchar, memi);
+      |                                 ^~
+In file included from /usr/include/stdio.h:867,
+                 from /usr/share/R/include/R.h:44,
+                 from readped.c:3:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:67:10: note: ‘__builtin___snprintf_chk’ output between 3 and 140 bytes into a destination of size 128
+   67 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   68 |        __bos (__s), __fmt, __va_arg_pack ());
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c single_snp_tests.c -o single_snp_tests.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c snp_summary.c -o snp_summary.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c snpmpy.c -o snpmpy.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c solve_cubic.c -o solve_cubic.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c structure.c -o structure.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c subset.c -o subset.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c switch.c -o switch.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c tdt.c -o tdt.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c testBig.c -o testBig.o
+testBig.c: In function ‘snp_big’:
+testBig.c:31:27: warning: ‘%d’ directive writing between 1 and 10 bytes into a region of size 9 [-Wformat-overflow=]
+   31 |     sprintf(name, "Subject%d", i+1);
+      |                           ^~
+testBig.c:31:19: note: directive argument in the range [1, 2147483647]
+   31 |     sprintf(name, "Subject%d", i+1);
+      |                   ^~~~~~~~~~~
+In file included from /usr/include/stdio.h:867,
+                 from /usr/share/R/include/R.h:44,
+                 from testBig.c:1:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:36:10: note: ‘__builtin___sprintf_chk’ output between 9 and 18 bytes into a destination of size 16
+   36 |   return __builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   37 |       __bos (__s), __fmt, __va_arg_pack ());
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c uncertain.c -o uncertain.o
+gcc -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o snpStats.so Runcertain.o bind.o count_gt.o covwin.o force_hom.o fst.o glm_test.o glm_test_R.o hash_index.o hphase.o imputation.o in.o input.o invert.o ipf.o ld.o misc.o mla.o mvphenotype.o outdata.o plink.o read_uncertain.o readped.o single_snp_tests.o snp_summary.o snpmpy.o solve_cubic.o structure.o subset.o switch.o tdt.o testBig.o uncertain.o -lz -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-snpStats/00new/snpStats/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘snpStats’ as ‘snpStats_1.50.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (snpStats)
+* installing *source* package ‘bookdown’ ...
+** package ‘bookdown’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘bookdown’ as ‘bookdown_0.36_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bookdown)
+* installing *source* package ‘sandwich’ ...
+** package ‘sandwich’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘sandwich’ as ‘sandwich_3.0-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sandwich)
+* installing *source* package ‘BBmisc’ ...
+** package ‘BBmisc’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c getMaxColRowIndex.c -o getMaxColRowIndex.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c getMaxIndex.c -o getMaxIndex.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c init.c -o init.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c itostr.c -o itostr.o
+gcc -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o BBmisc.so getMaxColRowIndex.o getMaxIndex.o init.o itostr.o -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-BBmisc/00new/BBmisc/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BBmisc’ as ‘BBmisc_1.13_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BBmisc)
+* installing *source* package ‘VariantAnnotation’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gcc -I"/usr/share/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/S4Vectors/include' -I'/usr/local/lib/R/site-library/IRanges/include' -I'/usr/local/lib/R/site-library/XVector/include' -I'/usr/local/lib/R/site-library/Biostrings/include' -I'/usr/local/lib/R/site-library/Rhtslib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c Biostrings_stubs.c -o Biostrings_stubs.o
+gcc -I"/usr/share/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/S4Vectors/include' -I'/usr/local/lib/R/site-library/IRanges/include' -I'/usr/local/lib/R/site-library/XVector/include' -I'/usr/local/lib/R/site-library/Biostrings/include' -I'/usr/local/lib/R/site-library/Rhtslib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c IRanges_stubs.c -o IRanges_stubs.o
+gcc -I"/usr/share/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/S4Vectors/include' -I'/usr/local/lib/R/site-library/IRanges/include' -I'/usr/local/lib/R/site-library/XVector/include' -I'/usr/local/lib/R/site-library/Biostrings/include' -I'/usr/local/lib/R/site-library/Rhtslib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c R_init_VariantAnnotation.c -o R_init_VariantAnnotation.o
+gcc -I"/usr/share/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/S4Vectors/include' -I'/usr/local/lib/R/site-library/IRanges/include' -I'/usr/local/lib/R/site-library/XVector/include' -I'/usr/local/lib/R/site-library/Biostrings/include' -I'/usr/local/lib/R/site-library/Rhtslib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c XVector_stubs.c -o XVector_stubs.o
+gcc -I"/usr/share/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/S4Vectors/include' -I'/usr/local/lib/R/site-library/IRanges/include' -I'/usr/local/lib/R/site-library/XVector/include' -I'/usr/local/lib/R/site-library/Biostrings/include' -I'/usr/local/lib/R/site-library/Rhtslib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c dna_hash.c -o dna_hash.o
+gcc -I"/usr/share/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/S4Vectors/include' -I'/usr/local/lib/R/site-library/IRanges/include' -I'/usr/local/lib/R/site-library/XVector/include' -I'/usr/local/lib/R/site-library/Biostrings/include' -I'/usr/local/lib/R/site-library/Rhtslib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c rle.c -o rle.o
+gcc -I"/usr/share/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/S4Vectors/include' -I'/usr/local/lib/R/site-library/IRanges/include' -I'/usr/local/lib/R/site-library/XVector/include' -I'/usr/local/lib/R/site-library/Biostrings/include' -I'/usr/local/lib/R/site-library/Rhtslib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c strhash.c -o strhash.o
+gcc -I"/usr/share/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/S4Vectors/include' -I'/usr/local/lib/R/site-library/IRanges/include' -I'/usr/local/lib/R/site-library/XVector/include' -I'/usr/local/lib/R/site-library/Biostrings/include' -I'/usr/local/lib/R/site-library/Rhtslib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c utilities.c -o utilities.o
+gcc -I"/usr/share/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/S4Vectors/include' -I'/usr/local/lib/R/site-library/IRanges/include' -I'/usr/local/lib/R/site-library/XVector/include' -I'/usr/local/lib/R/site-library/Biostrings/include' -I'/usr/local/lib/R/site-library/Rhtslib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c vcffile.c -o vcffile.o
+gcc -I"/usr/share/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/S4Vectors/include' -I'/usr/local/lib/R/site-library/IRanges/include' -I'/usr/local/lib/R/site-library/XVector/include' -I'/usr/local/lib/R/site-library/Biostrings/include' -I'/usr/local/lib/R/site-library/Rhtslib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c vcftype.c -o vcftype.o
+gcc -I"/usr/share/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/S4Vectors/include' -I'/usr/local/lib/R/site-library/IRanges/include' -I'/usr/local/lib/R/site-library/XVector/include' -I'/usr/local/lib/R/site-library/Biostrings/include' -I'/usr/local/lib/R/site-library/Rhtslib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c writevcf.c -o writevcf.o
+gcc -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o VariantAnnotation.so Biostrings_stubs.o IRanges_stubs.o R_init_VariantAnnotation.o XVector_stubs.o dna_hash.o rle.o strhash.o utilities.o vcffile.o vcftype.o writevcf.o /usr/local/lib/R/site-library/Rhtslib/usrlib/libhts.a -lcurl -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-VariantAnnotation/00new/VariantAnnotation/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘tabulate’ in package ‘VariantAnnotation’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘VariantAnnotation’ as ‘VariantAnnotation_1.46.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (VariantAnnotation)
+* installing *source* package ‘BiocStyle’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BiocStyle’ as ‘BiocStyle_2.28.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BiocStyle)
+* installing *source* package ‘BatchJobs’ ...
+** package ‘BatchJobs’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BatchJobs’ as ‘BatchJobs_1.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BatchJobs)
+* installing *source* package ‘gwascat’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘gwascat’ as ‘gwascat_2.32.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gwascat)
+* installing *source* package ‘parglms’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘parglms’ as ‘parglms_1.32.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (parglms)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp8LtUZi/downloaded_packages’
+Old packages: 'dbplyr', 'dplyr', 'DT', 'evaluate', 'fansi', 'GenomicRanges',
+  'ggplot2', 'ggrepel', 'htmltools', 'httpuv', 'httr2', 'knitr', 'lattice',
+  'leiden', 'lifecycle', 'Matrix', 'matrixStats', 'plotly', 'ragg',
+  'RcppArmadillo', 'RcppEigen', 'RCurl', 'reticulate', 'rlang', 'rpart',
+  'rprojroot', 'RSQLite', 'sctransform', 'scuttle', 'Seurat', 'SeuratObject',
+  'shiny', 'sp', 'spatstat.data', 'spatstat.explore', 'spatstat.geom',
+  'spatstat.random', 'spatstat.sparse', 'spatstat.utils', 'stringi', 'stringr',
+  'systemfonts', 'testthat', 'textshaping', 'tinytex', 'utf8', 'vctrs',
+  'waldo', 'withr', 'xfun', 'XML'
+
+real	2m27.213s
+user	2m17.989s
+sys	0m31.266s
