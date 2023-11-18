@@ -1,0 +1,11 @@
+[
+    {
+        "shlib": "libdl-2.31.so",
+        "package": "libc6",
+        "headers": "libc6",
+        "source": "glibc",
+        "version": "2.31-0ubuntu9.9",
+        "url": "https://packages.ubuntu.com/focal/libc6"
+    }
+]
+
