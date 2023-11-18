@@ -204,7 +204,6 @@
         "ensembldb"
     ],
     "bioCancer": [],
-    "BiocDockerManager": [],
     "BiocOncoTK": [
         "GenomicFeatures"
     ],
