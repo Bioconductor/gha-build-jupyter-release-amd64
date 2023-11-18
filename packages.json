@@ -364,7 +364,6 @@
         "GSEABase"
     ],
     "BiocWorkflowTools": [],
-    "BioMM": [],
     "BioNAR": [],
     "BioNERO": [
         "sva"
