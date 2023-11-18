@@ -1046,7 +1046,6 @@
     "FindIT2": [
         "GenomicFeatures"
     ],
-    "FitHiC": [],
     "FLAMES": [
         "BSgenome",
         "GenomicFeatures",
