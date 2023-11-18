@@ -1884,7 +1884,6 @@
         "GSVA",
         "PADOG",
         "SingleCellExperiment",
-        "gage",
         "globaltest",
         "pathview",
         "safe",
@@ -2319,7 +2318,6 @@
         "VariantAnnotation",
         "rtracklayer"
     ],
-    "gage": [],
     "GAprediction": [],
     "garfield": [],
     "GARS": [
