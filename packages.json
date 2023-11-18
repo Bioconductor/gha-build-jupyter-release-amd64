@@ -3174,7 +3174,6 @@
         "motifmatchr"
     ],
     "specL": [],
-    "SpectralTAD": [],
     "SPIAT": [
         "DropletUtils",
         "SpatialExperiment"
