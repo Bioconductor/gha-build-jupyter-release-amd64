@@ -3184,7 +3184,6 @@
     ],
     "MBQN": [],
     "MBttest": [],
-    "MCbiclust": [],
     "mCSEA": [
         "BSgenome",
         "GenomicAlignments",
