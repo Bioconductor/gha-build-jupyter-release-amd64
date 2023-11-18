@@ -2804,7 +2804,6 @@
     "netDx": [],
     "NetPathMiner": [],
     "netprioR": [],
-    "NetSAM": [],
     "netSmooth": [
         "clusterExperiment",
         "mbkmeans",
