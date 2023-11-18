@@ -2433,7 +2433,6 @@
         "GenomicFeatures",
         "ensembldb"
     ],
-    "RJMCMCNucleosomes": [],
     "RLassoCox": [],
     "RLMM": [],
     "RLSeq": [
