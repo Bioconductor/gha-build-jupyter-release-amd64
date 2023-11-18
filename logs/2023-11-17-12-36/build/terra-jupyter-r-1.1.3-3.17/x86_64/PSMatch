@@ -395,7 +395,7 @@ ERROR: dependencies ‘FactoMineR’, ‘ggpubr’ are not available for package
 * removing ‘/tmp/tmp/built/factoextra’
 
 The downloaded source packages are in
-	‘/tmp/Rtmp1bemWK/downloaded_packages’
+	‘/tmp/RtmpwkExsI/downloaded_packages’
 Old packages: 'dbplyr', 'dplyr', 'DT', 'evaluate', 'fansi', 'GenomicRanges',
   'ggplot2', 'ggrepel', 'htmltools', 'httpuv', 'httr2', 'knitr', 'lattice',
   'leiden', 'lifecycle', 'Matrix', 'matrixStats', 'plotly', 'ragg',
@@ -423,6 +423,6 @@ Warning messages:
 8: In install.packages(...) :
   installation of package ‘factoextra’ had non-zero exit status
 
-real	1m3.987s
-user	0m55.579s
-sys	0m23.859s
+real	1m2.856s
+user	0m54.811s
+sys	0m23.251s
