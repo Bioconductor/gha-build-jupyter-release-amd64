@@ -2183,7 +2183,6 @@
     "rGREAT": [
         "GenomicFeatures"
     ],
-    "RGSEA": [],
     "rgsepd": [
         "GenomicFeatures",
         "goseq"
