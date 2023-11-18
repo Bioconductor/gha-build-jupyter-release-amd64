@@ -195,17 +195,12 @@
     "Basic4Cseq": [
         "BSgenome"
     ],
-    "BASiCS": [
-        "scran"
-    ],
+    "BASiCS": [],
     "BASiCStan": [
-        "BASiCS",
-        "scran"
+        "BASiCS"
     ],
     "BatchQC": [],
-    "BayesSpace": [
-        "scran"
-    ],
+    "BayesSpace": [],
     "BBCAnalyzer": [
         "BSgenome",
         "GenomicFeatures",
@@ -255,9 +250,7 @@
     ],
     "BiocWorkflowTools": [],
     "BioNERO": [],
-    "BioTIP": [
-        "scran"
-    ],
+    "BioTIP": [],
     "biovizBase": [
         "BSgenome",
         "GenomicFeatures",
@@ -422,9 +415,7 @@
     "ccmap": [],
     "CCPROMISE": [],
     "ccrepe": [],
-    "celda": [
-        "scran"
-    ],
+    "celda": [],
     "cellHTS2": [],
     "CelliD": [],
     "cellmigRation": [],
@@ -520,9 +511,7 @@
     "chopsticks": [],
     "ChromHeatMap": [],
     "chromPlot": [],
-    "ChromSCape": [
-        "scran"
-    ],
+    "ChromSCape": [],
     "chromVAR": [
         "BSgenome",
         "CNEr",
@@ -549,9 +538,7 @@
         "SGSeq"
     ],
     "cisPath": [],
-    "CiteFuse": [
-        "scran"
-    ],
+    "CiteFuse": [],
     "ClassifyR": [],
     "cleanUpdTSeq": [
         "BSgenome"
@@ -907,9 +894,7 @@
         "GenomicFeatures",
         "ensembldb"
     ],
-    "Dino": [
-        "scran"
-    ],
+    "Dino": [],
     "Director": [],
     "distinct": [],
     "dks": [],
@@ -1201,8 +1186,7 @@
         "bambu",
         "biovizBase",
         "ensembldb",
-        "ggbio",
-        "scran"
+        "ggbio"
     ],
     "flowCut": [
         "flowDensity"
@@ -1565,8 +1549,7 @@
         "CAMERA"
     ],
     "IRISFGM": [
-        "clusterProfiler",
-        "scran"
+        "clusterProfiler"
     ],
     "ISAnalytics": [],
     "iSEEhub": [],
@@ -1978,9 +1961,7 @@
         "ensembldb",
         "ggbio"
     ],
-    "msImpute": [
-        "scran"
-    ],
+    "msImpute": [],
     "MSnID": [],
     "MSPrep": [],
     "msqrob2": [],
@@ -2025,9 +2006,7 @@
         "ReactomePA",
         "clusterProfiler"
     ],
-    "mumosa": [
-        "scran"
-    ],
+    "mumosa": [],
     "MungeSumstats": [
         "BSgenome",
         "GenomicFeatures",
@@ -2260,9 +2239,7 @@
         "biovizBase",
         "ensembldb"
     ],
-    "pipeComp": [
-        "scran"
-    ],
+    "pipeComp": [],
     "pipeFrame": [
         "BSgenome"
     ],
@@ -2708,12 +2685,8 @@
     "scClassify": [
         "Cepo"
     ],
-    "scDblFinder": [
-        "scran"
-    ],
-    "scDD": [
-        "scran"
-    ],
+    "scDblFinder": [],
+    "scDD": [],
     "SCFA": [],
     "scFeatureFilter": [],
     "scFeatures": [
@@ -2722,12 +2695,9 @@
         "GenomicFeatures",
         "SingleCellSignalR",
         "SpatialExperiment",
-        "ensembldb",
-        "scran"
+        "ensembldb"
     ],
-    "scMerge": [
-        "scran"
-    ],
+    "scMerge": [],
     "scmeth": [
         "BSgenome",
         "GenomicFeatures",
@@ -2749,7 +2719,6 @@
         "VariantAnnotation"
     ],
     "scPipe": [],
-    "scran": [],
     "scRecover": [],
     "scRNAseqApp": [
         "slingshot"
@@ -2777,8 +2746,7 @@
         "bumphunter",
         "ensembldb",
         "epivizr",
-        "epivizrData",
-        "scran"
+        "epivizrData"
     ],
     "scviR": [],
     "segmenter": [
@@ -2859,9 +2827,7 @@
         "cytomapper"
     ],
     "sincell": [],
-    "SingleCellSignalR": [
-        "scran"
-    ],
+    "SingleCellSignalR": [],
     "singleCellTK": [
         "GSVA",
         "GenomicFeatures",
@@ -2870,7 +2836,6 @@
         "ensembldb",
         "scDblFinder",
         "scMerge",
-        "scran",
         "zinbwave"
     ],
     "SingleMoleculeFootprinting": [
@@ -2925,9 +2890,7 @@
         "ggbio"
     ],
     "SOMNiBUS": [],
-    "Spaniel": [
-        "scran"
-    ],
+    "Spaniel": [],
     "sparseDOSSA": [],
     "sparsenetgls": [],
     "SparseSignatures": [
@@ -2946,9 +2909,7 @@
     "SpatialFeatureExperiment": [
         "SpatialExperiment"
     ],
-    "spatialHeatmap": [
-        "scran"
-    ],
+    "spatialHeatmap": [],
     "SpatialOmicsOverlay": [
         "GeomxTools"
     ],
