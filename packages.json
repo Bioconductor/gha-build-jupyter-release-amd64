@@ -1850,7 +1850,6 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "GOSim": [],
     "goSorensen": [
         "clusterProfiler",
         "enrichplot"
