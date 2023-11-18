@@ -2078,7 +2078,6 @@
         "GenomicScores",
         "VariantAnnotation"
     ],
-    "Rarr": [],
     "RCAS": [
         "BSgenome",
         "GenomicFeatures",
