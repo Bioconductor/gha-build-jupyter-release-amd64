@@ -371,9 +371,7 @@
         "ensembldb"
     ],
     "calm": [],
-    "canceR": [
-        "phenoTest"
-    ],
+    "canceR": [],
     "cardelino": [
         "BSgenome",
         "GenomicFeatures",
@@ -2131,7 +2129,6 @@
         "destiny"
     ],
     "PhenoGeneRanker": [],
-    "phenoTest": [],
     "PhenStat": [],
     "phosphonormalizer": [],
     "PhosR": [],
