@@ -404,7 +404,6 @@
     "BioCor": [
         "GSEABase"
     ],
-    "BiocSklearn": [],
     "BiocWorkflowTools": [],
     "BioMM": [],
     "BioNAR": [],
