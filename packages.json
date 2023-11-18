@@ -3705,7 +3705,6 @@
         "SpatialExperiment",
         "SpatialFeatureExperiment"
     ],
-    "VplotR": [],
     "vsclust": [],
     "vtpnet": [
         "BSgenome",
