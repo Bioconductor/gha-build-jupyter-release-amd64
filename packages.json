@@ -5720,7 +5720,6 @@
     "MQmetrics": [],
     "msa": [],
     "MSA2dist": [],
-    "MsBackendRawFileReader": [],
     "MsDataHub": [
         "AnnotationDbi",
         "AnnotationHub",
