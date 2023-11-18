@@ -1077,7 +1077,6 @@
         "oligo",
         "oligoClasses"
     ],
-    "FScanR": [],
     "funtooNorm": [
         "GenomicFeatures",
         "bumphunter",
