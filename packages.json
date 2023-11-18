@@ -1537,7 +1537,6 @@
         "GSVA",
         "globaltest"
     ],
-    "eisaR": [],
     "ELMER": [
         "BSgenome",
         "GenomicFeatures",
