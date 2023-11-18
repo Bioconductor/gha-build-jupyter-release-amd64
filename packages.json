@@ -235,9 +235,7 @@
         "ensembldb"
     ],
     "biobtreeR": [],
-    "bioCancer": [
-        "ReactomePA"
-    ],
+    "bioCancer": [],
     "BiocDockerManager": [],
     "BiocOncoTK": [
         "GenomicFeatures"
@@ -1787,12 +1785,10 @@
     ],
     "miRNApath": [],
     "miRSM": [
-        "ReactomePA",
         "SPONGE",
         "miRspongeR"
     ],
     "miRspongeR": [
-        "ReactomePA",
         "SPONGE"
     ],
     "mirTarRnaSeq": [],
@@ -1918,9 +1914,7 @@
     ],
     "multiGSEA": [],
     "MultiMed": [],
-    "multiSight": [
-        "ReactomePA"
-    ],
+    "multiSight": [],
     "mumosa": [],
     "MungeSumstats": [
         "BSgenome",
@@ -2132,9 +2126,7 @@
         "OmaDB"
     ],
     "pickgene": [],
-    "Pigengene": [
-        "ReactomePA"
-    ],
+    "Pigengene": [],
     "PING": [
         "BSgenome",
         "GenomicFeatures",
@@ -2308,7 +2300,6 @@
     "RDRToolbox": [],
     "ReactomeGraph4R": [],
     "ReactomeGSA": [],
-    "ReactomePA": [],
     "REBET": [],
     "recount": [
         "BSgenome",
@@ -2628,9 +2619,7 @@
         "ggbio"
     ],
     "scShapes": [],
-    "scTensor": [
-        "ReactomePA"
-    ],
+    "scTensor": [],
     "scTGIF": [],
     "scTHI": [],
     "scTreeViz": [
