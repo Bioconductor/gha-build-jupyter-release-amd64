@@ -4357,7 +4357,6 @@
         "scuttle"
     ],
     "SDAMS": [],
-    "sechm": [],
     "segmenter": [
         "ChIPseeker",
         "DOSE",
@@ -4409,7 +4408,6 @@
     "SEtools": [
         "DESeq2",
         "genefilter",
-        "sechm",
         "sva"
     ],
     "sevenC": [
