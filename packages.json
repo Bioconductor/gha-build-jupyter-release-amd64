@@ -2208,7 +2208,6 @@
     ],
     "pgca": [],
     "phantasus": [],
-    "PharmacoGx": [],
     "phemd": [
         "destiny"
     ],
@@ -3223,9 +3222,7 @@
     ],
     "weaver": [],
     "XDE": [],
-    "Xeva": [
-        "PharmacoGx"
-    ],
+    "Xeva": [],
     "xmapbridge": [],
     "XNAString": [
         "BSgenome"
