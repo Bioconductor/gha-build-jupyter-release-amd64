@@ -261,7 +261,6 @@
     ],
     "BiocWorkflowTools": [],
     "BioNERO": [],
-    "biosigner": [],
     "BioTIP": [
         "scran"
     ],
@@ -2050,7 +2049,6 @@
     "MultiMed": [],
     "multiSight": [
         "ReactomePA",
-        "biosigner",
         "clusterProfiler"
     ],
     "mumosa": [
