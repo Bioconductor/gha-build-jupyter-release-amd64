@@ -3087,7 +3087,6 @@
     ],
     "scran": [],
     "scRecover": [],
-    "scRepertoire": [],
     "scRNAseqApp": [
         "TrajectoryUtils",
         "slingshot"
