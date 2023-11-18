@@ -2106,7 +2106,6 @@
         "GenomicFiles",
         "VariantAnnotation"
     ],
-    "QuaternaryProd": [],
     "R3CPET": [
         "BSgenome",
         "GenomicFeatures",
