@@ -1122,7 +1122,6 @@
         "snm",
         "sva"
     ],
-    "EDIRquery": [],
     "eegc": [
         "clusterProfiler",
         "enrichplot"
