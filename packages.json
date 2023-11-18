@@ -1302,7 +1302,6 @@
     ],
     "iASeq": [],
     "ibh": [],
-    "iCARE": [],
     "icetea": [
         "BSgenome",
         "GenomicFeatures",
