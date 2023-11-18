@@ -1356,7 +1356,6 @@
         "ensembldb",
         "ggbio"
     ],
-    "interacCircos": [],
     "InterCellar": [],
     "IntEREst": [
         "BSgenome",
