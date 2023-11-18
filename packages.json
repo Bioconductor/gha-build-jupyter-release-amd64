@@ -1236,7 +1236,6 @@
         "BSgenome",
         "hiAnnotator"
     ],
-    "HPAanalyze": [],
     "HTSeqGenie": [
         "BSgenome",
         "GenomicFeatures",
