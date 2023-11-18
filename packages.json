@@ -4696,7 +4696,6 @@
         "CoreGx"
     ],
     "TPP2D": [],
-    "tracktables": [],
     "trackViewer": [
         "BSgenome",
         "GenomicFeatures",
