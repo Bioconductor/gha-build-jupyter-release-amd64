@@ -200,7 +200,6 @@
     "BiocOncoTK": [
         "GenomicFeatures"
     ],
-    "BiocWorkflowTools": [],
     "BioNERO": [],
     "biovizBase": [
         "BSgenome",
