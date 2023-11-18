@@ -2375,7 +2375,6 @@
         "VariantAnnotation"
     ],
     "scPipe": [],
-    "scRecover": [],
     "scruff": [
         "BSgenome",
         "GenomicFeatures",
