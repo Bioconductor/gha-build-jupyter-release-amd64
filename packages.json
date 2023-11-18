@@ -863,7 +863,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "EnhancedVolcano": [],
     "enhancerHomologSearch": [
         "BSgenome",
         "CNEr",
