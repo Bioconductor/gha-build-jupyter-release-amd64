@@ -1007,7 +1007,6 @@
         "GenomicFeatures"
     ],
     "FamAgg": [],
-    "fastreeR": [],
     "fCCAC": [
         "BSgenome",
         "genomation"
