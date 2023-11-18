@@ -1,12 +1,10 @@
 {
     "a4": [
         "a4Base",
-        "annaffy",
         "annotate",
         "genefilter"
     ],
     "a4Base": [
-        "annaffy",
         "annotate",
         "genefilter"
     ],
@@ -197,7 +195,6 @@
         "DESeq2",
         "MultiAssayExperiment"
     ],
-    "annaffy": [],
     "annmap": [
         "annotate",
         "genefilter"
@@ -7004,9 +7001,7 @@
         "rtracklayer"
     ],
     "weaver": [],
-    "webbioc": [
-        "annaffy"
-    ],
+    "webbioc": [],
     "weitrix": [],
     "wiggleplotr": [
         "GenomicAlignments",
