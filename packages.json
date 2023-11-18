@@ -2979,7 +2979,6 @@
     "MACSr": [
         "ExperimentHub"
     ],
-    "made4": [],
     "MADSEQ": [
         "BSgenome",
         "GenomicAlignments",
@@ -3871,16 +3870,13 @@
     "oligoClasses": [],
     "omada": [],
     "OmaDB": [],
-    "omicade4": [
-        "made4"
-    ],
+    "omicade4": [],
     "omicplotR": [
         "ALDEx2"
     ],
     "omicRexposome": [
         "MultiDataSet",
         "genefilter",
-        "made4",
         "omicade4",
         "rexposome",
         "sva"
