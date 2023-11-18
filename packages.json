@@ -349,7 +349,6 @@
     ],
     "biobtreeR": [],
     "bioCancer": [
-        "DOSE",
         "ReactomePA",
         "clusterProfiler",
         "enrichplot"
@@ -585,7 +584,6 @@
         "rtracklayer"
     ],
     "CBNplot": [
-        "DOSE",
         "clusterProfiler",
         "enrichplot"
     ],
@@ -626,7 +624,6 @@
     "CellTrails": [],
     "cellxgenedp": [],
     "CEMiTool": [
-        "DOSE",
         "clusterProfiler",
         "enrichplot"
     ],
@@ -639,7 +636,6 @@
     ],
     "ceRNAnetsim": [],
     "CeTF": [
-        "DOSE",
         "RCy3",
         "clusterProfiler",
         "enrichplot"
@@ -729,7 +725,6 @@
         "systemPipeR"
     ],
     "ChIPseeker": [
-        "DOSE",
         "GenomicFeatures",
         "enrichplot",
         "rtracklayer"
@@ -826,7 +821,6 @@
     ],
     "ClusterJudge": [],
     "clusterProfiler": [
-        "DOSE",
         "enrichplot"
     ],
     "ClusterSignificance": [],
@@ -1165,7 +1159,6 @@
         "flowDensity"
     ],
     "debrowser": [
-        "DOSE",
         "clusterProfiler",
         "enrichplot",
         "sva"
@@ -1346,7 +1339,6 @@
         "sva"
     ],
     "Doscheda": [],
-    "DOSE": [],
     "doseR": [],
     "doubletrouble": [
         "rtracklayer",
@@ -1378,7 +1370,6 @@
     "dupRadar": [],
     "easier": [],
     "EasyCellType": [
-        "DOSE",
         "clusterProfiler",
         "enrichplot"
     ],
@@ -1399,7 +1390,6 @@
     ],
     "EDIRquery": [],
     "eegc": [
-        "DOSE",
         "clusterProfiler",
         "enrichplot"
     ],
@@ -1437,13 +1427,10 @@
     "EnrichmentBrowser": [
         "GSEABase"
     ],
-    "enrichplot": [
-        "DOSE"
-    ],
+    "enrichplot": [],
     "enrichTF": [
         "BSgenome",
         "CNEr",
-        "DOSE",
         "TFBSTools",
         "clusterProfiler",
         "enrichplot",
@@ -1471,7 +1458,6 @@
         "BRGenomics",
         "BSgenome",
         "ChIPseeker",
-        "DOSE",
         "GenomicFeatures",
         "enrichplot",
         "genomation",
@@ -1553,7 +1539,6 @@
         "BSgenome",
         "CNEr",
         "ChIPseeker",
-        "DOSE",
         "GenomicFeatures",
         "ShortRead",
         "TFBSTools",
@@ -1622,7 +1607,6 @@
     ],
     "FamAgg": [],
     "famat": [
-        "DOSE",
         "clusterProfiler",
         "enrichplot"
     ],
@@ -1638,7 +1622,6 @@
     ],
     "fCI": [],
     "fcoex": [
-        "DOSE",
         "clusterProfiler",
         "enrichplot"
     ],
@@ -1752,7 +1735,6 @@
     ],
     "gcatest": [],
     "GDCRNATools": [
-        "DOSE",
         "clusterProfiler",
         "enrichplot"
     ],
@@ -1911,7 +1893,6 @@
     ],
     "GOSim": [],
     "goSorensen": [
-        "DOSE",
         "clusterProfiler",
         "enrichplot"
     ],
@@ -2191,7 +2172,6 @@
         "xcms"
     ],
     "IRISFGM": [
-        "DOSE",
         "clusterProfiler",
         "enrichplot",
         "scater",
@@ -2334,7 +2314,6 @@
         "rtracklayer"
     ],
     "MAGeCKFlute": [
-        "DOSE",
         "clusterProfiler",
         "enrichplot"
     ],
@@ -2435,7 +2414,6 @@
     "MEDME": [],
     "Mergeomics": [],
     "meshes": [
-        "DOSE",
         "enrichplot"
     ],
     "meshr": [
@@ -2479,7 +2457,6 @@
     ],
     "MetaNeighbor": [],
     "MetaPhOR": [
-        "DOSE",
         "RCy3",
         "clusterProfiler",
         "enrichplot"
@@ -2520,7 +2497,6 @@
         "rtracklayer"
     ],
     "methylGSA": [
-        "DOSE",
         "GenomicFeatures",
         "bumphunter",
         "clusterProfiler",
@@ -2589,7 +2565,6 @@
         "scuttle"
     ],
     "MicrobiomeProfiler": [
-        "DOSE",
         "clusterProfiler",
         "enrichplot"
     ],
@@ -2642,7 +2617,6 @@
     "miRNApath": [],
     "miRSM": [
         "BicARE",
-        "DOSE",
         "GSEABase",
         "ReactomePA",
         "SPONGE",
@@ -2651,7 +2625,6 @@
         "miRspongeR"
     ],
     "miRspongeR": [
-        "DOSE",
         "ReactomePA",
         "SPONGE",
         "clusterProfiler",
@@ -2717,7 +2690,6 @@
         "rtracklayer"
     ],
     "MoonlightR": [
-        "DOSE",
         "TCGAbiolinks",
         "clusterProfiler",
         "enrichplot"
@@ -2834,7 +2806,6 @@
     "MultiMed": [],
     "MultimodalExperiment": [],
     "multiSight": [
-        "DOSE",
         "ReactomePA",
         "biosigner",
         "clusterProfiler",
@@ -3094,16 +3065,13 @@
         "cn.mops"
     ],
     "PanomiR": [
-        "DOSE",
         "GSEABase",
         "clusterProfiler",
         "enrichplot"
     ],
     "PANR": [],
     "PanViz": [],
-    "pareg": [
-        "DOSE"
-    ],
+    "pareg": [],
     "parglms": [],
     "PAST": [
         "rtracklayer"
@@ -3141,7 +3109,6 @@
         "rtracklayer"
     ],
     "PFP": [
-        "DOSE",
         "clusterProfiler",
         "enrichplot"
     ],
@@ -3170,7 +3137,6 @@
     "pickgene": [],
     "PICS": [],
     "Pigengene": [
-        "DOSE",
         "ReactomePA",
         "clusterProfiler",
         "enrichplot"
@@ -3254,7 +3220,6 @@
     "PROcess": [],
     "profileplyr": [
         "ChIPseeker",
-        "DOSE",
         "GenomicFeatures",
         "ShortRead",
         "chipseq",
@@ -3429,7 +3394,6 @@
     "ReactomeGraph4R": [],
     "ReactomeGSA": [],
     "ReactomePA": [
-        "DOSE",
         "enrichplot"
     ],
     "REBET": [],
@@ -3464,9 +3428,7 @@
         "regioneR",
         "rtracklayer"
     ],
-    "RegEnrich": [
-        "DOSE"
-    ],
+    "RegEnrich": [],
     "regioneR": [
         "BSgenome",
         "rtracklayer"
@@ -3911,7 +3873,6 @@
     "scShapes": [],
     "scTensor": [
         "Category",
-        "DOSE",
         "GOstats",
         "GSEABase",
         "ReactomePA",
@@ -3943,7 +3904,6 @@
     ],
     "segmenter": [
         "ChIPseeker",
-        "DOSE",
         "GenomicFeatures",
         "enrichplot",
         "rtracklayer"
@@ -3962,7 +3922,6 @@
     "seqArchRplus": [
         "BSgenome",
         "ChIPseeker",
-        "DOSE",
         "GenomicFeatures",
         "clusterProfiler",
         "enrichplot",
@@ -4015,7 +3974,6 @@
         "MLInterfaces"
     ],
     "signatureSearch": [
-        "DOSE",
         "GSEABase",
         "clusterProfiler",
         "enrichplot"
@@ -4331,9 +4289,7 @@
         "VariantAnnotation",
         "rtracklayer"
     ],
-    "SVMDO": [
-        "DOSE"
-    ],
+    "SVMDO": [],
     "SWATH2stats": [],
     "SwathXtend": [],
     "swfdr": [],
@@ -4373,7 +4329,6 @@
     ],
     "TCseq": [],
     "TDbasedUFEadv": [
-        "DOSE",
         "RTCGA",
         "enrichplot"
     ],
@@ -4412,7 +4367,6 @@
     "tilingArray": [],
     "timescape": [],
     "TimiRGeN": [
-        "DOSE",
         "RCy3",
         "clusterProfiler",
         "enrichplot"
