@@ -739,7 +739,6 @@
     ],
     "ComPrAn": [],
     "condiments": [
-        "TrajectoryUtils",
         "distinct",
         "scater",
         "slingshot"
@@ -1311,8 +1310,7 @@
     ],
     "fdrame": [],
     "FEAST": [
-        "TSCAN",
-        "TrajectoryUtils"
+        "TSCAN"
     ],
     "fedup": [
         "RCy3"
@@ -3084,7 +3082,6 @@
     "scran": [],
     "scRecover": [],
     "scRNAseqApp": [
-        "TrajectoryUtils",
         "slingshot"
     ],
     "scruff": [
@@ -3215,7 +3212,6 @@
         "GSVA",
         "GenomicFeatures",
         "TSCAN",
-        "TrajectoryUtils",
         "batchelor",
         "celda",
         "ensembldb",
@@ -3251,9 +3247,7 @@
         "wateRmelon"
     ],
     "slalom": [],
-    "slingshot": [
-        "TrajectoryUtils"
-    ],
+    "slingshot": [],
     "SLqPCR": [],
     "SMAD": [],
     "SMAP": [],
@@ -3510,11 +3504,9 @@
         "ensembldb"
     ],
     "tradeSeq": [
-        "TrajectoryUtils",
         "slingshot"
     ],
     "TrajectoryGeometry": [],
-    "TrajectoryUtils": [],
     "transcriptR": [
         "GenomicFeatures",
         "chipseq"
@@ -3528,7 +3520,6 @@
         "BSgenome"
     ],
     "traviz": [
-        "TrajectoryUtils",
         "slingshot"
     ],
     "TreeAndLeaf": [],
@@ -3554,9 +3545,7 @@
     "tRNAscanImport": [
         "BSgenome"
     ],
-    "TSCAN": [
-        "TrajectoryUtils"
-    ],
+    "TSCAN": [],
     "tscR": [],
     "TVTB": [
         "BSgenome",
