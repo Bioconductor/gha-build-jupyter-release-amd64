@@ -691,7 +691,6 @@
     "consensusOV": [
         "GSVA"
     ],
-    "consensusSeekeR": [],
     "consICA": [],
     "CONSTANd": [],
     "contiBAIT": [
@@ -2669,9 +2668,7 @@
         "GenomicFeatures",
         "ensembldb"
     ],
-    "RJMCMCNucleosomes": [
-        "consensusSeekeR"
-    ],
+    "RJMCMCNucleosomes": [],
     "RLassoCox": [],
     "RLMM": [],
     "RLSeq": [
