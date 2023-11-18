@@ -4668,7 +4668,6 @@
     "TFutils": [
         "GSEABase"
     ],
-    "tidybulk": [],
     "tidySingleCellExperiment": [],
     "tidySummarizedExperiment": [],
     "tigre": [],
