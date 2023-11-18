@@ -3980,7 +3980,6 @@
         "ShortRead"
     ],
     "systemPipeShiny": [],
-    "systemPipeTools": [],
     "TADCompare": [],
     "TAPseq": [
         "BSgenome",
