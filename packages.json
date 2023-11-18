@@ -1847,7 +1847,6 @@
     "nearBynding": [
         "GenomicFeatures"
     ],
-    "NetPathMiner": [],
     "netprioR": [],
     "netSmooth": [
         "clusterExperiment",
