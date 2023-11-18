@@ -490,7 +490,6 @@
     "clusterExperiment": [
         "zinbwave"
     ],
-    "ClusterJudge": [],
     "ClusterSignificance": [],
     "cn.farms": [
         "oligo",
