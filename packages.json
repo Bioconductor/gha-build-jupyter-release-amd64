@@ -1369,7 +1369,6 @@
     ],
     "GeneGA": [],
     "GeneGeneInteR": [],
-    "GeneMeta": [],
     "geneplast": [],
     "GENESIS": [
         "GWASTools",
@@ -3567,9 +3566,7 @@
     ],
     "weaver": [],
     "wiggleplotr": [],
-    "XDE": [
-        "GeneMeta"
-    ],
+    "XDE": [],
     "Xeva": [
         "PharmacoGx"
     ],
