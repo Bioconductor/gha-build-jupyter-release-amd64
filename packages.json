@@ -7822,10 +7822,7 @@
         "annotate",
         "biomaRt"
     ],
-    "sangeranalyseR": [
-        "sangerseqR"
-    ],
-    "sangerseqR": [],
+    "sangeranalyseR": [],
     "SANTA": [],
     "sarks": [],
     "satuRn": [
@@ -8000,9 +7997,7 @@
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
-    "scifer": [
-        "sangerseqR"
-    ],
+    "scifer": [],
     "scmap": [
         "SingleCellExperiment",
         "SummarizedExperiment"
