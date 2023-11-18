@@ -1307,7 +1307,6 @@
         "GenomicFeatures",
         "IVAS"
     ],
-    "INDEED": [],
     "InPAS": [
         "BSgenome",
         "GenomicFeatures",
