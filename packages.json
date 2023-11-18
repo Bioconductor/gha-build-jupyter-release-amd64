@@ -775,7 +775,6 @@
     "diffcyt": [
         "FlowSOM"
     ],
-    "diffGeneAnalysis": [],
     "diffHic": [
         "BSgenome"
     ],
