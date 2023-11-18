@@ -3917,7 +3917,6 @@
     ],
     "retrofit": [],
     "rexposome": [],
-    "rfPred": [],
     "rGADEM": [
         "BSgenome",
         "rtracklayer"
