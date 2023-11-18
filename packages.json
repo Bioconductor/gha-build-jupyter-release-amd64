@@ -546,7 +546,6 @@
         "GenomicFeatures",
         "bumphunter"
     ],
-    "COMPASS": [],
     "compEpiTools": [
         "BSgenome",
         "GenomicFeatures",
