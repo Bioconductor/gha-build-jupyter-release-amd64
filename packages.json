@@ -849,7 +849,6 @@
         "TFBSTools",
         "motifmatchr"
     ],
-    "EnMCB": [],
     "ENmix": [
         "GenomicFeatures",
         "bumphunter",
