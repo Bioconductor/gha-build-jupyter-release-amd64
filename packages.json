@@ -149,7 +149,6 @@
     "AUCell": [],
     "autonomics": [],
     "BaalChIP": [],
-    "bacon": [],
     "BadRegionFinder": [
         "BSgenome",
         "GenomicFeatures",
