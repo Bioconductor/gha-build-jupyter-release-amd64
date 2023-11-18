@@ -6600,12 +6600,10 @@
     "TCseq": [
         "GenomicAlignments"
     ],
-    "TDbasedUFE": [],
     "TDbasedUFEadv": [
         "DOSE",
         "GOSemSim",
         "RTCGA",
-        "TDbasedUFE",
         "enrichplot"
     ],
     "TEKRABber": [
