@@ -1625,7 +1625,6 @@
     "miRLAB": [
         "TCGAbiolinks"
     ],
-    "miRNApath": [],
     "miRSM": [
         "SPONGE",
         "miRspongeR"
