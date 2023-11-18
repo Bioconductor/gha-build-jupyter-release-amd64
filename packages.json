@@ -3551,7 +3551,6 @@
     "TCGAutils": [
         "GenomicFeatures"
     ],
-    "TCseq": [],
     "TDbasedUFEadv": [
         "RTCGA",
         "enrichplot"
