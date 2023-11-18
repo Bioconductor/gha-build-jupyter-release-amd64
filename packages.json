@@ -791,7 +791,6 @@
     "CSSQ": [
         "GenomicFeatures"
     ],
-    "CTdata": [],
     "ctsGE": [],
     "CTSV": [
         "DropletUtils",
