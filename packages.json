@@ -1225,7 +1225,6 @@
     ],
     "Clomial": [],
     "Clonality": [],
-    "CluMSID": [],
     "clustComp": [],
     "clusterExperiment": [
         "SingleCellExperiment",
