@@ -3529,7 +3529,6 @@
     ],
     "miRmine": [],
     "miRNApath": [],
-    "miRNAtap": [],
     "miRSM": [
         "BicARE",
         "DOSE",
@@ -5650,9 +5649,7 @@
         "genefilter",
         "scuttle"
     ],
-    "SpidermiR": [
-        "miRNAtap"
-    ],
+    "SpidermiR": [],
     "spikeLI": [],
     "spiky": [
         "BSgenome",
@@ -5732,8 +5729,7 @@
     ],
     "StarBioTrek": [
         "SpidermiR",
-        "graphite",
-        "miRNAtap"
+        "graphite"
     ],
     "Statial": [
         "DropletUtils",
