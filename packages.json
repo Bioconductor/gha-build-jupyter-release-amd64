@@ -661,7 +661,6 @@
         "oligo",
         "oligoClasses"
     ],
-    "CSSP": [],
     "CSSQ": [
         "GenomicFeatures"
     ],
