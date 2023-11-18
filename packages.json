@@ -454,9 +454,7 @@
         "clusterProfiler"
     ],
     "ccmap": [],
-    "CCPROMISE": [
-        "PROMISE"
-    ],
+    "CCPROMISE": [],
     "ccrepe": [],
     "celaref": [],
     "celda": [
@@ -2482,7 +2480,6 @@
         "MLInterfaces",
         "pRoloc"
     ],
-    "PROMISE": [],
     "PROPS": [
         "sva"
     ],
