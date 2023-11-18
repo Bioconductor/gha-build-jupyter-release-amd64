@@ -1386,7 +1386,6 @@
         "GenomicFeatures",
         "TRESS"
     ],
-    "magrene": [],
     "maser": [
         "BSgenome",
         "GenomicFeatures",
