@@ -1313,7 +1313,6 @@
         "GenomicFeatures",
         "VariantAnnotation"
     ],
-    "KBoost": [],
     "kissDE": [
         "BSgenome",
         "DSS",
