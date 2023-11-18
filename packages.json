@@ -580,7 +580,6 @@
         "genefilter",
         "sva"
     ],
-    "BioNet": [],
     "BioNetStat": [
         "pathview"
     ],
@@ -6170,7 +6169,6 @@
     "SMAD": [],
     "SMAP": [],
     "SMITE": [
-        "BioNet",
         "GenomicAlignments",
         "GenomicFeatures",
         "biomaRt",
