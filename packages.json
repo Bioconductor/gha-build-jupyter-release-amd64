@@ -2530,7 +2530,6 @@
         "GenomicFeatures"
     ],
     "tricycle": [],
-    "tripr": [],
     "tRNAscanImport": [
         "BSgenome"
     ],
