@@ -1136,8 +1136,7 @@
         "ensembldb"
     ],
     "factR": [
-        "GenomicFeatures",
-        "wiggleplotr"
+        "GenomicFeatures"
     ],
     "FamAgg": [],
     "famat": [
@@ -3232,7 +3231,6 @@
         "GenomicFeatures"
     ],
     "weaver": [],
-    "wiggleplotr": [],
     "XDE": [],
     "Xeva": [
         "PharmacoGx"
