@@ -2641,7 +2641,6 @@
         "GenomicFeatures",
         "RUVSeq"
     ],
-    "statTarget": [],
     "STdeconvolve": [],
     "strandCheckR": [
         "GenomicFeatures"
