@@ -8468,7 +8468,6 @@
         "biomaRt",
         "rtracklayer"
     ],
-    "uSORT": [],
     "VAExprs": [
         "SingleCellExperiment",
         "SummarizedExperiment",
