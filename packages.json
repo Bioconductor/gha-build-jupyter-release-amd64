@@ -1242,7 +1242,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "GWAS.BAYES": [],
     "gwascat": [
         "BSgenome",
         "GenomicFeatures",
