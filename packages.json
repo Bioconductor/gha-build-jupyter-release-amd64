@@ -2223,12 +2223,10 @@
         "scuttle"
     ],
     "CytoML": [
-        "ggcyto",
         "openCyto"
     ],
     "CytoPipeline": [
-        "PeacoQC",
-        "ggcyto"
+        "PeacoQC"
     ],
     "cytoviewer": [
         "DropletUtils",
@@ -3367,9 +3365,7 @@
     ],
     "flowCyBar": [],
     "flowDensity": [],
-    "flowGate": [
-        "ggcyto"
-    ],
+    "flowGate": [],
     "flowGraph": [],
     "flowMap": [],
     "flowPloidy": [],
@@ -3721,7 +3717,6 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "ggcyto": [],
     "ggmanh": [
         "SeqArray"
     ],
