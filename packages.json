@@ -283,7 +283,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "bugsigdbr": [],
     "bumphunter": [
         "GenomicFeatures"
     ],
