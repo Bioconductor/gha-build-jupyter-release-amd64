@@ -1884,9 +1884,7 @@
         "EnrichmentBrowser"
     ],
     "GSEAmining": [],
-    "gsean": [
-        "PPInfer"
-    ],
+    "gsean": [],
     "GSgalgoR": [],
     "GSReg": [
         "GenomicFeatures",
@@ -3106,7 +3104,6 @@
     "POWSC": [
         "MAST"
     ],
-    "PPInfer": [],
     "pram": [
         "rtracklayer"
     ],
