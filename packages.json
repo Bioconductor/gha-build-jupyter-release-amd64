@@ -2115,8 +2115,7 @@
     "profileplyr": [
         "ChIPseeker",
         "GenomicFeatures",
-        "rGREAT",
-        "soGGi"
+        "rGREAT"
     ],
     "profileScoreDist": [],
     "projectR": [
@@ -2678,7 +2677,6 @@
         "GenomicFeatures",
         "VariantAnnotation"
     ],
-    "soGGi": [],
     "SomaticSignatures": [
         "BSgenome",
         "GenomicFeatures",
