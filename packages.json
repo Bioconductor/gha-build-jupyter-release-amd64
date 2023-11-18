@@ -923,9 +923,7 @@
     "CoRegNet": [],
     "CoreGx": [],
     "CORREP": [],
-    "coseq": [
-        "HTSFilter"
-    ],
+    "coseq": [],
     "CoSIA": [],
     "cosmiq": [
         "xcms"
@@ -1956,7 +1954,6 @@
         "gmapR",
         "rtracklayer"
     ],
-    "HTSFilter": [],
     "iASeq": [],
     "ibh": [],
     "iCARE": [],
