@@ -1696,7 +1696,6 @@
     "dittoSeq": [
         "SingleCellExperiment"
     ],
-    "divergence": [],
     "dks": [],
     "DMCFB": [
         "GenomicAlignments",
