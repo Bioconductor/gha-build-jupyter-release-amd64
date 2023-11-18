@@ -1120,7 +1120,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "GGPA": [],
     "glmSparseNet": [],
     "gmapR": [
         "BSgenome",
