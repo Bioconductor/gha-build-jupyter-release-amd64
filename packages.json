@@ -2524,7 +2524,6 @@
         "ensembldb"
     ],
     "pwOmics": [],
-    "pwrEWAS": [],
     "qmtools": [],
     "qpgraph": [
         "GenomicFeatures"
