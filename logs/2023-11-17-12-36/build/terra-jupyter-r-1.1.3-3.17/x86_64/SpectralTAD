@@ -2694,7 +2694,7 @@ packaged installation of ‘rex’ as ‘rex_1.2.1_R_x86_64-pc-linux-gnu.tar.gz�
 using C++ compiler: ‘g++ (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
 g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/Matrix/include'    -I../inst/include  -DPRIMME_INT_SIZE=0 -DF77UNDERSCORE -DUSE_XHEEV -DUSE_ZGESV -DUSE_XHEGV -DPRIMME_INT_SIZE=0 -DPRIMME_WITHOUT_FLOAT -DPRIMME_BLAS_RCOMPLEX -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c RcppExports.cpp -o RcppExports.o
 g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/Matrix/include'    -I../inst/include  -DPRIMME_INT_SIZE=0 -DF77UNDERSCORE -DUSE_XHEEV -DUSE_ZGESV -DUSE_XHEGV -DPRIMME_INT_SIZE=0 -DPRIMME_WITHOUT_FLOAT -DPRIMME_BLAS_RCOMPLEX -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c primmeR.cpp -o primmeR.o
-make[1]: Entering directory '/tmp/RtmpTZ4W6X/R.INSTALL1d91aab8257/PRIMME/src/primme'
+make[1]: Entering directory '/tmp/Rtmpw5Yik0/R.INSTALL1d958ec58df/PRIMME/src/primme'
 g++ -std=gnu++17 -I/usr/share/R/include -DNDEBUG -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -fpic -I../inst/include  -DPRIMME_INT_SIZE=0 -DF77UNDERSCORE -DUSE_XHEEV -DUSE_ZGESV -DUSE_XHEGV -DPRIMME_INT_SIZE=0 -DPRIMME_WITHOUT_FLOAT -DPRIMME_BLAS_RCOMPLEX   -I../../inst/include/c_interface -Iinclude -c eigs/auxiliary_eigs.cpp -o eigs/auxiliary_eigs.o
 g++ -std=gnu++17 -I/usr/share/R/include -DNDEBUG -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -fpic -I../inst/include  -DPRIMME_INT_SIZE=0 -DF77UNDERSCORE -DUSE_XHEEV -DUSE_ZGESV -DUSE_XHEGV -DPRIMME_INT_SIZE=0 -DPRIMME_WITHOUT_FLOAT -DPRIMME_BLAS_RCOMPLEX   -I../../inst/include/c_interface -Iinclude -c eigs/auxiliary_eigs_normal.cpp -o eigs/auxiliary_eigs_normal.o
 g++ -std=gnu++17 -I/usr/share/R/include -DNDEBUG -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -fpic -I../inst/include  -DPRIMME_INT_SIZE=0 -DF77UNDERSCORE -DUSE_XHEEV -DUSE_ZGESV -DUSE_XHEGV -DPRIMME_INT_SIZE=0 -DPRIMME_WITHOUT_FLOAT -DPRIMME_BLAS_RCOMPLEX   -I../../inst/include/c_interface -Iinclude -c eigs/convergence.cpp -o eigs/convergence.o
@@ -2746,14 +2746,14 @@ a - linalg/wtime.o
 a - svds/primme_svds_c.o
 a - svds/primme_svds_f77.o
 a - svds/primme_svds_interface.o
-make[1]: Leaving directory '/tmp/RtmpTZ4W6X/R.INSTALL1d91aab8257/PRIMME/src/primme'
-make[1]: Entering directory '/tmp/RtmpTZ4W6X/R.INSTALL1d91aab8257/PRIMME/src/primme'
+make[1]: Leaving directory '/tmp/Rtmpw5Yik0/R.INSTALL1d958ec58df/PRIMME/src/primme'
+make[1]: Entering directory '/tmp/Rtmpw5Yik0/R.INSTALL1d958ec58df/PRIMME/src/primme'
 gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -fpic  -c zhegv.c -o zhegv.o
 ar rv libprimmeext.a zhegv.o;\
 ranlib libprimmeext.a
 ar: creating libprimmeext.a
 a - zhegv.o
-make[1]: Leaving directory '/tmp/RtmpTZ4W6X/R.INSTALL1d91aab8257/PRIMME/src/primme'
+make[1]: Leaving directory '/tmp/Rtmpw5Yik0/R.INSTALL1d958ec58df/PRIMME/src/primme'
 g++ -std=gnu++17 -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o PRIMME.so RcppExports.o primmeR.o primme/libprimme.a -llapack primme/libprimmeext.a -lblas -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
 installing to /tmp/tmp/built/00LOCK-PRIMME/00new/PRIMME/libs
 ** R
@@ -2899,7 +2899,7 @@ packaged installation of ‘BiocCheck’ as ‘BiocCheck_1.36.1_R_x86_64-pc-linu
 * DONE (BiocCheck)
 
 The downloaded source packages are in
-	‘/tmp/Rtmpfvc74K/downloaded_packages’
+	‘/tmp/RtmpkyW9mK/downloaded_packages’
 Old packages: 'dbplyr', 'dplyr', 'DT', 'evaluate', 'fansi', 'GenomicRanges',
   'ggplot2', 'ggrepel', 'htmltools', 'httpuv', 'httr2', 'knitr', 'lattice',
   'leiden', 'lifecycle', 'Matrix', 'matrixStats', 'plotly', 'ragg',
@@ -2910,6 +2910,6 @@ Old packages: 'dbplyr', 'dplyr', 'DT', 'evaluate', 'fansi', 'GenomicRanges',
   'systemfonts', 'testthat', 'textshaping', 'tinytex', 'utf8', 'vctrs',
   'waldo', 'withr', 'xfun', 'XML'
 
-real	2m58.332s
-user	2m44.507s
-sys	0m25.648s
+real	3m4.329s
+user	2m48.421s
+sys	0m25.730s
