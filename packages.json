@@ -619,8 +619,7 @@
     ],
     "ComPrAn": [],
     "condiments": [
-        "distinct",
-        "slingshot"
+        "distinct"
     ],
     "consensus": [],
     "consensusDE": [
@@ -2620,9 +2619,7 @@
     ],
     "scPipe": [],
     "scRecover": [],
-    "scRNAseqApp": [
-        "slingshot"
-    ],
+    "scRNAseqApp": [],
     "scruff": [
         "BSgenome",
         "GenomicFeatures",
@@ -2751,7 +2748,6 @@
         "wateRmelon"
     ],
     "slalom": [],
-    "slingshot": [],
     "SLqPCR": [],
     "SMAD": [],
     "SMAP": [],
@@ -2966,9 +2962,7 @@
         "biovizBase",
         "ensembldb"
     ],
-    "tradeSeq": [
-        "slingshot"
-    ],
+    "tradeSeq": [],
     "TrajectoryGeometry": [],
     "transcriptR": [
         "GenomicFeatures"
@@ -2980,9 +2974,7 @@
     "traseR": [
         "BSgenome"
     ],
-    "traviz": [
-        "slingshot"
-    ],
+    "traviz": [],
     "TreeAndLeaf": [],
     "treekoR": [
         "FlowSOM",
