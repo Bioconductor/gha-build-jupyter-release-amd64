@@ -1389,7 +1389,6 @@
         "rtracklayer",
         "topGO"
     ],
-    "CompoundDb": [],
     "ComPrAn": [],
     "condiments": [
         "SingleCellExperiment",
@@ -3676,7 +3675,6 @@
     "metabinR": [],
     "MetaboAnnotation": [
         "AnnotationHub",
-        "CompoundDb",
         "MultiAssayExperiment",
         "QFeatures"
     ],
