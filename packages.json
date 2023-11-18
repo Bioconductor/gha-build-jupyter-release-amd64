@@ -720,7 +720,6 @@
         "EDASeq",
         "GenomicFeatures"
     ],
-    "DAPAR": [],
     "DART": [],
     "dasper": [
         "GenomicFeatures"
@@ -2041,9 +2040,7 @@
         "MLInterfaces",
         "pRoloc"
     ],
-    "Prostar": [
-        "DAPAR"
-    ],
+    "Prostar": [],
     "proteasy": [
         "GenomicFeatures",
         "ensembldb"
