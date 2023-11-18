@@ -101,7 +101,6 @@
         "VariantAnnotation",
         "rtracklayer"
     ],
-    "ALDEx2": [],
     "alevinQC": [],
     "AllelicImbalance": [
         "BSgenome",
@@ -330,7 +329,6 @@
     "BEclear": [],
     "beer": [],
     "benchdamic": [
-        "ALDEx2",
         "ANCOMBC",
         "MAST",
         "Maaslin2",
@@ -2737,7 +2735,6 @@
     ],
     "microbiomeExplorer": [],
     "microbiomeMarker": [
-        "ALDEx2",
         "ANCOMBC",
         "TreeSummarizedExperiment",
         "mia",
@@ -3190,9 +3187,7 @@
     "omada": [],
     "OmaDB": [],
     "omicade4": [],
-    "omicplotR": [
-        "ALDEx2"
-    ],
+    "omicplotR": [],
     "omicRexposome": [
         "genefilter",
         "omicade4",
