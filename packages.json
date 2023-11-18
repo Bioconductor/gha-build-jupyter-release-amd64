@@ -326,7 +326,6 @@
         "BSgenome"
     ],
     "brendaDb": [],
-    "BRGenomics": [],
     "BridgeDbR": [],
     "BSgenome": [],
     "BSgenomeForge": [
@@ -1070,7 +1069,6 @@
         "VariantAnnotation"
     ],
     "EpiCompare": [
-        "BRGenomics",
         "BSgenome",
         "ChIPseeker",
         "GenomicFeatures",
