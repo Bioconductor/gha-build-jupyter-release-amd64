@@ -1490,7 +1490,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "mdp": [],
     "MEAL": [
         "BSgenome",
         "GenomicFeatures",
