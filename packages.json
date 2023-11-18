@@ -1217,7 +1217,6 @@
     "GSEABenchmarkeR": [
         "EnrichmentBrowser"
     ],
-    "GSEAmining": [],
     "GSReg": [
         "GenomicFeatures",
         "OrganismDbi"
