@@ -71,7 +71,6 @@
     "antiProfiles": [],
     "AnVILBilling": [],
     "AnVILPublish": [],
-    "AnVILWorkflow": [],
     "APAlyzer": [
         "BSgenome",
         "GenomicFeatures",
