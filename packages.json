@@ -5131,7 +5131,6 @@
         "GSEABase",
         "annotate"
     ],
-    "RCM": [],
     "Rcollectl": [],
     "Rcpi": [
         "GOSemSim"
