@@ -1291,7 +1291,6 @@
         "hiAnnotator"
     ],
     "HPAanalyze": [],
-    "HPAStainR": [],
     "HPiP": [],
     "HTSeqGenie": [
         "BSgenome",
