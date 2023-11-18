@@ -2293,7 +2293,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "RNASeqPower": [],
     "RnaSeqSampleSize": [
         "BSgenome",
         "GenomicFeatures",
