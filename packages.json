@@ -154,7 +154,6 @@
         "SummarizedExperiment",
         "VariantAnnotation",
         "alabaster.mae",
-        "alabaster.matrix",
         "alabaster.ranges",
         "alabaster.sce",
         "alabaster.se",
@@ -168,22 +167,18 @@
     "alabaster.mae": [
         "MultiAssayExperiment",
         "SummarizedExperiment",
-        "alabaster.matrix",
         "alabaster.ranges",
         "alabaster.se"
     ],
-    "alabaster.matrix": [],
     "alabaster.ranges": [],
     "alabaster.sce": [
         "SingleCellExperiment",
         "SummarizedExperiment",
-        "alabaster.matrix",
         "alabaster.ranges",
         "alabaster.se"
     ],
     "alabaster.se": [
         "SummarizedExperiment",
-        "alabaster.matrix",
         "alabaster.ranges"
     ],
     "alabaster.spatial": [
@@ -191,7 +186,6 @@
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
-        "alabaster.matrix",
         "alabaster.ranges",
         "alabaster.sce",
         "alabaster.se",
@@ -206,7 +200,6 @@
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
-        "alabaster.matrix",
         "alabaster.ranges",
         "alabaster.se",
         "alabaster.string",
