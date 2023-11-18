@@ -2563,7 +2563,6 @@
         "ontoProc",
         "restfulSE"
     ],
-    "ternarynet": [],
     "terraTCGAdata": [
         "GenomicFeatures",
         "TCGAutils"
