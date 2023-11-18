@@ -1281,7 +1281,6 @@
         "VariantAnnotation"
     ],
     "GWENA": [],
-    "hca": [],
     "HelloRanges": [
         "BSgenome",
         "GenomicFeatures",
