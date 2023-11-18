@@ -2331,8 +2331,7 @@
     "OutSplice": [
         "BSgenome",
         "GenomicFeatures",
-        "Repitools",
-        "Ringo"
+        "Repitools"
     ],
     "PAA": [
         "sva"
@@ -2657,8 +2656,7 @@
         "minfi"
     ],
     "Repitools": [
-        "BSgenome",
-        "Ringo"
+        "BSgenome"
     ],
     "ReportingTools": [
         "BSgenome",
@@ -2731,7 +2729,6 @@
     "rifi": [],
     "rifiComparative": [],
     "RImmPort": [],
-    "Ringo": [],
     "RIPAT": [
         "BSgenome",
         "GenomicFeatures",
@@ -3051,9 +3048,7 @@
         "VariantAnnotation"
     ],
     "SIM": [],
-    "SimBindProfiles": [
-        "Ringo"
-    ],
+    "SimBindProfiles": [],
     "similaRpeak": [],
     "simpleSeg": [
         "DropletUtils",
