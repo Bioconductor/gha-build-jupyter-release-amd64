@@ -1284,8 +1284,7 @@
         "pipeFrame"
     ],
     "escape": [
-        "GSVA",
-        "UCell"
+        "GSVA"
     ],
     "escheR": [
         "DropletUtils",
@@ -3693,7 +3692,6 @@
         "ensembldb"
     ],
     "TypeInfo": [],
-    "UCell": [],
     "Ularcirc": [
         "BSgenome",
         "GenomicFeatures",
