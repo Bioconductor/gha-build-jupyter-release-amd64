@@ -93,7 +93,6 @@
     "arrayQualityMetrics": [
         "beadarray"
     ],
-    "ARRmNormalization": [],
     "artMS": [
         "MSstats"
     ],
