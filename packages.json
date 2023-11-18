@@ -3888,7 +3888,6 @@
         "minfi",
         "rtracklayer"
     ],
-    "QuartPAC": [],
     "QuasR": [
         "BSgenome",
         "GenomicFeatures",
