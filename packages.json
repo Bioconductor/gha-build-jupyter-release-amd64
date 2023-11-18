@@ -4295,7 +4295,6 @@
         "GSVA",
         "GenomicFeatures",
         "MAST",
-        "SingleR",
         "TSCAN",
         "TrajectoryUtils",
         "batchelor",
@@ -4322,7 +4321,6 @@
         "VariantAnnotation",
         "rtracklayer"
     ],
-    "SingleR": [],
     "singscore": [
         "GSEABase"
     ],
