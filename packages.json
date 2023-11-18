@@ -1404,7 +1404,6 @@
         "minfi",
         "missMethyl"
     ],
-    "MeasurementError.cor": [],
     "MEAT": [
         "GenomicFeatures",
         "bumphunter",
