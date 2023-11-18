@@ -1120,7 +1120,6 @@
         "exomeCopy"
     ],
     "CNVRanger": [
-        "GDSArray",
         "RaggedExperiment"
     ],
     "CNVrd2": [
@@ -2255,7 +2254,6 @@
         "clusterProfiler",
         "enrichplot"
     ],
-    "GDSArray": [],
     "GEM": [],
     "gemini": [],
     "genArise": [],
@@ -5936,9 +5934,7 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "VariantExperiment": [
-        "GDSArray"
-    ],
+    "VariantExperiment": [],
     "VariantFiltering": [
         "BSgenome",
         "GenomicAlignments",
