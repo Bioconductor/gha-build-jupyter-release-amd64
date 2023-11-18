@@ -896,7 +896,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "EMDomics": [],
     "EnhancedVolcano": [],
     "enhancerHomologSearch": [
         "BSgenome",
