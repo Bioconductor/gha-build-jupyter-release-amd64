@@ -229,7 +229,6 @@
     ],
     "BASiCStan": [
         "BASiCS",
-        "glmGamPoi",
         "scran"
     ],
     "batchelor": [],
@@ -1547,7 +1546,6 @@
     ],
     "GISPA": [],
     "GladiaTOX": [],
-    "glmGamPoi": [],
     "glmSparseNet": [],
     "GlobalAncova": [],
     "globalSeq": [],
@@ -3630,9 +3628,7 @@
         "ShortRead",
         "chipseq"
     ],
-    "transformGamPoi": [
-        "glmGamPoi"
-    ],
+    "transformGamPoi": [],
     "tRanslatome": [],
     "transomics2cytoscape": [
         "RCy3"
