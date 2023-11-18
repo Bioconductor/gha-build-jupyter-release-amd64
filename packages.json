@@ -1164,7 +1164,6 @@
         "GenomicFeatures",
         "ensembldb"
     ],
-    "GraphAlignment": [],
     "GreyListChIP": [
         "BSgenome"
     ],
