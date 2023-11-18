@@ -2348,7 +2348,6 @@
         "genefilter",
         "geneplotter",
         "rtracklayer",
-        "satuRn",
         "sva",
         "tximeta"
     ],
@@ -3995,7 +3994,6 @@
         "MGFR"
     ],
     "SANTA": [],
-    "satuRn": [],
     "savR": [],
     "SBGNview": [],
     "SBMLR": [],
