@@ -1519,7 +1519,6 @@
         "GWASTools",
         "oligoClasses"
     ],
-    "MBttest": [],
     "mCSEA": [
         "BSgenome",
         "GenomicFeatures",
