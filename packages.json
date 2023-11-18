@@ -2439,7 +2439,6 @@
         "GenomicFeatures",
         "RUVSeq"
     ],
-    "STdeconvolve": [],
     "strandCheckR": [
         "GenomicFeatures"
     ],
