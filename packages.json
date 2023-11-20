@@ -1946,8 +1946,7 @@
     "profileplyr": [
         "ChIPseeker",
         "GenomicFeatures",
-        "rGREAT",
-        "soGGi"
+        "rGREAT"
     ],
     "projectR": [
         "CoGAPS"
@@ -2475,7 +2474,6 @@
         "GenomicFeatures",
         "VariantAnnotation"
     ],
-    "soGGi": [],
     "SomaticSignatures": [
         "BSgenome",
         "GenomicFeatures",
