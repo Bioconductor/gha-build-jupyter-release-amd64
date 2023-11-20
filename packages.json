@@ -2127,7 +2127,6 @@
         "SummarizedExperiment",
         "scuttle"
     ],
-    "CytoPipeline": [],
     "cytoviewer": [
         "DropletUtils",
         "SingleCellExperiment",
