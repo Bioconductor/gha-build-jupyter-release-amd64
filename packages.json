@@ -2722,7 +2722,6 @@
     "transcriptR": [
         "GenomicFeatures"
     ],
-    "transformGamPoi": [],
     "tRanslatome": [],
     "transomics2cytoscape": [
         "RCy3"
