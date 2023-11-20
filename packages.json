@@ -2333,7 +2333,6 @@
         "genefilter",
         "geneplotter",
         "rtracklayer",
-        "satuRn",
         "sva",
         "tximeta"
     ],
@@ -3969,7 +3968,6 @@
         "MGFM",
         "MGFR"
     ],
-    "satuRn": [],
     "SBGNview": [],
     "SC3": [
         "SingleCellExperiment"
