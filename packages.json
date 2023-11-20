@@ -2118,9 +2118,7 @@
         "monocle",
         "rtracklayer"
     ],
-    "CIMICE": [
-        "maftools"
-    ],
+    "CIMICE": [],
     "CINdex": [
         "GenomicRanges"
     ],
@@ -6046,7 +6044,6 @@
         "SummarizedExperiment",
         "VariantAnnotation",
         "biomaRt",
-        "maftools",
         "plyranges",
         "rtracklayer"
     ],
@@ -6271,7 +6268,6 @@
         "biomaRt",
         "rtracklayer"
     ],
-    "maftools": [],
     "MAGAR": [
         "AnnotationDbi",
         "Biostrings",
@@ -7735,7 +7731,6 @@
         "VariantAnnotation",
         "biomaRt",
         "decompTumor2Sig",
-        "maftools",
         "rtracklayer"
     ],
     "MutationalPatterns": [
