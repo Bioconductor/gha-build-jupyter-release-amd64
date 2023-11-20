@@ -9341,7 +9341,6 @@
         "clusterProfiler",
         "enrichplot"
     ],
-    "metaSeq": [],
     "MetaVolcanoR": [],
     "MetCirc": [
         "Spectra"
