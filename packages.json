@@ -2094,7 +2094,6 @@
         "GenomicFeatures",
         "plyranges"
     ],
-    "Nebulosa": [],
     "netSmooth": [
         "clusterExperiment",
         "scater",
