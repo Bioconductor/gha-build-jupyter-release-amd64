@@ -1339,7 +1339,6 @@
         "rtracklayer",
         "topGO"
     ],
-    "CompoundDb": [],
     "condiments": [
         "SingleCellExperiment",
         "TrajectoryUtils",
@@ -3499,7 +3498,6 @@
     ],
     "MetaboAnnotation": [
         "AnnotationHub",
-        "CompoundDb",
         "MultiAssayExperiment",
         "QFeatures"
     ],
