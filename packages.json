@@ -1799,7 +1799,6 @@
         "biovizBase",
         "bumphunter",
         "derfinder",
-        "derfinderHelper",
         "derfinderPlot",
         "ensembldb",
         "ggbio",
@@ -4515,10 +4514,8 @@
         "XVector",
         "biomaRt",
         "bumphunter",
-        "derfinderHelper",
         "rtracklayer"
     ],
-    "derfinderHelper": [],
     "derfinderPlot": [
         "AnnotationDbi",
         "AnnotationFilter",
@@ -4541,7 +4538,6 @@
         "biovizBase",
         "bumphunter",
         "derfinder",
-        "derfinderHelper",
         "ensembldb",
         "ggbio",
         "rtracklayer"
@@ -11191,7 +11187,6 @@
         "bumphunter",
         "dasper",
         "derfinder",
-        "derfinderHelper",
         "megadepth",
         "plyranges",
         "rtracklayer"
@@ -12458,7 +12453,6 @@
         "biomaRt",
         "bumphunter",
         "derfinder",
-        "derfinderHelper",
         "recount",
         "rtracklayer"
     ],
@@ -12980,7 +12974,6 @@
         "biomaRt",
         "bumphunter",
         "derfinder",
-        "derfinderHelper",
         "rtracklayer"
     ],
     "recount3": [
@@ -13127,7 +13120,6 @@
         "biomaRt",
         "bumphunter",
         "derfinder",
-        "derfinderHelper",
         "rtracklayer"
     ],
     "regsplice": [
@@ -13676,7 +13668,6 @@
         "biomaRt",
         "bumphunter",
         "derfinder",
-        "derfinderHelper",
         "recount",
         "rtracklayer"
     ],
@@ -13834,7 +13825,6 @@
         "biomaRt",
         "bumphunter",
         "derfinder",
-        "derfinderHelper",
         "recount",
         "rtracklayer"
     ],
