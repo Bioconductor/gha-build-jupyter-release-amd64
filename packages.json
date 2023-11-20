@@ -2248,7 +2248,6 @@
     "scClassify": [
         "Cepo"
     ],
-    "scDblFinder": [],
     "scDD": [],
     "scFeatures": [
         "AUCell",
@@ -2365,7 +2364,6 @@
         "GenomicFeatures",
         "celda",
         "ensembldb",
-        "scDblFinder",
         "zinbwave"
     ],
     "SingleMoleculeFootprinting": [
