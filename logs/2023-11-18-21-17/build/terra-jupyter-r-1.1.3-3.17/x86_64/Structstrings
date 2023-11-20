@@ -1,0 +1,119 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''Structstrings'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.17 (BiocManager 1.30.22), R 4.3.1 (2023-06-16)
+Installing package(s) 'Structstrings'
+also installing the dependencies ‘Modstrings’, ‘tRNA’, ‘tRNAscanImport’
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/Modstrings_1.16.0.tar.gz'
+Content type 'application/x-gzip' length 828917 bytes (809 KB)
+==================================================
+downloaded 809 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/tRNA_1.18.0.tar.gz'
+Content type 'application/x-gzip' length 1244899 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/tRNAscanImport_1.20.0.tar.gz'
+Content type 'application/x-gzip' length 839864 bytes (820 KB)
+==================================================
+downloaded 820 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/Structstrings_1.16.0.tar.gz'
+Content type 'application/x-gzip' length 360419 bytes (351 KB)
+==================================================
+downloaded 351 KB
+
+* installing *source* package ‘Modstrings’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘Modstrings’ as ‘Modstrings_1.16.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Modstrings)
+* installing *source* package ‘Structstrings’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/S4Vectors/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c DotBracketDataFrame_class.c -o DotBracketDataFrame_class.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/S4Vectors/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c IRanges_stubs.c -o IRanges_stubs.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/S4Vectors/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c R_init_Structstrings.c -o R_init_Structstrings.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/S4Vectors/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/S4Vectors/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c utils.c -o utils.o
+gcc -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o Structstrings.so DotBracketDataFrame_class.o IRanges_stubs.o R_init_Structstrings.o S4Vectors_stubs.o utils.o -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-Structstrings/00new/Structstrings/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘Structstrings’ as ‘Structstrings_1.16.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Structstrings)
+* installing *source* package ‘tRNA’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘tRNA’ as ‘tRNA_1.18.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tRNA)
+* installing *source* package ‘tRNAscanImport’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘tRNAscanImport’ as ‘tRNAscanImport_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tRNAscanImport)
+
+The downloaded source packages are in
+	‘/tmp/RtmplyBKK1/downloaded_packages’
+Old packages: 'dbplyr', 'dplyr', 'DT', 'evaluate', 'fansi', 'GenomicRanges',
+  'ggplot2', 'ggrepel', 'htmltools', 'httpuv', 'httr2', 'knitr', 'lattice',
+  'leiden', 'lifecycle', 'Matrix', 'matrixStats', 'plotly', 'ragg',
+  'RcppArmadillo', 'RcppEigen', 'RCurl', 'reticulate', 'rlang', 'rpart',
+  'rprojroot', 'RSQLite', 'sctransform', 'scuttle', 'Seurat', 'SeuratObject',
+  'shiny', 'sp', 'spatstat.data', 'spatstat.explore', 'spatstat.geom',
+  'spatstat.random', 'spatstat.sparse', 'spatstat.utils', 'stringi', 'stringr',
+  'systemfonts', 'testthat', 'textshaping', 'tinytex', 'utf8', 'vctrs',
+  'waldo', 'withr', 'xfun', 'XML'
+
+real	1m0.928s
+user	0m55.482s
+sys	0m9.607s
