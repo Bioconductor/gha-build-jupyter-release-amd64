@@ -1,0 +1,67 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''deltaCaptureC'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.17 (BiocManager 1.30.22), R 4.3.1 (2023-06-16)
+Installing package(s) 'deltaCaptureC'
+also installing the dependency ‘tictoc’
+
+trying URL 'https://cloud.r-project.org/src/contrib/tictoc_1.2.tar.gz'
+Content type 'application/x-gzip' length 420465 bytes (410 KB)
+==================================================
+downloaded 410 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/deltaCaptureC_1.14.0.tar.gz'
+Content type 'application/x-gzip' length 331592 bytes (323 KB)
+==================================================
+downloaded 323 KB
+
+* installing *source* package ‘tictoc’ ...
+** package ‘tictoc’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘tictoc’ as ‘tictoc_1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tictoc)
+* installing *source* package ‘deltaCaptureC’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘deltaCaptureC’ as ‘deltaCaptureC_1.14.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (deltaCaptureC)
+
+The downloaded source packages are in
+	‘/tmp/RtmpCgMp4W/downloaded_packages’
+Old packages: 'dbplyr', 'dplyr', 'DT', 'evaluate', 'fansi', 'GenomicRanges',
+  'ggplot2', 'ggrepel', 'htmltools', 'httpuv', 'httr2', 'knitr', 'lattice',
+  'leiden', 'lifecycle', 'Matrix', 'matrixStats', 'plotly', 'ragg',
+  'RcppArmadillo', 'RcppEigen', 'RCurl', 'reticulate', 'rlang', 'rpart',
+  'rprojroot', 'RSQLite', 'sctransform', 'scuttle', 'Seurat', 'SeuratObject',
+  'shiny', 'sp', 'spatstat.data', 'spatstat.explore', 'spatstat.geom',
+  'spatstat.random', 'spatstat.sparse', 'spatstat.utils', 'stringi', 'stringr',
+  'systemfonts', 'testthat', 'textshaping', 'tinytex', 'utf8', 'vctrs',
+  'waldo', 'withr', 'xfun', 'XML'
+
+real	0m24.811s
+user	0m20.546s
+sys	0m4.740s
