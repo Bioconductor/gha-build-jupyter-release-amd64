@@ -4954,7 +4954,6 @@
         "rtracklayer",
         "zlibbioc"
     ],
-    "CNVgears": [],
     "cnvGSA": [
         "GenomeInfoDb",
         "GenomicRanges",
