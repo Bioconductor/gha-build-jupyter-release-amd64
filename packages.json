@@ -1202,7 +1202,6 @@
         "GenomicFeatures",
         "OrganismDbi"
     ],
-    "GSRI": [],
     "GSVA": [],
     "GUIDEseq": [
         "BSgenome",
