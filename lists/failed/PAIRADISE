@@ -1,0 +1,77 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''PAIRADISE'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.17 (BiocManager 1.30.22), R 4.3.1 (2023-06-16)
+Installing package(s) 'PAIRADISE'
+also installing the dependency ‘nloptr’
+
+trying URL 'https://cloud.r-project.org/src/contrib/nloptr_2.0.3.tar.gz'
+Content type 'application/x-gzip' length 2219877 bytes (2.1 MB)
+==================================================
+downloaded 2.1 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/PAIRADISE_1.16.0.tar.gz'
+Content type 'application/x-gzip' length 313415 bytes (306 KB)
+==================================================
+downloaded 306 KB
+
+* installing *source* package ‘nloptr’ ...
+** package ‘nloptr’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C++... yes
+checking whether g++ -std=gnu++17 accepts -g... yes
+checking for g++ -std=gnu++17 option to enable C++11 features... none needed
+checking how to run the C++ preprocessor... g++ -std=gnu++17 -E
+checking whether the compiler supports GNU C++... (cached) yes
+checking whether g++ -std=gnu++17 accepts -g... (cached) yes
+checking for g++ -std=gnu++17 option to enable C++11 features... (cached) none needed
+checking for pkg-config... /usr/bin/pkg-config
+checking if pkg-config knows NLopt... no
+checking for cmake... no
+
+------------------ CMAKE NOT FOUND --------------------
+
+CMake was not found on the PATH. Please install CMake:
+
+ - sudo yum install cmake          (Fedora/CentOS; inside a terminal)
+ - sudo apt install cmake          (Debian/Ubuntu; inside a terminal).
+ - sudo pacman -S cmake            (Arch Linux; inside a terminal).
+ - sudo brew install cmake         (MacOS; inside a terminal with Homebrew)
+ - sudo port install cmake         (MacOS; inside a terminal with MacPorts)
+
+Alternatively install CMake from: <https://cmake.org/>
+
+-------------------------------------------------------
+
+ERROR: configuration failed for package ‘nloptr’
+* removing ‘/tmp/tmp/built/nloptr’
+ERROR: dependency ‘nloptr’ is not available for package ‘PAIRADISE’
+* removing ‘/tmp/tmp/built/PAIRADISE’
+
+The downloaded source packages are in
+	‘/tmp/RtmpXMtF9Z/downloaded_packages’
+Old packages: 'dbplyr', 'dplyr', 'DT', 'evaluate', 'fansi', 'GenomicRanges',
+  'ggplot2', 'ggrepel', 'htmltools', 'httpuv', 'httr2', 'knitr', 'lattice',
+  'leiden', 'lifecycle', 'Matrix', 'matrixStats', 'plotly', 'ragg',
+  'RcppArmadillo', 'RcppEigen', 'RCurl', 'reticulate', 'rlang', 'rpart',
+  'rprojroot', 'RSQLite', 'sctransform', 'scuttle', 'Seurat', 'SeuratObject',
+  'shiny', 'sp', 'spatstat.data', 'spatstat.explore', 'spatstat.geom',
+  'spatstat.random', 'spatstat.sparse', 'spatstat.utils', 'stringi', 'stringr',
+  'systemfonts', 'testthat', 'textshaping', 'tinytex', 'utf8', 'vctrs',
+  'waldo', 'withr', 'xfun', 'XML'
+Warning messages:
+1: In install.packages(...) :
+  installation of package ‘nloptr’ had non-zero exit status
+2: In install.packages(...) :
+  installation of package ‘PAIRADISE’ had non-zero exit status
+
+real	0m5.086s
+user	0m2.698s
+sys	0m1.449s
