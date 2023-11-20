@@ -3058,7 +3058,6 @@
     "MultimodalExperiment": [
         "MultiAssayExperiment"
     ],
-    "multiOmicsViz": [],
     "multiSight": [
         "DOSE",
         "MultiAssayExperiment",
