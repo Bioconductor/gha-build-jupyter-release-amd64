@@ -4601,7 +4601,6 @@
         "SingleCellExperiment"
     ],
     "sSNAPPY": [],
-    "ssPATHS": [],
     "standR": [
         "DropletUtils",
         "EDASeq",
