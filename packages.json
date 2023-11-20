@@ -1240,7 +1240,6 @@
         "Biostrings",
         "KEGGREST",
         "annotate",
-        "epiNEM",
         "genefilter",
         "sva"
     ],
@@ -3115,7 +3114,6 @@
         "AnnotationDbi",
         "Biostrings",
         "KEGGREST",
-        "epiNEM",
         "graphite"
     ],
     "ddPCRclust": [
@@ -4030,7 +4028,6 @@
         "minfi",
         "rtracklayer"
     ],
-    "epiNEM": [],
     "epistack": [
         "GenomicRanges",
         "SummarizedExperiment"
@@ -7874,9 +7871,7 @@
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
-    "nempi": [
-        "epiNEM"
-    ],
+    "nempi": [],
     "NetActivity": [
         "DESeq2",
         "DelayedMatrixStats",

@@ -1,0 +1,255 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''epiNEM'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.17 (BiocManager 1.30.22), R 4.3.1 (2023-06-16)
+Installing package(s) 'epiNEM'
+also installing the dependencies ‘gsubfn’, ‘proto’, ‘chron’, ‘sqldf’, ‘hash’, ‘plotrix’, ‘STRINGdb’, ‘GOSemSim’, ‘org.Sc.sgd.db’
+
+trying URL 'https://cloud.r-project.org/src/contrib/gsubfn_0.7.tar.gz'
+Content type 'application/x-gzip' length 311271 bytes (303 KB)
+==================================================
+downloaded 303 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/proto_1.0.0.tar.gz'
+Content type 'application/x-gzip' length 541398 bytes (528 KB)
+==================================================
+downloaded 528 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/chron_2.3-61.tar.gz'
+Content type 'application/x-gzip' length 37347 bytes (36 KB)
+==================================================
+downloaded 36 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/sqldf_0.4-11.tar.gz'
+Content type 'application/x-gzip' length 63097 bytes (61 KB)
+==================================================
+downloaded 61 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/hash_2.2.6.3.tar.gz'
+Content type 'application/x-gzip' length 17257 bytes (16 KB)
+==================================================
+downloaded 16 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/plotrix_3.8-4.tar.gz'
+Content type 'application/x-gzip' length 318991 bytes (311 KB)
+==================================================
+downloaded 311 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/STRINGdb_2.12.1.tar.gz'
+Content type 'application/x-gzip' length 8193922 bytes (7.8 MB)
+==================================================
+downloaded 7.8 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/GOSemSim_2.26.1.tar.gz'
+Content type 'application/x-gzip' length 606235 bytes (592 KB)
+==================================================
+downloaded 592 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/org.Sc.sgd.db_3.17.0.tar.gz'
+Content type 'application/x-gzip' length 20717356 bytes (19.8 MB)
+==================================================
+downloaded 19.8 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/epiNEM_1.24.0.tar.gz'
+Content type 'application/x-gzip' length 1948270 bytes (1.9 MB)
+==================================================
+downloaded 1.9 MB
+
+* installing *source* package ‘proto’ ...
+** package ‘proto’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘proto’ as ‘proto_1.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (proto)
+* installing *source* package ‘chron’ ...
+** package ‘chron’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c chron_strs.c -o chron_strs.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c init.c -o init.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c unpaste.c -o unpaste.o
+gcc -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o chron.so chron_strs.o init.o unpaste.o -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-chron/00new/chron/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘chron’ as ‘chron_2.3-61_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (chron)
+* installing *source* package ‘hash’ ...
+** package ‘hash’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** demo
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘hash’ as ‘hash_2.2.6.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hash)
+* installing *source* package ‘plotrix’ ...
+** package ‘plotrix’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘plotrix’ as ‘plotrix_3.8-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (plotrix)
+* installing *source* package ‘GOSemSim’ ...
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c ICmethod.cpp -o ICmethod.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o GOSemSim.so ICmethod.o RcppExports.o -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-GOSemSim/00new/GOSemSim/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GOSemSim’ as ‘GOSemSim_2.26.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GOSemSim)
+* installing *source* package ‘org.Sc.sgd.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘org.Sc.sgd.db’ as ‘org.Sc.sgd.db_3.17.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Sc.sgd.db)
+* installing *source* package ‘epiNEM’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘epiNEM’ as ‘epiNEM_1.24.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (epiNEM)
+* installing *source* package ‘gsubfn’ ...
+** package ‘gsubfn’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package can be loaded from final location
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘gsubfn’ as ‘gsubfn_0.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gsubfn)
+* installing *source* package ‘sqldf’ ...
+** package ‘sqldf’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+Warning message:
+no DISPLAY variable so Tk is not available 
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package can be loaded from final location
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘sqldf’ as ‘sqldf_0.4-11_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sqldf)
+* installing *source* package ‘STRINGdb’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘STRINGdb’ as ‘STRINGdb_2.12.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (STRINGdb)
+
+The downloaded source packages are in
+	‘/tmp/RtmpW32k3c/downloaded_packages’
+Old packages: 'dbplyr', 'dplyr', 'DT', 'evaluate', 'fansi', 'GenomicRanges',
+  'ggplot2', 'ggrepel', 'htmltools', 'httpuv', 'httr2', 'knitr', 'lattice',
+  'leiden', 'lifecycle', 'Matrix', 'matrixStats', 'plotly', 'ragg',
+  'RcppArmadillo', 'RcppEigen', 'RCurl', 'reticulate', 'rlang', 'rpart',
+  'rprojroot', 'RSQLite', 'sctransform', 'scuttle', 'Seurat', 'SeuratObject',
+  'shiny', 'sp', 'spatstat.data', 'spatstat.explore', 'spatstat.geom',
+  'spatstat.random', 'spatstat.sparse', 'spatstat.utils', 'stringi', 'stringr',
+  'systemfonts', 'testthat', 'textshaping', 'tinytex', 'utf8', 'vctrs',
+  'waldo', 'withr', 'xfun', 'XML'
+
+real	1m44.193s
+user	1m37.906s
+sys	0m20.250s
