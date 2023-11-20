@@ -1,0 +1,64 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''STROMA4'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.17 (BiocManager 1.30.22), R 4.3.1 (2023-06-16)
+Installing package(s) 'STROMA4'
+also installing the dependency ‘breastCancerMAINZ’
+
+trying URL 'https://bioconductor.org/packages/3.17/data/experiment/src/contrib/breastCancerMAINZ_1.38.0.tar.gz'
+Content type 'application/x-gzip' length 36486307 bytes (34.8 MB)
+==================================================
+downloaded 34.8 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/STROMA4_1.24.0.tar.gz'
+Content type 'application/x-gzip' length 110196 bytes (107 KB)
+==================================================
+downloaded 107 KB
+
+* installing *source* package ‘breastCancerMAINZ’ ...
+** using staged installation
+** data
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘breastCancerMAINZ’ as ‘breastCancerMAINZ_1.38.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (breastCancerMAINZ)
+* installing *source* package ‘STROMA4’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘STROMA4’ as ‘STROMA4_1.24.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (STROMA4)
+
+The downloaded source packages are in
+	‘/tmp/RtmplY9XLq/downloaded_packages’
+Old packages: 'dbplyr', 'dplyr', 'DT', 'evaluate', 'fansi', 'GenomicRanges',
+  'ggplot2', 'ggrepel', 'htmltools', 'httpuv', 'httr2', 'knitr', 'lattice',
+  'leiden', 'lifecycle', 'Matrix', 'matrixStats', 'plotly', 'ragg',
+  'RcppArmadillo', 'RcppEigen', 'RCurl', 'reticulate', 'rlang', 'rpart',
+  'rprojroot', 'RSQLite', 'sctransform', 'scuttle', 'Seurat', 'SeuratObject',
+  'shiny', 'sp', 'spatstat.data', 'spatstat.explore', 'spatstat.geom',
+  'spatstat.random', 'spatstat.sparse', 'spatstat.utils', 'stringi', 'stringr',
+  'systemfonts', 'testthat', 'textshaping', 'tinytex', 'utf8', 'vctrs',
+  'waldo', 'withr', 'xfun', 'XML'
+
+real	0m9.960s
+user	0m7.171s
+sys	0m3.729s
