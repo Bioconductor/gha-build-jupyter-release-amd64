@@ -2131,7 +2131,6 @@
     ],
     "multiGSEA": [],
     "multiHiCcompare": [],
-    "MultimodalExperiment": [],
     "multiSight": [
         "ReactomePA",
         "biosigner",
