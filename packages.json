@@ -27,7 +27,6 @@
     "ABarray": [],
     "ACE": [
         "Biostrings",
-        "CGHbase",
         "CGHcall",
         "GenomeInfoDb",
         "GenomicRanges",
@@ -1823,7 +1822,6 @@
         "AnnotationHub",
         "BSgenome",
         "Biostrings",
-        "CGHbase",
         "CGHcall",
         "DelayedArray",
         "DelayedMatrixStats",
@@ -2822,10 +2820,7 @@
         "IRanges",
         "XVector"
     ],
-    "CGHbase": [],
-    "CGHcall": [
-        "CGHbase"
-    ],
+    "CGHcall": [],
     "cghMCR": [
         "AnnotationDbi",
         "Biostrings",
@@ -2838,12 +2833,9 @@
         "genefilter"
     ],
     "CGHnormaliter": [
-        "CGHbase",
         "CGHcall"
     ],
-    "CGHregions": [
-        "CGHbase"
-    ],
+    "CGHregions": [],
     "ChAMP": [
         "AnnotationDbi",
         "AnnotationFilter",
@@ -7346,7 +7338,6 @@
     ],
     "GeneBreak": [
         "Biostrings",
-        "CGHbase",
         "CGHcall",
         "GenomeInfoDb",
         "GenomicRanges",
@@ -14243,7 +14234,6 @@
     "qcmetrics": [],
     "QDNAseq": [
         "Biostrings",
-        "CGHbase",
         "CGHcall",
         "GenomeInfoDb",
         "GenomicRanges",
