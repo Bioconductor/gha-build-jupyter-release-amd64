@@ -2435,7 +2435,6 @@
     "PhyloProfile": [
         "OmaDB"
     ],
-    "PICS": [],
     "Pigengene": [
         "ReactomePA",
         "clusterProfiler",
@@ -2445,7 +2444,6 @@
         "BSgenome",
         "GenomicFeatures",
         "Gviz",
-        "PICS",
         "VariantAnnotation",
         "biovizBase",
         "ensembldb"
