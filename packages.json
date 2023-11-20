@@ -1143,9 +1143,7 @@
         "GenomeInfoDb",
         "GenomicRanges"
     ],
-    "BiGGR": [
-        "hyperdraw"
-    ],
+    "BiGGR": [],
     "bigmelon": [
         "AnnotationDbi",
         "Biostrings",
@@ -6643,7 +6641,6 @@
         "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "hyperdraw": [],
     "iasva": [
         "DelayedArray",
         "GenomeInfoDb",
