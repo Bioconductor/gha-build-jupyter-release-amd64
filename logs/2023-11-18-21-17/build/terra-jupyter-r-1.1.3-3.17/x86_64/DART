@@ -1,0 +1,589 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''DART'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.17 (BiocManager 1.30.22), R 4.3.1 (2023-06-16)
+Installing package(s) 'DART'
+also installing the dependencies ‘breastCancerVDX’, ‘breastCancerMAINZ’
+
+trying URL 'https://bioconductor.org/packages/3.17/data/experiment/src/contrib/breastCancerVDX_1.38.0.tar.gz'
+Content type 'application/x-gzip' length 41439449 bytes (39.5 MB)
+==================================================
+downloaded 39.5 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/experiment/src/contrib/breastCancerMAINZ_1.38.0.tar.gz'
+Content type 'application/x-gzip' length 36486307 bytes (34.8 MB)
+==================================================
+downloaded 34.8 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/DART_1.48.0.tar.gz'
+Content type 'application/x-gzip' length 2084490 bytes (2.0 MB)
+==================================================
+downloaded 2.0 MB
+
+* installing *source* package ‘breastCancerVDX’ ...
+** using staged installation
+** data
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘breastCancerVDX’ as ‘breastCancerVDX_1.38.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (breastCancerVDX)
+* installing *source* package ‘breastCancerMAINZ’ ...
+** using staged installation
+** data
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘breastCancerMAINZ’ as ‘breastCancerMAINZ_1.38.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (breastCancerMAINZ)
+* installing *source* package ‘DART’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘DART’ as ‘DART_1.48.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DART)
+
+The downloaded source packages are in
+	‘/tmp/RtmpqRSpG4/downloaded_packages’
+Old packages: 'dbplyr', 'dplyr', 'DT', 'evaluate', 'fansi', 'GenomicRanges',
+  'ggplot2', 'ggrepel', 'htmltools', 'httpuv', 'httr2', 'knitr', 'lattice',
+  'leiden', 'lifecycle', 'Matrix', 'matrixStats', 'plotly', 'ragg',
+  'RcppArmadillo', 'RcppEigen', 'RCurl', 'reticulate', 'rlang', 'rpart',
+  'rprojroot', 'RSQLite', 'sctransform', 'scuttle', 'Seurat', 'SeuratObject',
+  'shiny', 'sp', 'spatstat.data', 'spatstat.explore', 'spatstat.geom',
+  'spatstat.random', 'spatstat.sparse', 'spatstat.utils', 'stringi', 'stringr',
+  'systemfonts', 'testthat', 'textshaping', 'tinytex', 'utf8', 'vctrs',
+  'waldo', 'withr', 'xfun', 'XML'
+
+real	0m14.217s
+user	0m10.079s
+sys	0m5.312s
+* installing *source* package ‘shape’ ...
+** package ‘shape’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘shape’ as ‘shape_1.4.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shape)
+* installing *source* package ‘numDeriv’ ...
+** package ‘numDeriv’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘numDeriv’ as ‘numDeriv_2016.8-1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (numDeriv)
+* installing *source* package ‘SQUAREM’ ...
+** package ‘SQUAREM’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘SQUAREM’ as ‘SQUAREM_2021.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SQUAREM)
+* installing *source* package ‘proxy’ ...
+** package ‘proxy’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c apply.c -o apply.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c arrayIndex.c -o arrayIndex.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c distance.c -o distance.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c dll.c -o dll.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c util.c -o util.o
+gcc -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o proxy.so apply.o arrayIndex.o distance.o dll.o util.o -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-proxy/00new/proxy/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘proxy’ as ‘proxy_0.4-27_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (proxy)
+* installing *source* package ‘pamr’ ...
+** package ‘pamr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using Fortran compiler: ‘GNU Fortran (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gfortran  -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong  -c knnimpute.f -o knnimpute.o
+knnimpute.f:99:72:
+
+   99 |  20                  pos(k1+1) = pos(k1)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 20 at (1)
+knnimpute.f:113:72:
+
+  113 |  35                     pos(k1+1) = pos(k1)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 35 at (1)
+gcc -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o pamr.so knnimpute.o -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-pamr/00new/pamr/libs
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘pamr’ as ‘pamr_1.56.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pamr)
+* installing *source* package ‘iC10TrainingData’ ...
+** package ‘iC10TrainingData’ successfully unpacked and MD5 sums checked
+** using staged installation
+** data
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘iC10TrainingData’ as ‘iC10TrainingData_1.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (iC10TrainingData)
+* installing *source* package ‘SuppDists’ ...
+** package ‘SuppDists’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+using C++11
+g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c dists.cpp -o dists.o
+g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c init.cpp -o init.o
+g++ -std=gnu++11 -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o SuppDists.so dists.o init.o -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-SuppDists/00new/SuppDists/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘SuppDists’ as ‘SuppDists_1.1-9.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SuppDists)
+* installing *source* package ‘survivalROC’ ...
+** package ‘survivalROC’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c survivalROC.c -o survivalROC.o
+gcc -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o survivalROC.so survivalROC.o -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-survivalROC/00new/survivalROC/libs
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘survivalROC’ as ‘survivalROC_1.0.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (survivalROC)
+* installing *source* package ‘bootstrap’ ...
+** package ‘bootstrap’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c bootstrap_init.c -o bootstrap_init.o
+gfortran  -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong  -c boott.f -o boott.o
+gcc -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o bootstrap.so bootstrap_init.o boott.o -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-bootstrap/00new/bootstrap/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘bootstrap’ as ‘bootstrap_2019.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bootstrap)
+* installing *source* package ‘rmeta’ ...
+** package ‘rmeta’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘rmeta’ as ‘rmeta_3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rmeta)
+* installing *source* package ‘amap’ ...
+** package ‘amap’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+using C++ compiler: ‘g++ (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c acprob.cpp -o acprob.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c burt.c -o burt.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c diss.c -o diss.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c distance.cpp -o distance.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c hclust.cpp -o hclust.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c init.c -o init.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c kmeans.cpp -o kmeans.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c matrice.cpp -o matrice.o
+gfortran  -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong  -c pop.f -o pop.o
+g++ -std=gnu++17 -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o amap.so acprob.o burt.o diss.o distance.o hclust.o init.o kmeans.o matrice.o pop.o -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-amap/00new/amap/libs
+** R
+** data
+** demo
+** exec
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘amap’ as ‘amap_0.8-19_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (amap)
+* installing *source* package ‘impute’ ...
+** using staged installation
+** libs
+using Fortran compiler: ‘GNU Fortran (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gfortran  -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong  -c knnimpute.f -o knnimpute.o
+knnimpute.f:99:72:
+
+   99 | 20                   pos(k1+1) = pos(k1)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 20 at (1)
+knnimpute.f:113:72:
+
+  113 | 35                   pos(k1+1) = pos(k1)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 35 at (1)
+gcc -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o impute.so knnimpute.o -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-impute/00new/impute/libs
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘impute’ as ‘impute_1.74.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (impute)
+* installing *source* package ‘mclust’ ...
+** package ‘mclust’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gfortran  -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong  -c dmvnorm.f -o dmvnorm.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c init.c -o init.o
+gfortran  -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong  -c mclust.f -o mclust.o
+gfortran  -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong  -c mclustaddson.f -o mclustaddson.o
+gcc -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o mclust.so dmvnorm.o init.o mclust.o mclustaddson.o -llapack -lblas -lgfortran -lm -lquadmath -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-mclust/00new/mclust/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘mclust’ as ‘mclust_6.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mclust)
+* installing *source* package ‘breastCancerMAINZ’ ...
+** using staged installation
+** data
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘breastCancerMAINZ’ as ‘breastCancerMAINZ_1.38.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (breastCancerMAINZ)
+* installing *source* package ‘diagram’ ...
+** package ‘diagram’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘diagram’ as ‘diagram_1.6.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (diagram)
+* installing *source* package ‘lava’ ...
+** package ‘lava’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘lava’ as ‘lava_1.7.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lava)
+* installing *source* package ‘e1071’ ...
+** package ‘e1071’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+using C++ compiler: ‘g++ (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c Rsvm.c -o Rsvm.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c cmeans.c -o cmeans.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c cshell.c -o cshell.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c floyd.c -o floyd.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c init.c -o init.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c svm.cpp -o svm.o
+g++ -std=gnu++17 -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o e1071.so Rsvm.o cmeans.o cshell.o floyd.o init.o svm.o -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-e1071/00new/e1071/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘e1071’ as ‘e1071_1.7-13_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (e1071)
+* installing *source* package ‘iC10’ ...
+** package ‘iC10’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘iC10’ as ‘iC10_1.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (iC10)
+* installing *source* package ‘prodlim’ ...
+** package ‘prodlim’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c GMLE.c -o GMLE.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c IntIndex.c -o IntIndex.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c icens_prodlim.c -o icens_prodlim.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c icens_prodlim_ml.c -o icens_prodlim_ml.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c iindex.c -o iindex.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c init.c -o init.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c life_table.c -o life_table.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c loo.c -o loo.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c neighborhood.c -o neighborhood.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c predict.c -o predict.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c predict_individual_survival.c -o predict_individual_survival.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c prodlim.c -o prodlim.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c prodlim_clustersurv.c -o prodlim_clustersurv.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c prodlim_comprisk.c -o prodlim_comprisk.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c prodlim_multistates.c -o prodlim_multistates.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c prodlim_surv.c -o prodlim_surv.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c sindex.c -o sindex.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c summary_prodlim.c -o summary_prodlim.o
+gcc -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o prodlim.so GMLE.o IntIndex.o icens_prodlim.o icens_prodlim_ml.o iindex.o init.o life_table.o loo.o neighborhood.o predict.o predict_individual_survival.o prodlim.o prodlim_clustersurv.o prodlim_comprisk.o prodlim_multistates.o prodlim_surv.o sindex.o summary_prodlim.o -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-prodlim/00new/prodlim/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘prodlim’ as ‘prodlim_2023.08.28_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (prodlim)
+* installing *source* package ‘AIMS’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘AIMS’ as ‘AIMS_1.32.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (AIMS)
+* installing *source* package ‘ipred’ ...
+** package ‘ipred’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c SdiffKM.c -o SdiffKM.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c init.c -o init.o
+gcc -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o ipred.so SdiffKM.o init.o -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-ipred/00new/ipred/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ipred’ as ‘ipred_0.9-14_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ipred)
+* installing *source* package ‘survcomp’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+using C++ compiler: ‘g++ (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c concordance.index.c -o concordance.index.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c foo_mrmr_ensemble_surv.cpp -o foo_mrmr_ensemble_surv.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c foo_mrmr_surv.cpp -o foo_mrmr_surv.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c survcomp_init.cpp -o survcomp_init.o
+g++ -std=gnu++17 -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o survcomp.so concordance.index.o foo_mrmr_ensemble_surv.o foo_mrmr_surv.o survcomp_init.o -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-survcomp/00new/survcomp/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘survcomp’ as ‘survcomp_1.50.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (survcomp)
+* installing *source* package ‘genefu’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘genefu’ as ‘genefu_2.32.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (genefu)
