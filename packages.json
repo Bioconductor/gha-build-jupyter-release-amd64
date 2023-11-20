@@ -11743,7 +11743,6 @@
         "scuttle",
         "sparseMatrixStats"
     ],
-    "MiChip": [],
     "microbiome": [
         "Biostrings",
         "GenomeInfoDb",
