@@ -2455,7 +2455,6 @@
         "GenomicFeatures",
         "RUVSeq"
     ],
-    "Statial": [],
     "stJoincount": [],
     "strandCheckR": [
         "GenomicFeatures"
