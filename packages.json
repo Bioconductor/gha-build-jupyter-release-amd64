@@ -15708,7 +15708,6 @@
         "SummarizedExperiment",
         "XVector"
     ],
-    "snifter": [],
     "snm": [],
     "SNPhood": [
         "AnnotationDbi",
