@@ -116,7 +116,7 @@ packaged installation of ‘bench’ as ‘bench_1.1.3_R_x86_64-pc-linux-gnu.tar
 * DONE (bench)
 
 The downloaded source packages are in
-	‘/tmp/Rtmp4NNLom/downloaded_packages’
+	‘/tmp/RtmpJz3Huq/downloaded_packages’
 Old packages: 'dbplyr', 'dplyr', 'DT', 'evaluate', 'fansi', 'GenomicRanges',
   'ggplot2', 'ggrepel', 'htmltools', 'httpuv', 'httr2', 'knitr', 'lattice',
   'leiden', 'lifecycle', 'Matrix', 'matrixStats', 'plotly', 'ragg',
@@ -127,6 +127,6 @@ Old packages: 'dbplyr', 'dplyr', 'DT', 'evaluate', 'fansi', 'GenomicRanges',
   'systemfonts', 'testthat', 'textshaping', 'tinytex', 'utf8', 'vctrs',
   'waldo', 'withr', 'xfun', 'XML'
 
-real	0m19.503s
-user	0m16.554s
-sys	0m7.496s
+real	0m20.285s
+user	0m16.295s
+sys	0m7.454s
