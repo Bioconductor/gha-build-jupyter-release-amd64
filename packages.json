@@ -10023,7 +10023,6 @@
         "ncdfFlow",
         "zlibbioc"
     ],
-    "flowMap": [],
     "flowMatch": [
         "Biobase",
         "S4Vectors",
