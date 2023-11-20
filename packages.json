@@ -10777,7 +10777,6 @@
     "fmcsR": [
         "ChemmineR"
     ],
-    "fmrs": [],
     "fobitools": [
         "BiocParallel",
         "fgsea"
