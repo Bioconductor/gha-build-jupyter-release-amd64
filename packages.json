@@ -367,7 +367,6 @@
         "GSEABase"
     ],
     "BioMM": [],
-    "BioNAR": [],
     "BioNERO": [
         "genefilter",
         "sva"
