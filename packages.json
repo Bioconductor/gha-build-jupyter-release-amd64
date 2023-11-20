@@ -1888,7 +1888,6 @@
         "enrichplot"
     ],
     "GDSArray": [],
-    "gemma.R": [],
     "genbankr": [
         "BSgenome",
         "GenomicFeatures",
