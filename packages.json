@@ -21381,7 +21381,6 @@
         "BrowserViz",
         "graph"
     ],
-    "rDGIdb": [],
     "ReactomeGraph4R": [],
     "ReactomePA": [
         "AnnotationDbi",
