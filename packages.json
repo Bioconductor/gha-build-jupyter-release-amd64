@@ -218,7 +218,6 @@
         "GenomicFeatures"
     ],
     "BGmix": [],
-    "BicARE": [],
     "bigmelon": [
         "GenomicFeatures",
         "bumphunter",
@@ -1774,7 +1773,6 @@
         "TCGAbiolinks"
     ],
     "miRSM": [
-        "BicARE",
         "ReactomePA",
         "SPONGE",
         "clusterProfiler",
