@@ -18376,7 +18376,6 @@
         "zlibbioc"
     ],
     "Path2PPI": [],
-    "pathifier": [],
     "PathoStat": [
         "Biobase",
         "Biostrings",
