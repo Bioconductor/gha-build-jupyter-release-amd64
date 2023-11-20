@@ -22740,7 +22740,6 @@
         "qvalue",
         "zlibbioc"
     ],
-    "rnaseqcomp": [],
     "RnaSeqSampleSize": [
         "AnnotationDbi",
         "BSgenome",
