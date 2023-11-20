@@ -3431,7 +3431,6 @@
         "Rsamtools",
         "SummarizedExperiment"
     ],
-    "GenomicDistributions": [],
     "GenomicFeatures": [
         "AnnotationDbi",
         "GenomicAlignments",
