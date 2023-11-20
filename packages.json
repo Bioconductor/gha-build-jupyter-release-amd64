@@ -1876,7 +1876,6 @@
     "PhyloProfile": [
         "OmaDB"
     ],
-    "Pigengene": [],
     "PING": [
         "BSgenome",
         "GenomicFeatures",
