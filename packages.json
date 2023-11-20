@@ -13629,7 +13629,6 @@
         "SummarizedExperiment",
         "XVector"
     ],
-    "OmnipathR": [],
     "oncomix": [
         "DelayedArray",
         "GenomeInfoDb",
@@ -21299,9 +21298,7 @@
         "SummarizedExperiment",
         "XVector"
     ],
-    "wppi": [
-        "OmnipathR"
-    ],
+    "wppi": [],
     "xcms": [
         "DelayedArray",
         "GenomeInfoDb",
