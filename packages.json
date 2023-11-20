@@ -1816,7 +1816,6 @@
         "VariantAnnotation",
         "rtracklayer"
     ],
-    "genomicInstability": [],
     "GenomicInteractionNodes": [
         "GenomicFeatures",
         "rtracklayer"
