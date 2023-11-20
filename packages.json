@@ -2614,7 +2614,6 @@
         "AnnotationHub"
     ],
     "GenomicSuperSignature": [],
-    "GenomicTuples": [],
     "GenVisR": [
         "BSgenome",
         "GenomicAlignments",
