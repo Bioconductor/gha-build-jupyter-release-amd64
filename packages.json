@@ -209,7 +209,6 @@
     ],
     "BASiCStan": [
         "BASiCS",
-        "glmGamPoi",
         "scran",
         "scuttle"
     ],
@@ -1427,7 +1426,6 @@
     ],
     "girafe": [],
     "GISPA": [],
-    "glmGamPoi": [],
     "glmSparseNet": [],
     "GlobalAncova": [],
     "gmapR": [
@@ -3368,9 +3366,7 @@
         "GenomicFeatures",
         "chipseq"
     ],
-    "transformGamPoi": [
-        "glmGamPoi"
-    ],
+    "transformGamPoi": [],
     "tRanslatome": [],
     "transomics2cytoscape": [
         "RCy3"
