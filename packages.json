@@ -498,14 +498,12 @@
         "DiffBind",
         "GenomicFeatures",
         "GreyListChIP",
-        "chipseq",
         "systemPipeR"
     ],
     "ChIPseeker": [
         "GenomicFeatures",
         "enrichplot"
     ],
-    "chipseq": [],
     "ChIPsim": [],
     "ChIPXpress": [
         "frma",
@@ -1424,7 +1422,6 @@
         "GenomicFeatures",
         "VariantAnnotation",
         "VariantTools",
-        "chipseq",
         "gmapR"
     ],
     "icetea": [
@@ -2232,7 +2229,6 @@
     "profileplyr": [
         "ChIPseeker",
         "GenomicFeatures",
-        "chipseq",
         "enrichplot",
         "rGREAT",
         "soGGi"
@@ -2837,9 +2833,7 @@
         "GenomicFeatures",
         "VariantAnnotation"
     ],
-    "soGGi": [
-        "chipseq"
-    ],
+    "soGGi": [],
     "SomaticSignatures": [
         "BSgenome",
         "GenomicFeatures",
@@ -3054,8 +3048,7 @@
         "slingshot"
     ],
     "transcriptR": [
-        "GenomicFeatures",
-        "chipseq"
+        "GenomicFeatures"
     ],
     "transformGamPoi": [],
     "tRanslatome": [],
