@@ -6356,7 +6356,6 @@
         "rhdf5",
         "rhdf5filters",
         "sparseMatrixStats",
-        "survcomp",
         "zlibbioc"
     ],
     "consensusSeekeR": [
@@ -11895,7 +11894,6 @@
         "XVector",
         "biomaRt",
         "limma",
-        "survcomp",
         "zlibbioc"
     ],
     "GeneGeneInteR": [
@@ -21558,7 +21556,6 @@
         "limma",
         "marray",
         "piano",
-        "survcomp",
         "switchBox",
         "zlibbioc"
     ],
@@ -27903,7 +27900,6 @@
         "rhdf5filters",
         "rtracklayer",
         "sparseMatrixStats",
-        "survcomp",
         "zlibbioc"
     ],
     "SigsPack": [
@@ -29777,7 +29773,6 @@
         "msa",
         "zlibbioc"
     ],
-    "survcomp": [],
     "survtype": [
         "Biobase",
         "BiocGenerics",
