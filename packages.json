@@ -6188,7 +6188,6 @@
         "oligoClasses"
     ],
     "PeacoQC": [],
-    "peakPantheR": [],
     "PECA": [
         "AnnotationDbi",
         "annotate",
