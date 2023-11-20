@@ -237,7 +237,6 @@
     ],
     "benchdamic": [
         "ANCOMBC",
-        "MAST",
         "Maaslin2",
         "TreeSummarizedExperiment",
         "mia",
@@ -461,9 +460,7 @@
     "CCPROMISE": [
         "PROMISE"
     ],
-    "celaref": [
-        "MAST"
-    ],
+    "celaref": [],
     "celda": [
         "scater",
         "scran",
@@ -1758,7 +1755,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "MAST": [],
     "mastR": [],
     "MatrixQCvis": [],
     "MatrixRider": [
@@ -2427,9 +2423,7 @@
     "pogos": [
         "ontoProc"
     ],
-    "POWSC": [
-        "MAST"
-    ],
+    "POWSC": [],
     "pram": [],
     "preciseTAD": [
         "GenomicFeatures",
@@ -3085,7 +3079,6 @@
         "DropletUtils",
         "GSVA",
         "GenomicFeatures",
-        "MAST",
         "TSCAN",
         "TrajectoryUtils",
         "batchelor",
