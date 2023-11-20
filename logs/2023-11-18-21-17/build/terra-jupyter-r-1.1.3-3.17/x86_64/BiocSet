@@ -1,0 +1,106 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''BiocSet'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.17 (BiocManager 1.30.22), R 4.3.1 (2023-06-16)
+Installing package(s) 'BiocSet'
+also installing the dependencies ‘ontologyIndex’, ‘GSEABase’, ‘airway’
+
+trying URL 'https://cloud.r-project.org/src/contrib/ontologyIndex_2.11.tar.gz'
+Content type 'application/x-gzip' length 1540904 bytes (1.5 MB)
+==================================================
+downloaded 1.5 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/GSEABase_1.62.0.tar.gz'
+Content type 'application/x-gzip' length 299063 bytes (292 KB)
+==================================================
+downloaded 292 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/experiment/src/contrib/airway_1.20.0.tar.gz'
+Content type 'application/x-gzip' length 24755566 bytes (23.6 MB)
+==================================================
+downloaded 23.6 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/BiocSet_1.14.0.tar.gz'
+Content type 'application/x-gzip' length 353161 bytes (344 KB)
+==================================================
+downloaded 344 KB
+
+* installing *source* package ‘ontologyIndex’ ...
+** package ‘ontologyIndex’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ontologyIndex’ as ‘ontologyIndex_2.11_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ontologyIndex)
+* installing *source* package ‘GSEABase’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GSEABase’ as ‘GSEABase_1.62.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GSEABase)
+* installing *source* package ‘airway’ ...
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘airway’ as ‘airway_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (airway)
+* installing *source* package ‘BiocSet’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BiocSet’ as ‘BiocSet_1.14.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BiocSet)
+
+The downloaded source packages are in
+	‘/tmp/RtmpKe623E/downloaded_packages’
+Old packages: 'dbplyr', 'dplyr', 'DT', 'evaluate', 'fansi', 'GenomicRanges',
+  'ggplot2', 'ggrepel', 'htmltools', 'httpuv', 'httr2', 'knitr', 'lattice',
+  'leiden', 'lifecycle', 'Matrix', 'matrixStats', 'plotly', 'ragg',
+  'RcppArmadillo', 'RcppEigen', 'RCurl', 'reticulate', 'rlang', 'rpart',
+  'rprojroot', 'RSQLite', 'sctransform', 'scuttle', 'Seurat', 'SeuratObject',
+  'shiny', 'sp', 'spatstat.data', 'spatstat.explore', 'spatstat.geom',
+  'spatstat.random', 'spatstat.sparse', 'spatstat.utils', 'stringi', 'stringr',
+  'systemfonts', 'testthat', 'textshaping', 'tinytex', 'utf8', 'vctrs',
+  'waldo', 'withr', 'xfun', 'XML'
+
+real	0m39.365s
+user	0m34.627s
+sys	0m8.583s
