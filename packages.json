@@ -21265,7 +21265,6 @@
         "S4Vectors",
         "XVector"
     ],
-    "sincell": [],
     "single": [
         "Biostrings",
         "DelayedArray",
