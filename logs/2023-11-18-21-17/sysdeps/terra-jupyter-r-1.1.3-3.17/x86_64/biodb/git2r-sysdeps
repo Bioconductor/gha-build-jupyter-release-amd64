@@ -1,0 +1,11 @@
+[
+    {
+        "shlib": "libgit2.so.0.28.4",
+        "package": "libgit2-28",
+        "headers": "libgit2-dev",
+        "source": "libgit2",
+        "version": "0.28.4+dfsg.1-2",
+        "url": "https://packages.ubuntu.com/focal/libgit2-28"
+    }
+]
+
