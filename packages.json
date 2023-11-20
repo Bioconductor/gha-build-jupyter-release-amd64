@@ -332,7 +332,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "canceR": [],
     "cardelino": [
         "BSgenome",
         "GenomicFeatures",
