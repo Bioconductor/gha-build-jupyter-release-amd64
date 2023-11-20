@@ -1839,7 +1839,6 @@
     "biodbMirbase": [],
     "biodbNcbi": [],
     "biodbNci": [],
-    "biodbUniprot": [],
     "bioDist": [],
     "biomaRt": [
         "AnnotationDbi",
