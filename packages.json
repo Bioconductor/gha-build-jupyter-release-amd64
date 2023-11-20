@@ -2407,7 +2407,6 @@
     "SpatialDecon": [
         "GeomxTools"
     ],
-    "SpatialFeatureExperiment": [],
     "spatialHeatmap": [],
     "SpatialOmicsOverlay": [
         "GeomxTools"
@@ -2648,9 +2647,7 @@
         "GenomicFiles",
         "VariantAnnotation"
     ],
-    "Voyager": [
-        "SpatialFeatureExperiment"
-    ],
+    "Voyager": [],
     "vtpnet": [
         "BSgenome",
         "GenomicFeatures",
