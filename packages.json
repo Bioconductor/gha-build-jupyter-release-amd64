@@ -57,9 +57,7 @@
         "GenomicFeatures"
     ],
     "AMARETTO": [],
-    "ANCOMBC": [
-        "mia"
-    ],
+    "ANCOMBC": [],
     "annmap": [],
     "AnnotationHubData": [
         "GenomicFeatures",
@@ -181,7 +179,6 @@
     "benchdamic": [
         "ANCOMBC",
         "Maaslin2",
-        "mia",
         "zinbwave"
     ],
     "BgeeCall": [
@@ -1509,14 +1506,10 @@
         "bumphunter",
         "minfi"
     ],
-    "mia": [],
-    "miaViz": [
-        "mia"
-    ],
+    "miaViz": [],
     "microbiomeExplorer": [],
     "microbiomeMarker": [
-        "ANCOMBC",
-        "mia"
+        "ANCOMBC"
     ],
     "midasHLA": [],
     "mimager": [
