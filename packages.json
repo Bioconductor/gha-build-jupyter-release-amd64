@@ -4090,7 +4090,6 @@
         "basilisk.utils",
         "zlibbioc"
     ],
-    "CGEN": [],
     "CGHbase": [
         "Biobase",
         "marray"
