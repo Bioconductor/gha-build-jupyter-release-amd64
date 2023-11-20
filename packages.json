@@ -2893,7 +2893,6 @@
         "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "DelayedDataFrame": [],
     "DelayedTensor": [
         "BiocSingular",
         "beachmat"
@@ -11251,7 +11250,6 @@
         "rtracklayer"
     ],
     "VariantExperiment": [
-        "DelayedDataFrame",
         "GDSArray",
         "GenomicRanges",
         "SeqArray",
