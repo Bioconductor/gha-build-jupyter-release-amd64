@@ -2709,7 +2709,6 @@
         "GenomicFeatures",
         "VariantAnnotation"
     ],
-    "SIM": [],
     "SimBindProfiles": [],
     "simpleSeg": [
         "DropletUtils",
