@@ -1868,7 +1868,6 @@
         "BSgenome",
         "rtracklayer"
     ],
-    "gCrisprTools": [],
     "GDCRNATools": [
         "DOSE",
         "clusterProfiler",
