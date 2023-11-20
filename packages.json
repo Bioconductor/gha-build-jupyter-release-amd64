@@ -15973,7 +15973,6 @@
         "XVector",
         "zlibbioc"
     ],
-    "miRBaseConverter": [],
     "miRcomp": [
         "Biobase"
     ],
@@ -16084,7 +16083,6 @@
         "ggtree",
         "graph",
         "graphite",
-        "miRBaseConverter",
         "miRspongeR",
         "multtest",
         "qvalue",
@@ -16112,7 +16110,6 @@
         "ggtree",
         "graph",
         "graphite",
-        "miRBaseConverter",
         "qvalue",
         "zlibbioc"
     ],
@@ -26072,7 +26069,6 @@
         "S4Vectors",
         "XVector",
         "biomaRt",
-        "miRBaseConverter",
         "zlibbioc"
     ],
     "SpotClean": [
