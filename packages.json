@@ -122,7 +122,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "ASSIGN": [],
     "ATACCoGAPS": [
         "BSgenome",
         "CNEr",
@@ -2878,7 +2877,6 @@
     ],
     "TargetDecoy": [],
     "TBSignatureProfiler": [
-        "ASSIGN",
         "GSVA",
         "singscore"
     ],
