@@ -2267,7 +2267,6 @@
         "cellHTS2",
         "genefilter"
     ],
-    "getDEE2": [],
     "GEWIST": [],
     "ggbio": [
         "BSgenome",
