@@ -1252,7 +1252,6 @@
         "BSgenome",
         "CNEr",
         "TFBSTools",
-        "UniProt.ws",
         "motifStack",
         "rtracklayer"
     ],
@@ -1495,7 +1494,6 @@
     ],
     "drugTargetInteractions": [
         "GenomicFeatures",
-        "UniProt.ws",
         "ensembldb",
         "rtracklayer"
     ],
@@ -4993,7 +4991,6 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "UniProt.ws": [],
     "Uniquorn": [
         "BSgenome",
         "GenomicFeatures",
