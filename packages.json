@@ -20393,7 +20393,6 @@
         "sparseMatrixStats"
     ],
     "statTarget": [],
-    "STdeconvolve": [],
     "stepNorm": [
         "marray"
     ],
