@@ -13337,7 +13337,6 @@
         "rtracklayer",
         "zlibbioc"
     ],
-    "INTACT": [],
     "InTAD": [
         "Biobase",
         "BiocBaseUtils",
