@@ -1278,7 +1278,6 @@
         "ensembldb"
     ],
     "HiCDOC": [],
-    "HiContacts": [],
     "HiLDA": [
         "BSgenome",
         "GenomicFeatures"
