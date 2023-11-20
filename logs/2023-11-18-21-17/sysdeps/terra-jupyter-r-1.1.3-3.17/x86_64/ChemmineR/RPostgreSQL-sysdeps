@@ -1,0 +1,11 @@
+[
+    {
+        "shlib": "libpq.so.5.12",
+        "package": "libpq5",
+        "headers": "libpq-dev",
+        "source": "postgresql",
+        "version": "12.16-0ubuntu0.20.04.1",
+        "url": "https://packages.ubuntu.com/focal/libpq5"
+    }
+]
+
