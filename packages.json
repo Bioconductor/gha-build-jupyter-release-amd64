@@ -5382,7 +5382,6 @@
         "motifStack",
         "rtracklayer"
     ],
-    "motifcounter": [],
     "MotifDb": [
         "GenomicAlignments",
         "Rsamtools",
