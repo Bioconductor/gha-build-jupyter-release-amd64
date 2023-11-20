@@ -58,7 +58,7 @@ packaged installation of ‘multtest’ as ‘multtest_2.56.0_R_x86_64-pc-linux-
 * DONE (multtest)
 
 The downloaded source packages are in
-	‘/tmp/RtmpUZANtn/downloaded_packages’
+	‘/tmp/RtmpXWKuNk/downloaded_packages’
 Old packages: 'dbplyr', 'dplyr', 'DT', 'evaluate', 'fansi', 'GenomicRanges',
   'ggplot2', 'ggrepel', 'htmltools', 'httpuv', 'httr2', 'knitr', 'lattice',
   'leiden', 'lifecycle', 'Matrix', 'matrixStats', 'plotly', 'ragg',
@@ -69,6 +69,6 @@ Old packages: 'dbplyr', 'dplyr', 'DT', 'evaluate', 'fansi', 'GenomicRanges',
   'systemfonts', 'testthat', 'textshaping', 'tinytex', 'utf8', 'vctrs',
   'waldo', 'withr', 'xfun', 'XML'
 
-real	0m12.152s
-user	0m9.360s
-sys	0m2.448s
+real	0m11.132s
+user	0m9.340s
+sys	0m2.503s
