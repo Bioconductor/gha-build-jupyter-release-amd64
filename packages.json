@@ -2986,7 +2986,6 @@
     "mbkmeans": [
         "SingleCellExperiment"
     ],
-    "mbOmic": [],
     "mBPCR": [
         "GWASTools",
         "oligoClasses"
