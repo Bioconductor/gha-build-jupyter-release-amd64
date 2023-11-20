@@ -22184,7 +22184,6 @@
         "ggtree",
         "treeio"
     ],
-    "OSAT": [],
     "Oscope": [
         "BiocParallel"
     ],
