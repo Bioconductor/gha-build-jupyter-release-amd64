@@ -1825,14 +1825,12 @@
         "CNEr",
         "GenomicFeatures",
         "Gviz",
-        "MotifDb",
         "TFBSTools",
         "VariantAnnotation",
         "biovizBase",
         "ensembldb",
         "motifStack"
     ],
-    "MotifDb": [],
     "motifmatchr": [
         "BSgenome",
         "CNEr",
@@ -2535,7 +2533,6 @@
     ],
     "rTRM": [],
     "rTRMui": [
-        "MotifDb",
         "rTRM"
     ],
     "RUVSeq": [
@@ -3002,8 +2999,7 @@
         "diffcyt"
     ],
     "trena": [
-        "BSgenome",
-        "MotifDb"
+        "BSgenome"
     ],
     "TRESS": [
         "GenomicFeatures"
