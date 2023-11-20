@@ -2333,7 +2333,6 @@
         "minfi",
         "rtracklayer"
     ],
-    "MGFM": [],
     "MGFR": [],
     "mia": [
         "TreeSummarizedExperiment",
@@ -3462,7 +3461,6 @@
     ],
     "SAIGEgds": [],
     "sampleClassifier": [
-        "MGFM",
         "MGFR"
     ],
     "SBGNview": [],
