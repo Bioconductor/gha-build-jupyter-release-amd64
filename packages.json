@@ -2259,7 +2259,6 @@
         "AUCell",
         "GSVA",
         "GenomicFeatures",
-        "SingleCellSignalR",
         "ensembldb"
     ],
     "scGPS": [],
@@ -2368,7 +2367,6 @@
     "simpleSeg": [
         "cytomapper"
     ],
-    "SingleCellSignalR": [],
     "singleCellTK": [
         "GSVA",
         "GenomicFeatures",
