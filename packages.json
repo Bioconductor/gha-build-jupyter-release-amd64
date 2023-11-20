@@ -1257,7 +1257,6 @@
         "VariantAnnotation"
     ],
     "FEAST": [
-        "SC3",
         "TSCAN",
         "TrajectoryUtils"
     ],
@@ -2835,7 +2834,6 @@
     ],
     "sampleClassifier": [],
     "SBGNview": [],
-    "SC3": [],
     "SCAN.UPC": [
         "oligo",
         "oligoClasses",
