@@ -2639,7 +2639,6 @@
         "GenomicFiles",
         "VariantAnnotation"
     ],
-    "Voyager": [],
     "vtpnet": [
         "BSgenome",
         "GenomicFeatures",
