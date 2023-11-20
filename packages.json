@@ -11767,7 +11767,6 @@
         "GEOquery",
         "limma"
     ],
-    "GEOfastq": [],
     "GEOmetadb": [
         "Biobase",
         "GEOquery",
