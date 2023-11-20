@@ -4904,7 +4904,6 @@
     ],
     "flowPloidy": [],
     "FlowSOM": [],
-    "flowSpecs": [],
     "flowStats": [
         "DelayedArray",
         "flowWorkspace"
