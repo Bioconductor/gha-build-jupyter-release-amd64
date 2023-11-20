@@ -766,8 +766,7 @@
     ],
     "consensusOV": [
         "GSEABase",
-        "GSVA",
-        "genefu"
+        "GSVA"
     ],
     "consensusSeekeR": [],
     "consICA": [],
@@ -1412,7 +1411,6 @@
     "geneAttribution": [
         "GenomicFeatures"
     ],
-    "genefu": [],
     "GeneGeneInteR": [],
     "GeneMeta": [],
     "GENESIS": [
@@ -2475,8 +2473,7 @@
         "GSEABase"
     ],
     "PDATK": [
-        "CoreGx",
-        "genefu"
+        "CoreGx"
     ],
     "pdInfoBuilder": [
         "oligo",
@@ -3201,8 +3198,7 @@
         "GSVA",
         "GenomicFeatures",
         "consensusOV",
-        "ensembldb",
-        "genefu"
+        "ensembldb"
     ],
     "SigsPack": [
         "BSgenome",
