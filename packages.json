@@ -7507,10 +7507,8 @@
         "biomaRt"
     ],
     "sangeranalyseR": [
-        "DECIPHER",
-        "sangerseqR"
+        "DECIPHER"
     ],
-    "sangerseqR": [],
     "sarks": [],
     "satuRn": [
         "SummarizedExperiment"
@@ -7674,8 +7672,7 @@
         "SummarizedExperiment"
     ],
     "scifer": [
-        "DECIPHER",
-        "sangerseqR"
+        "DECIPHER"
     ],
     "scmap": [
         "SingleCellExperiment",
