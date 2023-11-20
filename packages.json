@@ -403,9 +403,7 @@
         "clusterProfiler"
     ],
     "ccmap": [],
-    "CCPROMISE": [
-        "PROMISE"
-    ],
+    "CCPROMISE": [],
     "celaref": [],
     "celda": [
         "scater",
@@ -2192,7 +2190,6 @@
         "MLInterfaces",
         "pRoloc"
     ],
-    "PROMISE": [],
     "PROPS": [],
     "proteasy": [
         "GenomicFeatures",
