@@ -1109,7 +1109,6 @@
     "EWCE": [
         "orthogene"
     ],
-    "ExCluster": [],
     "exomePeak2": [
         "BSgenome",
         "GenomicFeatures"
