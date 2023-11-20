@@ -12601,7 +12601,6 @@
         "XVector",
         "cqn",
         "preprocessCore",
-        "topconfects",
         "zlibbioc"
     ],
     "gep2pep": [
@@ -17121,8 +17120,7 @@
     "MetaVolcanoR": [
         "Biobase",
         "BiocGenerics",
-        "multtest",
-        "topconfects"
+        "multtest"
     ],
     "MetCirc": [
         "BiocGenerics",
@@ -31152,7 +31150,6 @@
         "limma",
         "zlibbioc"
     ],
-    "topconfects": [],
     "topdownr": [
         "Biobase",
         "BiocGenerics",
@@ -32721,7 +32718,6 @@
         "XVector",
         "limma",
         "sparseMatrixStats",
-        "topconfects",
         "zlibbioc"
     ],
     "widgetTools": [],
