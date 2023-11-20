@@ -2607,8 +2607,7 @@
         "QFeatures"
     ],
     "metabolomicsWorkbenchR": [
-        "MultiAssayExperiment",
-        "struct"
+        "MultiAssayExperiment"
     ],
     "metabomxtr": [],
     "MetaboSignal": [
@@ -4643,10 +4642,7 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "struct": [],
-    "structToolbox": [
-        "struct"
-    ],
+    "structToolbox": [],
     "StructuralVariantAnnotation": [
         "BSgenome",
         "GenomicFeatures",
