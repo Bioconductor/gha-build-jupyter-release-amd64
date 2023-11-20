@@ -23522,7 +23522,6 @@
         "zlibbioc"
     ],
     "seqCNA": [],
-    "seqcombo": [],
     "SeqGate": [
         "Biobase",
         "DelayedArray",
