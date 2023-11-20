@@ -1377,9 +1377,7 @@
         "biovizBase",
         "ensembldb"
     ],
-    "HiCDOC": [
-        "multiHiCcompare"
-    ],
+    "HiCDOC": [],
     "HiContacts": [],
     "HiCool": [],
     "HiLDA": [
@@ -1906,7 +1904,6 @@
         "regioneR"
     ],
     "multiGSEA": [],
-    "multiHiCcompare": [],
     "multiSight": [
         "ReactomePA",
         "biosigner",
