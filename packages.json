@@ -4395,7 +4395,6 @@
         "sparseMatrixStats"
     ],
     "convert": [],
-    "copa": [],
     "CopyNumberPlots": [
         "AnnotationDbi",
         "AnnotationFilter",
