@@ -13751,7 +13751,6 @@
         "XVector",
         "zlibbioc"
     ],
-    "GPA": [],
     "gpuMagic": [
         "BiocGenerics"
     ],
