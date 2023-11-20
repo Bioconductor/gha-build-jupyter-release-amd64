@@ -259,7 +259,7 @@ packaged installation of ‘GEOquery’ as ‘GEOquery_2.68.0_R_x86_64-pc-linux-
 * DONE (GEOquery)
 
 The downloaded source packages are in
-	‘/tmp/Rtmp41HnUk/downloaded_packages’
+	‘/tmp/RtmpjJbQVi/downloaded_packages’
 Old packages: 'dbplyr', 'dplyr', 'DT', 'evaluate', 'fansi', 'GenomicRanges',
   'ggplot2', 'ggrepel', 'htmltools', 'httpuv', 'httr2', 'knitr', 'lattice',
   'leiden', 'lifecycle', 'Matrix', 'matrixStats', 'plotly', 'ragg',
@@ -270,6 +270,6 @@ Old packages: 'dbplyr', 'dplyr', 'DT', 'evaluate', 'fansi', 'GenomicRanges',
   'systemfonts', 'testthat', 'textshaping', 'tinytex', 'utf8', 'vctrs',
   'waldo', 'withr', 'xfun', 'XML'
 
-real	14m3.103s
-user	13m42.893s
-sys	0m32.106s
+real	14m3.889s
+user	13m44.640s
+sys	0m32.605s
