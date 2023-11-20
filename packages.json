@@ -236,7 +236,6 @@
         "GenomicFeatures"
     ],
     "BioNERO": [],
-    "biosigner": [],
     "BioTIP": [
         "scran"
     ],
@@ -1820,8 +1819,7 @@
     ],
     "multiGSEA": [],
     "multiSight": [
-        "ReactomePA",
-        "biosigner"
+        "ReactomePA"
     ],
     "mumosa": [
         "scran"
