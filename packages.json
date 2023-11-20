@@ -1012,7 +1012,6 @@
     "factR": [
         "GenomicFeatures"
     ],
-    "famat": [],
     "fCCAC": [
         "BSgenome",
         "genomation"
