@@ -1,0 +1,195 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''HDF5Array'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.17 (BiocManager 1.30.22), R 4.3.1 (2023-06-16)
+Installing package(s) 'HDF5Array'
+also installing the dependencies ‘dir.expiry’, ‘basilisk.utils’, ‘basilisk’, ‘h5vcData’, ‘TENxBrainData’, ‘zellkonverter’
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/dir.expiry_1.8.0.tar.gz'
+Content type 'application/x-gzip' length 292895 bytes (286 KB)
+==================================================
+downloaded 286 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/basilisk.utils_1.12.1.tar.gz'
+Content type 'application/x-gzip' length 240028 bytes (234 KB)
+==================================================
+downloaded 234 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/basilisk_1.12.1.tar.gz'
+Content type 'application/x-gzip' length 267290 bytes (261 KB)
+==================================================
+downloaded 261 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/experiment/src/contrib/h5vcData_2.20.0.tar.gz'
+Content type 'application/x-gzip' length 26039208 bytes (24.8 MB)
+==================================================
+downloaded 24.8 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/experiment/src/contrib/TENxBrainData_1.20.0.tar.gz'
+Content type 'application/x-gzip' length 349998 bytes (341 KB)
+==================================================
+downloaded 341 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/zellkonverter_1.10.1.tar.gz'
+Content type 'application/x-gzip' length 1168330 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/HDF5Array_1.28.1.tar.gz'
+Content type 'application/x-gzip' length 8097342 bytes (7.7 MB)
+==================================================
+downloaded 7.7 MB
+
+* installing *source* package ‘dir.expiry’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘dir.expiry’ as ‘dir.expiry_1.8.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dir.expiry)
+* installing *source* package ‘h5vcData’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘h5vcData’ as ‘h5vcData_2.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (h5vcData)
+* installing *source* package ‘HDF5Array’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c H5File.c -o H5File.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c global_errmsg_buf.c -o global_errmsg_buf.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c H5DSetDescriptor.c -o H5DSetDescriptor.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c h5dimscales.c -o h5dimscales.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c uaselection.c -o uaselection.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c h5mread_helpers.c -o h5mread_helpers.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c h5mread_startscounts.c -o h5mread_startscounts.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c ChunkIterator.c -o ChunkIterator.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c h5mread_index.c -o h5mread_index.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c h5mread_sparse.c -o h5mread_sparse.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c h5mread.c -o h5mread.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c h5summarize.c -o h5summarize.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c R_init_HDF5Array.c -o R_init_HDF5Array.o
+gcc -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o HDF5Array.so S4Vectors_stubs.o H5File.o global_errmsg_buf.o H5DSetDescriptor.o h5dimscales.o uaselection.o h5mread_helpers.o h5mread_startscounts.o ChunkIterator.o h5mread_index.o h5mread_sparse.o h5mread.o h5summarize.o R_init_HDF5Array.o /tmp/tmp/built/Rhdf5lib/lib/libhdf5_hl.a /tmp/tmp/built/Rhdf5lib/lib/libhdf5.a -lcrypto -lcurl -lsz -laec -lz -ldl -lm -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-HDF5Array/00new/HDF5Array/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘HDF5Array’ as ‘HDF5Array_1.28.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (HDF5Array)
+* installing *source* package ‘basilisk.utils’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘basilisk.utils’ as ‘basilisk.utils_1.12.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (basilisk.utils)
+* installing *source* package ‘TENxBrainData’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘TENxBrainData’ as ‘TENxBrainData_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TENxBrainData)
+* installing *source* package ‘basilisk’ ...
+** using non-staged installation via StagedInstall field
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* creating tarball
+packaged installation of ‘basilisk’ as ‘basilisk_1.12.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (basilisk)
+* installing *source* package ‘zellkonverter’ ...
+** using non-staged installation via StagedInstall field
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* creating tarball
+packaged installation of ‘zellkonverter’ as ‘zellkonverter_1.10.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (zellkonverter)
+
+The downloaded source packages are in
+	‘/tmp/RtmpmxNkdx/downloaded_packages’
+Old packages: 'dbplyr', 'dplyr', 'DT', 'evaluate', 'fansi', 'GenomicRanges',
+  'ggplot2', 'ggrepel', 'htmltools', 'httpuv', 'httr2', 'knitr', 'lattice',
+  'leiden', 'lifecycle', 'Matrix', 'matrixStats', 'plotly', 'ragg',
+  'RcppArmadillo', 'RcppEigen', 'RCurl', 'reticulate', 'rlang', 'rpart',
+  'rprojroot', 'RSQLite', 'sctransform', 'scuttle', 'Seurat', 'SeuratObject',
+  'shiny', 'sp', 'spatstat.data', 'spatstat.explore', 'spatstat.geom',
+  'spatstat.random', 'spatstat.sparse', 'spatstat.utils', 'stringi', 'stringr',
+  'systemfonts', 'testthat', 'textshaping', 'tinytex', 'utf8', 'vctrs',
+  'waldo', 'withr', 'xfun', 'XML'
+
+real	1m9.656s
+user	1m0.962s
+sys	0m16.329s
+* installing *source* package ‘TENxBrainData’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘TENxBrainData’ as ‘TENxBrainData_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TENxBrainData)
