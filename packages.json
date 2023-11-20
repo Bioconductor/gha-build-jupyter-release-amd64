@@ -372,9 +372,7 @@
         "biovizBase",
         "ensembldb"
     ],
-    "CAMERA": [
-        "xcms"
-    ],
+    "CAMERA": [],
     "canceR": [
         "phenoTest"
     ],
@@ -565,9 +563,7 @@
     "cliProfiler": [
         "BSgenome"
     ],
-    "cliqueMS": [
-        "xcms"
-    ],
+    "cliqueMS": [],
     "clusterExperiment": [
         "zinbwave"
     ],
@@ -686,9 +682,7 @@
     ],
     "CoreGx": [],
     "coseq": [],
-    "cosmiq": [
-        "xcms"
-    ],
+    "cosmiq": [],
     "cosmosR": [],
     "COTAN": [],
     "countsimQC": [],
@@ -1186,8 +1180,7 @@
         "GenomicFeatures"
     ],
     "flagme": [
-        "CAMERA",
-        "xcms"
+        "CAMERA"
     ],
     "FLAMES": [
         "BSgenome",
@@ -1518,8 +1511,7 @@
     "iPath": [],
     "ipdDb": [],
     "IPO": [
-        "CAMERA",
-        "xcms"
+        "CAMERA"
     ],
     "IRISFGM": [
         "clusterProfiler",
@@ -1583,8 +1575,7 @@
         "spicyR"
     ],
     "LOBSTAHS": [
-        "CAMERA",
-        "xcms"
+        "CAMERA"
     ],
     "lumi": [
         "GenomicFeatures",
@@ -1622,8 +1613,7 @@
         "TRESS"
     ],
     "MAIT": [
-        "CAMERA",
-        "xcms"
+        "CAMERA"
     ],
     "mariner": [
         "plotgardener",
@@ -1689,9 +1679,7 @@
         "enrichplot"
     ],
     "meshr": [],
-    "Metab": [
-        "xcms"
-    ],
+    "Metab": [],
     "MetaboAnnotation": [],
     "metabomxtr": [],
     "MetaboSignal": [
@@ -1709,8 +1697,7 @@
     ],
     "metagene2": [],
     "metaMS": [
-        "CAMERA",
-        "xcms"
+        "CAMERA"
     ],
     "MetaPhOR": [
         "RCy3",
@@ -1874,9 +1861,7 @@
         "Maaslin2"
     ],
     "moanin": [],
-    "MobilityTransformR": [
-        "xcms"
-    ],
+    "MobilityTransformR": [],
     "MOGAMUN": [
         "RCy3"
     ],
@@ -2040,9 +2025,7 @@
     ],
     "nanotatoR": [],
     "NBAMSeq": [],
-    "ncGTW": [
-        "xcms"
-    ],
+    "ncGTW": [],
     "NCIgraph": [
         "RCy3"
     ],
@@ -2523,9 +2506,7 @@
         "karyoploteR",
         "regioneR"
     ],
-    "Risa": [
-        "xcms"
-    ],
+    "Risa": [],
     "RITAN": [
         "GenomicFeatures",
         "ensembldb"
@@ -3246,7 +3227,6 @@
         "GenomicFeatures"
     ],
     "wiggleplotr": [],
-    "xcms": [],
     "XDE": [],
     "Xeva": [
         "CoreGx",
