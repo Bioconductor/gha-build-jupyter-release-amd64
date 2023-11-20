@@ -299,7 +299,6 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "BgeeDB": [],
     "BGmix": [],
     "BicARE": [
         "GSEABase"
@@ -3008,9 +3007,7 @@
     "PSMatch": [
         "QFeatures"
     ],
-    "psygenet2r": [
-        "BgeeDB"
-    ],
+    "psygenet2r": [],
     "ptairMS": [],
     "puma": [
         "oligo",
@@ -3296,7 +3293,6 @@
         "xcms"
     ],
     "RITAN": [
-        "BgeeDB",
         "GenomicFeatures",
         "ensembldb",
         "rtracklayer"
