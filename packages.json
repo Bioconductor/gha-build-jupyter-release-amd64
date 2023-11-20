@@ -2940,7 +2940,6 @@
         "MsFeatures",
         "xcms"
     ],
-    "maPredictDSC": [],
     "mariner": [
         "GenomicAlignments",
         "InteractionSet",
