@@ -1404,9 +1404,7 @@
         "GenomicFeatures",
         "TRESS"
     ],
-    "mariner": [
-        "plotgardener"
-    ],
+    "mariner": [],
     "maser": [
         "BSgenome",
         "GenomicFeatures",
@@ -1892,7 +1890,6 @@
     "pipeFrame": [
         "BSgenome"
     ],
-    "plotgardener": [],
     "plotGrouper": [],
     "pmm": [],
     "podkat": [
@@ -2678,8 +2675,7 @@
     "Ularcirc": [
         "BSgenome",
         "GenomicFeatures",
-        "Organism.dplyr",
-        "plotgardener"
+        "Organism.dplyr"
     ],
     "UMI4Cats": [
         "BSgenome",
