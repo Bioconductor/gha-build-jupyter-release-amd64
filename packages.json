@@ -2861,7 +2861,6 @@
     "staRank": [
         "cellHTS2"
     ],
-    "StarBioTrek": [],
     "Statial": [
         "DropletUtils",
         "SpatialExperiment"
