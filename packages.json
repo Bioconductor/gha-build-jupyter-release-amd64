@@ -12697,7 +12697,6 @@
         "annotate",
         "genefilter"
     ],
-    "qckitfastq": [],
     "QDNAseq": [
         "Biostrings",
         "CGHcall",
