@@ -9071,7 +9071,6 @@
         "rtracklayer"
     ],
     "universalmotif": [],
-    "uSORT": [],
     "VAExprs": [
         "SingleCellExperiment",
         "SummarizedExperiment",
