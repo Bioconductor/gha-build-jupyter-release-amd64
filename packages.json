@@ -2390,7 +2390,6 @@
     ],
     "proteasy": [
         "GenomicFeatures",
-        "Rcpi",
         "ensembldb"
     ],
     "ProteoDisco": [
@@ -2496,7 +2495,6 @@
     "RcisTarget": [
         "AUCell"
     ],
-    "Rcpi": [],
     "RCy3": [],
     "ReactomePA": [
         "enrichplot"
