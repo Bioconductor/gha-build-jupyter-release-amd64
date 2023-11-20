@@ -1,4 +1,0 @@
-CNORfuzzy
-CNORdt
-CNORfeeder
-CNORode
