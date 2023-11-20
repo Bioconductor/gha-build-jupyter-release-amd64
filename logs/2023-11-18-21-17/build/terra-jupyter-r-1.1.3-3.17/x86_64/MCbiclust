@@ -1,0 +1,629 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''MCbiclust'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.17 (BiocManager 1.30.22), R 4.3.1 (2023-06-16)
+Installing package(s) 'MCbiclust'
+also installing the dependencies ‘htmlTable’, ‘viridis’, ‘Formula’, ‘rhdf5’, ‘rhdf5filters’, ‘reshape’, ‘dynamicTreeCut’, ‘fastcluster’, ‘Hmisc’, ‘GSEABase’, ‘HDF5Array’, ‘GGally’, ‘WGCNA’, ‘gProfileR’, ‘pander’, ‘GSVA’
+
+trying URL 'https://cloud.r-project.org/src/contrib/htmlTable_2.4.2.tar.gz'
+Content type 'application/x-gzip' length 436124 bytes (425 KB)
+==================================================
+downloaded 425 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/viridis_0.6.4.tar.gz'
+Content type 'application/x-gzip' length 3061184 bytes (2.9 MB)
+==================================================
+downloaded 2.9 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/Formula_1.2-5.tar.gz'
+Content type 'application/x-gzip' length 128259 bytes (125 KB)
+==================================================
+downloaded 125 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/rhdf5_2.44.0.tar.gz'
+Content type 'application/x-gzip' length 1249545 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/rhdf5filters_1.12.1.tar.gz'
+Content type 'application/x-gzip' length 1174259 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/reshape_0.8.9.tar.gz'
+Content type 'application/x-gzip' length 41843 bytes (40 KB)
+==================================================
+downloaded 40 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/dynamicTreeCut_1.63-1.tar.gz'
+Content type 'application/x-gzip' length 24027 bytes (23 KB)
+==================================================
+downloaded 23 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/fastcluster_1.2.3.tar.gz'
+Content type 'application/x-gzip' length 207483 bytes (202 KB)
+==================================================
+downloaded 202 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/Hmisc_5.1-1.tar.gz'
+Content type 'application/x-gzip' length 875858 bytes (855 KB)
+==================================================
+downloaded 855 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/GSEABase_1.62.0.tar.gz'
+Content type 'application/x-gzip' length 299063 bytes (292 KB)
+==================================================
+downloaded 292 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/HDF5Array_1.28.1.tar.gz'
+Content type 'application/x-gzip' length 8097342 bytes (7.7 MB)
+==================================================
+downloaded 7.7 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/GGally_2.1.2.tar.gz'
+Content type 'application/x-gzip' length 1432522 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/WGCNA_1.72-1.tar.gz'
+Content type 'application/x-gzip' length 1172219 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/gProfileR_0.7.0.tar.gz'
+Content type 'application/x-gzip' length 9392 bytes
+==================================================
+downloaded 9392 bytes
+
+trying URL 'https://cloud.r-project.org/src/contrib/pander_0.6.5.tar.gz'
+Content type 'application/x-gzip' length 393677 bytes (384 KB)
+==================================================
+downloaded 384 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/GSVA_1.48.3.tar.gz'
+Content type 'application/x-gzip' length 2279731 bytes (2.2 MB)
+==================================================
+downloaded 2.2 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/MCbiclust_1.24.0.tar.gz'
+Content type 'application/x-gzip' length 6495117 bytes (6.2 MB)
+==================================================
+downloaded 6.2 MB
+
+* installing *source* package ‘htmlTable’ ...
+** package ‘htmlTable’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘htmlTable’ as ‘htmlTable_2.4.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (htmlTable)
+* installing *source* package ‘viridis’ ...
+** package ‘viridis’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘viridis’ as ‘viridis_0.6.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (viridis)
+* installing *source* package ‘Formula’ ...
+** package ‘Formula’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘Formula’ as ‘Formula_1.2-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Formula)
+* installing *source* package ‘rhdf5filters’ ...
+** using staged installation
+configuring the BLOSC filter...
+x86_CPU=true
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to enable C11 features... none needed
+checking whether C compiler accepts -msse2... yes
+checking whether C compiler accepts -mavx2... yes
+checking for gcc __builtin_cpu_init function... (cached) true
+checking for x86 sse2 instruction support... yes
+checking for x86 avx2 instruction support... yes
+configure: creating ./config.status
+config.status: creating src/blosc/lib/blosc-1.20.1/Makefile
+config.status: creating src/blosc/Makefile
+configure:    BZIP2_LIB=bzip2/libH5Zbz2.so
+configure:    BLOSC_LIB=blosc/libH5Zblosc.so
+configure:    LZF_LIB=lzf/libH5Zlzf.so
+configure:    ZSTD_LIB=zstd/libH5Zzstd.so
+configure: creating ./config.status
+config.status: creating src/blosc/lib/blosc-1.20.1/Makefile
+config.status: creating src/blosc/Makefile
+config.status: creating src/Makevars
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+make -C zstd
+make[1]: Entering directory '/tmp/RtmpqOBuaU/R.INSTALL147d8eef51/rhdf5filters/src/zstd'
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c common/debug.c -o common/debug.o
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c common/entropy_common.c -o common/entropy_common.o
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c common/error_private.c -o common/error_private.o
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c common/fse_decompress.c -o common/fse_decompress.o
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c common/pool.c -o common/pool.o -o common/pool.o
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c common/threading.c -o common/threading.o
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c common/xxhash.c -o common/xxhash.o
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c common/zstd_common.c -o common/zstd_common.o
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c compress/fse_compress.c -o compress/fse_compress.o
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c compress/hist.c -o compress/hist.o
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c compress/huf_compress.c -o compress/huf_compress.o
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c compress/zstd_compress.c -o compress/zstd_compress.o
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c compress/zstd_compress_literals.c -o compress/zstd_compress_literals.o
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c compress/zstd_compress_sequences.c -o compress/zstd_compress_sequences.o
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c compress/zstd_compress_superblock.c -o compress/zstd_compress_superblock.o
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c compress/zstd_double_fast.c -o compress/zstd_double_fast.o
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c compress/zstd_fast.c -o compress/zstd_fast.o
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c compress/zstd_lazy.c -o compress/zstd_lazy.o
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c compress/zstd_ldm.c -o compress/zstd_ldm.o
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c compress/zstd_opt.c -o compress/zstd_opt.o
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c compress/zstdmt_compress.c -o compress/zstdmt_compress.o
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c decompress/huf_decompress.c -o decompress/huf_decompress.o
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c decompress/zstd_ddict.c -o decompress/zstd_ddict.o
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c decompress/zstd_decompress.c -o decompress/zstd_decompress.o
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c decompress/zstd_decompress_block.c -o decompress/zstd_decompress_block.o
+rm -f libzstd.a
+ar cq libzstd.a common/debug.o common/entropy_common.o common/error_private.o common/fse_decompress.o common/pool.o common/threading.o common/xxhash.o common/zstd_common.o compress/fse_compress.o compress/hist.o compress/huf_compress.o compress/zstd_compress.o compress/zstd_compress_literals.o compress/zstd_compress_sequences.o compress/zstd_compress_superblock.o compress/zstd_double_fast.o compress/zstd_fast.o compress/zstd_lazy.o compress/zstd_ldm.o compress/zstd_opt.o compress/zstdmt_compress.o decompress/huf_decompress.o decompress/zstd_ddict.o decompress/zstd_decompress.o decompress/zstd_decompress_block.o
+ranlib libzstd.a
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -shared H5Zzstd.c -I"/tmp/tmp/built/Rhdf5lib/include" \
+libzstd.a -Wl,-Bsymbolic-functions -Wl,-z,relro -o libH5Zzstd.so
+make[1]: Leaving directory '/tmp/RtmpqOBuaU/R.INSTALL147d8eef51/rhdf5filters/src/zstd'
+make -C blosc
+make[1]: Entering directory '/tmp/RtmpqOBuaU/R.INSTALL147d8eef51/rhdf5filters/src/blosc'
+make -C lib/snappy-1.1.1
+make[2]: Entering directory '/tmp/RtmpqOBuaU/R.INSTALL147d8eef51/rhdf5filters/src/blosc/lib/snappy-1.1.1'
+g++ -std=gnu++17 -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -I"/tmp/tmp/built/Rhdf5lib/include" -c snappy.cc
+g++ -std=gnu++17 -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -I"/tmp/tmp/built/Rhdf5lib/include" -c snappy-c.cc
+g++ -std=gnu++17 -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -I"/tmp/tmp/built/Rhdf5lib/include" -c snappy-sinksource.cc
+g++ -std=gnu++17 -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -I"/tmp/tmp/built/Rhdf5lib/include" -c snappy-stubs-internal.cc
+make[2]: Leaving directory '/tmp/RtmpqOBuaU/R.INSTALL147d8eef51/rhdf5filters/src/blosc/lib/snappy-1.1.1'
+make -C lib/lz4-1.9.4
+make[2]: Entering directory '/tmp/RtmpqOBuaU/R.INSTALL147d8eef51/rhdf5filters/src/blosc/lib/lz4-1.9.4'
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -c lz4.c
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -c lz4hc.c
+make[2]: Leaving directory '/tmp/RtmpqOBuaU/R.INSTALL147d8eef51/rhdf5filters/src/blosc/lib/lz4-1.9.4'
+make -C lib/blosc-1.20.1 all
+make[2]: Entering directory '/tmp/RtmpqOBuaU/R.INSTALL147d8eef51/rhdf5filters/src/blosc/lib/blosc-1.20.1'
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -I"/tmp/tmp/built/Rhdf5lib/include" -I../lz4-1.9.4 -I../snappy-1.1.1 -I../../../zstd -msse2 -mavx2 -c bitshuffle-avx2.c
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -I"/tmp/tmp/built/Rhdf5lib/include" -I../lz4-1.9.4 -I../snappy-1.1.1 -I../../../zstd -msse2 -mavx2 -c shuffle-avx2.c
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -I"/tmp/tmp/built/Rhdf5lib/include" -I../lz4-1.9.4 -I../snappy-1.1.1 -I../../../zstd -msse2 -mavx2 -c bitshuffle-sse2.c
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -I"/tmp/tmp/built/Rhdf5lib/include" -I../lz4-1.9.4 -I../snappy-1.1.1 -I../../../zstd -msse2 -mavx2 -c shuffle-sse2.c
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -I"/tmp/tmp/built/Rhdf5lib/include" -I../lz4-1.9.4 -I../snappy-1.1.1 -I../../../zstd -msse2 -mavx2 -c bitshuffle-generic.c
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -I"/tmp/tmp/built/Rhdf5lib/include" -I../lz4-1.9.4 -I../snappy-1.1.1 -I../../../zstd -msse2 -mavx2 -c shuffle-generic.c
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -I"/tmp/tmp/built/Rhdf5lib/include" -I../lz4-1.9.4 -I../snappy-1.1.1 -I../../../zstd -msse2 -mavx2 -DSHUFFLE_SSE2_ENABLED -DSHUFFLE_AVX2_ENABLED -c shuffle.c
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -I"/tmp/tmp/built/Rhdf5lib/include" -I../lz4-1.9.4 -I../snappy-1.1.1 -I../../../zstd -msse2 -mavx2 -c blosclz.c
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -I"/tmp/tmp/built/Rhdf5lib/include" -I../lz4-1.9.4 -I../snappy-1.1.1 -I../../../zstd -msse2 -mavx2 -c blosc.c
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -I"/tmp/tmp/built/Rhdf5lib/include" -I../lz4-1.9.4 -I../snappy-1.1.1 -I../../../zstd -msse2 -mavx2 -c fastcopy.c
+make[2]: Leaving directory '/tmp/RtmpqOBuaU/R.INSTALL147d8eef51/rhdf5filters/src/blosc/lib/blosc-1.20.1'
+rm -f libblosc.a
+ar cq libblosc.a lib/blosc-1.20.1/bitshuffle-avx2.o lib/blosc-1.20.1/blosc.o lib/blosc-1.20.1/shuffle-avx2.o lib/blosc-1.20.1/shuffle-sse2.o lib/blosc-1.20.1/bitshuffle-generic.o lib/blosc-1.20.1/blosclz.o lib/blosc-1.20.1/shuffle.o lib/blosc-1.20.1/bitshuffle-sse2.o lib/blosc-1.20.1/fastcopy.o lib/blosc-1.20.1/shuffle-generic.o lib/snappy-1.1.1/snappy.o lib/snappy-1.1.1/snappy-c.o lib/snappy-1.1.1/snappy-sinksource.o lib/snappy-1.1.1/snappy-stubs-internal.o lib/lz4-1.9.4/lz4.o lib/lz4-1.9.4/lz4hc.o 
+ranlib libblosc.a
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -c -o H5Zblosc.o H5Zblosc.c \
+-I"/tmp/tmp/built/Rhdf5lib/include" -I./lib/blosc-1.20.1
+g++ -std=gnu++17 -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -Wl,-Bsymbolic-functions -Wl,-z,relro -shared -o libH5Zblosc.so H5Zblosc.o \
+libblosc.a ../zstd/libzstd.a -lz
+make[1]: Leaving directory '/tmp/RtmpqOBuaU/R.INSTALL147d8eef51/rhdf5filters/src/blosc'
+make -C bzip2
+make[1]: Entering directory '/tmp/RtmpqOBuaU/R.INSTALL147d8eef51/rhdf5filters/src/bzip2'
+make -C bzip2-1.0.8
+make[2]: Entering directory '/tmp/RtmpqOBuaU/R.INSTALL147d8eef51/rhdf5filters/src/bzip2/bzip2-1.0.8'
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -D_FILE_OFFSET_BITS=64 -c blocksort.c
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -D_FILE_OFFSET_BITS=64 -c huffman.c
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -D_FILE_OFFSET_BITS=64 -c crctable.c
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -D_FILE_OFFSET_BITS=64 -c randtable.c
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -D_FILE_OFFSET_BITS=64 -c compress.c
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -D_FILE_OFFSET_BITS=64 -c decompress.c
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -D_FILE_OFFSET_BITS=64 -c bzlib.c
+rm -f libbz2.a
+ar cq libbz2.a blocksort.o huffman.o crctable.o randtable.o compress.o decompress.o bzlib.o
+ranlib libbz2.a
+make[2]: Leaving directory '/tmp/RtmpqOBuaU/R.INSTALL147d8eef51/rhdf5filters/src/bzip2/bzip2-1.0.8'
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -shared H5Zbzip2.c -I"/tmp/tmp/built/Rhdf5lib/include" \
+-I./bzip2-1.0.8/ ./bzip2-1.0.8/libbz2.a -Wl,-Bsymbolic-functions -Wl,-z,relro -o libH5Zbz2.so
+make[1]: Leaving directory '/tmp/RtmpqOBuaU/R.INSTALL147d8eef51/rhdf5filters/src/bzip2'
+make -C lzf
+make[1]: Entering directory '/tmp/RtmpqOBuaU/R.INSTALL147d8eef51/rhdf5filters/src/lzf'
+make -C lzf
+make[2]: Entering directory '/tmp/RtmpqOBuaU/R.INSTALL147d8eef51/rhdf5filters/src/lzf/lzf'
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -c lzf_c.c
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -c lzf_d.c
+rm -f liblzf.a
+ar cq liblzf.a lzf_c.o lzf_d.o
+ranlib liblzf.a
+make[2]: Leaving directory '/tmp/RtmpqOBuaU/R.INSTALL147d8eef51/rhdf5filters/src/lzf/lzf'
+gcc -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic -shared H5Zlzf.c -I"/tmp/tmp/built/Rhdf5lib/include" \
+-I./lzf/ ./lzf/liblzf.a -Wl,-Bsymbolic-functions -Wl,-z,relro -o libH5Zlzf.so
+make[1]: Leaving directory '/tmp/RtmpqOBuaU/R.INSTALL147d8eef51/rhdf5filters/src/lzf'
+mkdir -p "/tmp/tmp/built/00LOCK-rhdf5filters/00new/rhdf5filters/lib/"
+cp bzip2/libH5Zbz2.so "/tmp/tmp/built/00LOCK-rhdf5filters/00new/rhdf5filters/lib/"
+cp blosc/libH5Zblosc.so "/tmp/tmp/built/00LOCK-rhdf5filters/00new/rhdf5filters/lib/"
+cp lzf/libH5Zlzf.so "/tmp/tmp/built/00LOCK-rhdf5filters/00new/rhdf5filters/lib/"
+cp zstd/libH5Zzstd.so "/tmp/tmp/built/00LOCK-rhdf5filters/00new/rhdf5filters/lib/"
+gcc -I"/usr/share/R/include" -DNDEBUG -I"/tmp/tmp/built/Rhdf5lib/include" -I'/tmp/tmp/built/Rhdf5lib/include'    -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c rhdf5filters.c -o rhdf5filters.o
+gcc -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o rhdf5filters.so rhdf5filters.o -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-rhdf5filters/00new/rhdf5filters/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘rhdf5filters’ as ‘rhdf5filters_1.12.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rhdf5filters)
+* installing *source* package ‘reshape’ ...
+** package ‘reshape’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘reshape’ as ‘reshape_0.8.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (reshape)
+* installing *source* package ‘dynamicTreeCut’ ...
+** package ‘dynamicTreeCut’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘dynamicTreeCut’ as ‘dynamicTreeCut_1.63-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dynamicTreeCut)
+* installing *source* package ‘fastcluster’ ...
+** package ‘fastcluster’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c fastcluster_R.cpp -o fastcluster_R.o
+In file included from fastcluster_R.cpp:24:
+fastcluster.cpp:53:35: note: #pragma message: Use fenv header.
+   53 | #pragma message("Use fenv header.")
+      |                                   ^
+g++ -std=gnu++17 -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o fastcluster.so fastcluster_R.o -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-fastcluster/00new/fastcluster/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘fastcluster’ as ‘fastcluster_1.2.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fastcluster)
+* installing *source* package ‘GSEABase’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GSEABase’ as ‘GSEABase_1.62.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GSEABase)
+* installing *source* package ‘gProfileR’ ...
+** package ‘gProfileR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘gProfileR’ as ‘gProfileR_0.7.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gProfileR)
+* installing *source* package ‘pander’ ...
+** package ‘pander’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c helpers.cpp -o helpers.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c pandoc.cpp -o pandoc.o
+g++ -std=gnu++17 -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o pander.so RcppExports.o helpers.o pandoc.o -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-pander/00new/pander/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘pander’ as ‘pander_0.6.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pander)
+* installing *source* package ‘rhdf5’ ...
+** using staged installation
+configure: creating ./config.status
+config.status: creating src/external_filters.h
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+using C++ compiler: ‘g++ (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c H5.c -o H5.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c H5A.c -o H5A.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c H5D.c -o H5D.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c H5E.c -o H5E.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c H5F.c -o H5F.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c H5G.c -o H5G.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c H5I.c -o H5I.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c H5L.c -o H5L.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c H5O.c -o H5O.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c H5P.c -o H5P.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c H5R.c -o H5R.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c H5S.c -o H5S.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c H5S_extras.c -o H5S_extras.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c H5T.c -o H5T.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c H5Z.c -o H5Z.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c H5constants.c -o H5constants.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c HandleList.cpp -o HandleList.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c HandleListWrap.c -o HandleListWrap.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c bit64conversion.c -o bit64conversion.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c external_filters.c -o external_filters.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c h5dump.c -o h5dump.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c h5ls.c -o h5ls.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c h5testLock.c -o h5testLock.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c h5writeDataFrame.c -o h5writeDataFrame.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c printdatatype.c -o printdatatype.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c utils.c -o utils.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c wrap.c -o wrap.o
+g++ -std=gnu++17 -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o rhdf5.so H5.o H5A.o H5D.o H5E.o H5F.o H5G.o H5I.o H5L.o H5O.o H5P.o H5R.o H5S.o H5S_extras.o H5T.o H5Z.o H5constants.o HandleList.o HandleListWrap.o bit64conversion.o external_filters.o h5dump.o h5ls.o h5testLock.o h5writeDataFrame.o printdatatype.o utils.o wrap.o /tmp/tmp/built/Rhdf5lib/lib/libhdf5.a -lcrypto -lcurl -lsz -laec -lz -ldl -lm -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-rhdf5/00new/rhdf5/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘rhdf5’ as ‘rhdf5_2.44.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rhdf5)
+* installing *source* package ‘Hmisc’ ...
+** package ‘Hmisc’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c Hmisc.c -o Hmisc.o
+gfortran  -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong  -c cidxcn.f -o cidxcn.o
+gfortran  -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong  -c cidxcp.f -o cidxcp.o
+gfortran  -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong  -c hoeffd.f -o hoeffd.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c init.c -o init.o
+gfortran  -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong  -c jacklins.f -o jacklins.o
+gfortran  -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong  -c largrec.f -o largrec.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c mChoice.c -o mChoice.o
+gfortran  -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong  -c maxempr.f -o maxempr.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c nstr.c -o nstr.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c ranksort.c -o ranksort.o
+gfortran  -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong  -c rcorr.f -o rcorr.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c string_box.c -o string_box.o
+gfortran  -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong  -c wclosest.f -o wclosest.o
+gcc -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o Hmisc.so Hmisc.o cidxcn.o cidxcp.o hoeffd.o init.o jacklins.o largrec.o mChoice.o maxempr.o nstr.o ranksort.o rcorr.o string_box.o wclosest.o -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-Hmisc/00new/Hmisc/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘Hmisc’ as ‘Hmisc_5.1-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Hmisc)
+* installing *source* package ‘GGally’ ...
+** package ‘GGally’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GGally’ as ‘GGally_2.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GGally)
+* installing *source* package ‘HDF5Array’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c H5File.c -o H5File.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c global_errmsg_buf.c -o global_errmsg_buf.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c H5DSetDescriptor.c -o H5DSetDescriptor.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c h5dimscales.c -o h5dimscales.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c uaselection.c -o uaselection.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c h5mread_helpers.c -o h5mread_helpers.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c h5mread_startscounts.c -o h5mread_startscounts.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c ChunkIterator.c -o ChunkIterator.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c h5mread_index.c -o h5mread_index.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c h5mread_sparse.c -o h5mread_sparse.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c h5mread.c -o h5mread.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c h5summarize.c -o h5summarize.o
+gcc -I"/usr/share/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c R_init_HDF5Array.c -o R_init_HDF5Array.o
+gcc -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o HDF5Array.so S4Vectors_stubs.o H5File.o global_errmsg_buf.o H5DSetDescriptor.o h5dimscales.o uaselection.o h5mread_helpers.o h5mread_startscounts.o ChunkIterator.o h5mread_index.o h5mread_sparse.o h5mread.o h5summarize.o R_init_HDF5Array.o /tmp/tmp/built/Rhdf5lib/lib/libhdf5_hl.a /tmp/tmp/built/Rhdf5lib/lib/libhdf5.a -lcrypto -lcurl -lsz -laec -lz -ldl -lm -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-HDF5Array/00new/HDF5Array/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘HDF5Array’ as ‘HDF5Array_1.28.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (HDF5Array)
+* installing *source* package ‘WGCNA’ ...
+** package ‘WGCNA’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+using C++ compiler: ‘g++ (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gcc -I"/usr/share/R/include" -DNDEBUG -DWITH_THREADS -I'/usr/local/lib/R/site-library/Rcpp/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c corFunctions-utils.c -o corFunctions-utils.o
+gcc -I"/usr/share/R/include" -DNDEBUG -DWITH_THREADS -I'/usr/local/lib/R/site-library/Rcpp/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c corFunctions.c -o corFunctions.o
+gcc -I"/usr/share/R/include" -DNDEBUG -DWITH_THREADS -I'/usr/local/lib/R/site-library/Rcpp/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c myMatrixMultiplication.c -o myMatrixMultiplication.o
+gcc -I"/usr/share/R/include" -DNDEBUG -DWITH_THREADS -I'/usr/local/lib/R/site-library/Rcpp/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c networkFunctions.c -o networkFunctions.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -DWITH_THREADS -I'/usr/local/lib/R/site-library/Rcpp/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c parallelQuantile.cc -o parallelQuantile.o
+gcc -I"/usr/share/R/include" -DNDEBUG -DWITH_THREADS -I'/usr/local/lib/R/site-library/Rcpp/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c pivot.c -o pivot.o
+g++ -std=gnu++17 -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o WGCNA.so corFunctions-utils.o corFunctions.o myMatrixMultiplication.o networkFunctions.o parallelQuantile.o pivot.o -lpthread -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-WGCNA/00new/WGCNA/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘WGCNA’ as ‘WGCNA_1.72-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (WGCNA)
+* installing *source* package ‘GSVA’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c kernel_estimation.c -o kernel_estimation.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c ks_test.c -o ks_test.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c register_cmethods.c -o register_cmethods.o
+gcc -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o GSVA.so kernel_estimation.o ks_test.o register_cmethods.o -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-GSVA/00new/GSVA/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GSVA’ as ‘GSVA_1.48.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GSVA)
+* installing *source* package ‘MCbiclust’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘MCbiclust’ as ‘MCbiclust_1.24.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MCbiclust)
+
+The downloaded source packages are in
+	‘/tmp/RtmpMbbke3/downloaded_packages’
+Old packages: 'dbplyr', 'dplyr', 'DT', 'evaluate', 'fansi', 'GenomicRanges',
+  'ggplot2', 'ggrepel', 'htmltools', 'httpuv', 'httr2', 'knitr', 'lattice',
+  'leiden', 'lifecycle', 'Matrix', 'matrixStats', 'plotly', 'ragg',
+  'RcppArmadillo', 'RcppEigen', 'RCurl', 'reticulate', 'rlang', 'rpart',
+  'rprojroot', 'RSQLite', 'sctransform', 'scuttle', 'Seurat', 'SeuratObject',
+  'shiny', 'sp', 'spatstat.data', 'spatstat.explore', 'spatstat.geom',
+  'spatstat.random', 'spatstat.sparse', 'spatstat.utils', 'stringi', 'stringr',
+  'systemfonts', 'testthat', 'textshaping', 'tinytex', 'utf8', 'vctrs',
+  'waldo', 'withr', 'xfun', 'XML'
+
+real	3m39.453s
+user	3m24.437s
+sys	0m41.756s
