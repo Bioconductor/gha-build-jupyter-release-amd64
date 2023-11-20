@@ -178,7 +178,6 @@
         "OrganismDbi",
         "Rsamtools",
         "SummarizedExperiment",
-        "biocViews",
         "biomaRt",
         "rtracklayer"
     ],
@@ -453,7 +452,6 @@
         "OrganismDbi",
         "Rsamtools",
         "SummarizedExperiment",
-        "biocViews",
         "biomaRt",
         "rtracklayer"
     ],
@@ -1100,9 +1098,7 @@
         "enrichplot",
         "graphite"
     ],
-    "BiocCheck": [
-        "biocViews"
-    ],
+    "BiocCheck": [],
     "biocGraph": [
         "AnnotationDbi",
         "Biostrings",
@@ -1141,9 +1137,7 @@
         "KEGGREST",
         "annotate"
     ],
-    "BiocPkgTools": [
-        "biocViews"
-    ],
+    "BiocPkgTools": [],
     "BiocSet": [
         "AnnotationDbi",
         "Biostrings",
@@ -1159,7 +1153,6 @@
         "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "biocViews": [],
     "biomaRt": [
         "AnnotationDbi",
         "Biostrings",
@@ -2270,7 +2263,6 @@
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
-        "biocViews",
         "biomaRt",
         "biovizBase",
         "ensembldb",
@@ -4639,7 +4631,6 @@
         "OrganismDbi",
         "Rsamtools",
         "SummarizedExperiment",
-        "biocViews",
         "biomaRt",
         "rtracklayer"
     ],
@@ -7345,7 +7336,6 @@
         "Rsamtools",
         "SummarizedExperiment",
         "annotate",
-        "biocViews",
         "biomaRt",
         "bumphunter",
         "genefilter",
@@ -7938,9 +7928,7 @@
         "annotate",
         "rtracklayer"
     ],
-    "monocle": [
-        "biocViews"
-    ],
+    "monocle": [],
     "MoonlightR": [
         "AnnotationDbi",
         "Biostrings",
@@ -9273,7 +9261,6 @@
         "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment",
-        "biocViews",
         "destiny",
         "monocle"
     ],
@@ -10594,7 +10581,6 @@
         "MSnbase",
         "MsFeatures",
         "SummarizedExperiment",
-        "biocViews",
         "xcms"
     ],
     "RITAN": [
@@ -11875,8 +11861,7 @@
     "sigFeature": [
         "DelayedArray",
         "GenomicRanges",
-        "SummarizedExperiment",
-        "biocViews"
+        "SummarizedExperiment"
     ],
     "SigFuge": [
         "GenomicRanges"
@@ -13573,7 +13558,6 @@
         "Biostrings"
     ],
     "uSORT": [
-        "biocViews",
         "monocle"
     ],
     "VAExprs": [
