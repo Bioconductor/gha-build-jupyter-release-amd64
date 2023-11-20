@@ -17699,7 +17699,6 @@
         "biomaRt",
         "zlibbioc"
     ],
-    "MPFE": [],
     "mpra": [
         "Biobase",
         "DelayedArray",
