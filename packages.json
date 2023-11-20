@@ -3048,7 +3048,6 @@
         "VariantAnnotation"
     ],
     "velociraptor": [],
-    "vissE": [],
     "Voyager": [
         "DropletUtils",
         "SpatialExperiment",
