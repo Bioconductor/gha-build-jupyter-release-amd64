@@ -362,7 +362,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "CAMERA": [],
     "canceR": [
         "phenoTest"
     ],
@@ -1128,9 +1127,7 @@
     "FindIT2": [
         "GenomicFeatures"
     ],
-    "flagme": [
-        "CAMERA"
-    ],
+    "flagme": [],
     "FLAMES": [
         "BSgenome",
         "DropletUtils",
@@ -1445,9 +1442,7 @@
     ],
     "iPath": [],
     "ipdDb": [],
-    "IPO": [
-        "CAMERA"
-    ],
+    "IPO": [],
     "IRISFGM": [
         "clusterProfiler",
         "scater",
@@ -1508,9 +1503,7 @@
         "SpatialExperiment",
         "spicyR"
     ],
-    "LOBSTAHS": [
-        "CAMERA"
-    ],
+    "LOBSTAHS": [],
     "lumi": [
         "GenomicFeatures",
         "bumphunter",
@@ -1545,9 +1538,7 @@
         "GenomicFeatures",
         "TRESS"
     ],
-    "MAIT": [
-        "CAMERA"
-    ],
+    "MAIT": [],
     "mariner": [
         "plotgardener",
         "plyranges"
@@ -1626,9 +1617,7 @@
         "GenomicFeatures",
         "ensembldb"
     ],
-    "metaMS": [
-        "CAMERA"
-    ],
+    "metaMS": [],
     "MetaPhOR": [
         "RCy3",
         "clusterProfiler"
