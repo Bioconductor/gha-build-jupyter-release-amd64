@@ -1,0 +1,11 @@
+[
+    {
+        "shlib": "libnetcdf.so.15",
+        "package": "libnetcdf15",
+        "headers": "libnetcdf-dev",
+        "source": "netcdf",
+        "version": "1:4.7.3-1",
+        "url": "https://packages.ubuntu.com/focal/libnetcdf15"
+    }
+]
+
