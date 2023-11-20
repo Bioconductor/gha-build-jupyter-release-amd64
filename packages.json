@@ -400,7 +400,6 @@
         "scater",
         "scran"
     ],
-    "cellHTS2": [],
     "CelliD": [
         "scater"
     ],
@@ -1246,9 +1245,7 @@
     "GEOexplorer": [],
     "GeomxTools": [],
     "GeoTcgaData": [],
-    "gespeR": [
-        "cellHTS2"
-    ],
+    "gespeR": [],
     "GEWIST": [],
     "ggbio": [
         "BSgenome",
@@ -2403,9 +2400,7 @@
         "GenomicFeatures",
         "bumphunter"
     ],
-    "RNAinteract": [
-        "cellHTS2"
-    ],
+    "RNAinteract": [],
     "RNAmodR": [
         "BSgenome",
         "GenomicFeatures",
@@ -2808,9 +2803,7 @@
         "RUVSeq",
         "SpatialExperiment"
     ],
-    "staRank": [
-        "cellHTS2"
-    ],
+    "staRank": [],
     "Statial": [
         "DropletUtils",
         "SpatialExperiment"
