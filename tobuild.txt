@@ -1,5 +1,0 @@
-COTAN
-SparseArray
-cola
-InteractiveComplexHeatmap
-DelayedArray
