@@ -1492,7 +1492,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "ggmanh": [],
     "ggspavis": [
         "DropletUtils",
         "SpatialExperiment",
