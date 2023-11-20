@@ -174,7 +174,6 @@
     ],
     "airpart": [
         "BiocSingular",
-        "DelayedMatrixStats",
         "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -188,7 +187,6 @@
         "AnnotationDbi",
         "BSgenome",
         "Biostrings",
-        "DelayedMatrixStats",
         "DropletUtils",
         "GenomicAlignments",
         "GenomicFeatures",
@@ -246,7 +244,6 @@
         "alabaster.ranges"
     ],
     "alabaster.spatial": [
-        "DelayedMatrixStats",
         "DropletUtils",
         "GenomicRanges",
         "HDF5Array",
@@ -348,7 +345,6 @@
         "BiocSingular",
         "Biostrings",
         "DECIPHER",
-        "DelayedMatrixStats",
         "GenomicRanges",
         "MultiAssayExperiment",
         "ScaledMatrix",
@@ -506,7 +502,6 @@
     "arrayMvout": [
         "AnnotationDbi",
         "Biostrings",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
@@ -685,7 +680,6 @@
     "AUCell": [
         "AnnotationDbi",
         "Biostrings",
-        "DelayedMatrixStats",
         "GSEABase",
         "GenomicRanges",
         "KEGGREST",
@@ -791,7 +785,6 @@
     ],
     "BASiCS": [
         "BiocSingular",
-        "DelayedMatrixStats",
         "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -803,7 +796,6 @@
     "BASiCStan": [
         "BASiCS",
         "BiocSingular",
-        "DelayedMatrixStats",
         "GenomicRanges",
         "HDF5Array",
         "ScaledMatrix",
@@ -823,7 +815,6 @@
     ],
     "batchelor": [
         "BiocSingular",
-        "DelayedMatrixStats",
         "GenomicRanges",
         "ResidualMatrix",
         "ScaledMatrix",
@@ -842,7 +833,6 @@
     ],
     "BayesSpace": [
         "BiocSingular",
-        "DelayedMatrixStats",
         "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -916,7 +906,6 @@
         "Biostrings",
         "DECIPHER",
         "DESeq2",
-        "DelayedMatrixStats",
         "GenomicRanges",
         "KEGGREST",
         "MAST",
@@ -971,7 +960,6 @@
     "bigmelon": [
         "AnnotationDbi",
         "Biostrings",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
@@ -1120,7 +1108,6 @@
     "Biostrings": [],
     "BioTIP": [
         "BiocSingular",
-        "DelayedMatrixStats",
         "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -1154,7 +1141,6 @@
         "AnnotationHub",
         "BSgenome",
         "Biostrings",
-        "DelayedMatrixStats",
         "ExperimentHub",
         "GenomicAlignments",
         "GenomicFeatures",
@@ -1266,7 +1252,6 @@
         "BSgenome",
         "Biostrings",
         "DSS",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicRanges",
         "HDF5Array",
@@ -1354,7 +1339,6 @@
     "bsseq": [
         "BSgenome",
         "Biostrings",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicRanges",
         "HDF5Array",
@@ -1496,7 +1480,6 @@
         "BSgenome",
         "Biostrings",
         "CAGEfightR",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicFiles",
@@ -1560,7 +1543,6 @@
     ],
     "CATALYST": [
         "BiocSingular",
-        "DelayedMatrixStats",
         "FlowSOM",
         "GenomicRanges",
         "ScaledMatrix",
@@ -1675,7 +1657,6 @@
     ],
     "celda": [
         "BiocSingular",
-        "DelayedMatrixStats",
         "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -1717,7 +1698,6 @@
     ],
     "CelliD": [
         "BiocSingular",
-        "DelayedMatrixStats",
         "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -1735,7 +1715,6 @@
     "cellmigRation": [],
     "CellMixS": [
         "BiocSingular",
-        "DelayedMatrixStats",
         "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -1767,7 +1746,6 @@
     "Cepo": [
         "AnnotationDbi",
         "Biostrings",
-        "DelayedMatrixStats",
         "GSEABase",
         "GenomicRanges",
         "HDF5Array",
@@ -1829,7 +1807,6 @@
         "Biostrings",
         "DMRcate",
         "DSS",
-        "DelayedMatrixStats",
         "ExperimentHub",
         "GenomicAlignments",
         "GenomicFeatures",
@@ -2043,7 +2020,6 @@
     "ChromSCape": [
         "BiocSingular",
         "Biostrings",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicRanges",
         "ResidualMatrix",
@@ -2153,7 +2129,6 @@
     ],
     "CiteFuse": [
         "BiocSingular",
-        "DelayedMatrixStats",
         "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -2370,7 +2345,6 @@
     "COCOA": [
         "BSgenome",
         "Biostrings",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicRanges",
         "HDF5Array",
@@ -2481,7 +2455,6 @@
     "compartmap": [
         "BiocSingular",
         "Biostrings",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicRanges",
         "HDF5Array",
@@ -2519,7 +2492,6 @@
     "concordexR": [],
     "condiments": [
         "BiocSingular",
-        "DelayedMatrixStats",
         "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -2556,7 +2528,6 @@
         "AnnotationDbi",
         "BiocSingular",
         "Biostrings",
-        "DelayedMatrixStats",
         "GSEABase",
         "GSVA",
         "GenomicRanges",
@@ -2605,7 +2576,6 @@
     "conumee": [
         "AnnotationDbi",
         "Biostrings",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
@@ -2919,7 +2889,6 @@
         "KEGGREST"
     ],
     "CTSV": [
-        "DelayedMatrixStats",
         "DropletUtils",
         "GenomicRanges",
         "HDF5Array",
@@ -2986,7 +2955,6 @@
     "cytofQC": [
         "BiocSingular",
         "CATALYST",
-        "DelayedMatrixStats",
         "FlowSOM",
         "GenomicRanges",
         "ScaledMatrix",
@@ -3002,7 +2970,6 @@
         "SummarizedExperiment"
     ],
     "cytomapper": [
-        "DelayedMatrixStats",
         "DropletUtils",
         "GenomicRanges",
         "HDF5Array",
@@ -3023,7 +2990,6 @@
         "ggcyto"
     ],
     "cytoviewer": [
-        "DelayedMatrixStats",
         "DropletUtils",
         "GenomicRanges",
         "HDF5Array",
@@ -3160,7 +3126,6 @@
     "deconvR": [
         "AnnotationDbi",
         "Biostrings",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
@@ -3226,7 +3191,6 @@
         "SummarizedExperiment"
     ],
     "DelayedDataFrame": [],
-    "DelayedMatrixStats": [],
     "DelayedTensor": [
         "BiocSingular",
         "HDF5Array",
@@ -3248,7 +3212,6 @@
         "BSgenome",
         "Biostrings",
         "DSS",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicRanges",
         "HDF5Array",
@@ -3328,7 +3291,6 @@
         "SummarizedExperiment"
     ],
     "DESpace": [
-        "DelayedMatrixStats",
         "DropletUtils",
         "GenomicRanges",
         "HDF5Array",
@@ -3439,7 +3401,6 @@
     ],
     "Dino": [
         "BiocSingular",
-        "DelayedMatrixStats",
         "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -3454,7 +3415,6 @@
     ],
     "distinct": [
         "BiocSingular",
-        "DelayedMatrixStats",
         "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -3498,7 +3458,6 @@
         "BSgenome",
         "Biostrings",
         "DSS",
-        "DelayedMatrixStats",
         "ExperimentHub",
         "GenomicAlignments",
         "GenomicFeatures",
@@ -3548,7 +3507,6 @@
         "AnnotationHub",
         "BSgenome",
         "Biostrings",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
@@ -3639,7 +3597,6 @@
         "GenomicRanges"
     ],
     "DropletUtils": [
-        "DelayedMatrixStats",
         "GenomicRanges",
         "HDF5Array",
         "SingleCellExperiment",
@@ -3677,7 +3634,6 @@
     "DSS": [
         "BSgenome",
         "Biostrings",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicRanges",
         "HDF5Array",
@@ -3771,7 +3727,6 @@
         "AnnotationDbi",
         "BiocSingular",
         "Biostrings",
-        "DelayedMatrixStats",
         "GSEABase",
         "GSVA",
         "GenomicRanges",
@@ -3832,7 +3787,6 @@
         "AnnotationDbi",
         "AnnotationHub",
         "Biostrings",
-        "DelayedMatrixStats",
         "ExperimentHub",
         "GenomicAlignments",
         "GenomicFeatures",
@@ -4003,7 +3957,6 @@
         "AnnotationHub",
         "BSgenome",
         "Biostrings",
-        "DelayedMatrixStats",
         "ExperimentHub",
         "GenomicAlignments",
         "GenomicFeatures",
@@ -4160,7 +4113,6 @@
         "AnnotationDbi",
         "BiocSingular",
         "Biostrings",
-        "DelayedMatrixStats",
         "GSEABase",
         "GSVA",
         "GenomicRanges",
@@ -4178,7 +4130,6 @@
         "AnnotationHub",
         "BiocSingular",
         "Biostrings",
-        "DelayedMatrixStats",
         "DropletUtils",
         "ExperimentHub",
         "GenomicAlignments",
@@ -4288,7 +4239,6 @@
     ],
     "ExperimentSubset": [
         "Biostrings",
-        "DelayedMatrixStats",
         "DropletUtils",
         "GenomicRanges",
         "HDF5Array",
@@ -4428,7 +4378,6 @@
     "ffpe": [
         "AnnotationDbi",
         "Biostrings",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
@@ -4482,7 +4431,6 @@
         "BSgenome",
         "BiocSingular",
         "Biostrings",
-        "DelayedMatrixStats",
         "DropletUtils",
         "GenomicAlignments",
         "GenomicFeatures",
@@ -4541,7 +4489,6 @@
         "BSgenome",
         "Biostrings",
         "DESeq2",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
@@ -4571,7 +4518,6 @@
     "funtooNorm": [
         "AnnotationDbi",
         "Biostrings",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
@@ -5008,7 +4954,6 @@
         "R4RNA"
     ],
     "ggspavis": [
-        "DelayedMatrixStats",
         "DropletUtils",
         "GenomicRanges",
         "HDF5Array",
@@ -5041,7 +4986,6 @@
         "SummarizedExperiment"
     ],
     "glmGamPoi": [
-        "DelayedMatrixStats",
         "GenomicRanges",
         "HDF5Array",
         "SingleCellExperiment",
@@ -5309,7 +5253,6 @@
         "AnnotationDbi",
         "BiocSingular",
         "Biostrings",
-        "DelayedMatrixStats",
         "GSEABase",
         "GenomicRanges",
         "HDF5Array",
@@ -5618,7 +5561,6 @@
     "iCheck": [
         "AnnotationDbi",
         "Biostrings",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
@@ -5728,7 +5670,6 @@
         "rtracklayer"
     ],
     "imcRtools": [
-        "DelayedMatrixStats",
         "DropletUtils",
         "GenomicRanges",
         "HDF5Array",
@@ -5887,7 +5828,6 @@
         "BiocSingular",
         "Biostrings",
         "DOSE",
-        "DelayedMatrixStats",
         "GOSemSim",
         "GenomicRanges",
         "KEGGREST",
@@ -6054,7 +5994,6 @@
         "Biostrings",
         "DESeq2",
         "DSS",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicRanges",
         "HDF5Array",
@@ -6131,7 +6070,6 @@
         "AnnotationDbi",
         "Biostrings",
         "ClassifyR",
-        "DelayedMatrixStats",
         "DropletUtils",
         "GenomicRanges",
         "HDF5Array",
@@ -6181,7 +6119,6 @@
     "lumi": [
         "AnnotationDbi",
         "Biostrings",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
@@ -6257,7 +6194,6 @@
     "MAGAR": [
         "AnnotationDbi",
         "Biostrings",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
@@ -6470,7 +6406,6 @@
         "AnnotationFilter",
         "BSgenome",
         "Biostrings",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
@@ -6496,7 +6431,6 @@
     "MEAT": [
         "AnnotationDbi",
         "Biostrings",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
@@ -6516,7 +6450,6 @@
     ],
     "MEB": [
         "BiocSingular",
-        "DelayedMatrixStats",
         "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -6702,7 +6635,6 @@
     "methrix": [
         "BSgenome",
         "Biostrings",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicRanges",
         "HDF5Array",
@@ -6716,7 +6648,6 @@
     "MethylAid": [
         "AnnotationDbi",
         "Biostrings",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
@@ -6735,7 +6666,6 @@
         "AnnotationDbi",
         "BSgenome",
         "Biostrings",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
@@ -6759,7 +6689,6 @@
         "AnnotationHub",
         "AnnotationHubData",
         "Biostrings",
-        "DelayedMatrixStats",
         "ExperimentHub",
         "ExperimentHubData",
         "GenomicAlignments",
@@ -6781,7 +6710,6 @@
         "AnnotationDbi",
         "Biostrings",
         "DOSE",
-        "DelayedMatrixStats",
         "GOSemSim",
         "GenomicAlignments",
         "GenomicFeatures",
@@ -6860,7 +6788,6 @@
         "BSgenome",
         "Biostrings",
         "DSS",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicRanges",
         "HDF5Array",
@@ -6873,7 +6800,6 @@
     "methylumi": [
         "AnnotationDbi",
         "Biostrings",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
@@ -6909,7 +6835,6 @@
         "BiocSingular",
         "Biostrings",
         "DECIPHER",
-        "DelayedMatrixStats",
         "GenomicRanges",
         "MultiAssayExperiment",
         "ScaledMatrix",
@@ -6931,7 +6856,6 @@
         "BiocSingular",
         "Biostrings",
         "DECIPHER",
-        "DelayedMatrixStats",
         "GenomicRanges",
         "MultiAssayExperiment",
         "ScaledMatrix",
@@ -6963,7 +6887,6 @@
         "Biostrings",
         "DECIPHER",
         "DESeq2",
-        "DelayedMatrixStats",
         "GenomicRanges",
         "MultiAssayExperiment",
         "ScaledMatrix",
@@ -7027,7 +6950,6 @@
         "AnnotationForge",
         "Biostrings",
         "Category",
-        "DelayedMatrixStats",
         "GOstats",
         "GSEABase",
         "GenomicAlignments",
@@ -7049,7 +6971,6 @@
     "minfi": [
         "AnnotationDbi",
         "Biostrings",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
@@ -7083,7 +7004,6 @@
     "MIRA": [
         "BSgenome",
         "Biostrings",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicRanges",
         "HDF5Array",
@@ -7168,7 +7088,6 @@
     "missMethyl": [
         "AnnotationDbi",
         "Biostrings",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
@@ -7292,7 +7211,6 @@
         "graphite"
     ],
     "MoleculeExperiment": [
-        "DelayedMatrixStats",
         "DropletUtils",
         "GenomicRanges",
         "HDF5Array",
@@ -7478,7 +7396,6 @@
     ],
     "msImpute": [
         "BiocSingular",
-        "DelayedMatrixStats",
         "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -7655,7 +7572,6 @@
     ],
     "mumosa": [
         "BiocSingular",
-        "DelayedMatrixStats",
         "GenomicRanges",
         "ResidualMatrix",
         "ScaledMatrix",
@@ -7683,7 +7599,6 @@
     "muscat": [
         "BiocSingular",
         "DESeq2",
-        "DelayedMatrixStats",
         "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -7793,7 +7708,6 @@
         "BSgenome",
         "BiocSingular",
         "Biostrings",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicRanges",
         "HDF5Array",
@@ -7863,7 +7777,6 @@
     "nempi": [],
     "NetActivity": [
         "DESeq2",
-        "DelayedMatrixStats",
         "GenomicRanges",
         "SummarizedExperiment"
     ],
@@ -7892,7 +7805,6 @@
         "AnnotationDbi",
         "BiocSingular",
         "Biostrings",
-        "DelayedMatrixStats",
         "GenomicRanges",
         "HDF5Array",
         "KEGGREST",
@@ -7913,7 +7825,6 @@
         "AnnotationForge",
         "Biostrings",
         "Category",
-        "DelayedMatrixStats",
         "GOstats",
         "GSEABase",
         "GenomicAlignments",
@@ -7950,7 +7861,6 @@
         "Biostrings"
     ],
     "nnSVG": [
-        "DelayedMatrixStats",
         "DropletUtils",
         "GenomicRanges",
         "HDF5Array",
@@ -8016,7 +7926,6 @@
         "AnnotationHub",
         "BSgenome",
         "Biostrings",
-        "DelayedMatrixStats",
         "ExperimentHub",
         "GenomicAlignments",
         "GenomicRanges",
@@ -8034,7 +7943,6 @@
         "BiocSingular",
         "Biostrings",
         "DESeq2",
-        "DelayedMatrixStats",
         "EDASeq",
         "ExperimentHub",
         "GSEABase",
@@ -8222,7 +8130,6 @@
         "AnnotationDbi",
         "BiocSingular",
         "Biostrings",
-        "DelayedMatrixStats",
         "GSEABase",
         "GSVA",
         "GenomicRanges",
@@ -8456,7 +8363,6 @@
     ],
     "PCAtools": [
         "BiocSingular",
-        "DelayedMatrixStats",
         "ScaledMatrix",
         "beachmat"
     ],
@@ -8493,7 +8399,6 @@
     ],
     "peco": [
         "BiocSingular",
-        "DelayedMatrixStats",
         "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -8633,7 +8538,6 @@
     ],
     "pipeComp": [
         "BiocSingular",
-        "DelayedMatrixStats",
         "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -9119,7 +9023,6 @@
     "quantro": [
         "AnnotationDbi",
         "Biostrings",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
@@ -9287,7 +9190,6 @@
         "AUCell",
         "AnnotationDbi",
         "Biostrings",
-        "DelayedMatrixStats",
         "GSEABase",
         "GenomicRanges",
         "KEGGREST",
@@ -9350,7 +9252,6 @@
     "recountmethylation": [
         "AnnotationDbi",
         "Biostrings",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
@@ -9479,7 +9380,6 @@
         "AnnotationHub",
         "BSgenome",
         "Biostrings",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
@@ -9990,7 +9890,6 @@
     "RnBeads": [
         "AnnotationDbi",
         "Biostrings",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
@@ -10267,7 +10166,6 @@
     ],
     "SCArray": [
         "BiocSingular",
-        "DelayedMatrixStats",
         "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -10276,7 +10174,6 @@
     ],
     "SCArray.sat": [
         "BiocSingular",
-        "DelayedMatrixStats",
         "GenomicRanges",
         "SCArray",
         "ScaledMatrix",
@@ -10297,7 +10194,6 @@
     ],
     "scater": [
         "BiocSingular",
-        "DelayedMatrixStats",
         "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -10318,7 +10214,6 @@
         "zinbwave"
     ],
     "scCB2": [
-        "DelayedMatrixStats",
         "DropletUtils",
         "GenomicRanges",
         "HDF5Array",
@@ -10331,7 +10226,6 @@
         "AnnotationDbi",
         "Biostrings",
         "Cepo",
-        "DelayedMatrixStats",
         "GSEABase",
         "GenomicRanges",
         "HDF5Array",
@@ -10353,7 +10247,6 @@
     "scDblFinder": [
         "BiocSingular",
         "Biostrings",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicRanges",
         "Rsamtools",
@@ -10368,7 +10261,6 @@
     ],
     "scDD": [
         "BiocSingular",
-        "DelayedMatrixStats",
         "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -10393,7 +10285,6 @@
         "AnnotationFilter",
         "BiocSingular",
         "Biostrings",
-        "DelayedMatrixStats",
         "DropletUtils",
         "GSEABase",
         "GSVA",
@@ -10444,7 +10335,6 @@
     ],
     "scMerge": [
         "BiocSingular",
-        "DelayedMatrixStats",
         "GenomicRanges",
         "ResidualMatrix",
         "ScaledMatrix",
@@ -10466,7 +10356,6 @@
         "AnnotationHub",
         "BSgenome",
         "Biostrings",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
@@ -10539,7 +10428,6 @@
     "scPipe": [
         "AnnotationDbi",
         "Biostrings",
-        "DelayedMatrixStats",
         "DropletUtils",
         "GenomicAlignments",
         "GenomicRanges",
@@ -10556,7 +10444,6 @@
     ],
     "scran": [
         "BiocSingular",
-        "DelayedMatrixStats",
         "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -10657,7 +10544,6 @@
         "AnnotationFilter",
         "BiocSingular",
         "Biostrings",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
@@ -10679,7 +10565,6 @@
         "scuttle"
     ],
     "scuttle": [
-        "DelayedMatrixStats",
         "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -10687,7 +10572,6 @@
     ],
     "scviR": [
         "BiocSingular",
-        "DelayedMatrixStats",
         "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -10893,7 +10777,6 @@
     "shinyepico": [
         "AnnotationDbi",
         "Biostrings",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
@@ -10911,7 +10794,6 @@
     "shinyMethyl": [
         "AnnotationDbi",
         "Biostrings",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
@@ -10994,7 +10876,6 @@
         "AnnotationFilter",
         "BiocSingular",
         "Biostrings",
-        "DelayedMatrixStats",
         "GSEABase",
         "GSVA",
         "GenomicAlignments",
@@ -11055,7 +10936,6 @@
         "Rsamtools"
     ],
     "simpleSeg": [
-        "DelayedMatrixStats",
         "DropletUtils",
         "GenomicRanges",
         "HDF5Array",
@@ -11085,7 +10965,6 @@
     ],
     "SingleCellSignalR": [
         "BiocSingular",
-        "DelayedMatrixStats",
         "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -11101,7 +10980,6 @@
         "BiocSingular",
         "Biostrings",
         "DESeq2",
-        "DelayedMatrixStats",
         "DropletUtils",
         "ExperimentHub",
         "GSEABase",
@@ -11157,7 +11035,6 @@
     ],
     "SingleR": [
         "BiocSingular",
-        "DelayedMatrixStats",
         "GenomicRanges",
         "ScaledMatrix",
         "SummarizedExperiment",
@@ -11181,7 +11058,6 @@
         "AnnotationDbi",
         "BiocSingular",
         "Biostrings",
-        "DelayedMatrixStats",
         "GSEABase",
         "GSVA",
         "GenomicRanges",
@@ -11209,7 +11085,6 @@
     "skewr": [
         "AnnotationDbi",
         "Biostrings",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
@@ -11320,7 +11195,6 @@
     ],
     "Spaniel": [
         "BiocSingular",
-        "DelayedMatrixStats",
         "DropletUtils",
         "GenomicRanges",
         "HDF5Array",
@@ -11336,7 +11210,6 @@
         "AnnotationDbi",
         "BiocSet",
         "Biostrings",
-        "DelayedMatrixStats",
         "GSEABase",
         "KEGGREST",
         "annotate"
@@ -11351,7 +11224,6 @@
         "rtracklayer"
     ],
     "spaSim": [
-        "DelayedMatrixStats",
         "DropletUtils",
         "GenomicRanges",
         "HDF5Array",
@@ -11366,7 +11238,6 @@
         "SummarizedExperiment"
     ],
     "spatialDE": [
-        "DelayedMatrixStats",
         "DropletUtils",
         "GenomicRanges",
         "HDF5Array",
@@ -11382,7 +11253,6 @@
         "NanoStringNCTools"
     ],
     "SpatialExperiment": [
-        "DelayedMatrixStats",
         "DropletUtils",
         "GenomicRanges",
         "HDF5Array",
@@ -11392,7 +11262,6 @@
         "scuttle"
     ],
     "SpatialFeatureExperiment": [
-        "DelayedMatrixStats",
         "DropletUtils",
         "GenomicRanges",
         "HDF5Array",
@@ -11406,7 +11275,6 @@
         "AnnotationDbi",
         "BiocSingular",
         "Biostrings",
-        "DelayedMatrixStats",
         "GenomicRanges",
         "KEGGREST",
         "ScaledMatrix",
@@ -11460,7 +11328,6 @@
         "SummarizedExperiment"
     ],
     "SPIAT": [
-        "DelayedMatrixStats",
         "DropletUtils",
         "GenomicRanges",
         "HDF5Array",
@@ -11475,7 +11342,6 @@
         "AnnotationDbi",
         "Biostrings",
         "ClassifyR",
-        "DelayedMatrixStats",
         "DropletUtils",
         "GenomicRanges",
         "HDF5Array",
@@ -11505,7 +11371,6 @@
         "rtracklayer"
     ],
     "splatter": [
-        "DelayedMatrixStats",
         "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -11517,7 +11382,6 @@
         "AnnotationHub",
         "BSgenome",
         "Biostrings",
-        "DelayedMatrixStats",
         "ExperimentHub",
         "GenomicAlignments",
         "GenomicRanges",
@@ -11577,7 +11441,6 @@
         "biomaRt"
     ],
     "SpotClean": [
-        "DelayedMatrixStats",
         "DropletUtils",
         "GenomicRanges",
         "HDF5Array",
@@ -11636,7 +11499,6 @@
     "standR": [
         "AnnotationDbi",
         "Biostrings",
-        "DelayedMatrixStats",
         "DropletUtils",
         "EDASeq",
         "GenomicAlignments",
@@ -11674,7 +11536,6 @@
         "miRNAtap"
     ],
     "Statial": [
-        "DelayedMatrixStats",
         "DropletUtils",
         "GenomicRanges",
         "HDF5Array",
@@ -11685,7 +11546,6 @@
         "scuttle"
     ],
     "stJoincount": [
-        "DelayedMatrixStats",
         "DropletUtils",
         "GenomicRanges",
         "HDF5Array",
@@ -11882,7 +11742,6 @@
         "BiocSingular",
         "Biostrings",
         "DESeq2",
-        "DelayedMatrixStats",
         "GSEABase",
         "GSVA",
         "GenomicRanges",
@@ -12128,7 +11987,6 @@
         "AnnotationDbi",
         "BiocSingular",
         "Biostrings",
-        "DelayedMatrixStats",
         "GSEABase",
         "GSVA",
         "GenomicRanges",
@@ -12235,7 +12093,6 @@
         "rtracklayer"
     ],
     "transformGamPoi": [
-        "DelayedMatrixStats",
         "GenomicRanges",
         "HDF5Array",
         "SingleCellExperiment",
@@ -12331,7 +12188,6 @@
         "AnnotationDbi",
         "BiocSingular",
         "Biostrings",
-        "DelayedMatrixStats",
         "GenomicRanges",
         "KEGGREST",
         "ScaledMatrix",
@@ -12525,7 +12381,6 @@
     ],
     "VAExprs": [
         "BiocSingular",
-        "DelayedMatrixStats",
         "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -12653,7 +12508,6 @@
     ],
     "velociraptor": [
         "BiocSingular",
-        "DelayedMatrixStats",
         "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -12686,7 +12540,6 @@
         "annotate"
     ],
     "Voyager": [
-        "DelayedMatrixStats",
         "DropletUtils",
         "GenomicRanges",
         "HDF5Array",
@@ -12758,7 +12611,6 @@
     "wateRmelon": [
         "AnnotationDbi",
         "Biostrings",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
@@ -12795,7 +12647,6 @@
         "gcrma"
     ],
     "weitrix": [
-        "DelayedMatrixStats",
         "GenomicRanges",
         "SummarizedExperiment"
     ],
@@ -12874,7 +12725,6 @@
     "yarn": [
         "AnnotationDbi",
         "Biostrings",
-        "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
