@@ -4352,7 +4352,6 @@
         "Ringo",
         "genefilter"
     ],
-    "SimBu": [],
     "simpleSeg": [
         "DropletUtils",
         "SingleCellExperiment",
