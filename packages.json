@@ -4380,7 +4380,6 @@
         "GenomicFeatures",
         "MAST",
         "SingleCellExperiment",
-        "SingleR",
         "TSCAN",
         "TrajectoryUtils",
         "batchelor",
@@ -4407,7 +4406,6 @@
         "VariantAnnotation",
         "rtracklayer"
     ],
-    "SingleR": [],
     "singscore": [
         "GSEABase"
     ],
