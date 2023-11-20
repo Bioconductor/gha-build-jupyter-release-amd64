@@ -1729,7 +1729,6 @@
     ],
     "MouseFM": [],
     "MQmetrics": [],
-    "MsExperiment": [],
     "msgbsR": [
         "BSgenome",
         "GenomicFeatures",
@@ -1746,9 +1745,7 @@
     "MSnID": [],
     "MSPrep": [],
     "msqrob2": [],
-    "MsQuality": [
-        "MsExperiment"
-    ],
+    "MsQuality": [],
     "MSstats": [],
     "MSstatsLiP": [
         "MSstats",
