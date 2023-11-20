@@ -14984,7 +14984,6 @@
     ],
     "mosbi": [
         "Biobase",
-        "QUBIC",
         "fabia"
     ],
     "MOSim": [
@@ -18829,7 +18828,6 @@
         "biomaRt",
         "rtracklayer"
     ],
-    "QUBIC": [],
     "qusage": [
         "Biobase"
     ],
