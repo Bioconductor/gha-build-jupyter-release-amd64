@@ -1803,7 +1803,6 @@
         "RBGL"
     ],
     "biodbKegg": [],
-    "biodbNcbi": [],
     "biomaRt": [
         "AnnotationDbi",
         "Biostrings",
