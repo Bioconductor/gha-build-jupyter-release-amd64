@@ -1,0 +1,179 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''ReactomeGraph4R'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.17 (BiocManager 1.30.22), R 4.3.1 (2023-06-16)
+Installing package(s) 'ReactomeGraph4R'
+also installing the dependencies ‘attempt’, ‘neo4r’, ‘getPass’, ‘networkD3’, ‘visNetwork’, ‘wesanderson’
+
+trying URL 'https://cloud.r-project.org/src/contrib/attempt_0.3.1.tar.gz'
+Content type 'application/x-gzip' length 79261 bytes (77 KB)
+==================================================
+downloaded 77 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/neo4r_0.1.1.tar.gz'
+Content type 'application/x-gzip' length 198429 bytes (193 KB)
+==================================================
+downloaded 193 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/getPass_0.2-2.tar.gz'
+Content type 'application/x-gzip' length 252439 bytes (246 KB)
+==================================================
+downloaded 246 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/networkD3_0.4.tar.gz'
+Content type 'application/x-gzip' length 128302 bytes (125 KB)
+==================================================
+downloaded 125 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/visNetwork_2.1.2.tar.gz'
+Content type 'application/x-gzip' length 4273723 bytes (4.1 MB)
+==================================================
+downloaded 4.1 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/wesanderson_0.3.7.tar.gz'
+Content type 'application/x-gzip' length 6486 bytes
+==================================================
+downloaded 6486 bytes
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/ReactomeGraph4R_1.8.0.tar.gz'
+Content type 'application/x-gzip' length 810053 bytes (791 KB)
+==================================================
+downloaded 791 KB
+
+* installing *source* package ‘attempt’ ...
+** package ‘attempt’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘attempt’ as ‘attempt_0.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (attempt)
+* installing *source* package ‘getPass’ ...
+** package ‘getPass’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c getPass_native.c -o getPass_native.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c readline_masked.c -o readline_masked.o
+gcc -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o getPass.so getPass_native.o readline_masked.o -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-getPass/00new/getPass/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘getPass’ as ‘getPass_0.2-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (getPass)
+* installing *source* package ‘networkD3’ ...
+** package ‘networkD3’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘networkD3’ as ‘networkD3_0.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (networkD3)
+* installing *source* package ‘visNetwork’ ...
+** package ‘visNetwork’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘visNetwork’ as ‘visNetwork_2.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (visNetwork)
+* installing *source* package ‘wesanderson’ ...
+** package ‘wesanderson’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘wesanderson’ as ‘wesanderson_0.3.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (wesanderson)
+* installing *source* package ‘neo4r’ ...
+** package ‘neo4r’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘neo4r’ as ‘neo4r_0.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (neo4r)
+* installing *source* package ‘ReactomeGraph4R’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ReactomeGraph4R’ as ‘ReactomeGraph4R_1.8.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ReactomeGraph4R)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp0nc7ji/downloaded_packages’
+Old packages: 'dbplyr', 'dplyr', 'DT', 'evaluate', 'fansi', 'GenomicRanges',
+  'ggplot2', 'ggrepel', 'htmltools', 'httpuv', 'httr2', 'knitr', 'lattice',
+  'leiden', 'lifecycle', 'Matrix', 'matrixStats', 'plotly', 'ragg',
+  'RcppArmadillo', 'RcppEigen', 'RCurl', 'reticulate', 'rlang', 'rpart',
+  'rprojroot', 'RSQLite', 'sctransform', 'scuttle', 'Seurat', 'SeuratObject',
+  'shiny', 'sp', 'spatstat.data', 'spatstat.explore', 'spatstat.geom',
+  'spatstat.random', 'spatstat.sparse', 'spatstat.utils', 'stringi', 'stringr',
+  'systemfonts', 'testthat', 'textshaping', 'tinytex', 'utf8', 'vctrs',
+  'waldo', 'withr', 'xfun', 'XML'
+
+real	0m21.212s
+user	0m18.075s
+sys	0m12.736s
