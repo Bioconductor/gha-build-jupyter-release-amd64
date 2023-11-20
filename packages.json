@@ -24513,7 +24513,6 @@
         "zlibbioc"
     ],
     "SEPIRA": [],
-    "seq.hotSPOT": [],
     "seq2pathway": [
         "AnnotationDbi",
         "Biobase",
