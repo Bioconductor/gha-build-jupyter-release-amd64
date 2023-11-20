@@ -19552,7 +19552,6 @@
         "zlibbioc"
     ],
     "PANR": [],
-    "PanViz": [],
     "pareg": [
         "AnnotationDbi",
         "Biobase",
