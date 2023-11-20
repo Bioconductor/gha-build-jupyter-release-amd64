@@ -1,0 +1,558 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''cfTools'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.17 (BiocManager 1.30.22), R 4.3.1 (2023-06-16)
+Installing package(s) 'cfTools'
+also installing the dependencies ‘R.oo’, ‘R.methodsS3’, ‘R.utils’
+
+trying URL 'https://cloud.r-project.org/src/contrib/R.oo_1.25.0.tar.gz'
+Content type 'application/x-gzip' length 384384 bytes (375 KB)
+==================================================
+downloaded 375 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/R.methodsS3_1.8.2.tar.gz'
+Content type 'application/x-gzip' length 24131 bytes (23 KB)
+==================================================
+downloaded 23 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/R.utils_2.12.3.tar.gz'
+Content type 'application/x-gzip' length 364188 bytes (355 KB)
+==================================================
+downloaded 355 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/cfTools_1.0.0.tar.gz'
+Content type 'application/x-gzip' length 465586 bytes (454 KB)
+==================================================
+downloaded 454 KB
+
+* installing *source* package ‘R.methodsS3’ ...
+** package ‘R.methodsS3’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘R.methodsS3’ as ‘R.methodsS3_1.8.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (R.methodsS3)
+* installing *source* package ‘R.oo’ ...
+** package ‘R.oo’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning in setGenericS3.default(name, export = exportGeneric, envir = envir,  :
+  Renamed the preexisting function getMethods to getMethods.default, which was defined in environment R.oo.
+Warning in setGenericS3.default(name, export = exportGeneric, envir = envir,  :
+  Renamed the preexisting function getClasses to getClasses.default, which was defined in environment R.oo.
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘R.oo’ as ‘R.oo_1.25.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (R.oo)
+* installing *source* package ‘R.utils’ ...
+** package ‘R.utils’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning in setGenericS3.default(name, export = exportGeneric, envir = envir,  :
+  Renamed the preexisting function warnings to warnings.default, which was defined in environment R.utils.
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘R.utils’ as ‘R.utils_2.12.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (R.utils)
+* installing *source* package ‘cfTools’ ...
+** using non-staged installation via StagedInstall field
+** libs
+using C++ compiler: ‘g++ (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/BH/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/BH/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c data_types.cpp -o data_types.o
+In file included from /usr/local/lib/R/site-library/BH/include/boost/bind/mem_fn.hpp:25,
+                 from /usr/local/lib/R/site-library/BH/include/boost/mem_fn.hpp:22,
+                 from /usr/local/lib/R/site-library/BH/include/boost/function/detail/prologue.hpp:18,
+                 from /usr/local/lib/R/site-library/BH/include/boost/function.hpp:30,
+                 from /usr/local/lib/R/site-library/BH/include/boost/algorithm/string/detail/find_iterator.hpp:18,
+                 from /usr/local/lib/R/site-library/BH/include/boost/algorithm/string/find_iterator.hpp:24,
+                 from /usr/local/lib/R/site-library/BH/include/boost/algorithm/string/iter_find.hpp:27,
+                 from /usr/local/lib/R/site-library/BH/include/boost/algorithm/string/split.hpp:16,
+                 from /usr/local/lib/R/site-library/BH/include/boost/algorithm/string.hpp:23,
+                 from data_types.cpp:14:
+/usr/local/lib/R/site-library/BH/include/boost/get_pointer.hpp:48:40: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+   48 | template<class T> T * get_pointer(std::auto_ptr<T> const& p)
+      |                                        ^~~~~~~~
+In file included from /usr/include/c++/9/bits/locale_conv.h:41,
+                 from /usr/include/c++/9/locale:43,
+                 from /usr/include/c++/9/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /usr/local/lib/R/site-library/Rcpp/include/Rcpp.h:27,
+                 from data_types.cpp:2:
+/usr/include/c++/9/bits/unique_ptr.h:53:28: note: declared here
+   53 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/BH/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c matrix.cpp -o matrix.o
+In file included from /usr/local/lib/R/site-library/BH/include/boost/bind/mem_fn.hpp:25,
+                 from /usr/local/lib/R/site-library/BH/include/boost/mem_fn.hpp:22,
+                 from /usr/local/lib/R/site-library/BH/include/boost/function/detail/prologue.hpp:18,
+                 from /usr/local/lib/R/site-library/BH/include/boost/function.hpp:30,
+                 from /usr/local/lib/R/site-library/BH/include/boost/algorithm/string/detail/find_iterator.hpp:18,
+                 from /usr/local/lib/R/site-library/BH/include/boost/algorithm/string/find_iterator.hpp:24,
+                 from /usr/local/lib/R/site-library/BH/include/boost/algorithm/string/iter_find.hpp:27,
+                 from /usr/local/lib/R/site-library/BH/include/boost/algorithm/string/split.hpp:16,
+                 from /usr/local/lib/R/site-library/BH/include/boost/algorithm/string.hpp:23,
+                 from matrix.cpp:15:
+/usr/local/lib/R/site-library/BH/include/boost/get_pointer.hpp:48:40: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+   48 | template<class T> T * get_pointer(std::auto_ptr<T> const& p)
+      |                                        ^~~~~~~~
+In file included from /usr/include/c++/9/bits/locale_conv.h:41,
+                 from /usr/include/c++/9/locale:43,
+                 from /usr/include/c++/9/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /usr/local/lib/R/site-library/Rcpp/include/Rcpp.h:27,
+                 from matrix.cpp:2:
+/usr/include/c++/9/bits/unique_ptr.h:53:28: note: declared here
+   53 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /usr/local/lib/R/site-library/BH/include/boost/smart_ptr/shared_ptr.hpp:17,
+                 from /usr/local/lib/R/site-library/BH/include/boost/shared_ptr.hpp:17,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/chain.hpp:36,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/filtering_streambuf.hpp:17,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/filtering_stream.hpp:22,
+                 from matrix.cpp:17:
+/usr/local/lib/R/site-library/BH/include/boost/smart_ptr/detail/shared_count.hpp:361:33: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+  361 |     explicit shared_count( std::auto_ptr<Y> & r ): pi_( new sp_counted_impl_p<Y>( r.get() ) )
+      |                                 ^~~~~~~~
+In file included from /usr/include/c++/9/bits/locale_conv.h:41,
+                 from /usr/include/c++/9/locale:43,
+                 from /usr/include/c++/9/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /usr/local/lib/R/site-library/Rcpp/include/Rcpp.h:27,
+                 from matrix.cpp:2:
+/usr/include/c++/9/bits/unique_ptr.h:53:28: note: declared here
+   53 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /usr/local/lib/R/site-library/BH/include/boost/shared_ptr.hpp:17,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/chain.hpp:36,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/filtering_streambuf.hpp:17,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/filtering_stream.hpp:22,
+                 from matrix.cpp:17:
+/usr/local/lib/R/site-library/BH/include/boost/smart_ptr/shared_ptr.hpp:250:65: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+  250 | template< class T, class R > struct sp_enable_if_auto_ptr< std::auto_ptr< T >, R >
+      |                                                                 ^~~~~~~~
+In file included from /usr/include/c++/9/bits/locale_conv.h:41,
+                 from /usr/include/c++/9/locale:43,
+                 from /usr/include/c++/9/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /usr/local/lib/R/site-library/Rcpp/include/Rcpp.h:27,
+                 from matrix.cpp:2:
+/usr/include/c++/9/bits/unique_ptr.h:53:28: note: declared here
+   53 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /usr/local/lib/R/site-library/BH/include/boost/shared_ptr.hpp:17,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/chain.hpp:36,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/filtering_streambuf.hpp:17,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/filtering_stream.hpp:22,
+                 from matrix.cpp:17:
+/usr/local/lib/R/site-library/BH/include/boost/smart_ptr/shared_ptr.hpp:507:31: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+  507 |     explicit shared_ptr( std::auto_ptr<Y> & r ): px(r.get()), pn()
+      |                               ^~~~~~~~
+In file included from /usr/include/c++/9/bits/locale_conv.h:41,
+                 from /usr/include/c++/9/locale:43,
+                 from /usr/include/c++/9/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /usr/local/lib/R/site-library/Rcpp/include/Rcpp.h:27,
+                 from matrix.cpp:2:
+/usr/include/c++/9/bits/unique_ptr.h:53:28: note: declared here
+   53 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /usr/local/lib/R/site-library/BH/include/boost/shared_ptr.hpp:17,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/chain.hpp:36,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/filtering_streambuf.hpp:17,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/filtering_stream.hpp:22,
+                 from matrix.cpp:17:
+/usr/local/lib/R/site-library/BH/include/boost/smart_ptr/shared_ptr.hpp:520:22: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+  520 |     shared_ptr( std::auto_ptr<Y> && r ): px(r.get()), pn()
+      |                      ^~~~~~~~
+In file included from /usr/include/c++/9/bits/locale_conv.h:41,
+                 from /usr/include/c++/9/locale:43,
+                 from /usr/include/c++/9/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /usr/local/lib/R/site-library/Rcpp/include/Rcpp.h:27,
+                 from matrix.cpp:2:
+/usr/include/c++/9/bits/unique_ptr.h:53:28: note: declared here
+   53 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /usr/local/lib/R/site-library/BH/include/boost/shared_ptr.hpp:17,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/chain.hpp:36,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/filtering_streambuf.hpp:17,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/filtering_stream.hpp:22,
+                 from matrix.cpp:17:
+/usr/local/lib/R/site-library/BH/include/boost/smart_ptr/shared_ptr.hpp:603:34: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+  603 |     shared_ptr & operator=( std::auto_ptr<Y> & r )
+      |                                  ^~~~~~~~
+In file included from /usr/include/c++/9/bits/locale_conv.h:41,
+                 from /usr/include/c++/9/locale:43,
+                 from /usr/include/c++/9/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /usr/local/lib/R/site-library/Rcpp/include/Rcpp.h:27,
+                 from matrix.cpp:2:
+/usr/include/c++/9/bits/unique_ptr.h:53:28: note: declared here
+   53 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /usr/local/lib/R/site-library/BH/include/boost/shared_ptr.hpp:17,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/chain.hpp:36,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/filtering_streambuf.hpp:17,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/filtering_stream.hpp:22,
+                 from matrix.cpp:17:
+/usr/local/lib/R/site-library/BH/include/boost/smart_ptr/shared_ptr.hpp:612:34: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+  612 |     shared_ptr & operator=( std::auto_ptr<Y> && r )
+      |                                  ^~~~~~~~
+In file included from /usr/include/c++/9/bits/locale_conv.h:41,
+                 from /usr/include/c++/9/locale:43,
+                 from /usr/include/c++/9/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /usr/local/lib/R/site-library/Rcpp/include/Rcpp.h:27,
+                 from matrix.cpp:2:
+/usr/include/c++/9/bits/unique_ptr.h:53:28: note: declared here
+   53 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /usr/local/lib/R/site-library/BH/include/boost/shared_ptr.hpp:17,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/chain.hpp:36,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/filtering_streambuf.hpp:17,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/filtering_stream.hpp:22,
+                 from matrix.cpp:17:
+/usr/local/lib/R/site-library/BH/include/boost/smart_ptr/shared_ptr.hpp: In member function ‘boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::auto_ptr<_Up>&&)’:
+/usr/local/lib/R/site-library/BH/include/boost/smart_ptr/shared_ptr.hpp:614:38: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+  614 |         this_type( static_cast< std::auto_ptr<Y> && >( r ) ).swap( *this );
+      |                                      ^~~~~~~~
+In file included from /usr/include/c++/9/bits/locale_conv.h:41,
+                 from /usr/include/c++/9/locale:43,
+                 from /usr/include/c++/9/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /usr/local/lib/R/site-library/Rcpp/include/Rcpp.h:27,
+                 from matrix.cpp:2:
+/usr/include/c++/9/bits/unique_ptr.h:53:28: note: declared here
+   53 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/BH/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c my_getopt.cpp -o my_getopt.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/BH/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c read_deconvolution.cpp -o read_deconvolution.o
+In file included from /usr/local/lib/R/site-library/BH/include/boost/bind/mem_fn.hpp:25,
+                 from /usr/local/lib/R/site-library/BH/include/boost/mem_fn.hpp:22,
+                 from /usr/local/lib/R/site-library/BH/include/boost/function/detail/prologue.hpp:18,
+                 from /usr/local/lib/R/site-library/BH/include/boost/function.hpp:30,
+                 from /usr/local/lib/R/site-library/BH/include/boost/algorithm/string/detail/find_iterator.hpp:18,
+                 from /usr/local/lib/R/site-library/BH/include/boost/algorithm/string/find_iterator.hpp:24,
+                 from /usr/local/lib/R/site-library/BH/include/boost/algorithm/string/iter_find.hpp:27,
+                 from /usr/local/lib/R/site-library/BH/include/boost/algorithm/string/split.hpp:16,
+                 from /usr/local/lib/R/site-library/BH/include/boost/algorithm/string.hpp:23,
+                 from read_deconvolution.cpp:14:
+/usr/local/lib/R/site-library/BH/include/boost/get_pointer.hpp:48:40: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+   48 | template<class T> T * get_pointer(std::auto_ptr<T> const& p)
+      |                                        ^~~~~~~~
+In file included from /usr/include/c++/9/bits/locale_conv.h:41,
+                 from /usr/include/c++/9/locale:43,
+                 from /usr/include/c++/9/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /usr/local/lib/R/site-library/Rcpp/include/Rcpp.h:27,
+                 from read_deconvolution.cpp:2:
+/usr/include/c++/9/bits/unique_ptr.h:53:28: note: declared here
+   53 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /usr/local/lib/R/site-library/BH/include/boost/smart_ptr/shared_ptr.hpp:17,
+                 from /usr/local/lib/R/site-library/BH/include/boost/shared_ptr.hpp:17,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/chain.hpp:36,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/filtering_streambuf.hpp:17,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/filtering_stream.hpp:22,
+                 from read_deconvolution.cpp:16:
+/usr/local/lib/R/site-library/BH/include/boost/smart_ptr/detail/shared_count.hpp:361:33: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+  361 |     explicit shared_count( std::auto_ptr<Y> & r ): pi_( new sp_counted_impl_p<Y>( r.get() ) )
+      |                                 ^~~~~~~~
+In file included from /usr/include/c++/9/bits/locale_conv.h:41,
+                 from /usr/include/c++/9/locale:43,
+                 from /usr/include/c++/9/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /usr/local/lib/R/site-library/Rcpp/include/Rcpp.h:27,
+                 from read_deconvolution.cpp:2:
+/usr/include/c++/9/bits/unique_ptr.h:53:28: note: declared here
+   53 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /usr/local/lib/R/site-library/BH/include/boost/shared_ptr.hpp:17,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/chain.hpp:36,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/filtering_streambuf.hpp:17,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/filtering_stream.hpp:22,
+                 from read_deconvolution.cpp:16:
+/usr/local/lib/R/site-library/BH/include/boost/smart_ptr/shared_ptr.hpp:250:65: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+  250 | template< class T, class R > struct sp_enable_if_auto_ptr< std::auto_ptr< T >, R >
+      |                                                                 ^~~~~~~~
+In file included from /usr/include/c++/9/bits/locale_conv.h:41,
+                 from /usr/include/c++/9/locale:43,
+                 from /usr/include/c++/9/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /usr/local/lib/R/site-library/Rcpp/include/Rcpp.h:27,
+                 from read_deconvolution.cpp:2:
+/usr/include/c++/9/bits/unique_ptr.h:53:28: note: declared here
+   53 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /usr/local/lib/R/site-library/BH/include/boost/shared_ptr.hpp:17,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/chain.hpp:36,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/filtering_streambuf.hpp:17,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/filtering_stream.hpp:22,
+                 from read_deconvolution.cpp:16:
+/usr/local/lib/R/site-library/BH/include/boost/smart_ptr/shared_ptr.hpp:507:31: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+  507 |     explicit shared_ptr( std::auto_ptr<Y> & r ): px(r.get()), pn()
+      |                               ^~~~~~~~
+In file included from /usr/include/c++/9/bits/locale_conv.h:41,
+                 from /usr/include/c++/9/locale:43,
+                 from /usr/include/c++/9/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /usr/local/lib/R/site-library/Rcpp/include/Rcpp.h:27,
+                 from read_deconvolution.cpp:2:
+/usr/include/c++/9/bits/unique_ptr.h:53:28: note: declared here
+   53 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /usr/local/lib/R/site-library/BH/include/boost/shared_ptr.hpp:17,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/chain.hpp:36,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/filtering_streambuf.hpp:17,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/filtering_stream.hpp:22,
+                 from read_deconvolution.cpp:16:
+/usr/local/lib/R/site-library/BH/include/boost/smart_ptr/shared_ptr.hpp:520:22: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+  520 |     shared_ptr( std::auto_ptr<Y> && r ): px(r.get()), pn()
+      |                      ^~~~~~~~
+In file included from /usr/include/c++/9/bits/locale_conv.h:41,
+                 from /usr/include/c++/9/locale:43,
+                 from /usr/include/c++/9/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /usr/local/lib/R/site-library/Rcpp/include/Rcpp.h:27,
+                 from read_deconvolution.cpp:2:
+/usr/include/c++/9/bits/unique_ptr.h:53:28: note: declared here
+   53 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /usr/local/lib/R/site-library/BH/include/boost/shared_ptr.hpp:17,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/chain.hpp:36,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/filtering_streambuf.hpp:17,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/filtering_stream.hpp:22,
+                 from read_deconvolution.cpp:16:
+/usr/local/lib/R/site-library/BH/include/boost/smart_ptr/shared_ptr.hpp:603:34: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+  603 |     shared_ptr & operator=( std::auto_ptr<Y> & r )
+      |                                  ^~~~~~~~
+In file included from /usr/include/c++/9/bits/locale_conv.h:41,
+                 from /usr/include/c++/9/locale:43,
+                 from /usr/include/c++/9/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /usr/local/lib/R/site-library/Rcpp/include/Rcpp.h:27,
+                 from read_deconvolution.cpp:2:
+/usr/include/c++/9/bits/unique_ptr.h:53:28: note: declared here
+   53 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /usr/local/lib/R/site-library/BH/include/boost/shared_ptr.hpp:17,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/chain.hpp:36,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/filtering_streambuf.hpp:17,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/filtering_stream.hpp:22,
+                 from read_deconvolution.cpp:16:
+/usr/local/lib/R/site-library/BH/include/boost/smart_ptr/shared_ptr.hpp:612:34: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+  612 |     shared_ptr & operator=( std::auto_ptr<Y> && r )
+      |                                  ^~~~~~~~
+In file included from /usr/include/c++/9/bits/locale_conv.h:41,
+                 from /usr/include/c++/9/locale:43,
+                 from /usr/include/c++/9/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /usr/local/lib/R/site-library/Rcpp/include/Rcpp.h:27,
+                 from read_deconvolution.cpp:2:
+/usr/include/c++/9/bits/unique_ptr.h:53:28: note: declared here
+   53 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /usr/local/lib/R/site-library/BH/include/boost/shared_ptr.hpp:17,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/chain.hpp:36,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/filtering_streambuf.hpp:17,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/filtering_stream.hpp:22,
+                 from read_deconvolution.cpp:16:
+/usr/local/lib/R/site-library/BH/include/boost/smart_ptr/shared_ptr.hpp: In member function ‘boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::auto_ptr<_Up>&&)’:
+/usr/local/lib/R/site-library/BH/include/boost/smart_ptr/shared_ptr.hpp:614:38: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+  614 |         this_type( static_cast< std::auto_ptr<Y> && >( r ) ).swap( *this );
+      |                                      ^~~~~~~~
+In file included from /usr/include/c++/9/bits/locale_conv.h:41,
+                 from /usr/include/c++/9/locale:43,
+                 from /usr/include/c++/9/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /usr/local/lib/R/site-library/Rcpp/include/Rcpp.h:27,
+                 from read_deconvolution.cpp:2:
+/usr/include/c++/9/bits/unique_ptr.h:53:28: note: declared here
+   53 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/BH/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c template_utils.cpp -o template_utils.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/BH/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c utils.cpp -o utils.o
+In file included from /usr/local/lib/R/site-library/BH/include/boost/bind/mem_fn.hpp:25,
+                 from /usr/local/lib/R/site-library/BH/include/boost/mem_fn.hpp:22,
+                 from /usr/local/lib/R/site-library/BH/include/boost/function/detail/prologue.hpp:18,
+                 from /usr/local/lib/R/site-library/BH/include/boost/function.hpp:30,
+                 from /usr/local/lib/R/site-library/BH/include/boost/algorithm/string/detail/find_iterator.hpp:18,
+                 from /usr/local/lib/R/site-library/BH/include/boost/algorithm/string/find_iterator.hpp:24,
+                 from /usr/local/lib/R/site-library/BH/include/boost/algorithm/string/iter_find.hpp:27,
+                 from /usr/local/lib/R/site-library/BH/include/boost/algorithm/string/split.hpp:16,
+                 from /usr/local/lib/R/site-library/BH/include/boost/algorithm/string.hpp:23,
+                 from utils.cpp:17:
+/usr/local/lib/R/site-library/BH/include/boost/get_pointer.hpp:48:40: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+   48 | template<class T> T * get_pointer(std::auto_ptr<T> const& p)
+      |                                        ^~~~~~~~
+In file included from /usr/include/c++/9/bits/locale_conv.h:41,
+                 from /usr/include/c++/9/locale:43,
+                 from /usr/include/c++/9/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /usr/local/lib/R/site-library/Rcpp/include/Rcpp.h:27,
+                 from utils.cpp:2:
+/usr/include/c++/9/bits/unique_ptr.h:53:28: note: declared here
+   53 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /usr/local/lib/R/site-library/BH/include/boost/smart_ptr/shared_ptr.hpp:17,
+                 from /usr/local/lib/R/site-library/BH/include/boost/shared_ptr.hpp:17,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/device/file.hpp:24,
+                 from utils.cpp:18:
+/usr/local/lib/R/site-library/BH/include/boost/smart_ptr/detail/shared_count.hpp:361:33: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+  361 |     explicit shared_count( std::auto_ptr<Y> & r ): pi_( new sp_counted_impl_p<Y>( r.get() ) )
+      |                                 ^~~~~~~~
+In file included from /usr/include/c++/9/bits/locale_conv.h:41,
+                 from /usr/include/c++/9/locale:43,
+                 from /usr/include/c++/9/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /usr/local/lib/R/site-library/Rcpp/include/Rcpp.h:27,
+                 from utils.cpp:2:
+/usr/include/c++/9/bits/unique_ptr.h:53:28: note: declared here
+   53 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /usr/local/lib/R/site-library/BH/include/boost/shared_ptr.hpp:17,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/device/file.hpp:24,
+                 from utils.cpp:18:
+/usr/local/lib/R/site-library/BH/include/boost/smart_ptr/shared_ptr.hpp:250:65: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+  250 | template< class T, class R > struct sp_enable_if_auto_ptr< std::auto_ptr< T >, R >
+      |                                                                 ^~~~~~~~
+In file included from /usr/include/c++/9/bits/locale_conv.h:41,
+                 from /usr/include/c++/9/locale:43,
+                 from /usr/include/c++/9/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /usr/local/lib/R/site-library/Rcpp/include/Rcpp.h:27,
+                 from utils.cpp:2:
+/usr/include/c++/9/bits/unique_ptr.h:53:28: note: declared here
+   53 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /usr/local/lib/R/site-library/BH/include/boost/shared_ptr.hpp:17,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/device/file.hpp:24,
+                 from utils.cpp:18:
+/usr/local/lib/R/site-library/BH/include/boost/smart_ptr/shared_ptr.hpp:507:31: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+  507 |     explicit shared_ptr( std::auto_ptr<Y> & r ): px(r.get()), pn()
+      |                               ^~~~~~~~
+In file included from /usr/include/c++/9/bits/locale_conv.h:41,
+                 from /usr/include/c++/9/locale:43,
+                 from /usr/include/c++/9/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /usr/local/lib/R/site-library/Rcpp/include/Rcpp.h:27,
+                 from utils.cpp:2:
+/usr/include/c++/9/bits/unique_ptr.h:53:28: note: declared here
+   53 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /usr/local/lib/R/site-library/BH/include/boost/shared_ptr.hpp:17,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/device/file.hpp:24,
+                 from utils.cpp:18:
+/usr/local/lib/R/site-library/BH/include/boost/smart_ptr/shared_ptr.hpp:520:22: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+  520 |     shared_ptr( std::auto_ptr<Y> && r ): px(r.get()), pn()
+      |                      ^~~~~~~~
+In file included from /usr/include/c++/9/bits/locale_conv.h:41,
+                 from /usr/include/c++/9/locale:43,
+                 from /usr/include/c++/9/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /usr/local/lib/R/site-library/Rcpp/include/Rcpp.h:27,
+                 from utils.cpp:2:
+/usr/include/c++/9/bits/unique_ptr.h:53:28: note: declared here
+   53 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /usr/local/lib/R/site-library/BH/include/boost/shared_ptr.hpp:17,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/device/file.hpp:24,
+                 from utils.cpp:18:
+/usr/local/lib/R/site-library/BH/include/boost/smart_ptr/shared_ptr.hpp:603:34: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+  603 |     shared_ptr & operator=( std::auto_ptr<Y> & r )
+      |                                  ^~~~~~~~
+In file included from /usr/include/c++/9/bits/locale_conv.h:41,
+                 from /usr/include/c++/9/locale:43,
+                 from /usr/include/c++/9/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /usr/local/lib/R/site-library/Rcpp/include/Rcpp.h:27,
+                 from utils.cpp:2:
+/usr/include/c++/9/bits/unique_ptr.h:53:28: note: declared here
+   53 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /usr/local/lib/R/site-library/BH/include/boost/shared_ptr.hpp:17,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/device/file.hpp:24,
+                 from utils.cpp:18:
+/usr/local/lib/R/site-library/BH/include/boost/smart_ptr/shared_ptr.hpp:612:34: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+  612 |     shared_ptr & operator=( std::auto_ptr<Y> && r )
+      |                                  ^~~~~~~~
+In file included from /usr/include/c++/9/bits/locale_conv.h:41,
+                 from /usr/include/c++/9/locale:43,
+                 from /usr/include/c++/9/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /usr/local/lib/R/site-library/Rcpp/include/Rcpp.h:27,
+                 from utils.cpp:2:
+/usr/include/c++/9/bits/unique_ptr.h:53:28: note: declared here
+   53 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /usr/local/lib/R/site-library/BH/include/boost/shared_ptr.hpp:17,
+                 from /usr/local/lib/R/site-library/BH/include/boost/iostreams/device/file.hpp:24,
+                 from utils.cpp:18:
+/usr/local/lib/R/site-library/BH/include/boost/smart_ptr/shared_ptr.hpp: In member function ‘boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::auto_ptr<_Up>&&)’:
+/usr/local/lib/R/site-library/BH/include/boost/smart_ptr/shared_ptr.hpp:614:38: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+  614 |         this_type( static_cast< std::auto_ptr<Y> && >( r ) ).swap( *this );
+      |                                      ^~~~~~~~
+In file included from /usr/include/c++/9/bits/locale_conv.h:41,
+                 from /usr/include/c++/9/locale:43,
+                 from /usr/include/c++/9/iomanip:43,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:53,
+                 from /usr/local/lib/R/site-library/Rcpp/include/Rcpp.h:27,
+                 from utils.cpp:2:
+/usr/include/c++/9/bits/unique_ptr.h:53:28: note: declared here
+   53 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+g++ -std=gnu++17 -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o cfTools.so RcppExports.o data_types.o matrix.o my_getopt.o read_deconvolution.o template_utils.o utils.o -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/cfTools/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* creating tarball
+packaged installation of ‘cfTools’ as ‘cfTools_1.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cfTools)
+
+The downloaded source packages are in
+	‘/tmp/RtmpGPVPsx/downloaded_packages’
+Old packages: 'dbplyr', 'dplyr', 'DT', 'evaluate', 'fansi', 'GenomicRanges',
+  'ggplot2', 'ggrepel', 'htmltools', 'httpuv', 'httr2', 'knitr', 'lattice',
+  'leiden', 'lifecycle', 'Matrix', 'matrixStats', 'plotly', 'ragg',
+  'RcppArmadillo', 'RcppEigen', 'RCurl', 'reticulate', 'rlang', 'rpart',
+  'rprojroot', 'RSQLite', 'sctransform', 'scuttle', 'Seurat', 'SeuratObject',
+  'shiny', 'sp', 'spatstat.data', 'spatstat.explore', 'spatstat.geom',
+  'spatstat.random', 'spatstat.sparse', 'spatstat.utils', 'stringi', 'stringr',
+  'systemfonts', 'testthat', 'textshaping', 'tinytex', 'utf8', 'vctrs',
+  'waldo', 'withr', 'xfun', 'XML'
+
+real	0m55.979s
+user	0m51.211s
+sys	0m9.682s
