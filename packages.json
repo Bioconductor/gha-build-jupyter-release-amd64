@@ -1275,7 +1275,6 @@
         "DropletUtils",
         "SpatialExperiment"
     ],
-    "girafe": [],
     "glmSparseNet": [],
     "gmapR": [
         "BSgenome",
