@@ -1,0 +1,76 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''alabaster.matrix'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.17 (BiocManager 1.30.22), R 4.3.1 (2023-06-16)
+Installing package(s) 'alabaster.matrix'
+also installing the dependency ‘chihaya’
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/chihaya_1.0.0.tar.gz'
+Content type 'application/x-gzip' length 261615 bytes (255 KB)
+==================================================
+downloaded 255 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/alabaster.matrix_1.0.0.tar.gz'
+Content type 'application/x-gzip' length 236073 bytes (230 KB)
+==================================================
+downloaded 230 KB
+
+* installing *source* package ‘chihaya’ ...
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+using C++17
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -I../inst/include -D USE_HDF5=1 -D USE_ZLIB=1 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -I../inst/include -D USE_HDF5=1 -D USE_ZLIB=1 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c get_best_type.cpp -o get_best_type.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -I../inst/include -D USE_HDF5=1 -D USE_ZLIB=1 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c h5exists.cpp -o h5exists.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -I../inst/include -D USE_HDF5=1 -D USE_ZLIB=1 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c validate.cpp -o validate.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -I../inst/include -D USE_HDF5=1 -D USE_ZLIB=1 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/Rhdf5lib/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c write_scalar.cpp -o write_scalar.o
+g++ -std=gnu++17 -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o chihaya.so RcppExports.o get_best_type.o h5exists.o validate.o write_scalar.o /tmp/tmp/built/Rhdf5lib/lib/libhdf5_cpp.a /tmp/tmp/built/Rhdf5lib/lib/libhdf5.a -lcrypto -lcurl -lsz -laec -lz -ldl -lm -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-chihaya/00new/chihaya/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘chihaya’ as ‘chihaya_1.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (chihaya)
+* installing *source* package ‘alabaster.matrix’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘alabaster.matrix’ as ‘alabaster.matrix_1.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (alabaster.matrix)
+
+The downloaded source packages are in
+	‘/tmp/RtmpyhSv4S/downloaded_packages’
+Old packages: 'dbplyr', 'dplyr', 'DT', 'evaluate', 'fansi', 'GenomicRanges',
+  'ggplot2', 'ggrepel', 'htmltools', 'httpuv', 'httr2', 'knitr', 'lattice',
+  'leiden', 'lifecycle', 'Matrix', 'matrixStats', 'plotly', 'ragg',
+  'RcppArmadillo', 'RcppEigen', 'RCurl', 'reticulate', 'rlang', 'rpart',
+  'rprojroot', 'RSQLite', 'sctransform', 'scuttle', 'Seurat', 'SeuratObject',
+  'shiny', 'sp', 'spatstat.data', 'spatstat.explore', 'spatstat.geom',
+  'spatstat.random', 'spatstat.sparse', 'spatstat.utils', 'stringi', 'stringr',
+  'systemfonts', 'testthat', 'textshaping', 'tinytex', 'utf8', 'vctrs',
+  'waldo', 'withr', 'xfun', 'XML'
+
+real	0m50.043s
+user	0m45.068s
+sys	0m6.843s
