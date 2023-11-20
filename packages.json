@@ -2259,7 +2259,6 @@
         "IRanges",
         "KEGGREST",
         "MatrixGenerics",
-        "ROC",
         "Rhtslib",
         "Rsamtools",
         "S4Arrays",
@@ -4237,7 +4236,6 @@
         "KEGGREST",
         "MatrixGenerics",
         "ProtGenerics",
-        "ROC",
         "Rhtslib",
         "Rsamtools",
         "S4Arrays",
@@ -5031,11 +5029,8 @@
         "zlibbioc"
     ],
     "Clonality": [],
-    "clst": [
-        "ROC"
-    ],
+    "clst": [],
     "clstutils": [
-        "ROC",
         "clst"
     ],
     "CluMSID": [
@@ -14604,7 +14599,6 @@
         "GenomeInfoDb",
         "IRanges",
         "KEGGREST",
-        "ROC",
         "S4Vectors",
         "XVector",
         "affy",
@@ -15032,7 +15026,6 @@
         "IRanges",
         "KEGGREST",
         "MatrixGenerics",
-        "ROC",
         "Rhtslib",
         "Rsamtools",
         "S4Arrays",
@@ -23245,7 +23238,6 @@
         "rtracklayer",
         "zlibbioc"
     ],
-    "ROC": [],
     "ROCpAI": [
         "Biobase",
         "DelayedArray",
@@ -25962,7 +25954,6 @@
         "IRanges",
         "KEGGREST",
         "MatrixGenerics",
-        "ROC",
         "Rhtslib",
         "Rsamtools",
         "S4Arrays",
@@ -27063,9 +27054,7 @@
         "sparseMatrixStats",
         "zlibbioc"
     ],
-    "statTarget": [
-        "ROC"
-    ],
+    "statTarget": [],
     "STdeconvolve": [],
     "stepNorm": [
         "limma",
@@ -29507,7 +29496,6 @@
         "IRanges",
         "KEGGREST",
         "MatrixGenerics",
-        "ROC",
         "Rhtslib",
         "Rsamtools",
         "S4Arrays",
