@@ -1,0 +1,133 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''microSTASIS'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.17 (BiocManager 1.30.22), R 4.3.1 (2023-06-16)
+Installing package(s) 'microSTASIS'
+also installing the dependencies ‘bibtex’, ‘ggside’, ‘gghighlight’, ‘RefManageR’
+
+trying URL 'https://cloud.r-project.org/src/contrib/bibtex_0.5.1.tar.gz'
+Content type 'application/x-gzip' length 79311 bytes (77 KB)
+==================================================
+downloaded 77 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/ggside_0.2.2.tar.gz'
+Content type 'application/x-gzip' length 3678435 bytes (3.5 MB)
+==================================================
+downloaded 3.5 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/gghighlight_0.4.0.tar.gz'
+Content type 'application/x-gzip' length 1079418 bytes (1.0 MB)
+==================================================
+downloaded 1.0 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/RefManageR_1.4.0.tar.gz'
+Content type 'application/x-gzip' length 911039 bytes (889 KB)
+==================================================
+downloaded 889 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/microSTASIS_1.0.0.tar.gz'
+Content type 'application/x-gzip' length 1235613 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+* installing *source* package ‘bibtex’ ...
+** package ‘bibtex’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘bibtex’ as ‘bibtex_0.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bibtex)
+* installing *source* package ‘ggside’ ...
+** package ‘ggside’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ggside’ as ‘ggside_0.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggside)
+* installing *source* package ‘gghighlight’ ...
+** package ‘gghighlight’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘gghighlight’ as ‘gghighlight_0.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gghighlight)
+* installing *source* package ‘RefManageR’ ...
+** package ‘RefManageR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RefManageR’ as ‘RefManageR_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RefManageR)
+* installing *source* package ‘microSTASIS’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+in method for ‘pairedTimes’ with signature ‘"TreeSummarizedExperiment"’: no definition for class “TreeSummarizedExperiment”
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘microSTASIS’ as ‘microSTASIS_1.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (microSTASIS)
+
+The downloaded source packages are in
+	‘/tmp/RtmpW3h06E/downloaded_packages’
+Old packages: 'dbplyr', 'dplyr', 'DT', 'evaluate', 'fansi', 'GenomicRanges',
+  'ggplot2', 'ggrepel', 'htmltools', 'httpuv', 'httr2', 'knitr', 'lattice',
+  'leiden', 'lifecycle', 'Matrix', 'matrixStats', 'plotly', 'ragg',
+  'RcppArmadillo', 'RcppEigen', 'RCurl', 'reticulate', 'rlang', 'rpart',
+  'rprojroot', 'RSQLite', 'sctransform', 'scuttle', 'Seurat', 'SeuratObject',
+  'shiny', 'sp', 'spatstat.data', 'spatstat.explore', 'spatstat.geom',
+  'spatstat.random', 'spatstat.sparse', 'spatstat.utils', 'stringi', 'stringr',
+  'systemfonts', 'testthat', 'textshaping', 'tinytex', 'utf8', 'vctrs',
+  'waldo', 'withr', 'xfun', 'XML'
+
+real	0m21.926s
+user	0m19.232s
+sys	0m9.303s
