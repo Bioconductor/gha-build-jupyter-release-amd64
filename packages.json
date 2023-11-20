@@ -1162,7 +1162,6 @@
         "qvalue",
         "zlibbioc"
     ],
-    "antiProfiles": [],
     "AnVILPublish": [],
     "AnVILWorkflow": [],
     "APAlyzer": [
