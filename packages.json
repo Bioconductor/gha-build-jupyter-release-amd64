@@ -1529,7 +1529,6 @@
         "BSgenome"
     ],
     "MEDME": [],
-    "meshr": [],
     "MetaboAnnotation": [],
     "metabomxtr": [],
     "MetaboSignal": [
@@ -2467,8 +2466,7 @@
         "ggbio"
     ],
     "scTensor": [
-        "ReactomePA",
-        "meshr"
+        "ReactomePA"
     ],
     "scTGIF": [],
     "scTreeViz": [
