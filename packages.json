@@ -7150,7 +7150,6 @@
         "KEGGREST",
         "XVector"
     ],
-    "gaggle": [],
     "GARS": [
         "AnnotationDbi",
         "Biostrings",
