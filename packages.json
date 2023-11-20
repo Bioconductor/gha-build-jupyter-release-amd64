@@ -7900,7 +7900,6 @@
         "biomaRt",
         "rtracklayer"
     ],
-    "target": [],
     "TargetDecoy": [],
     "TBSignatureProfiler": [
         "ASSIGN",
