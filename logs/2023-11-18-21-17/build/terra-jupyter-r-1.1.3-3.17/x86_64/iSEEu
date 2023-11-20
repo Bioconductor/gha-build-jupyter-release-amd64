@@ -1,0 +1,64 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''iSEEu'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.17 (BiocManager 1.30.22), R 4.3.1 (2023-06-16)
+Installing package(s) 'iSEEu'
+also installing the dependency ‘GO.db’
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/GO.db_3.17.0.tar.gz'
+Content type 'application/x-gzip' length 29245567 bytes (27.9 MB)
+==================================================
+downloaded 27.9 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/iSEEu_1.12.0.tar.gz'
+Content type 'application/x-gzip' length 1419301 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+* installing *source* package ‘GO.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GO.db’ as ‘GO.db_3.17.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GO.db)
+* installing *source* package ‘iSEEu’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘iSEEu’ as ‘iSEEu_1.12.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (iSEEu)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp07vjnt/downloaded_packages’
+Old packages: 'dbplyr', 'dplyr', 'DT', 'evaluate', 'fansi', 'GenomicRanges',
+  'ggplot2', 'ggrepel', 'htmltools', 'httpuv', 'httr2', 'knitr', 'lattice',
+  'leiden', 'lifecycle', 'Matrix', 'matrixStats', 'plotly', 'ragg',
+  'RcppArmadillo', 'RcppEigen', 'RCurl', 'reticulate', 'rlang', 'rpart',
+  'rprojroot', 'RSQLite', 'sctransform', 'scuttle', 'Seurat', 'SeuratObject',
+  'shiny', 'sp', 'spatstat.data', 'spatstat.explore', 'spatstat.geom',
+  'spatstat.random', 'spatstat.sparse', 'spatstat.utils', 'stringi', 'stringr',
+  'systemfonts', 'testthat', 'textshaping', 'tinytex', 'utf8', 'vctrs',
+  'waldo', 'withr', 'xfun', 'XML'
+
+real	1m8.417s
+user	1m4.100s
+sys	0m5.593s
