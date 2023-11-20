@@ -4753,7 +4753,6 @@
     "tidySingleCellExperiment": [
         "SingleCellExperiment"
     ],
-    "tidySummarizedExperiment": [],
     "tigre": [],
     "tilingArray": [
         "genefilter"
