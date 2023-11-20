@@ -51,7 +51,7 @@ packaged installation of ‘SNPRelate’ as ‘SNPRelate_1.34.1_R_x86_64-pc-linu
 * DONE (SNPRelate)
 
 The downloaded source packages are in
-	‘/tmp/RtmpdxyxNh/downloaded_packages’
+	‘/tmp/Rtmp8eQlzj/downloaded_packages’
 Old packages: 'dbplyr', 'dplyr', 'DT', 'evaluate', 'fansi', 'GenomicRanges',
   'ggplot2', 'ggrepel', 'htmltools', 'httpuv', 'httr2', 'knitr', 'lattice',
   'leiden', 'lifecycle', 'Matrix', 'matrixStats', 'plotly', 'ragg',
@@ -62,6 +62,6 @@ Old packages: 'dbplyr', 'dplyr', 'DT', 'evaluate', 'fansi', 'GenomicRanges',
   'systemfonts', 'testthat', 'textshaping', 'tinytex', 'utf8', 'vctrs',
   'waldo', 'withr', 'xfun', 'XML'
 
-real	0m28.035s
-user	0m23.717s
-sys	0m3.895s
+real	0m28.506s
+user	0m23.488s
+sys	0m3.832s
