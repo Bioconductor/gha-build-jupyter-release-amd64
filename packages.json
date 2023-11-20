@@ -1543,7 +1543,6 @@
         "SingleCellExperiment",
         "globaltest"
     ],
-    "eisaR": [],
     "ELMER": [
         "BSgenome",
         "GenomicFeatures",
