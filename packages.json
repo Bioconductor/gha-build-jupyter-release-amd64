@@ -245,7 +245,6 @@
         "SummarizedExperiment"
     ],
     "ANCOMBC": [
-        "DECIPHER",
         "MultiAssayExperiment",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -403,9 +402,7 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "AssessORF": [
-        "DECIPHER"
-    ],
+    "AssessORF": [],
     "ASSIGN": [
         "AnnotationDbi",
         "annotate",
@@ -653,7 +650,6 @@
         "ALDEx2",
         "ANCOMBC",
         "AnnotationDbi",
-        "DECIPHER",
         "DESeq2",
         "MAST",
         "Maaslin2",
@@ -2306,7 +2302,6 @@
         "pathview",
         "sva"
     ],
-    "DECIPHER": [],
     "decompTumor2Sig": [
         "AnnotationDbi",
         "BSgenome",
@@ -5083,7 +5078,6 @@
         "biomaRt"
     ],
     "mia": [
-        "DECIPHER",
         "MultiAssayExperiment",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -5097,7 +5091,6 @@
         "TreeSummarizedExperiment"
     ],
     "miaViz": [
-        "DECIPHER",
         "MultiAssayExperiment",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -5115,7 +5108,6 @@
     "microbiomeMarker": [
         "ALDEx2",
         "ANCOMBC",
-        "DECIPHER",
         "DESeq2",
         "MultiAssayExperiment",
         "SingleCellExperiment",
@@ -6007,11 +5999,8 @@
         "SummarizedExperiment"
     ],
     "openCyto": [],
-    "openPrimeR": [
-        "DECIPHER"
-    ],
+    "openPrimeR": [],
     "openPrimeRui": [
-        "DECIPHER",
         "openPrimeR"
     ],
     "OpenStats": [],
@@ -7473,9 +7462,7 @@
         "annotate",
         "biomaRt"
     ],
-    "sangeranalyseR": [
-        "DECIPHER"
-    ],
+    "sangeranalyseR": [],
     "sarks": [],
     "satuRn": [
         "SummarizedExperiment"
@@ -7638,9 +7625,7 @@
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
-    "scifer": [
-        "DECIPHER"
-    ],
+    "scifer": [],
     "scmap": [
         "SingleCellExperiment",
         "SummarizedExperiment"
@@ -8626,9 +8611,7 @@
     ],
     "synapter": [],
     "synergyfinder": [],
-    "SynExtend": [
-        "DECIPHER"
-    ],
+    "SynExtend": [],
     "syntenet": [
         "GenomicAlignments",
         "Rsamtools",
