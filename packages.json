@@ -10477,7 +10477,6 @@
         "XVector",
         "edgeR"
     ],
-    "HubPub": [],
     "HumanTranscriptomeCompendium": [
         "DelayedArray",
         "GenomeInfoDb",
