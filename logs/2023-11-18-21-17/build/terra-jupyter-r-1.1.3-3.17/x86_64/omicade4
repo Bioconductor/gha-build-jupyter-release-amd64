@@ -28,7 +28,7 @@ packaged installation of ‘omicade4’ as ‘omicade4_1.40.0_R_x86_64-pc-linux-
 * DONE (omicade4)
 
 The downloaded source packages are in
-	‘/tmp/Rtmpd9zRg7/downloaded_packages’
+	‘/tmp/Rtmpb7ohc8/downloaded_packages’
 Old packages: 'dbplyr', 'dplyr', 'DT', 'evaluate', 'fansi', 'GenomicRanges',
   'ggplot2', 'ggrepel', 'htmltools', 'httpuv', 'httr2', 'knitr', 'lattice',
   'leiden', 'lifecycle', 'Matrix', 'matrixStats', 'plotly', 'ragg',
@@ -39,6 +39,6 @@ Old packages: 'dbplyr', 'dplyr', 'DT', 'evaluate', 'fansi', 'GenomicRanges',
   'systemfonts', 'testthat', 'textshaping', 'tinytex', 'utf8', 'vctrs',
   'waldo', 'withr', 'xfun', 'XML'
 
-real	0m16.344s
-user	0m13.342s
-sys	0m2.696s
+real	0m16.112s
+user	0m13.691s
+sys	0m2.737s
