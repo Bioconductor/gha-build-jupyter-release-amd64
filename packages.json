@@ -3601,7 +3601,6 @@
         "SummarizedExperiment"
     ],
     "h5vc": [],
-    "Harshlight": [],
     "HelloRanges": [
         "AnnotationDbi",
         "BSgenome",
