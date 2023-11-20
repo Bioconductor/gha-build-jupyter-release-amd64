@@ -1283,7 +1283,6 @@
         "GenomicFeatures"
     ],
     "GeneGeneInteR": [],
-    "GeneMeta": [],
     "GENESIS": [
         "GWASTools",
         "SeqVarTools"
@@ -3335,9 +3334,7 @@
     ],
     "wiggleplotr": [],
     "xcms": [],
-    "XDE": [
-        "GeneMeta"
-    ],
+    "XDE": [],
     "Xeva": [
         "CoreGx",
         "PharmacoGx"
