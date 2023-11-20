@@ -350,9 +350,7 @@
         "biovizBase",
         "ensembldb"
     ],
-    "canceR": [
-        "phenoTest"
-    ],
+    "canceR": [],
     "cardelino": [
         "BSgenome",
         "GenomicFeatures",
@@ -1968,7 +1966,6 @@
         "destiny"
     ],
     "phenomis": [],
-    "phenoTest": [],
     "PhenStat": [],
     "PhosR": [],
     "PhyloProfile": [
