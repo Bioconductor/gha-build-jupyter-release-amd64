@@ -3127,7 +3127,6 @@
         "SpatialExperiment",
         "SpatialFeatureExperiment"
     ],
-    "vsclust": [],
     "vtpnet": [
         "BSgenome",
         "GenomicFeatures",
