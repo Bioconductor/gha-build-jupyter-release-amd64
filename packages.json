@@ -1509,7 +1509,6 @@
         "SpatialExperiment",
         "cytomapper"
     ],
-    "infercnv": [],
     "InPAS": [
         "BSgenome",
         "GenomicFeatures",
