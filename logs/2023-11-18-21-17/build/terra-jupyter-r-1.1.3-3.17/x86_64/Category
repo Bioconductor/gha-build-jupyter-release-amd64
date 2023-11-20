@@ -1,0 +1,183 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''Category'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.17 (BiocManager 1.30.22), R 4.3.1 (2023-06-16)
+Installing package(s) 'Category'
+also installing the dependencies ‘regioneR’, ‘bezier’, ‘bamsignals’, ‘EBarrays’, ‘karyoploteR’, ‘geneplotter’
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/regioneR_1.32.0.tar.gz'
+Content type 'application/x-gzip' length 1918823 bytes (1.8 MB)
+==================================================
+downloaded 1.8 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/bezier_1.1.2.tar.gz'
+Content type 'application/x-gzip' length 18252 bytes (17 KB)
+==================================================
+downloaded 17 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/bamsignals_1.32.0.tar.gz'
+Content type 'application/x-gzip' length 3240027 bytes (3.1 MB)
+==================================================
+downloaded 3.1 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/EBarrays_2.64.0.tar.gz'
+Content type 'application/x-gzip' length 962455 bytes (939 KB)
+==================================================
+downloaded 939 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/karyoploteR_1.26.0.tar.gz'
+Content type 'application/x-gzip' length 1647819 bytes (1.6 MB)
+==================================================
+downloaded 1.6 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/geneplotter_1.78.0.tar.gz'
+Content type 'application/x-gzip' length 1400582 bytes (1.3 MB)
+==================================================
+downloaded 1.3 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/Category_2.66.0.tar.gz'
+Content type 'application/x-gzip' length 881888 bytes (861 KB)
+==================================================
+downloaded 861 KB
+
+* installing *source* package ‘regioneR’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘regioneR’ as ‘regioneR_1.32.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (regioneR)
+* installing *source* package ‘bezier’ ...
+** package ‘bezier’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘bezier’ as ‘bezier_1.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bezier)
+* installing *source* package ‘bamsignals’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+using C++ compiler: ‘g++ (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/Rhtslib/include' -I'/tmp/tmp/built/zlibbioc/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c CountSignals.cpp -o CountSignals.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/Rhtslib/include' -I'/tmp/tmp/built/zlibbioc/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/Rhtslib/include' -I'/tmp/tmp/built/zlibbioc/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c bamsignals.cpp -o bamsignals.o
+gcc -I"/usr/share/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/Rhtslib/include' -I'/tmp/tmp/built/zlibbioc/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c bamsignals_init.c -o bamsignals_init.o
+g++ -std=gnu++17 -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o bamsignals.so CountSignals.o RcppExports.o bamsignals.o bamsignals_init.o /usr/local/lib/R/site-library/Rhtslib/usrlib/libhts.a -lcurl -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-bamsignals/00new/bamsignals/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘bamsignals’ as ‘bamsignals_1.32.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bamsignals)
+* installing *source* package ‘EBarrays’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c ebarrays.c -o ebarrays.o
+gcc -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o EBarrays.so ebarrays.o -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-EBarrays/00new/EBarrays/libs
+** R
+** data
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘EBarrays’ as ‘EBarrays_2.64.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (EBarrays)
+* installing *source* package ‘geneplotter’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘geneplotter’ as ‘geneplotter_1.78.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (geneplotter)
+* installing *source* package ‘Category’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘Category’ as ‘Category_2.66.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Category)
+* installing *source* package ‘karyoploteR’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘karyoploteR’ as ‘karyoploteR_1.26.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (karyoploteR)
+
+The downloaded source packages are in
+	‘/tmp/RtmpIGpwNc/downloaded_packages’
+Old packages: 'dbplyr', 'dplyr', 'DT', 'evaluate', 'fansi', 'GenomicRanges',
+  'ggplot2', 'ggrepel', 'htmltools', 'httpuv', 'httr2', 'knitr', 'lattice',
+  'leiden', 'lifecycle', 'Matrix', 'matrixStats', 'plotly', 'ragg',
+  'RcppArmadillo', 'RcppEigen', 'RCurl', 'reticulate', 'rlang', 'rpart',
+  'rprojroot', 'RSQLite', 'sctransform', 'scuttle', 'Seurat', 'SeuratObject',
+  'shiny', 'sp', 'spatstat.data', 'spatstat.explore', 'spatstat.geom',
+  'spatstat.random', 'spatstat.sparse', 'spatstat.utils', 'stringi', 'stringr',
+  'systemfonts', 'testthat', 'textshaping', 'tinytex', 'utf8', 'vctrs',
+  'waldo', 'withr', 'xfun', 'XML'
+
+real	1m49.851s
+user	1m39.923s
+sys	0m19.493s
