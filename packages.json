@@ -1,8 +1,7 @@
 {
     "a4": [],
     "ADaCGH2": [
-        "snapCGH",
-        "tilingArray"
+        "snapCGH"
     ],
     "ADAM": [],
     "ADAMgui": [
@@ -3001,9 +3000,7 @@
         "GenomicFeatures",
         "goseq"
     ],
-    "snapCGH": [
-        "tilingArray"
-    ],
+    "snapCGH": [],
     "snm": [],
     "SNPhood": [
         "BSgenome",
@@ -3199,7 +3196,6 @@
     ],
     "TFutils": [],
     "tidySingleCellExperiment": [],
-    "tilingArray": [],
     "TimiRGeN": [
         "RCy3",
         "clusterProfiler",
