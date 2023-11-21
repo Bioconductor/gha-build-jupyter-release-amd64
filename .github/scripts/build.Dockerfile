@@ -5,7 +5,7 @@ ARG PLATFORM
 USER root
 COPY . /home/ubuntu/
 WORKDIR /home/ubuntu
-RUN sudo apt update || true && sudo apt-get install cmake -y && mkdir -p ./$LIBRARY && mkdir -p /tmp/$LIBRARY && ls ./$LIBRARY && ls ./$LIBRARY | xargs -i mv ./$LIBRARY/{} /tmp/$LIBRARY/{} && bash .github/scripts/build_package.sh /tmp/$LIBRARY $PKG $PLATFORM && rm -rf /home/ubuntu/*
+RUN apt update -qq || true && apt-get install cmake -y && mkdir -p ./$LIBRARY && mkdir -p /tmp/$LIBRARY && ls ./$LIBRARY && ls ./$LIBRARY | xargs -i mv ./$LIBRARY/{} /tmp/$LIBRARY/{} && bash .github/scripts/build_package.sh /tmp/$LIBRARY $PKG $PLATFORM && rm -rf /home/ubuntu/*
 
 FROM scratch as export
 COPY --from=build /tmp/tmp /tmp
