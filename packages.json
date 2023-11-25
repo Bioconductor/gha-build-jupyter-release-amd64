@@ -2231,7 +2231,6 @@
         "GenomicFeatures",
         "ensembldb"
     ],
-    "scGPS": [],
     "scmeth": [
         "BSgenome",
         "GenomicFeatures",
