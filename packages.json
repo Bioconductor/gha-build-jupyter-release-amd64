@@ -439,7 +439,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "CINdex": [],
     "circRNAprofiler": [
         "BSgenome",
         "GenomicFeatures",
