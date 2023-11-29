@@ -2378,7 +2378,6 @@
         "ensembldb",
         "ggbio"
     ],
-    "sparrow": [],
     "SparseSignatures": [
         "BSgenome"
     ],
