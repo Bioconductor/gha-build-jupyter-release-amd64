@@ -1353,7 +1353,6 @@
         "minfi",
         "oligoClasses"
     ],
-    "MAGeCKFlute": [],
     "magpie": [
         "GenomicFeatures",
         "TRESS"
