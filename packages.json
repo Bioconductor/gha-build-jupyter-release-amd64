@@ -2039,7 +2039,6 @@
         "MutationalPatterns",
         "VariantAnnotation"
     ],
-    "restfulSE": [],
     "rexposome": [],
     "rGADEM": [
         "BSgenome"
@@ -2469,8 +2468,7 @@
     ],
     "TEKRABber": [],
     "tenXplore": [
-        "ontoProc",
-        "restfulSE"
+        "ontoProc"
     ],
     "terraTCGAdata": [
         "GenomicFeatures",
