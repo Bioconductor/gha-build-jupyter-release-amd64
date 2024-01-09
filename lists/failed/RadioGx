@@ -1,0 +1,62 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''RadioGx'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.17 (BiocManager 1.30.22), R 4.3.1 (2023-06-16)
+Installing package(s) 'RadioGx'
+Warning: dependency ‘magicaxis’ is not available
+also installing the dependency ‘downloader’
+
+trying URL 'https://cloud.r-project.org/src/contrib/downloader_0.4.tar.gz'
+Content type 'application/x-gzip' length 6808 bytes
+==================================================
+downloaded 6808 bytes
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/RadioGx_2.4.0.tar.gz'
+Content type 'application/gzip' length 2894950 bytes (2.8 MB)
+==================================================
+downloaded 2.8 MB
+
+* installing *source* package ‘downloader’ ...
+** package ‘downloader’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘downloader’ as ‘downloader_0.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (downloader)
+ERROR: dependency ‘magicaxis’ is not available for package ‘RadioGx’
+* removing ‘/tmp/tmp/built/RadioGx’
+
+The downloaded source packages are in
+	‘/tmp/RtmpE4cc20/downloaded_packages’
+Old packages: 'bookdown', 'checkmate', 'markdown', 'mvtnorm', 'ncdf4', 'sets',
+  'snowfall', 'brew', 'brio', 'bslib', 'cli', 'cluster', 'cowplot', 'cpp11',
+  'crosstalk', 'curl', 'data.table', 'DBI', 'dbplyr', 'deldir', 'desc',
+  'dplyr', 'dqrng', 'DT', 'evaluate', 'fansi', 'filelock', 'foreign', 'future',
+  'future.apply', 'GenomicRanges', 'gert', 'ggplot2', 'ggrepel', 'ggridges',
+  'gtools', 'haven', 'htmltools', 'htmlwidgets', 'httpuv', 'httr2', 'igraph',
+  'interp', 'jsonlite', 'knitr', 'later', 'lattice', 'leiden', 'lifecycle',
+  'Matrix', 'matrixStats', 'mgcv', 'nlme', 'patchwork', 'pkgbuild', 'plotly',
+  'processx', 'progress', 'ragg', 'Rcpp', 'RcppArmadillo', 'RcppEigen',
+  'RCurl', 'reticulate', 'rlang', 'rpart', 'rprojroot', 'RSQLite', 'Rtsne',
+  'sass', 'scales', 'sctransform', 'scuttle', 'Seurat', 'SeuratObject',
+  'shiny', 'sp', 'spatstat.data', 'spatstat.explore', 'spatstat.geom',
+  'spatstat.random', 'spatstat.sparse', 'spatstat.utils', 'stringi', 'stringr',
+  'systemfonts', 'testthat', 'textshaping', 'tinytex', 'utf8', 'vctrs',
+  'vroom', 'waldo', 'withr', 'xfun', 'XML', 'xml2', 'yaml'
+Warning message:
+In install.packages(...) :
+  installation of package ‘RadioGx’ had non-zero exit status
+
+real	0m7.630s
+user	0m3.316s
+sys	0m2.377s
