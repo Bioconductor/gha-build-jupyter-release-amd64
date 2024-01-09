@@ -564,7 +564,6 @@
         "karyoploteR",
         "regioneR"
     ],
-    "CoreGx": [],
     "COTAN": [],
     "countsimQC": [],
     "cpvSNP": [
@@ -1784,9 +1783,7 @@
     ],
     "pareg": [],
     "pcaExplorer": [],
-    "PDATK": [
-        "CoreGx"
-    ],
+    "PDATK": [],
     "pdInfoBuilder": [
         "oligo",
         "oligoClasses"
@@ -1795,9 +1792,7 @@
         "BSgenome"
     ],
     "phantasus": [],
-    "PharmacoGx": [
-        "CoreGx"
-    ],
+    "PharmacoGx": [],
     "phemd": [
         "destiny"
     ],
@@ -1934,9 +1929,7 @@
         "GenomicFeatures",
         "VariantAnnotation"
     ],
-    "RadioGx": [
-        "CoreGx"
-    ],
+    "RadioGx": [],
     "ramr": [],
     "ramwas": [],
     "RAREsim": [],
@@ -2499,9 +2492,7 @@
     "TOP": [
         "ClassifyR"
     ],
-    "ToxicoGx": [
-        "CoreGx"
-    ],
+    "ToxicoGx": [],
     "trackViewer": [
         "BSgenome",
         "GenomicFeatures",
@@ -2638,7 +2629,6 @@
         "GenomicFeatures"
     ],
     "Xeva": [
-        "CoreGx",
         "PharmacoGx"
     ],
     "XNAString": [
