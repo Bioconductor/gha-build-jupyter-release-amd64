@@ -1,0 +1,119 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''ToxicoGx'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.17 (BiocManager 1.30.22), R 4.3.1 (2023-06-16)
+Installing package(s) 'ToxicoGx'
+Warning: dependency ‘magicaxis’ is not available
+also installing the dependencies ‘coop’, ‘downloader’, ‘PharmacoGx’
+
+trying URL 'https://cloud.r-project.org/src/contrib/coop_0.6-3.tar.gz'
+Content type 'application/x-gzip' length 467165 bytes (456 KB)
+==================================================
+downloaded 456 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/downloader_0.4.tar.gz'
+Content type 'application/x-gzip' length 6808 bytes
+==================================================
+downloaded 6808 bytes
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/PharmacoGx_3.4.0.tar.gz'
+Content type 'application/gzip' length 4638098 bytes (4.4 MB)
+==================================================
+downloaded 4.4 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/ToxicoGx_2.4.0.tar.gz'
+Content type 'application/gzip' length 4117013 bytes (3.9 MB)
+==================================================
+downloaded 3.9 MB
+
+* installing *source* package ‘coop’ ...
+** package ‘coop’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gcc -I"/usr/share/R/include" -DNDEBUG      -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c R_checks.c -o R_checks.o
+gcc -I"/usr/share/R/include" -DNDEBUG      -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c R_naomit.c -o R_naomit.o
+gcc -I"/usr/share/R/include" -DNDEBUG      -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c R_wrapper.c -o R_wrapper.o
+gcc -I"/usr/share/R/include" -DNDEBUG      -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c coop_native.c -o coop_native.o
+gcc -I"/usr/share/R/include" -DNDEBUG      -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c dense.c -o dense.o
+gcc -I"/usr/share/R/include" -DNDEBUG      -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c dense_inplace.c -o dense_inplace.o
+gcc -I"/usr/share/R/include" -DNDEBUG      -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c dense_pairwise.c -o dense_pairwise.o
+gcc -I"/usr/share/R/include" -DNDEBUG      -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c scale.c -o scale.o
+gcc -I"/usr/share/R/include" -DNDEBUG      -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c sparse.c -o sparse.o
+gcc -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o coop.so R_checks.o R_naomit.o R_wrapper.o coop_native.o dense.o dense_inplace.o dense_pairwise.o scale.o sparse.o -llapack -lblas -lgfortran -lm -lquadmath -fopenmp -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-coop/00new/coop/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘coop’ as ‘coop_0.6-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (coop)
+* installing *source* package ‘downloader’ ...
+** package ‘downloader’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘downloader’ as ‘downloader_0.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (downloader)
+ERROR: dependency ‘magicaxis’ is not available for package ‘PharmacoGx’
+* removing ‘/tmp/tmp/built/PharmacoGx’
+* installing *source* package ‘ToxicoGx’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ToxicoGx’ as ‘ToxicoGx_2.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ToxicoGx)
+
+The downloaded source packages are in
+	‘/tmp/RtmpOX4xy2/downloaded_packages’
+Old packages: 'bookdown', 'checkmate', 'markdown', 'mvtnorm', 'ncdf4', 'sets',
+  'snowfall', 'brew', 'brio', 'bslib', 'cli', 'cluster', 'cowplot', 'cpp11',
+  'crosstalk', 'curl', 'data.table', 'DBI', 'dbplyr', 'deldir', 'desc',
+  'dplyr', 'dqrng', 'DT', 'evaluate', 'fansi', 'filelock', 'foreign', 'future',
+  'future.apply', 'GenomicRanges', 'gert', 'ggplot2', 'ggrepel', 'ggridges',
+  'glue', 'gtools', 'haven', 'htmltools', 'htmlwidgets', 'httpuv', 'httr2',
+  'igraph', 'interp', 'jsonlite', 'knitr', 'later', 'lattice', 'leiden',
+  'lifecycle', 'Matrix', 'matrixStats', 'mgcv', 'nlme', 'patchwork',
+  'pkgbuild', 'plotly', 'processx', 'progress', 'ragg', 'Rcpp',
+  'RcppArmadillo', 'RcppEigen', 'RCurl', 'reticulate', 'rlang', 'rpart',
+  'rprojroot', 'RSQLite', 'Rtsne', 'sass', 'scales', 'sctransform', 'scuttle',
+  'Seurat', 'SeuratObject', 'shiny', 'sp', 'spatstat.data', 'spatstat.explore',
+  'spatstat.geom', 'spatstat.random', 'spatstat.sparse', 'spatstat.utils',
+  'stringi', 'stringr', 'systemfonts', 'testthat', 'textshaping', 'tinytex',
+  'utf8', 'vctrs', 'vroom', 'waldo', 'withr', 'xfun', 'XML', 'xml2', 'yaml'
+Warning message:
+In install.packages(...) :
+  installation of package ‘PharmacoGx’ had non-zero exit status
+
+real	0m35.077s
+user	0m26.890s
+sys	0m7.228s
