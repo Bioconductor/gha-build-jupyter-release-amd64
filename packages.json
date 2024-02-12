@@ -1533,7 +1533,6 @@
         "BSgenome",
         "regioneR"
     ],
-    "Rmmquant": [],
     "RNAAgeCalc": [
         "BSgenome",
         "GenomicFiles",
