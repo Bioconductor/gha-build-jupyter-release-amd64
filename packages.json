@@ -554,7 +554,6 @@
         "BSgenome",
         "VariantAnnotation"
     ],
-    "DegNorm": [],
     "DEGraph": [
         "NCIgraph",
         "RCy3"
