@@ -212,9 +212,7 @@
         "dmrseq",
         "regioneR"
     ],
-    "blacksheepr": [
-        "DEXSeq"
-    ],
+    "blacksheepr": [],
     "blima": [
         "beadarray"
     ],
@@ -725,7 +723,6 @@
     ],
     "DESpace": [],
     "destiny": [],
-    "DEXSeq": [],
     "DiffBind": [
         "BSgenome",
         "GreyListChIP"
@@ -738,7 +735,6 @@
         "BSgenome"
     ],
     "diffUTR": [
-        "DEXSeq",
         "GenomicFeatures",
         "ensembldb"
     ],
@@ -1257,7 +1253,6 @@
     "InterCellar": [],
     "IntEREst": [
         "BSgenome",
-        "DEXSeq",
         "GenomicFeatures",
         "GenomicFiles",
         "VariantAnnotation"
@@ -1267,7 +1262,6 @@
     "iSEEhub": [],
     "IsoformSwitchAnalyzeR": [
         "BSgenome",
-        "DEXSeq",
         "GenomicFeatures",
         "ensembldb",
         "tximeta"
@@ -1768,9 +1762,7 @@
         "motifmatchr"
     ],
     "PAIRADISE": [],
-    "pairedGSEA": [
-        "DEXSeq"
-    ],
+    "pairedGSEA": [],
     "pareg": [],
     "pcaExplorer": [],
     "PDATK": [],
