@@ -143,7 +143,6 @@
         "GenomicFeatures"
     ],
     "bandle": [
-        "MLInterfaces",
         "pRoloc"
     ],
     "Basic4Cseq": [
@@ -1479,7 +1478,6 @@
         "VariantAnnotation",
         "deepSNV"
     ],
-    "MLInterfaces": [],
     "MMAPPR2": [
         "BSgenome",
         "GenomicFeatures",
@@ -1787,11 +1785,8 @@
         "rGREAT"
     ],
     "projectR": [],
-    "pRoloc": [
-        "MLInterfaces"
-    ],
+    "pRoloc": [],
     "pRolocGUI": [
-        "MLInterfaces",
         "pRoloc"
     ],
     "proteasy": [
@@ -2223,9 +2218,7 @@
         "minfi"
     ],
     "SIAMCAT": [],
-    "SigCheck": [
-        "MLInterfaces"
-    ],
+    "SigCheck": [],
     "signatureSearch": [],
     "signeR": [
         "BSgenome",
