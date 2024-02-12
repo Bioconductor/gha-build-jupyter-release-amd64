@@ -1748,7 +1748,6 @@
     "standR": [
         "RUVSeq"
     ],
-    "strandCheckR": [],
     "StructuralVariantAnnotation": [
         "BSgenome",
         "VariantAnnotation"
