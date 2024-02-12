@@ -1,4 +1,0 @@
-scone
-octad
-standR
-consensusDE
