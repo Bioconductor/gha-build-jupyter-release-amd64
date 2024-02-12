@@ -136,7 +136,6 @@
         "TFBSTools",
         "motifStack"
     ],
-    "AUCell": [],
     "autonomics": [],
     "BaalChIP": [],
     "BadRegionFinder": [
@@ -1925,9 +1924,7 @@
     "rCGH": [
         "GenomicFeatures"
     ],
-    "RcisTarget": [
-        "AUCell"
-    ],
+    "RcisTarget": [],
     "RCy3": [],
     "recount": [
         "BSgenome",
@@ -2185,7 +2182,6 @@
     ],
     "scDD": [],
     "scFeatures": [
-        "AUCell",
         "GSVA",
         "GenomicFeatures",
         "ensembldb"
