@@ -1,0 +1,173 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''RcisTarget'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.17 (BiocManager 1.30.22), R 4.3.1 (2023-06-16)
+Installing package(s) 'RcisTarget'
+also installing the dependencies ‘arrow’, ‘RcisTarget.hg19.motifDBs.cisbpOnly.500bp’, ‘visNetwork’
+
+trying URL 'https://cloud.r-project.org/src/contrib/arrow_14.0.0.2.tar.gz'
+Content type 'application/x-gzip' length 4263864 bytes (4.1 MB)
+==================================================
+downloaded 4.1 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/experiment/src/contrib/RcisTarget.hg19.motifDBs.cisbpOnly.500bp_1.20.0.tar.gz'
+Content type 'application/gzip' length 56081651 bytes (53.5 MB)
+==================================================
+downloaded 53.5 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/visNetwork_2.1.2.tar.gz'
+Content type 'application/x-gzip' length 4273723 bytes (4.1 MB)
+==================================================
+downloaded 4.1 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/RcisTarget_1.20.0.tar.gz'
+Content type 'application/gzip' length 13100382 bytes (12.5 MB)
+==================================================
+downloaded 12.5 MB
+
+* installing *source* package ‘arrow’ ...
+** package ‘arrow’ successfully unpacked and MD5 sums checked
+** using staged installation
+*** pkg-config found.
+*** Found libcurl and OpenSSL >= 1.1
+*** Successfully retrieved libarrow (linux-openssl-1.1)
+*** Checksum validated successfully for libarrow: linux-openssl-1.1/arrow-14.0.0.zip
+PKG_CFLAGS=-DPARQUET_STATIC -D_GLIBCXX_USE_CXX11_ABI=0 -DARROW_STATIC -I/tmp/RtmpG9FPMg/R.INSTALL3fb7607cf39/arrow/libarrow/arrow-14.0.0/include -I/usr/lib/include/x86_64-linux-gnu -I/usr/lib/include   -DARROW_R_WITH_PARQUET -DARROW_R_WITH_DATASET -DARROW_R_WITH_ACERO -DARROW_R_WITH_JSON -DARROW_R_WITH_S3 -DARROW_R_WITH_GCS
+PKG_LIBS=-L/tmp/RtmpG9FPMg/R.INSTALL3fb7607cf39/arrow/libarrow/arrow-14.0.0/lib -L/usr/lib/lib/x86_64-linux-gnu -larrow_dataset -lparquet -larrow_acero -larrow -pthread -larrow_bundled_dependencies -lcurl -lssl -lcrypto 
+** libs
+using C++ compiler: ‘g++ (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+using C++17
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -DPARQUET_STATIC -D_GLIBCXX_USE_CXX11_ABI=0 -DARROW_STATIC -I/tmp/RtmpG9FPMg/R.INSTALL3fb7607cf39/arrow/libarrow/arrow-14.0.0/include -I/usr/lib/include/x86_64-linux-gnu -I/usr/lib/include   -DARROW_R_WITH_PARQUET -DARROW_R_WITH_DATASET -DARROW_R_WITH_ACERO -DARROW_R_WITH_JSON -DARROW_R_WITH_S3 -DARROW_R_WITH_GCS -I'/usr/local/lib/R/site-library/cpp11/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c RTasks.cpp -o RTasks.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -DPARQUET_STATIC -D_GLIBCXX_USE_CXX11_ABI=0 -DARROW_STATIC -I/tmp/RtmpG9FPMg/R.INSTALL3fb7607cf39/arrow/libarrow/arrow-14.0.0/include -I/usr/lib/include/x86_64-linux-gnu -I/usr/lib/include   -DARROW_R_WITH_PARQUET -DARROW_R_WITH_DATASET -DARROW_R_WITH_ACERO -DARROW_R_WITH_JSON -DARROW_R_WITH_S3 -DARROW_R_WITH_GCS -I'/usr/local/lib/R/site-library/cpp11/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c altrep.cpp -o altrep.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -DPARQUET_STATIC -D_GLIBCXX_USE_CXX11_ABI=0 -DARROW_STATIC -I/tmp/RtmpG9FPMg/R.INSTALL3fb7607cf39/arrow/libarrow/arrow-14.0.0/include -I/usr/lib/include/x86_64-linux-gnu -I/usr/lib/include   -DARROW_R_WITH_PARQUET -DARROW_R_WITH_DATASET -DARROW_R_WITH_ACERO -DARROW_R_WITH_JSON -DARROW_R_WITH_S3 -DARROW_R_WITH_GCS -I'/usr/local/lib/R/site-library/cpp11/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c array.cpp -o array.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -DPARQUET_STATIC -D_GLIBCXX_USE_CXX11_ABI=0 -DARROW_STATIC -I/tmp/RtmpG9FPMg/R.INSTALL3fb7607cf39/arrow/libarrow/arrow-14.0.0/include -I/usr/lib/include/x86_64-linux-gnu -I/usr/lib/include   -DARROW_R_WITH_PARQUET -DARROW_R_WITH_DATASET -DARROW_R_WITH_ACERO -DARROW_R_WITH_JSON -DARROW_R_WITH_S3 -DARROW_R_WITH_GCS -I'/usr/local/lib/R/site-library/cpp11/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c array_to_vector.cpp -o array_to_vector.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -DPARQUET_STATIC -D_GLIBCXX_USE_CXX11_ABI=0 -DARROW_STATIC -I/tmp/RtmpG9FPMg/R.INSTALL3fb7607cf39/arrow/libarrow/arrow-14.0.0/include -I/usr/lib/include/x86_64-linux-gnu -I/usr/lib/include   -DARROW_R_WITH_PARQUET -DARROW_R_WITH_DATASET -DARROW_R_WITH_ACERO -DARROW_R_WITH_JSON -DARROW_R_WITH_S3 -DARROW_R_WITH_GCS -I'/usr/local/lib/R/site-library/cpp11/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c arraydata.cpp -o arraydata.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -DPARQUET_STATIC -D_GLIBCXX_USE_CXX11_ABI=0 -DARROW_STATIC -I/tmp/RtmpG9FPMg/R.INSTALL3fb7607cf39/arrow/libarrow/arrow-14.0.0/include -I/usr/lib/include/x86_64-linux-gnu -I/usr/lib/include   -DARROW_R_WITH_PARQUET -DARROW_R_WITH_DATASET -DARROW_R_WITH_ACERO -DARROW_R_WITH_JSON -DARROW_R_WITH_S3 -DARROW_R_WITH_GCS -I'/usr/local/lib/R/site-library/cpp11/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c arrowExports.cpp -o arrowExports.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -DPARQUET_STATIC -D_GLIBCXX_USE_CXX11_ABI=0 -DARROW_STATIC -I/tmp/RtmpG9FPMg/R.INSTALL3fb7607cf39/arrow/libarrow/arrow-14.0.0/include -I/usr/lib/include/x86_64-linux-gnu -I/usr/lib/include   -DARROW_R_WITH_PARQUET -DARROW_R_WITH_DATASET -DARROW_R_WITH_ACERO -DARROW_R_WITH_JSON -DARROW_R_WITH_S3 -DARROW_R_WITH_GCS -I'/usr/local/lib/R/site-library/cpp11/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c bridge.cpp -o bridge.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -DPARQUET_STATIC -D_GLIBCXX_USE_CXX11_ABI=0 -DARROW_STATIC -I/tmp/RtmpG9FPMg/R.INSTALL3fb7607cf39/arrow/libarrow/arrow-14.0.0/include -I/usr/lib/include/x86_64-linux-gnu -I/usr/lib/include   -DARROW_R_WITH_PARQUET -DARROW_R_WITH_DATASET -DARROW_R_WITH_ACERO -DARROW_R_WITH_JSON -DARROW_R_WITH_S3 -DARROW_R_WITH_GCS -I'/usr/local/lib/R/site-library/cpp11/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c buffer.cpp -o buffer.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -DPARQUET_STATIC -D_GLIBCXX_USE_CXX11_ABI=0 -DARROW_STATIC -I/tmp/RtmpG9FPMg/R.INSTALL3fb7607cf39/arrow/libarrow/arrow-14.0.0/include -I/usr/lib/include/x86_64-linux-gnu -I/usr/lib/include   -DARROW_R_WITH_PARQUET -DARROW_R_WITH_DATASET -DARROW_R_WITH_ACERO -DARROW_R_WITH_JSON -DARROW_R_WITH_S3 -DARROW_R_WITH_GCS -I'/usr/local/lib/R/site-library/cpp11/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c chunkedarray.cpp -o chunkedarray.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -DPARQUET_STATIC -D_GLIBCXX_USE_CXX11_ABI=0 -DARROW_STATIC -I/tmp/RtmpG9FPMg/R.INSTALL3fb7607cf39/arrow/libarrow/arrow-14.0.0/include -I/usr/lib/include/x86_64-linux-gnu -I/usr/lib/include   -DARROW_R_WITH_PARQUET -DARROW_R_WITH_DATASET -DARROW_R_WITH_ACERO -DARROW_R_WITH_JSON -DARROW_R_WITH_S3 -DARROW_R_WITH_GCS -I'/usr/local/lib/R/site-library/cpp11/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c compression.cpp -o compression.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -DPARQUET_STATIC -D_GLIBCXX_USE_CXX11_ABI=0 -DARROW_STATIC -I/tmp/RtmpG9FPMg/R.INSTALL3fb7607cf39/arrow/libarrow/arrow-14.0.0/include -I/usr/lib/include/x86_64-linux-gnu -I/usr/lib/include   -DARROW_R_WITH_PARQUET -DARROW_R_WITH_DATASET -DARROW_R_WITH_ACERO -DARROW_R_WITH_JSON -DARROW_R_WITH_S3 -DARROW_R_WITH_GCS -I'/usr/local/lib/R/site-library/cpp11/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c compute-exec.cpp -o compute-exec.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -DPARQUET_STATIC -D_GLIBCXX_USE_CXX11_ABI=0 -DARROW_STATIC -I/tmp/RtmpG9FPMg/R.INSTALL3fb7607cf39/arrow/libarrow/arrow-14.0.0/include -I/usr/lib/include/x86_64-linux-gnu -I/usr/lib/include   -DARROW_R_WITH_PARQUET -DARROW_R_WITH_DATASET -DARROW_R_WITH_ACERO -DARROW_R_WITH_JSON -DARROW_R_WITH_S3 -DARROW_R_WITH_GCS -I'/usr/local/lib/R/site-library/cpp11/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c compute.cpp -o compute.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -DPARQUET_STATIC -D_GLIBCXX_USE_CXX11_ABI=0 -DARROW_STATIC -I/tmp/RtmpG9FPMg/R.INSTALL3fb7607cf39/arrow/libarrow/arrow-14.0.0/include -I/usr/lib/include/x86_64-linux-gnu -I/usr/lib/include   -DARROW_R_WITH_PARQUET -DARROW_R_WITH_DATASET -DARROW_R_WITH_ACERO -DARROW_R_WITH_JSON -DARROW_R_WITH_S3 -DARROW_R_WITH_GCS -I'/usr/local/lib/R/site-library/cpp11/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c config.cpp -o config.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -DPARQUET_STATIC -D_GLIBCXX_USE_CXX11_ABI=0 -DARROW_STATIC -I/tmp/RtmpG9FPMg/R.INSTALL3fb7607cf39/arrow/libarrow/arrow-14.0.0/include -I/usr/lib/include/x86_64-linux-gnu -I/usr/lib/include   -DARROW_R_WITH_PARQUET -DARROW_R_WITH_DATASET -DARROW_R_WITH_ACERO -DARROW_R_WITH_JSON -DARROW_R_WITH_S3 -DARROW_R_WITH_GCS -I'/usr/local/lib/R/site-library/cpp11/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c csv.cpp -o csv.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -DPARQUET_STATIC -D_GLIBCXX_USE_CXX11_ABI=0 -DARROW_STATIC -I/tmp/RtmpG9FPMg/R.INSTALL3fb7607cf39/arrow/libarrow/arrow-14.0.0/include -I/usr/lib/include/x86_64-linux-gnu -I/usr/lib/include   -DARROW_R_WITH_PARQUET -DARROW_R_WITH_DATASET -DARROW_R_WITH_ACERO -DARROW_R_WITH_JSON -DARROW_R_WITH_S3 -DARROW_R_WITH_GCS -I'/usr/local/lib/R/site-library/cpp11/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c dataset.cpp -o dataset.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -DPARQUET_STATIC -D_GLIBCXX_USE_CXX11_ABI=0 -DARROW_STATIC -I/tmp/RtmpG9FPMg/R.INSTALL3fb7607cf39/arrow/libarrow/arrow-14.0.0/include -I/usr/lib/include/x86_64-linux-gnu -I/usr/lib/include   -DARROW_R_WITH_PARQUET -DARROW_R_WITH_DATASET -DARROW_R_WITH_ACERO -DARROW_R_WITH_JSON -DARROW_R_WITH_S3 -DARROW_R_WITH_GCS -I'/usr/local/lib/R/site-library/cpp11/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c datatype.cpp -o datatype.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -DPARQUET_STATIC -D_GLIBCXX_USE_CXX11_ABI=0 -DARROW_STATIC -I/tmp/RtmpG9FPMg/R.INSTALL3fb7607cf39/arrow/libarrow/arrow-14.0.0/include -I/usr/lib/include/x86_64-linux-gnu -I/usr/lib/include   -DARROW_R_WITH_PARQUET -DARROW_R_WITH_DATASET -DARROW_R_WITH_ACERO -DARROW_R_WITH_JSON -DARROW_R_WITH_S3 -DARROW_R_WITH_GCS -I'/usr/local/lib/R/site-library/cpp11/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c expression.cpp -o expression.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -DPARQUET_STATIC -D_GLIBCXX_USE_CXX11_ABI=0 -DARROW_STATIC -I/tmp/RtmpG9FPMg/R.INSTALL3fb7607cf39/arrow/libarrow/arrow-14.0.0/include -I/usr/lib/include/x86_64-linux-gnu -I/usr/lib/include   -DARROW_R_WITH_PARQUET -DARROW_R_WITH_DATASET -DARROW_R_WITH_ACERO -DARROW_R_WITH_JSON -DARROW_R_WITH_S3 -DARROW_R_WITH_GCS -I'/usr/local/lib/R/site-library/cpp11/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c extension-impl.cpp -o extension-impl.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -DPARQUET_STATIC -D_GLIBCXX_USE_CXX11_ABI=0 -DARROW_STATIC -I/tmp/RtmpG9FPMg/R.INSTALL3fb7607cf39/arrow/libarrow/arrow-14.0.0/include -I/usr/lib/include/x86_64-linux-gnu -I/usr/lib/include   -DARROW_R_WITH_PARQUET -DARROW_R_WITH_DATASET -DARROW_R_WITH_ACERO -DARROW_R_WITH_JSON -DARROW_R_WITH_S3 -DARROW_R_WITH_GCS -I'/usr/local/lib/R/site-library/cpp11/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c feather.cpp -o feather.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -DPARQUET_STATIC -D_GLIBCXX_USE_CXX11_ABI=0 -DARROW_STATIC -I/tmp/RtmpG9FPMg/R.INSTALL3fb7607cf39/arrow/libarrow/arrow-14.0.0/include -I/usr/lib/include/x86_64-linux-gnu -I/usr/lib/include   -DARROW_R_WITH_PARQUET -DARROW_R_WITH_DATASET -DARROW_R_WITH_ACERO -DARROW_R_WITH_JSON -DARROW_R_WITH_S3 -DARROW_R_WITH_GCS -I'/usr/local/lib/R/site-library/cpp11/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c field.cpp -o field.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -DPARQUET_STATIC -D_GLIBCXX_USE_CXX11_ABI=0 -DARROW_STATIC -I/tmp/RtmpG9FPMg/R.INSTALL3fb7607cf39/arrow/libarrow/arrow-14.0.0/include -I/usr/lib/include/x86_64-linux-gnu -I/usr/lib/include   -DARROW_R_WITH_PARQUET -DARROW_R_WITH_DATASET -DARROW_R_WITH_ACERO -DARROW_R_WITH_JSON -DARROW_R_WITH_S3 -DARROW_R_WITH_GCS -I'/usr/local/lib/R/site-library/cpp11/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c filesystem.cpp -o filesystem.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -DPARQUET_STATIC -D_GLIBCXX_USE_CXX11_ABI=0 -DARROW_STATIC -I/tmp/RtmpG9FPMg/R.INSTALL3fb7607cf39/arrow/libarrow/arrow-14.0.0/include -I/usr/lib/include/x86_64-linux-gnu -I/usr/lib/include   -DARROW_R_WITH_PARQUET -DARROW_R_WITH_DATASET -DARROW_R_WITH_ACERO -DARROW_R_WITH_JSON -DARROW_R_WITH_S3 -DARROW_R_WITH_GCS -I'/usr/local/lib/R/site-library/cpp11/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c io.cpp -o io.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -DPARQUET_STATIC -D_GLIBCXX_USE_CXX11_ABI=0 -DARROW_STATIC -I/tmp/RtmpG9FPMg/R.INSTALL3fb7607cf39/arrow/libarrow/arrow-14.0.0/include -I/usr/lib/include/x86_64-linux-gnu -I/usr/lib/include   -DARROW_R_WITH_PARQUET -DARROW_R_WITH_DATASET -DARROW_R_WITH_ACERO -DARROW_R_WITH_JSON -DARROW_R_WITH_S3 -DARROW_R_WITH_GCS -I'/usr/local/lib/R/site-library/cpp11/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c json.cpp -o json.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -DPARQUET_STATIC -D_GLIBCXX_USE_CXX11_ABI=0 -DARROW_STATIC -I/tmp/RtmpG9FPMg/R.INSTALL3fb7607cf39/arrow/libarrow/arrow-14.0.0/include -I/usr/lib/include/x86_64-linux-gnu -I/usr/lib/include   -DARROW_R_WITH_PARQUET -DARROW_R_WITH_DATASET -DARROW_R_WITH_ACERO -DARROW_R_WITH_JSON -DARROW_R_WITH_S3 -DARROW_R_WITH_GCS -I'/usr/local/lib/R/site-library/cpp11/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c memorypool.cpp -o memorypool.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -DPARQUET_STATIC -D_GLIBCXX_USE_CXX11_ABI=0 -DARROW_STATIC -I/tmp/RtmpG9FPMg/R.INSTALL3fb7607cf39/arrow/libarrow/arrow-14.0.0/include -I/usr/lib/include/x86_64-linux-gnu -I/usr/lib/include   -DARROW_R_WITH_PARQUET -DARROW_R_WITH_DATASET -DARROW_R_WITH_ACERO -DARROW_R_WITH_JSON -DARROW_R_WITH_S3 -DARROW_R_WITH_GCS -I'/usr/local/lib/R/site-library/cpp11/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c message.cpp -o message.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -DPARQUET_STATIC -D_GLIBCXX_USE_CXX11_ABI=0 -DARROW_STATIC -I/tmp/RtmpG9FPMg/R.INSTALL3fb7607cf39/arrow/libarrow/arrow-14.0.0/include -I/usr/lib/include/x86_64-linux-gnu -I/usr/lib/include   -DARROW_R_WITH_PARQUET -DARROW_R_WITH_DATASET -DARROW_R_WITH_ACERO -DARROW_R_WITH_JSON -DARROW_R_WITH_S3 -DARROW_R_WITH_GCS -I'/usr/local/lib/R/site-library/cpp11/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c parquet.cpp -o parquet.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -DPARQUET_STATIC -D_GLIBCXX_USE_CXX11_ABI=0 -DARROW_STATIC -I/tmp/RtmpG9FPMg/R.INSTALL3fb7607cf39/arrow/libarrow/arrow-14.0.0/include -I/usr/lib/include/x86_64-linux-gnu -I/usr/lib/include   -DARROW_R_WITH_PARQUET -DARROW_R_WITH_DATASET -DARROW_R_WITH_ACERO -DARROW_R_WITH_JSON -DARROW_R_WITH_S3 -DARROW_R_WITH_GCS -I'/usr/local/lib/R/site-library/cpp11/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c r_to_arrow.cpp -o r_to_arrow.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -DPARQUET_STATIC -D_GLIBCXX_USE_CXX11_ABI=0 -DARROW_STATIC -I/tmp/RtmpG9FPMg/R.INSTALL3fb7607cf39/arrow/libarrow/arrow-14.0.0/include -I/usr/lib/include/x86_64-linux-gnu -I/usr/lib/include   -DARROW_R_WITH_PARQUET -DARROW_R_WITH_DATASET -DARROW_R_WITH_ACERO -DARROW_R_WITH_JSON -DARROW_R_WITH_S3 -DARROW_R_WITH_GCS -I'/usr/local/lib/R/site-library/cpp11/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c recordbatch.cpp -o recordbatch.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -DPARQUET_STATIC -D_GLIBCXX_USE_CXX11_ABI=0 -DARROW_STATIC -I/tmp/RtmpG9FPMg/R.INSTALL3fb7607cf39/arrow/libarrow/arrow-14.0.0/include -I/usr/lib/include/x86_64-linux-gnu -I/usr/lib/include   -DARROW_R_WITH_PARQUET -DARROW_R_WITH_DATASET -DARROW_R_WITH_ACERO -DARROW_R_WITH_JSON -DARROW_R_WITH_S3 -DARROW_R_WITH_GCS -I'/usr/local/lib/R/site-library/cpp11/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c recordbatchreader.cpp -o recordbatchreader.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -DPARQUET_STATIC -D_GLIBCXX_USE_CXX11_ABI=0 -DARROW_STATIC -I/tmp/RtmpG9FPMg/R.INSTALL3fb7607cf39/arrow/libarrow/arrow-14.0.0/include -I/usr/lib/include/x86_64-linux-gnu -I/usr/lib/include   -DARROW_R_WITH_PARQUET -DARROW_R_WITH_DATASET -DARROW_R_WITH_ACERO -DARROW_R_WITH_JSON -DARROW_R_WITH_S3 -DARROW_R_WITH_GCS -I'/usr/local/lib/R/site-library/cpp11/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c recordbatchwriter.cpp -o recordbatchwriter.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -DPARQUET_STATIC -D_GLIBCXX_USE_CXX11_ABI=0 -DARROW_STATIC -I/tmp/RtmpG9FPMg/R.INSTALL3fb7607cf39/arrow/libarrow/arrow-14.0.0/include -I/usr/lib/include/x86_64-linux-gnu -I/usr/lib/include   -DARROW_R_WITH_PARQUET -DARROW_R_WITH_DATASET -DARROW_R_WITH_ACERO -DARROW_R_WITH_JSON -DARROW_R_WITH_S3 -DARROW_R_WITH_GCS -I'/usr/local/lib/R/site-library/cpp11/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c safe-call-into-r-impl.cpp -o safe-call-into-r-impl.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -DPARQUET_STATIC -D_GLIBCXX_USE_CXX11_ABI=0 -DARROW_STATIC -I/tmp/RtmpG9FPMg/R.INSTALL3fb7607cf39/arrow/libarrow/arrow-14.0.0/include -I/usr/lib/include/x86_64-linux-gnu -I/usr/lib/include   -DARROW_R_WITH_PARQUET -DARROW_R_WITH_DATASET -DARROW_R_WITH_ACERO -DARROW_R_WITH_JSON -DARROW_R_WITH_S3 -DARROW_R_WITH_GCS -I'/usr/local/lib/R/site-library/cpp11/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c scalar.cpp -o scalar.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -DPARQUET_STATIC -D_GLIBCXX_USE_CXX11_ABI=0 -DARROW_STATIC -I/tmp/RtmpG9FPMg/R.INSTALL3fb7607cf39/arrow/libarrow/arrow-14.0.0/include -I/usr/lib/include/x86_64-linux-gnu -I/usr/lib/include   -DARROW_R_WITH_PARQUET -DARROW_R_WITH_DATASET -DARROW_R_WITH_ACERO -DARROW_R_WITH_JSON -DARROW_R_WITH_S3 -DARROW_R_WITH_GCS -I'/usr/local/lib/R/site-library/cpp11/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c schema.cpp -o schema.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -DPARQUET_STATIC -D_GLIBCXX_USE_CXX11_ABI=0 -DARROW_STATIC -I/tmp/RtmpG9FPMg/R.INSTALL3fb7607cf39/arrow/libarrow/arrow-14.0.0/include -I/usr/lib/include/x86_64-linux-gnu -I/usr/lib/include   -DARROW_R_WITH_PARQUET -DARROW_R_WITH_DATASET -DARROW_R_WITH_ACERO -DARROW_R_WITH_JSON -DARROW_R_WITH_S3 -DARROW_R_WITH_GCS -I'/usr/local/lib/R/site-library/cpp11/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c symbols.cpp -o symbols.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -DPARQUET_STATIC -D_GLIBCXX_USE_CXX11_ABI=0 -DARROW_STATIC -I/tmp/RtmpG9FPMg/R.INSTALL3fb7607cf39/arrow/libarrow/arrow-14.0.0/include -I/usr/lib/include/x86_64-linux-gnu -I/usr/lib/include   -DARROW_R_WITH_PARQUET -DARROW_R_WITH_DATASET -DARROW_R_WITH_ACERO -DARROW_R_WITH_JSON -DARROW_R_WITH_S3 -DARROW_R_WITH_GCS -I'/usr/local/lib/R/site-library/cpp11/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c table.cpp -o table.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -DPARQUET_STATIC -D_GLIBCXX_USE_CXX11_ABI=0 -DARROW_STATIC -I/tmp/RtmpG9FPMg/R.INSTALL3fb7607cf39/arrow/libarrow/arrow-14.0.0/include -I/usr/lib/include/x86_64-linux-gnu -I/usr/lib/include   -DARROW_R_WITH_PARQUET -DARROW_R_WITH_DATASET -DARROW_R_WITH_ACERO -DARROW_R_WITH_JSON -DARROW_R_WITH_S3 -DARROW_R_WITH_GCS -I'/usr/local/lib/R/site-library/cpp11/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c threadpool.cpp -o threadpool.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -DPARQUET_STATIC -D_GLIBCXX_USE_CXX11_ABI=0 -DARROW_STATIC -I/tmp/RtmpG9FPMg/R.INSTALL3fb7607cf39/arrow/libarrow/arrow-14.0.0/include -I/usr/lib/include/x86_64-linux-gnu -I/usr/lib/include   -DARROW_R_WITH_PARQUET -DARROW_R_WITH_DATASET -DARROW_R_WITH_ACERO -DARROW_R_WITH_JSON -DARROW_R_WITH_S3 -DARROW_R_WITH_GCS -I'/usr/local/lib/R/site-library/cpp11/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c type_infer.cpp -o type_infer.o
+g++ -std=gnu++17 -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o arrow.so RTasks.o altrep.o array.o array_to_vector.o arraydata.o arrowExports.o bridge.o buffer.o chunkedarray.o compression.o compute-exec.o compute.o config.o csv.o dataset.o datatype.o expression.o extension-impl.o feather.o field.o filesystem.o io.o json.o memorypool.o message.o parquet.o r_to_arrow.o recordbatch.o recordbatchreader.o recordbatchwriter.o safe-call-into-r-impl.o scalar.o schema.o symbols.o table.o threadpool.o type_infer.o -L/tmp/RtmpG9FPMg/R.INSTALL3fb7607cf39/arrow/libarrow/arrow-14.0.0/lib -L/usr/lib/lib/x86_64-linux-gnu -larrow_dataset -lparquet -larrow_acero -larrow -pthread -larrow_bundled_dependencies -lcurl -lssl -lcrypto -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-arrow/00new/arrow/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘arrow’ as ‘arrow_14.0.0.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (arrow)
+* installing *source* package ‘RcisTarget.hg19.motifDBs.cisbpOnly.500bp’ ...
+** using staged installation
+** data
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RcisTarget.hg19.motifDBs.cisbpOnly.500bp’ as ‘RcisTarget.hg19.motifDBs.cisbpOnly.500bp_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcisTarget.hg19.motifDBs.cisbpOnly.500bp)
+* installing *source* package ‘visNetwork’ ...
+** package ‘visNetwork’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘visNetwork’ as ‘visNetwork_2.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (visNetwork)
+* installing *source* package ‘RcisTarget’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RcisTarget’ as ‘RcisTarget_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcisTarget)
+
+The downloaded source packages are in
+	‘/tmp/RtmpGvXUG7/downloaded_packages’
+Old packages: 'BH', 'bigrquery', 'brew', 'brio', 'bslib', 'cli', 'cluster',
+  'commonmark', 'cowplot', 'cpp11', 'crosstalk', 'curl', 'data.table', 'DBI',
+  'dbplyr', 'deldir', 'desc', 'digest', 'dplyr', 'dqrng', 'DT', 'evaluate',
+  'fansi', 'filelock', 'FNN', 'foreign', 'future', 'future.apply',
+  'GenomicRanges', 'gert', 'ggplot2', 'ggrepel', 'ggridges', 'glue', 'gplots',
+  'gtools', 'haven', 'htmltools', 'htmlwidgets', 'httpuv', 'httr2', 'igraph',
+  'interp', 'jsonlite', 'knitr', 'later', 'lattice', 'leiden', 'lifecycle',
+  'listenv', 'MASS', 'Matrix', 'matrixStats', 'mgcv', 'nlme', 'patchwork',
+  'pbdZMQ', 'pkgbuild', 'pkgload', 'plotly', 'processx', 'progress', 'ps',
+  'ragg', 'Rcpp', 'RcppAnnoy', 'RcppArmadillo', 'RcppEigen', 'RcppHNSW',
+  'RCurl', 'readr', 'reprex', 'reticulate', 'rlang', 'roxygen2', 'rpart',
+  'rprojroot', 'RSQLite', 'Rtsne', 'sass', 'scales', 'sctransform', 'scuttle',
+  'Seurat', 'SeuratObject', 'shiny', 'sp', 'spatstat.data', 'spatstat.explore',
+  'spatstat.geom', 'spatstat.random', 'spatstat.sparse', 'spatstat.utils',
+  'stringi', 'stringr', 'systemfonts', 'testthat', 'textshaping', 'tidyr',
+  'timechange', 'tinytex', 'utf8', 'uuid', 'vctrs', 'vroom', 'waldo', 'withr',
+  'xfun', 'XML', 'xml2', 'yaml', 'zip'
+
+real	5m12.934s
+user	4m41.243s
+sys	0m24.077s
+* installing *source* package ‘RcisTarget.hg19.motifDBs.cisbpOnly.500bp’ ...
+** using staged installation
+** data
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RcisTarget.hg19.motifDBs.cisbpOnly.500bp’ as ‘RcisTarget.hg19.motifDBs.cisbpOnly.500bp_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcisTarget.hg19.motifDBs.cisbpOnly.500bp)
