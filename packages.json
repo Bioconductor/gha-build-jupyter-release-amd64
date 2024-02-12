@@ -70,7 +70,6 @@
         "methylumi",
         "minfi"
     ],
-    "arrayQualityMetrics": [],
     "artMS": [
         "MSstats"
     ],
