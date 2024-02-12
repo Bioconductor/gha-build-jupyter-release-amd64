@@ -102,7 +102,6 @@
         "TFBSTools",
         "chromVAR",
         "motifmatchr",
-        "projectR",
         "rGREAT"
     ],
     "ATACseqQC": [
@@ -1735,7 +1734,6 @@
         "GenomicFeatures",
         "rGREAT"
     ],
-    "projectR": [],
     "pRoloc": [],
     "pRolocGUI": [
         "pRoloc"
