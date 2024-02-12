@@ -1,0 +1,142 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''GSEABenchmarkeR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.17 (BiocManager 1.30.22), R 4.3.1 (2023-06-16)
+Installing package(s) 'GSEABenchmarkeR'
+also installing the dependencies ‘GEOquery’, ‘KEGGandMetacoreDzPathwaysGEO’, ‘KEGGdzPathwaysGEO’, ‘GSE62944’
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/GEOquery_2.68.0.tar.gz'
+Content type 'application/gzip' length 13695649 bytes (13.1 MB)
+==================================================
+downloaded 13.1 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/experiment/src/contrib/KEGGandMetacoreDzPathwaysGEO_1.20.0.tar.gz'
+Content type 'application/gzip' length 103362869 bytes (98.6 MB)
+==================================================
+downloaded 98.6 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/experiment/src/contrib/KEGGdzPathwaysGEO_1.38.0.tar.gz'
+Content type 'application/gzip' length 314643305 bytes (300.1 MB)
+==================================================
+downloaded 300.1 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/experiment/src/contrib/GSE62944_1.28.1.tar.gz'
+Content type 'application/gzip' length 226410 bytes (221 KB)
+==================================================
+downloaded 221 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/GSEABenchmarkeR_1.20.1.tar.gz'
+Content type 'application/gzip' length 572302 bytes (558 KB)
+==================================================
+downloaded 558 KB
+
+* installing *source* package ‘GEOquery’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GEOquery’ as ‘GEOquery_2.68.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GEOquery)
+* installing *source* package ‘KEGGandMetacoreDzPathwaysGEO’ ...
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘KEGGandMetacoreDzPathwaysGEO’ as ‘KEGGandMetacoreDzPathwaysGEO_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (KEGGandMetacoreDzPathwaysGEO)
+* installing *source* package ‘KEGGdzPathwaysGEO’ ...
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘KEGGdzPathwaysGEO’ as ‘KEGGdzPathwaysGEO_1.38.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (KEGGdzPathwaysGEO)
+* installing *source* package ‘GSE62944’ ...
+** using staged installation
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GSE62944’ as ‘GSE62944_1.28.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GSE62944)
+* installing *source* package ‘GSEABenchmarkeR’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GSEABenchmarkeR’ as ‘GSEABenchmarkeR_1.20.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GSEABenchmarkeR)
+
+The downloaded source packages are in
+	‘/tmp/RtmpNv9wMW/downloaded_packages’
+Old packages: 'BH', 'bigrquery', 'brew', 'brio', 'bslib', 'cli', 'cluster',
+  'commonmark', 'cowplot', 'cpp11', 'crosstalk', 'curl', 'data.table', 'DBI',
+  'dbplyr', 'deldir', 'desc', 'digest', 'dplyr', 'dqrng', 'DT', 'evaluate',
+  'fansi', 'filelock', 'FNN', 'foreign', 'future', 'future.apply',
+  'GenomicRanges', 'gert', 'ggplot2', 'ggrepel', 'ggridges', 'glue', 'gplots',
+  'gtools', 'haven', 'htmltools', 'htmlwidgets', 'httpuv', 'httr2', 'igraph',
+  'interp', 'jsonlite', 'knitr', 'later', 'lattice', 'leiden', 'lifecycle',
+  'listenv', 'MASS', 'Matrix', 'matrixStats', 'mgcv', 'nlme', 'patchwork',
+  'pbdZMQ', 'pkgbuild', 'pkgload', 'plotly', 'processx', 'progress', 'ps',
+  'ragg', 'Rcpp', 'RcppAnnoy', 'RcppArmadillo', 'RcppEigen', 'RcppHNSW',
+  'RCurl', 'readr', 'reprex', 'reticulate', 'rlang', 'roxygen2', 'rpart',
+  'rprojroot', 'RSQLite', 'Rtsne', 'sass', 'scales', 'sctransform', 'scuttle',
+  'Seurat', 'SeuratObject', 'shiny', 'sp', 'spatstat.data', 'spatstat.explore',
+  'spatstat.geom', 'spatstat.random', 'spatstat.sparse', 'spatstat.utils',
+  'stringi', 'stringr', 'systemfonts', 'testthat', 'textshaping', 'tidyr',
+  'timechange', 'tinytex', 'utf8', 'uuid', 'vctrs', 'vroom', 'waldo', 'withr',
+  'xfun', 'XML', 'xml2', 'yaml', 'zip'
+
+real	1m6.251s
+user	0m50.084s
+sys	0m12.005s
+* installing *source* package ‘GSE62944’ ...
+** using staged installation
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GSE62944’ as ‘GSE62944_1.28.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GSE62944)
