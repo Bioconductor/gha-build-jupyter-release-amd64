@@ -1,0 +1,67 @@
+[
+    {
+        "shlib": "libfreetype.so.6.17.1",
+        "package": "libfreetype6",
+        "headers": "libfreetype-dev",
+        "source": "freetype",
+        "version": "2.10.1-2ubuntu0.3",
+        "url": "https://packages.ubuntu.com/focal/libfreetype6"
+    },
+    {
+        "shlib": "libcairo.so.2.11600.0",
+        "package": "libcairo2",
+        "headers": "libcairo2-dev",
+        "source": "cairo",
+        "version": "1.16.0-4ubuntu1",
+        "url": "https://packages.ubuntu.com/focal/libcairo2"
+    },
+    {
+        "shlib": "libX11.so.6.3.0",
+        "package": "libx11-6",
+        "headers": "libx11-dev",
+        "source": "libx11",
+        "version": "2:1.6.9-2ubuntu1.6",
+        "url": "https://packages.ubuntu.com/focal/libx11-6"
+    },
+    {
+        "shlib": "libjpeg.so.8.2.2",
+        "package": "libjpeg-turbo8",
+        "headers": "libjpeg-turbo8-dev",
+        "source": "libjpeg-turbo",
+        "version": "2.0.3-0ubuntu1.20.04.3",
+        "url": "https://packages.ubuntu.com/focal/libjpeg-turbo8"
+    },
+    {
+        "shlib": "libharfbuzz-icu.so.0.20600.4",
+        "package": "libharfbuzz-icu0",
+        "headers": "libharfbuzz-dev",
+        "source": "harfbuzz",
+        "version": "2.6.4-1ubuntu4.2",
+        "url": "https://packages.ubuntu.com/focal/libharfbuzz-icu0"
+    },
+    {
+        "shlib": "libharfbuzz.so.0.20600.4",
+        "package": "libharfbuzz0b",
+        "headers": "libharfbuzz-dev",
+        "source": "harfbuzz",
+        "version": "2.6.4-1ubuntu4.2",
+        "url": "https://packages.ubuntu.com/focal/libharfbuzz0b"
+    },
+    {
+        "shlib": "libicuuc.so.66.1",
+        "package": "libicu66",
+        "headers": "libicu-dev",
+        "source": "icu",
+        "version": "66.1-2ubuntu2.1",
+        "url": "https://packages.ubuntu.com/focal/libicu66"
+    },
+    {
+        "shlib": "libtiff.so.5.5.0",
+        "package": "libtiff5",
+        "headers": "libtiff-dev",
+        "source": "tiff",
+        "version": "4.1.0+git191117-2ubuntu0.20.04.9",
+        "url": "https://packages.ubuntu.com/focal/libtiff5"
+    }
+]
+
