@@ -1,4 +1,0 @@
-BSgenome
-epigenomix
-blima
-arrayQualityMetrics
