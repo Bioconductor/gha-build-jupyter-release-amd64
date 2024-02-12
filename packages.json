@@ -726,7 +726,6 @@
         "BSgenome",
         "GreyListChIP"
     ],
-    "diffcoexp": [],
     "diffcyt": [
         "FlowSOM"
     ],
