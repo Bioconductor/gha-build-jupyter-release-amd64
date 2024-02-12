@@ -16,9 +16,7 @@
         "ggbio",
         "oligoClasses"
     ],
-    "AHMassBank": [
-        "AnnotationHubData"
-    ],
+    "AHMassBank": [],
     "alabaster": [
         "BSgenome",
         "VariantAnnotation",
@@ -36,7 +34,6 @@
     ],
     "AlphaBeta": [],
     "ANCOMBC": [],
-    "AnnotationHubData": [],
     "annotatr": [
         "BSgenome",
         "regioneR"
@@ -645,9 +642,7 @@
     "exomePeak2": [
         "BSgenome"
     ],
-    "ExperimentHubData": [
-        "AnnotationHubData"
-    ],
+    "ExperimentHubData": [],
     "extraChIPs": [
         "BSgenome",
         "GenomicInteractions",
@@ -979,7 +974,6 @@
         "minfi"
     ],
     "methylclock": [
-        "AnnotationHubData",
         "ExperimentHubData",
         "minfi"
     ],
