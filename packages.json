@@ -902,7 +902,6 @@
         "pipeFrame"
     ],
     "escape": [],
-    "escheR": [],
     "EventPointer": [
         "BSgenome",
         "GenomicFeatures",
