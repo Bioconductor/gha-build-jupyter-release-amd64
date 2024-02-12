@@ -806,7 +806,6 @@
         "bumphunter",
         "minfi"
     ],
-    "EnrichmentBrowser": [],
     "enrichTF": [
         "BSgenome",
         "CNEr",
@@ -1100,9 +1099,7 @@
     ],
     "GRmetrics": [],
     "gscreend": [],
-    "GSEABenchmarkeR": [
-        "EnrichmentBrowser"
-    ],
+    "GSEABenchmarkeR": [],
     "GSReg": [
         "GenomicFeatures",
         "OrganismDbi"
@@ -2549,7 +2546,6 @@
         "quantro"
     ],
     "zenith": [
-        "EnrichmentBrowser",
         "variancePartition"
     ],
     "zinbwave": [],
