@@ -504,7 +504,6 @@
         "VariantAnnotation"
     ],
     "DaMiRseq": [],
-    "dasper": [],
     "ddPCRclust": [
         "flowDensity"
     ],
@@ -1276,7 +1275,6 @@
         "BSgenome",
         "GenomicFiles",
         "VariantAnnotation",
-        "dasper",
         "derfinder"
     ],
     "OGRE": [
