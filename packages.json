@@ -1154,7 +1154,6 @@
     "NxtIRFcore": [
         "BSgenome"
     ],
-    "octad": [],
     "ODER": [
         "BSgenome",
         "GenomicFiles",
