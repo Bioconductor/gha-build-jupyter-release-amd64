@@ -1680,7 +1680,6 @@
     ],
     "oligoClasses": [],
     "omada": [],
-    "OmaDB": [],
     "omicRexposome": [
         "rexposome"
     ],
@@ -1744,9 +1743,7 @@
     ],
     "PhenStat": [],
     "PhosR": [],
-    "PhyloProfile": [
-        "OmaDB"
-    ],
+    "PhyloProfile": [],
     "PING": [
         "BSgenome",
         "GenomicFeatures",
