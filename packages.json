@@ -665,7 +665,6 @@
     "ELMER": [
         "BSgenome",
         "Gviz",
-        "TCGAbiolinks",
         "VariantAnnotation",
         "biovizBase",
         "ensembldb"
@@ -1214,9 +1213,7 @@
         "BSgenome",
         "bsseq"
     ],
-    "miRLAB": [
-        "TCGAbiolinks"
-    ],
+    "miRLAB": [],
     "miRSM": [
         "SPONGE",
         "miRspongeR"
@@ -1254,9 +1251,7 @@
         "BSgenome",
         "TFBSTools"
     ],
-    "MoonlightR": [
-        "TCGAbiolinks"
-    ],
+    "MoonlightR": [],
     "Motif2Site": [
         "BSgenome"
     ],
@@ -1937,7 +1932,6 @@
         "BSgenome"
     ],
     "TargetDecoy": [],
-    "TCGAbiolinks": [],
     "TCGAutils": [],
     "TDbasedUFEadv": [
         "RTCGA"
