@@ -1,0 +1,4 @@
+scone
+octad
+standR
+consensusDE
