@@ -330,7 +330,6 @@
         "FlowSOM",
         "diffcyt"
     ],
-    "Cepo": [],
     "CeTF": [
         "RCy3"
     ],
@@ -2112,9 +2111,7 @@
     "scBFA": [
         "zinbwave"
     ],
-    "scClassify": [
-        "Cepo"
-    ],
+    "scClassify": [],
     "scDD": [],
     "scFeatures": [
         "GenomicFeatures",
