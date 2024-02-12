@@ -1113,8 +1113,7 @@
     "metabomxtr": [],
     "MetaboSignal": [
         "MWASTools",
-        "ensembldb",
-        "mygene"
+        "ensembldb"
     ],
     "MetaCyto": [
         "FlowSOM"
@@ -1316,7 +1315,6 @@
         "VariantAnnotation"
     ],
     "MWASTools": [],
-    "mygene": [],
     "myvariant": [
         "BSgenome",
         "VariantAnnotation"
