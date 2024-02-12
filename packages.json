@@ -1839,7 +1839,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "pwOmics": [],
     "qmtools": [],
     "qpgraph": [
         "GenomicFeatures"

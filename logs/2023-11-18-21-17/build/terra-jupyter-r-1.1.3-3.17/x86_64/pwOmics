@@ -1,0 +1,545 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''pwOmics'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.17 (BiocManager 1.30.22), R 4.3.1 (2023-06-16)
+Installing package(s) 'pwOmics'
+also installing the dependencies ‘gsubfn’, ‘proto’, ‘chron’, ‘proxy’, ‘widgetTools’, ‘DynDoc’, ‘sqldf’, ‘hash’, ‘plotrix’, ‘corpcor’, ‘e1071’, ‘tkWidgets’, ‘rBiopaxParser’, ‘STRINGdb’, ‘graph’, ‘ebdbNet’, ‘longitudinal’, ‘Mfuzz’
+
+trying URL 'https://cloud.r-project.org/src/contrib/gsubfn_0.7.tar.gz'
+Content type 'application/x-gzip' length 311271 bytes (303 KB)
+==================================================
+downloaded 303 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/proto_1.0.0.tar.gz'
+Content type 'application/x-gzip' length 541398 bytes (528 KB)
+==================================================
+downloaded 528 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/chron_2.3-61.tar.gz'
+Content type 'application/x-gzip' length 37347 bytes (36 KB)
+==================================================
+downloaded 36 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/proxy_0.4-27.tar.gz'
+Content type 'application/x-gzip' length 74622 bytes (72 KB)
+==================================================
+downloaded 72 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/widgetTools_1.78.0.tar.gz'
+Content type 'application/gzip' length 127085 bytes (124 KB)
+==================================================
+downloaded 124 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/DynDoc_1.78.0.tar.gz'
+Content type 'application/gzip' length 11211 bytes (10 KB)
+==================================================
+downloaded 10 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/sqldf_0.4-11.tar.gz'
+Content type 'application/x-gzip' length 63097 bytes (61 KB)
+==================================================
+downloaded 61 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/hash_2.2.6.3.tar.gz'
+Content type 'application/x-gzip' length 17257 bytes (16 KB)
+==================================================
+downloaded 16 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/plotrix_3.8-4.tar.gz'
+Content type 'application/x-gzip' length 318991 bytes (311 KB)
+==================================================
+downloaded 311 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/corpcor_1.6.10.tar.gz'
+Content type 'application/x-gzip' length 22678 bytes (22 KB)
+==================================================
+downloaded 22 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/e1071_1.7-14.tar.gz'
+Content type 'application/x-gzip' length 326383 bytes (318 KB)
+==================================================
+downloaded 318 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/tkWidgets_1.78.0.tar.gz'
+Content type 'application/gzip' length 338345 bytes (330 KB)
+==================================================
+downloaded 330 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/rBiopaxParser_2.40.0.tar.gz'
+Content type 'application/gzip' length 784104 bytes (765 KB)
+==================================================
+downloaded 765 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/STRINGdb_2.12.1.tar.gz'
+Content type 'application/gzip' length 8193922 bytes (7.8 MB)
+==================================================
+downloaded 7.8 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/graph_1.78.0.tar.gz'
+Content type 'application/gzip' length 1280117 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/ebdbNet_1.2.8.tar.gz'
+Content type 'application/x-gzip' length 29921 bytes (29 KB)
+==================================================
+downloaded 29 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/longitudinal_1.1.13.tar.gz'
+Content type 'application/x-gzip' length 38315 bytes (37 KB)
+==================================================
+downloaded 37 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/Mfuzz_2.60.0.tar.gz'
+Content type 'application/gzip' length 682437 bytes (666 KB)
+==================================================
+downloaded 666 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/pwOmics_1.32.0.tar.gz'
+Content type 'application/gzip' length 903671 bytes (882 KB)
+==================================================
+downloaded 882 KB
+
+* installing *source* package ‘proto’ ...
+** package ‘proto’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘proto’ as ‘proto_1.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (proto)
+* installing *source* package ‘chron’ ...
+** package ‘chron’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c chron_strs.c -o chron_strs.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c init.c -o init.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c unpaste.c -o unpaste.o
+gcc -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o chron.so chron_strs.o init.o unpaste.o -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-chron/00new/chron/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘chron’ as ‘chron_2.3-61_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (chron)
+* installing *source* package ‘proxy’ ...
+** package ‘proxy’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c apply.c -o apply.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c arrayIndex.c -o arrayIndex.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c distance.c -o distance.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c dll.c -o dll.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c util.c -o util.o
+gcc -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o proxy.so apply.o arrayIndex.o distance.o dll.o util.o -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-proxy/00new/proxy/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘proxy’ as ‘proxy_0.4-27_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (proxy)
+* installing *source* package ‘widgetTools’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning message:
+no DISPLAY variable so Tk is not available 
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package can be loaded from final location
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘widgetTools’ as ‘widgetTools_1.78.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (widgetTools)
+* installing *source* package ‘DynDoc’ ...
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘DynDoc’ as ‘DynDoc_1.78.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DynDoc)
+* installing *source* package ‘hash’ ...
+** package ‘hash’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** demo
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘hash’ as ‘hash_2.2.6.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hash)
+* installing *source* package ‘plotrix’ ...
+** package ‘plotrix’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘plotrix’ as ‘plotrix_3.8-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (plotrix)
+* installing *source* package ‘corpcor’ ...
+** package ‘corpcor’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘corpcor’ as ‘corpcor_1.6.10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (corpcor)
+* installing *source* package ‘rBiopaxParser’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘rBiopaxParser’ as ‘rBiopaxParser_2.40.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rBiopaxParser)
+* installing *source* package ‘graph’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c graph.c -o graph.o
+gcc -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o graph.so graph.o -L/usr/lib/R/lib -lR
+mv graph.so BioC_graph.so
+installing to /tmp/tmp/built/00LOCK-graph/00new/graph/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘graph’ as ‘graph_1.78.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (graph)
+* installing *source* package ‘ebdbNet’ ...
+** package ‘ebdbNet’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c RunWrapGen.c -o RunWrapGen.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c init.c -o init.o
+gcc -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o ebdbNet.so RunWrapGen.o init.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-ebdbNet/00new/ebdbNet/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ebdbNet’ as ‘ebdbNet_1.2.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ebdbNet)
+* installing *source* package ‘gsubfn’ ...
+** package ‘gsubfn’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package can be loaded from final location
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘gsubfn’ as ‘gsubfn_0.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gsubfn)
+* installing *source* package ‘e1071’ ...
+** package ‘e1071’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+using C++ compiler: ‘g++ (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c Rsvm.c -o Rsvm.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c cmeans.c -o cmeans.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c cshell.c -o cshell.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c floyd.c -o floyd.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c init.c -o init.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c svm.cpp -o svm.o
+g++ -std=gnu++17 -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o e1071.so Rsvm.o cmeans.o cshell.o floyd.o init.o svm.o -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-e1071/00new/e1071/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘e1071’ as ‘e1071_1.7-14_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (e1071)
+* installing *source* package ‘tkWidgets’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning message:
+no DISPLAY variable so Tk is not available 
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package can be loaded from final location
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘tkWidgets’ as ‘tkWidgets_1.78.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tkWidgets)
+* installing *source* package ‘longitudinal’ ...
+** package ‘longitudinal’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘longitudinal’ as ‘longitudinal_1.1.13_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (longitudinal)
+* installing *source* package ‘sqldf’ ...
+** package ‘sqldf’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+Warning message:
+no DISPLAY variable so Tk is not available 
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package can be loaded from final location
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘sqldf’ as ‘sqldf_0.4-11_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sqldf)
+* installing *source* package ‘Mfuzz’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: no DISPLAY variable so Tk is not available
+** help
+Warning: cselection.Rd:25: unexpected '}'
+Warning: cselection.Rd:25: All text must be in a section
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package can be loaded from final location
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘Mfuzz’ as ‘Mfuzz_2.60.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Mfuzz)
+* installing *source* package ‘STRINGdb’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘STRINGdb’ as ‘STRINGdb_2.12.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (STRINGdb)
+* installing *source* package ‘pwOmics’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘pwOmics’ as ‘pwOmics_1.32.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pwOmics)
+
+The downloaded source packages are in
+	‘/tmp/RtmpWbyhaD/downloaded_packages’
+Old packages: 'BH', 'bigrquery', 'brew', 'brio', 'bslib', 'cli', 'cluster',
+  'commonmark', 'cowplot', 'cpp11', 'crosstalk', 'curl', 'data.table', 'DBI',
+  'dbplyr', 'deldir', 'desc', 'digest', 'dplyr', 'dqrng', 'DT', 'evaluate',
+  'fansi', 'filelock', 'FNN', 'foreign', 'future', 'future.apply',
+  'GenomicRanges', 'gert', 'ggplot2', 'ggrepel', 'ggridges', 'glue', 'gplots',
+  'gtools', 'haven', 'htmltools', 'htmlwidgets', 'httpuv', 'httr2', 'igraph',
+  'interp', 'jsonlite', 'knitr', 'later', 'lattice', 'leiden', 'lifecycle',
+  'listenv', 'MASS', 'Matrix', 'matrixStats', 'mgcv', 'nlme', 'patchwork',
+  'pbdZMQ', 'pkgbuild', 'pkgload', 'plotly', 'processx', 'progress', 'ps',
+  'ragg', 'Rcpp', 'RcppAnnoy', 'RcppArmadillo', 'RcppEigen', 'RcppHNSW',
+  'RCurl', 'readr', 'reprex', 'reticulate', 'rlang', 'roxygen2', 'rpart',
+  'rprojroot', 'RSQLite', 'Rtsne', 'sass', 'scales', 'sctransform', 'scuttle',
+  'Seurat', 'SeuratObject', 'shiny', 'sp', 'spatstat.data', 'spatstat.explore',
+  'spatstat.geom', 'spatstat.random', 'spatstat.sparse', 'spatstat.utils',
+  'stringi', 'stringr', 'systemfonts', 'testthat', 'textshaping', 'tidyr',
+  'timechange', 'tinytex', 'utf8', 'uuid', 'vctrs', 'vroom', 'waldo', 'withr',
+  'xfun', 'XML', 'xml2', 'yaml', 'zip'
+
+real	1m20.638s
+user	1m7.748s
+sys	0m34.484s
+* installing *source* package ‘fdrtool’ ...
+** package ‘fdrtool’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c fdrtool_init.c -o fdrtool_init.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c isomean.c -o isomean.o
+gcc -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o fdrtool.so fdrtool_init.o isomean.o -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-fdrtool/00new/fdrtool/libs
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘fdrtool’ as ‘fdrtool_1.2.17_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fdrtool)
+* installing *source* package ‘ebdbNet’ ...
+** package ‘ebdbNet’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c RunWrapGen.c -o RunWrapGen.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c init.c -o init.o
+gcc -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o ebdbNet.so RunWrapGen.o init.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-ebdbNet/00new/ebdbNet/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ebdbNet’ as ‘ebdbNet_1.2.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ebdbNet)
+* installing *source* package ‘GeneNet’ ...
+** package ‘GeneNet’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GeneNet’ as ‘GeneNet_1.2.16_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GeneNet)
