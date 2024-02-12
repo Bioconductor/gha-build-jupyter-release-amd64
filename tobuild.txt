@@ -1,0 +1,11 @@
+RITAN
+signifinder
+diffUTR
+tximeta
+scFeatures
+GRaNIE
+metagene
+scanMiRApp
+epivizrData
+proteasy
+drugTargetInteractions
