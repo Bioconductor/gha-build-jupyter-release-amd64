@@ -366,7 +366,6 @@
     "cliProfiler": [
         "BSgenome"
     ],
-    "clusterExperiment": [],
     "cn.farms": [
         "oligo",
         "oligoClasses"
@@ -1364,9 +1363,7 @@
         "RCy3"
     ],
     "nearBynding": [],
-    "netSmooth": [
-        "clusterExperiment"
-    ],
+    "netSmooth": [],
     "netZooR": [
         "RCy3",
         "bumphunter",
