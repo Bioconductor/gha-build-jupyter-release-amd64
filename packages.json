@@ -713,7 +713,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "factR": [],
     "fCCAC": [
         "BSgenome",
         "genomation"
