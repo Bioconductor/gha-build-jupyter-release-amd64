@@ -790,7 +790,6 @@
         "BSgenome",
         "bsseq"
     ],
-    "easier": [],
     "EDASeq": [
         "GenomicFeatures"
     ],
