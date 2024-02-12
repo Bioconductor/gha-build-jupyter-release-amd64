@@ -1677,7 +1677,6 @@
     ],
     "omicsViewer": [],
     "OncoSimulR": [],
-    "ontoProc": [],
     "OpenStats": [],
     "oppar": [],
     "ORFhunteR": [
@@ -1745,9 +1744,7 @@
     "podkat": [
         "BSgenome"
     ],
-    "pogos": [
-        "ontoProc"
-    ],
+    "pogos": [],
     "preciseTAD": [
         "GenomicFeatures",
         "rCGH"
@@ -2353,9 +2350,7 @@
         "RTCGA"
     ],
     "TEKRABber": [],
-    "tenXplore": [
-        "ontoProc"
-    ],
+    "tenXplore": [],
     "terraTCGAdata": [
         "GenomicFeatures",
         "TCGAutils"
