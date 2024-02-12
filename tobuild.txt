@@ -1,7 +1,0 @@
-pRolocGUI
-bandle
-spicyR
-TOP
-MoonlightR
-netSmooth
-miRLAB
