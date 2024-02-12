@@ -159,8 +159,7 @@
     ],
     "benchdamic": [
         "ANCOMBC",
-        "Maaslin2",
-        "zinbwave"
+        "Maaslin2"
     ],
     "BgeeCall": [
         "GenomicFeatures"
@@ -435,9 +434,7 @@
     "cliProfiler": [
         "BSgenome"
     ],
-    "clusterExperiment": [
-        "zinbwave"
-    ],
+    "clusterExperiment": [],
     "cn.farms": [
         "oligo",
         "oligoClasses"
@@ -1615,8 +1612,7 @@
         "GenomicFeatures"
     ],
     "netSmooth": [
-        "clusterExperiment",
-        "zinbwave"
+        "clusterExperiment"
     ],
     "netZooR": [
         "GenomicFeatures",
@@ -2107,9 +2103,7 @@
     ],
     "scAnnotatR": [],
     "SCATE": [],
-    "scBFA": [
-        "zinbwave"
-    ],
+    "scBFA": [],
     "scClassify": [],
     "scDD": [],
     "scFeatures": [
@@ -2212,8 +2206,7 @@
     "singleCellTK": [
         "GenomicFeatures",
         "celda",
-        "ensembldb",
-        "zinbwave"
+        "ensembldb"
     ],
     "SingleMoleculeFootprinting": [
         "BSgenome",
@@ -2535,7 +2528,6 @@
     "zenith": [
         "variancePartition"
     ],
-    "zinbwave": [],
     "ZygosityPredictor": [
         "BSgenome",
         "GenomicFeatures",
