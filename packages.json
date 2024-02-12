@@ -1453,7 +1453,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "proActiv": [],
     "proBAMr": [],
     "profileplyr": [
         "ChIPseeker",
