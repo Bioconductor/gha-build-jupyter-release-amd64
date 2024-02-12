@@ -884,7 +884,6 @@
         "VariantAnnotation"
     ],
     "LinkHD": [],
-    "lisaClust": [],
     "lumi": [
         "methylumi",
         "minfi"
