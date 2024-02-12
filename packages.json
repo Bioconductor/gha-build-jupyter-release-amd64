@@ -1352,7 +1352,6 @@
         "BSgenome"
     ],
     "MEDME": [],
-    "MetaboAnnotation": [],
     "metabomxtr": [],
     "MetaboSignal": [
         "GenomicFeatures",
