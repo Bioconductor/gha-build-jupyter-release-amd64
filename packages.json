@@ -217,12 +217,9 @@
         "RCy3"
     ],
     "cbaf": [
-        "RTCGAToolbox",
         "cBioPortalData"
     ],
-    "cBioPortalData": [
-        "RTCGAToolbox"
-    ],
+    "cBioPortalData": [],
     "ccmap": [],
     "celda": [],
     "cellmigRation": [],
@@ -1457,7 +1454,6 @@
     ],
     "rqt": [],
     "RTCGA": [],
-    "RTCGAToolbox": [],
     "RTN": [],
     "RTNduals": [
         "RTN"
