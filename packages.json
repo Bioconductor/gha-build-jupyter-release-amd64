@@ -590,7 +590,6 @@
         "ensembldb",
         "regioneR"
     ],
-    "CrispRVariants": [],
     "crisprVerse": [
         "BSgenome",
         "GenomicFeatures",
