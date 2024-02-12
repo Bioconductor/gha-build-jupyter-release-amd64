@@ -1041,7 +1041,6 @@
         "BSgenome",
         "bsseq"
     ],
-    "miRLAB": [],
     "miRSM": [
         "SPONGE",
         "miRspongeR"
