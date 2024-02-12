@@ -83,9 +83,7 @@
         "methylumi",
         "minfi"
     ],
-    "arrayQualityMetrics": [
-        "beadarray"
-    ],
+    "arrayQualityMetrics": [],
     "artMS": [
         "MSstats"
     ],
@@ -149,7 +147,6 @@
         "GenomicFeatures",
         "VariantAnnotation"
     ],
-    "beadarray": [],
     "BEAT": [
         "BSgenome"
     ],
@@ -199,9 +196,7 @@
         "regioneR"
     ],
     "blacksheepr": [],
-    "blima": [
-        "beadarray"
-    ],
+    "blima": [],
     "BOBaFIT": [
         "BSgenome",
         "GenomicFeatures",
@@ -819,9 +814,7 @@
         "genomation"
     ],
     "epidecodeR": [],
-    "epigenomix": [
-        "beadarray"
-    ],
+    "epigenomix": [],
     "epigraHMM": [
         "BSgenome",
         "GreyListChIP"
