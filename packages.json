@@ -50,7 +50,6 @@
     "alpine": [
         "GenomicFeatures"
     ],
-    "AMARETTO": [],
     "ANCOMBC": [],
     "AnnotationHubData": [
         "GenomicFeatures",
