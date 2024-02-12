@@ -1299,7 +1299,6 @@
         "biovizBase",
         "ensembldb"
     ],
-    "mastR": [],
     "MatrixRider": [
         "BSgenome",
         "CNEr",
