@@ -214,7 +214,6 @@
     "blima": [
         "beadarray"
     ],
-    "bnbc": [],
     "BOBaFIT": [
         "BSgenome",
         "GenomicFeatures",
