@@ -532,7 +532,6 @@
     "consensusOV": [
         "GSVA"
     ],
-    "consICA": [],
     "contiBAIT": [
         "BSgenome",
         "GenomicFeatures",
