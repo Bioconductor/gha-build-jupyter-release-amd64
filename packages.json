@@ -632,7 +632,6 @@
     "exomePeak2": [
         "BSgenome"
     ],
-    "ExperimentHubData": [],
     "extraChIPs": [
         "BSgenome",
         "GenomicInteractions",
@@ -959,7 +958,6 @@
         "minfi"
     ],
     "methylclock": [
-        "ExperimentHubData",
         "minfi"
     ],
     "methylGSA": [
