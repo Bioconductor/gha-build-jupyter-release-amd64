@@ -221,12 +221,10 @@
     ],
     "cbaf": [
         "RTCGAToolbox",
-        "TCGAutils",
         "cBioPortalData"
     ],
     "cBioPortalData": [
-        "RTCGAToolbox",
-        "TCGAutils"
+        "RTCGAToolbox"
     ],
     "ccmap": [],
     "celda": [],
@@ -1492,9 +1490,7 @@
     ],
     "rqt": [],
     "RTCGA": [],
-    "RTCGAToolbox": [
-        "TCGAutils"
-    ],
+    "RTCGAToolbox": [],
     "RTN": [],
     "RTNduals": [
         "RTN"
@@ -1659,13 +1655,10 @@
         "BSgenome"
     ],
     "TargetDecoy": [],
-    "TCGAutils": [],
     "TDbasedUFEadv": [
         "RTCGA"
     ],
-    "terraTCGAdata": [
-        "TCGAutils"
-    ],
+    "terraTCGAdata": [],
     "TFBSTools": [
         "BSgenome"
     ],
