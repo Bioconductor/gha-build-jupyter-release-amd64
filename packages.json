@@ -167,7 +167,6 @@
         "dmrseq",
         "regioneR"
     ],
-    "blima": [],
     "BOBaFIT": [
         "BSgenome",
         "OrganismDbi",
