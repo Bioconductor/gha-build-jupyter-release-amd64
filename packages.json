@@ -655,7 +655,6 @@
         "BSgenome",
         "GreyListChIP"
     ],
-    "EpiMix": [],
     "epimutacions": [
         "BSgenome",
         "Gviz",
