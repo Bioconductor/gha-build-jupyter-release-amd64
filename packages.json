@@ -359,7 +359,6 @@
         "Rhisat2",
         "SGSeq"
     ],
-    "ClassifyR": [],
     "cleanUpdTSeq": [
         "BSgenome"
     ],
@@ -1056,7 +1055,6 @@
     ],
     "LinkHD": [],
     "lisaClust": [
-        "ClassifyR",
         "spicyR"
     ],
     "lumi": [
@@ -1903,9 +1901,7 @@
         "ensembldb",
         "motifmatchr"
     ],
-    "spicyR": [
-        "ClassifyR"
-    ],
+    "spicyR": [],
     "spiky": [
         "BSgenome"
     ],
@@ -1976,9 +1972,7 @@
         "BSgenome",
         "VariantAnnotation"
     ],
-    "TOP": [
-        "ClassifyR"
-    ],
+    "TOP": [],
     "trackViewer": [
         "BSgenome",
         "Gviz",
