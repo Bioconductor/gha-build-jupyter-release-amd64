@@ -523,9 +523,7 @@
         "RUVSeq",
         "ensembldb"
     ],
-    "consensusOV": [
-        "GSVA"
-    ],
+    "consensusOV": [],
     "contiBAIT": [
         "BSgenome",
         "GenomicFeatures",
@@ -790,9 +788,7 @@
     "edge": [
         "snm"
     ],
-    "EGSEA": [
-        "GSVA"
-    ],
+    "EGSEA": [],
     "ELMER": [
         "BSgenome",
         "GenomicFeatures",
@@ -907,9 +903,7 @@
         "motifmatchr",
         "pipeFrame"
     ],
-    "escape": [
-        "GSVA"
-    ],
+    "escape": [],
     "escheR": [],
     "EventPointer": [
         "BSgenome",
@@ -1120,7 +1114,6 @@
         "GenomicFeatures",
         "OrganismDbi"
     ],
-    "GSVA": [],
     "GUIDEseq": [
         "BSgenome",
         "CRISPRseek",
@@ -1665,7 +1658,6 @@
     ],
     "octad": [
         "EDASeq",
-        "GSVA",
         "GenomicFeatures",
         "RUVSeq"
     ],
@@ -1706,9 +1698,7 @@
     "OncoSimulR": [],
     "ontoProc": [],
     "OpenStats": [],
-    "oppar": [
-        "GSVA"
-    ],
+    "oppar": [],
     "ORFhunteR": [
         "BSgenome"
     ],
@@ -2162,7 +2152,6 @@
     ],
     "scDD": [],
     "scFeatures": [
-        "GSVA",
         "GenomicFeatures",
         "ensembldb"
     ],
@@ -2255,7 +2244,6 @@
         "VariantAnnotation"
     ],
     "signifinder": [
-        "GSVA",
         "GenomicFeatures",
         "consensusOV",
         "ensembldb"
@@ -2266,7 +2254,6 @@
         "VariantAnnotation"
     ],
     "singleCellTK": [
-        "GSVA",
         "GenomicFeatures",
         "celda",
         "ensembldb",
@@ -2280,9 +2267,7 @@
         "VariantAnnotation"
     ],
     "singscore": [],
-    "SISPA": [
-        "GSVA"
-    ],
+    "SISPA": [],
     "sitadela": [
         "GenomicFeatures"
     ],
@@ -2395,7 +2380,6 @@
     ],
     "TargetDecoy": [],
     "TBSignatureProfiler": [
-        "GSVA",
         "singscore"
     ],
     "TCGAbiolinks": [],
@@ -2439,9 +2423,7 @@
         "GenomicFeatures",
         "VariantAnnotation"
     ],
-    "TNBC.CMS": [
-        "GSVA"
-    ],
+    "TNBC.CMS": [],
     "TOP": [
         "ClassifyR"
     ],
