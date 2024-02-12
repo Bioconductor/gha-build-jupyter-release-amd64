@@ -291,7 +291,6 @@
         "bsseq",
         "bumphunter",
         "ensembldb",
-        "goseq",
         "lumi",
         "methylumi",
         "minfi",
@@ -894,7 +893,6 @@
         "BSgenome",
         "VariantAnnotation"
     ],
-    "goseq": [],
     "GOTHiC": [
         "BSgenome"
     ],
@@ -976,9 +974,7 @@
         "BSgenome",
         "CODEX"
     ],
-    "ideal": [
-        "goseq"
-    ],
+    "ideal": [],
     "igvR": [
         "BSgenome",
         "VariantAnnotation"
@@ -1610,9 +1606,7 @@
         "regioneR"
     ],
     "rGREAT": [],
-    "rgsepd": [
-        "goseq"
-    ],
+    "rgsepd": [],
     "Rhisat2": [
         "SGSeq"
     ],
@@ -1836,9 +1830,7 @@
         "minfi",
         "wateRmelon"
     ],
-    "SMITE": [
-        "goseq"
-    ],
+    "SMITE": [],
     "snm": [],
     "SNPhood": [
         "BSgenome",
