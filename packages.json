@@ -116,9 +116,7 @@
     "bambu": [
         "BSgenome"
     ],
-    "bandle": [
-        "pRoloc"
-    ],
+    "bandle": [],
     "Basic4Cseq": [
         "BSgenome"
     ],
@@ -1476,10 +1474,7 @@
         "ChIPseeker",
         "rGREAT"
     ],
-    "pRoloc": [],
-    "pRolocGUI": [
-        "pRoloc"
-    ],
+    "pRolocGUI": [],
     "proteasy": [
         "ensembldb"
     ],
