@@ -802,8 +802,7 @@
     "flowPloidy": [],
     "FlowSOM": [],
     "FRASER": [
-        "BSgenome",
-        "OUTRIDER"
+        "BSgenome"
     ],
     "frenchFISH": [],
     "frma": [
@@ -1402,7 +1401,6 @@
     ],
     "OrganismDbi": [],
     "orthogene": [],
-    "OUTRIDER": [],
     "OutSplice": [
         "BSgenome",
         "Repitools"
