@@ -330,8 +330,7 @@
         "gwascat"
     ],
     "CircSeqAlignTk": [
-        "Rhisat2",
-        "SGSeq"
+        "Rhisat2"
     ],
     "cleanUpdTSeq": [
         "BSgenome"
@@ -698,8 +697,7 @@
         "pipeFrame"
     ],
     "EventPointer": [
-        "BSgenome",
-        "SGSeq"
+        "BSgenome"
     ],
     "EWCE": [
         "orthogene"
@@ -1509,9 +1507,7 @@
     ],
     "rGREAT": [],
     "rgsepd": [],
-    "Rhisat2": [
-        "SGSeq"
-    ],
+    "Rhisat2": [],
     "RiboCrypt": [
         "BSgenome",
         "ORFik"
@@ -1679,7 +1675,6 @@
     ],
     "SeqSQC": [],
     "SeqVarTools": [],
-    "SGSeq": [],
     "shinyepico": [
         "minfi"
     ],
