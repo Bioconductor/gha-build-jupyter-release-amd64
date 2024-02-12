@@ -1408,7 +1408,6 @@
     "ORFik": [
         "BSgenome"
     ],
-    "Organism.dplyr": [],
     "OrganismDbi": [],
     "orthogene": [],
     "OUTRIDER": [],
@@ -1987,8 +1986,7 @@
         "ensembldb"
     ],
     "Ularcirc": [
-        "BSgenome",
-        "Organism.dplyr"
+        "BSgenome"
     ],
     "UMI4Cats": [
         "BSgenome",

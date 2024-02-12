@@ -1,0 +1,86 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''Organism.dplyr'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.17 (BiocManager 1.30.22), R 4.3.1 (2023-06-16)
+Installing package(s) 'Organism.dplyr'
+also installing the dependency ‘TxDb.Mmusculus.UCSC.mm10.ensGene’
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/TxDb.Mmusculus.UCSC.mm10.ensGene_3.4.0.tar.gz'
+Content type 'application/gzip' length 18183825 bytes (17.3 MB)
+==================================================
+downloaded 17.3 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/Organism.dplyr_1.28.0.tar.gz'
+Content type 'application/gzip' length 516202 bytes (504 KB)
+==================================================
+downloaded 504 KB
+
+* installing *source* package ‘TxDb.Mmusculus.UCSC.mm10.ensGene’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘TxDb.Mmusculus.UCSC.mm10.ensGene’ as ‘TxDb.Mmusculus.UCSC.mm10.ensGene_3.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TxDb.Mmusculus.UCSC.mm10.ensGene)
+* installing *source* package ‘Organism.dplyr’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘Organism.dplyr’ as ‘Organism.dplyr_1.28.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Organism.dplyr)
+
+The downloaded source packages are in
+	‘/tmp/RtmpUdHDHx/downloaded_packages’
+Old packages: 'BH', 'bigrquery', 'brew', 'brio', 'bslib', 'cli', 'cluster',
+  'commonmark', 'cowplot', 'cpp11', 'crosstalk', 'curl', 'data.table', 'DBI',
+  'dbplyr', 'deldir', 'desc', 'digest', 'dplyr', 'dqrng', 'DT', 'evaluate',
+  'fansi', 'filelock', 'FNN', 'foreign', 'future', 'future.apply',
+  'GenomicRanges', 'gert', 'ggplot2', 'ggrepel', 'ggridges', 'glue', 'gplots',
+  'gtools', 'haven', 'htmltools', 'htmlwidgets', 'httpuv', 'httr2', 'igraph',
+  'interp', 'jsonlite', 'knitr', 'later', 'lattice', 'leiden', 'lifecycle',
+  'listenv', 'MASS', 'Matrix', 'matrixStats', 'mgcv', 'nlme', 'patchwork',
+  'pbdZMQ', 'pkgbuild', 'pkgload', 'plotly', 'processx', 'progress', 'ps',
+  'ragg', 'Rcpp', 'RcppAnnoy', 'RcppArmadillo', 'RcppEigen', 'RcppHNSW',
+  'RCurl', 'readr', 'reprex', 'reticulate', 'rlang', 'roxygen2', 'rpart',
+  'rprojroot', 'RSQLite', 'Rtsne', 'sass', 'scales', 'sctransform', 'scuttle',
+  'Seurat', 'SeuratObject', 'shiny', 'sp', 'spatstat.data', 'spatstat.explore',
+  'spatstat.geom', 'spatstat.random', 'spatstat.sparse', 'spatstat.utils',
+  'stringi', 'stringr', 'systemfonts', 'testthat', 'textshaping', 'tidyr',
+  'timechange', 'tinytex', 'utf8', 'uuid', 'vctrs', 'vroom', 'waldo', 'withr',
+  'xfun', 'XML', 'xml2', 'yaml', 'zip'
+
+real	1m6.692s
+user	0m56.877s
+sys	0m6.306s
+* installing *source* package ‘TxDb.Mmusculus.UCSC.mm10.ensGene’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘TxDb.Mmusculus.UCSC.mm10.ensGene’ as ‘TxDb.Mmusculus.UCSC.mm10.ensGene_3.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TxDb.Mmusculus.UCSC.mm10.ensGene)
