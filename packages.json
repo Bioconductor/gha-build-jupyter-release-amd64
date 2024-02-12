@@ -1184,8 +1184,7 @@
     ],
     "ideal": [
         "GenomicFeatures",
-        "goseq",
-        "pcaExplorer"
+        "goseq"
     ],
     "igvR": [
         "BSgenome",
@@ -1710,7 +1709,6 @@
     "PAIRADISE": [],
     "pairedGSEA": [],
     "pareg": [],
-    "pcaExplorer": [],
     "PDATK": [],
     "pdInfoBuilder": [
         "oligo",
