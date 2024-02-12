@@ -1,0 +1,11 @@
+[
+    {
+        "shlib": "libtiff.so.5.5.0",
+        "package": "libtiff5",
+        "headers": "libtiff-dev",
+        "source": "tiff",
+        "version": "4.1.0+git191117-2ubuntu0.20.04.9",
+        "url": "https://packages.ubuntu.com/focal/libtiff5"
+    }
+]
+
