@@ -989,9 +989,7 @@
         "minfi",
         "oligoClasses"
     ],
-    "magpie": [
-        "TRESS"
-    ],
+    "magpie": [],
     "maser": [
         "BSgenome",
         "Gviz",
@@ -1815,7 +1813,6 @@
     "trena": [
         "BSgenome"
     ],
-    "TRESS": [],
     "tRNAscanImport": [
         "BSgenome"
     ],
