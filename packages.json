@@ -137,7 +137,6 @@
         "ensembldb"
     ],
     "bioCancer": [],
-    "BiocOncoTK": [],
     "biovizBase": [
         "BSgenome",
         "VariantAnnotation",
