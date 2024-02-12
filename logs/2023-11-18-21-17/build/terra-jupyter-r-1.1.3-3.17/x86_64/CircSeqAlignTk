@@ -1,0 +1,221 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''CircSeqAlignTk'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.17 (BiocManager 1.30.22), R 4.3.1 (2023-06-16)
+Installing package(s) 'CircSeqAlignTk'
+also installing the dependencies ‘R.oo’, ‘R.methodsS3’, ‘Rbowtie2’, ‘R.utils’
+
+trying URL 'https://cloud.r-project.org/src/contrib/R.oo_1.26.0.tar.gz'
+Content type 'application/x-gzip' length 383646 bytes (374 KB)
+==================================================
+downloaded 374 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/R.methodsS3_1.8.2.tar.gz'
+Content type 'application/x-gzip' length 24131 bytes (23 KB)
+==================================================
+downloaded 23 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/Rbowtie2_2.6.0.tar.gz'
+Content type 'application/gzip' length 1793745 bytes (1.7 MB)
+==================================================
+downloaded 1.7 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/R.utils_2.12.3.tar.gz'
+Content type 'application/x-gzip' length 364188 bytes (355 KB)
+==================================================
+downloaded 355 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/CircSeqAlignTk_1.2.0.tar.gz'
+Content type 'application/gzip' length 1976748 bytes (1.9 MB)
+==================================================
+downloaded 1.9 MB
+
+* installing *source* package ‘R.methodsS3’ ...
+** package ‘R.methodsS3’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘R.methodsS3’ as ‘R.methodsS3_1.8.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (R.methodsS3)
+* installing *source* package ‘Rbowtie2’ ...
+** using staged installation
+** libs
+mkdir -p ../inst
+(cd	adapterremoval && (make CXX="g++ -std=gnu++11" -f Makefile))
+make[1]: Entering directory '/tmp/RtmpyviMn3/R.INSTALL4a46e61d2fb/Rbowtie2/src/adapterremoval'
+g++ -std=gnu++11 -O3 -pthread -DNDEBUG  -c adapterset.cc 
+g++ -std=gnu++11 -O3 -pthread -DNDEBUG  -c alignment.cc 
+g++ -std=gnu++11 -O3 -pthread -DNDEBUG  -c argparse.cc 
+g++ -std=gnu++11 -O3 -pthread -DNDEBUG  -c debug.cc 
+g++ -std=gnu++11 -O3 -pthread -DNDEBUG  -c demultiplex.cc 
+g++ -std=gnu++11 -O3 -pthread -DNDEBUG  -c fastq.cc 
+g++ -std=gnu++11 -O3 -pthread -DNDEBUG  -c fastq_enc.cc 
+g++ -std=gnu++11 -O3 -pthread -DNDEBUG  -c fastq_io.cc 
+g++ -std=gnu++11 -O3 -pthread -DNDEBUG  -c linereader.cc 
+g++ -std=gnu++11 -O3 -pthread -DNDEBUG  -c linereader_joined.cc 
+g++ -std=gnu++11 -O3 -pthread -DNDEBUG  -c main_adapter_id.cc 
+g++ -std=gnu++11 -O3 -pthread -DNDEBUG  -c main_adapter_rm.cc 
+g++ -std=gnu++11 -O3 -pthread -DNDEBUG  -c main_demultiplex.cc 
+g++ -std=gnu++11 -O3 -pthread -DNDEBUG  -c scheduler.cc 
+g++ -std=gnu++11 -O3 -pthread -DNDEBUG  -c strutils.cc 
+g++ -std=gnu++11 -O3 -pthread -DNDEBUG  -c threads.cc 
+g++ -std=gnu++11 -O3 -pthread -DNDEBUG  -c timer.cc 
+g++ -std=gnu++11 -O3 -pthread -DNDEBUG  -c trimmed_reads.cc 
+g++ -std=gnu++11 -O3 -pthread -DNDEBUG  -c userconfig.cc 
+g++ -std=gnu++11 -O3 -pthread -DNDEBUG  -c main.cc 
+g++ -std=gnu++11 -O3 -pthread -DNDEBUG   -o AdapterRemoval adapterset.o alignment.o argparse.o debug.o demultiplex.o fastq.o fastq_enc.o fastq_io.o linereader.o linereader_joined.o main_adapter_id.o main_adapter_rm.o main_demultiplex.o scheduler.o strutils.o threads.o timer.o trimmed_reads.o userconfig.o main.o
+mv AdapterRemoval ../../inst/
+make[1]: Leaving directory '/tmp/RtmpyviMn3/R.INSTALL4a46e61d2fb/Rbowtie2/src/adapterremoval'
+(cd	adapterremoval && (make clean_o -f Makefile))
+make[1]: Entering directory '/tmp/RtmpyviMn3/R.INSTALL4a46e61d2fb/Rbowtie2/src/adapterremoval'
+rm -f *.o
+make[1]: Leaving directory '/tmp/RtmpyviMn3/R.INSTALL4a46e61d2fb/Rbowtie2/src/adapterremoval'
+(cd bowtie2-2.4.4 && (make CXX="g++" -f Makefile))
+make[1]: Entering directory '/tmp/RtmpyviMn3/R.INSTALL4a46e61d2fb/Rbowtie2/src/bowtie2-2.4.4'
+g++ -O3 -msse2 -funroll-loops -g3 -DCOMPILER_OPTIONS="\"-O3 -msse2 -funroll-loops -g3 -std=c++11 -DPOPCNT_CAPABILITY -DNO_SPINLOCK -DWITH_QUEUELOCK=1\"" -std=c++11 -DPOPCNT_CAPABILITY -DNO_SPINLOCK -DWITH_QUEUELOCK=1 \
+	-fno-strict-aliasing -DBOWTIE2_VERSION="\"`cat BOWTIE2_VERSION`\"" -DBUILD_HOST="\"${HOSTNAME:-`hostname`}\"" -DBUILD_TIME="\"`date -u`\"" -DCOMPILER_VERSION="\"`g++ -v 2>&1 | tail -1`\"" -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -DBOWTIE_MM  -DBOWTIE2 -DNDEBUG -Wall \
+	-I third_party \
+	-o bowtie2-build-s bt2_build.cpp \
+	ccnt_lut.cpp ref_read.cpp alphabet.cpp shmem.cpp edit.cpp bt2_locks.cpp bt2_idx.cpp bt2_io.cpp bt2_util.cpp reference.cpp ds.cpp multikey_qsort.cpp limit.cpp random_source.cpp diff_sample.cpp bowtie_build_main.cpp \
+	 -lpthread -lz
+g++ -O3 -msse2 -funroll-loops -g3 -DCOMPILER_OPTIONS="\"-O3 -msse2 -funroll-loops -g3 -std=c++11 -DPOPCNT_CAPABILITY -DNO_SPINLOCK -DWITH_QUEUELOCK=1\"" -std=c++11 -DPOPCNT_CAPABILITY -DNO_SPINLOCK -DWITH_QUEUELOCK=1 \
+	-fno-strict-aliasing -DBOWTIE2_VERSION="\"`cat BOWTIE2_VERSION`\"" -DBUILD_HOST="\"${HOSTNAME:-`hostname`}\"" -DBUILD_TIME="\"`date -u`\"" -DCOMPILER_VERSION="\"`g++ -v 2>&1 | tail -1`\"" -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -DBOWTIE_MM  -DBOWTIE2 -DBOWTIE_64BIT_INDEX -DNDEBUG -Wall \
+	-I third_party \
+	-o bowtie2-build-l bt2_build.cpp \
+	ccnt_lut.cpp ref_read.cpp alphabet.cpp shmem.cpp edit.cpp bt2_locks.cpp bt2_idx.cpp bt2_io.cpp bt2_util.cpp reference.cpp ds.cpp multikey_qsort.cpp limit.cpp random_source.cpp diff_sample.cpp bowtie_build_main.cpp \
+	 -lpthread -lz
+g++ -O3 -msse2 -funroll-loops -g3 -DCOMPILER_OPTIONS="\"-O3 -msse2 -funroll-loops -g3 -std=c++11 -DPOPCNT_CAPABILITY -DNO_SPINLOCK -DWITH_QUEUELOCK=1\"" -std=c++11 -DPOPCNT_CAPABILITY -DNO_SPINLOCK -DWITH_QUEUELOCK=1 \
+	-fno-strict-aliasing -DBOWTIE2_VERSION="\"`cat BOWTIE2_VERSION`\"" -DBUILD_HOST="\"${HOSTNAME:-`hostname`}\"" -DBUILD_TIME="\"`date -u`\"" -DCOMPILER_VERSION="\"`g++ -v 2>&1 | tail -1`\"" -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -DBOWTIE_MM  -DBOWTIE2 -DNDEBUG -Wall \
+	-I third_party \
+	-o bowtie2-align-s bt2_search.cpp \
+	ccnt_lut.cpp ref_read.cpp alphabet.cpp shmem.cpp edit.cpp bt2_locks.cpp bt2_idx.cpp bt2_io.cpp bt2_util.cpp reference.cpp ds.cpp multikey_qsort.cpp limit.cpp random_source.cpp qual.cpp pat.cpp sam.cpp read_qseq.cpp aligner_seed_policy.cpp aligner_seed.cpp aligner_seed2.cpp aligner_sw.cpp aligner_sw_driver.cpp aligner_cache.cpp aligner_result.cpp ref_coord.cpp mask.cpp pe.cpp aln_sink.cpp dp_framer.cpp scoring.cpp presets.cpp unique.cpp simple_func.cpp random_util.cpp aligner_bt.cpp sse_util.cpp aligner_swsse.cpp outq.cpp aligner_swsse_loc_i16.cpp aligner_swsse_ee_i16.cpp aligner_swsse_loc_u8.cpp aligner_swsse_ee_u8.cpp aligner_driver.cpp bowtie_main.cpp \
+	 -lpthread -lz
+aligner_seed2.cpp: In member function ‘size_t Descent::recalcOutgoing(const Read&, const Scoring&, TAlScore, TAlScore, DescentRedundancyChecker&, EFactory<DescentPos>&, const EList<DescentRoot>&, const EList<DescentConfig>&, PerReadMetrics&)’:
+aligner_seed2.cpp:585:14: warning: ‘edge.DescentEdge::nex’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  585 |  DescentEdge edge;
+      |              ^~~~
+g++ -O3 -msse2 -funroll-loops -g3 -DCOMPILER_OPTIONS="\"-O3 -msse2 -funroll-loops -g3 -std=c++11 -DPOPCNT_CAPABILITY -DNO_SPINLOCK -DWITH_QUEUELOCK=1\"" -std=c++11 -DPOPCNT_CAPABILITY -DNO_SPINLOCK -DWITH_QUEUELOCK=1 \
+	-fno-strict-aliasing -DBOWTIE2_VERSION="\"`cat BOWTIE2_VERSION`\"" -DBUILD_HOST="\"${HOSTNAME:-`hostname`}\"" -DBUILD_TIME="\"`date -u`\"" -DCOMPILER_VERSION="\"`g++ -v 2>&1 | tail -1`\"" -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -DBOWTIE_MM  -DBOWTIE2 -DBOWTIE_64BIT_INDEX -DNDEBUG -Wall \
+	-I third_party \
+	-o bowtie2-align-l bt2_search.cpp \
+	ccnt_lut.cpp ref_read.cpp alphabet.cpp shmem.cpp edit.cpp bt2_locks.cpp bt2_idx.cpp bt2_io.cpp bt2_util.cpp reference.cpp ds.cpp multikey_qsort.cpp limit.cpp random_source.cpp qual.cpp pat.cpp sam.cpp read_qseq.cpp aligner_seed_policy.cpp aligner_seed.cpp aligner_seed2.cpp aligner_sw.cpp aligner_sw_driver.cpp aligner_cache.cpp aligner_result.cpp ref_coord.cpp mask.cpp pe.cpp aln_sink.cpp dp_framer.cpp scoring.cpp presets.cpp unique.cpp simple_func.cpp random_util.cpp aligner_bt.cpp sse_util.cpp aligner_swsse.cpp outq.cpp aligner_swsse_loc_i16.cpp aligner_swsse_ee_i16.cpp aligner_swsse_loc_u8.cpp aligner_swsse_ee_u8.cpp aligner_driver.cpp bowtie_main.cpp \
+	 -lpthread -lz
+aligner_seed2.cpp: In member function ‘size_t Descent::recalcOutgoing(const Read&, const Scoring&, TAlScore, TAlScore, DescentRedundancyChecker&, EFactory<DescentPos>&, const EList<DescentRoot>&, const EList<DescentConfig>&, PerReadMetrics&)’:
+aligner_seed2.cpp:585:14: warning: ‘edge.DescentEdge::nex’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  585 |  DescentEdge edge;
+      |              ^~~~
+make[1]: Leaving directory '/tmp/RtmpyviMn3/R.INSTALL4a46e61d2fb/Rbowtie2/src/bowtie2-2.4.4'
+(cd	bowtie2-2.4.4 && (make move -f Makefile))
+make[1]: Entering directory '/tmp/RtmpyviMn3/R.INSTALL4a46e61d2fb/Rbowtie2/src/bowtie2-2.4.4'
+mv bowtie2-align-s ../../inst
+mv bowtie2-build-s ../../inst
+mv bowtie2-align-l ../../inst
+mv bowtie2-build-l ../../inst
+cp bowtie2 ../../inst
+cp bowtie2-build ../../inst
+make[1]: Leaving directory '/tmp/RtmpyviMn3/R.INSTALL4a46e61d2fb/Rbowtie2/src/bowtie2-2.4.4'
+(cd	bowtie2-2.4.4 && (make clean_dSYM -f Makefile))
+make[1]: Entering directory '/tmp/RtmpyviMn3/R.INSTALL4a46e61d2fb/Rbowtie2/src/bowtie2-2.4.4'
+rm -rf *.dSYM
+make[1]: Leaving directory '/tmp/RtmpyviMn3/R.INSTALL4a46e61d2fb/Rbowtie2/src/bowtie2-2.4.4'
+g++ -shared -fPIC -o Rbowtie2.so  version_info.cpp
+installing to /tmp/tmp/built/00LOCK-Rbowtie2/00new/Rbowtie2/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘Rbowtie2’ as ‘Rbowtie2_2.6.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Rbowtie2)
+* installing *source* package ‘R.oo’ ...
+** package ‘R.oo’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning in setGenericS3.default(name, export = exportGeneric, envir = envir,  :
+  Renamed the preexisting function getMethods to getMethods.default, which was defined in environment R.oo.
+Warning in setGenericS3.default(name, export = exportGeneric, envir = envir,  :
+  Renamed the preexisting function getClasses to getClasses.default, which was defined in environment R.oo.
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘R.oo’ as ‘R.oo_1.26.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (R.oo)
+* installing *source* package ‘CircSeqAlignTk’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘CircSeqAlignTk’ as ‘CircSeqAlignTk_1.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (CircSeqAlignTk)
+* installing *source* package ‘R.utils’ ...
+** package ‘R.utils’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning in setGenericS3.default(name, export = exportGeneric, envir = envir,  :
+  Renamed the preexisting function warnings to warnings.default, which was defined in environment R.utils.
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘R.utils’ as ‘R.utils_2.12.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (R.utils)
+
+The downloaded source packages are in
+	‘/tmp/RtmpyNd45P/downloaded_packages’
+Old packages: 'BH', 'bigrquery', 'brew', 'brio', 'bslib', 'cli', 'cluster',
+  'commonmark', 'cowplot', 'cpp11', 'crosstalk', 'curl', 'data.table', 'DBI',
+  'dbplyr', 'deldir', 'desc', 'digest', 'dplyr', 'dqrng', 'DT', 'evaluate',
+  'fansi', 'filelock', 'FNN', 'foreign', 'future', 'future.apply',
+  'GenomicRanges', 'gert', 'ggplot2', 'ggrepel', 'ggridges', 'glue', 'gplots',
+  'gtools', 'haven', 'htmltools', 'htmlwidgets', 'httpuv', 'httr2', 'igraph',
+  'interp', 'jsonlite', 'knitr', 'later', 'lattice', 'leiden', 'lifecycle',
+  'listenv', 'MASS', 'Matrix', 'matrixStats', 'mgcv', 'nlme', 'patchwork',
+  'pbdZMQ', 'pkgbuild', 'pkgload', 'plotly', 'processx', 'progress', 'ps',
+  'ragg', 'Rcpp', 'RcppAnnoy', 'RcppArmadillo', 'RcppEigen', 'RcppHNSW',
+  'RCurl', 'readr', 'reprex', 'reticulate', 'rlang', 'roxygen2', 'rpart',
+  'rprojroot', 'RSQLite', 'Rtsne', 'sass', 'scales', 'sctransform', 'scuttle',
+  'Seurat', 'SeuratObject', 'shiny', 'sp', 'spatstat.data', 'spatstat.explore',
+  'spatstat.geom', 'spatstat.random', 'spatstat.sparse', 'spatstat.utils',
+  'stringi', 'stringr', 'systemfonts', 'testthat', 'textshaping', 'tidyr',
+  'timechange', 'tinytex', 'utf8', 'uuid', 'vctrs', 'vroom', 'waldo', 'withr',
+  'xfun', 'XML', 'xml2', 'yaml', 'zip'
+
+real	4m41.677s
+user	4m19.136s
+sys	0m24.951s
