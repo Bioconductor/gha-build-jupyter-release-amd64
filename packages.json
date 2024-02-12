@@ -976,9 +976,7 @@
         "BSgenome",
         "VariantAnnotation"
     ],
-    "IMAS": [
-        "IVAS"
-    ],
+    "IMAS": [],
     "InPAS": [
         "BSgenome",
         "cleanUpdTSeq"
@@ -1010,7 +1008,6 @@
         "oligo",
         "oligoClasses"
     ],
-    "IVAS": [],
     "ivygapSE": [],
     "karyoploteR": [
         "BSgenome",
