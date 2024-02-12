@@ -663,7 +663,6 @@
     "edge": [
         "snm"
     ],
-    "EGSEA": [],
     "ELMER": [
         "BSgenome",
         "Gviz",
