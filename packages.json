@@ -1692,7 +1692,6 @@
         "VariantAnnotation",
         "biovizBase"
     ],
-    "transcriptR": [],
     "transomics2cytoscape": [
         "RCy3"
     ],
