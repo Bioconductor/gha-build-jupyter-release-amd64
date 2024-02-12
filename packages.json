@@ -1370,9 +1370,7 @@
     "MetaPhOR": [
         "RCy3"
     ],
-    "MethReg": [
-        "sesame"
-    ],
+    "MethReg": [],
     "methrix": [
         "BSgenome"
     ],
@@ -2194,7 +2192,6 @@
     ],
     "SeqSQC": [],
     "SeqVarTools": [],
-    "sesame": [],
     "SEtools": [],
     "SGCP": [],
     "SGSeq": [
