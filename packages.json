@@ -461,7 +461,6 @@
         "BSgenome",
         "VariantAnnotation"
     ],
-    "DaMiRseq": [],
     "ddPCRclust": [
         "flowDensity"
     ],
@@ -701,9 +700,7 @@
         "GA4GHclient",
         "VariantAnnotation"
     ],
-    "GARS": [
-        "DaMiRseq"
-    ],
+    "GARS": [],
     "gcapc": [
         "BSgenome"
     ],
