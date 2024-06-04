@@ -1302,7 +1302,6 @@
         "methylumi",
         "minfi",
         "multtest",
-        "parody",
         "rhdf5",
         "rhdf5filters",
         "rtracklayer",
@@ -21086,7 +21085,6 @@
     "parglms": [
         "BiocGenerics"
     ],
-    "parody": [],
     "PAST": [
         "Biobase",
         "BiocGenerics",
