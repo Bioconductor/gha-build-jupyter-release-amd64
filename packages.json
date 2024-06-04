@@ -11299,7 +11299,6 @@
         "rhdf5",
         "rhdf5filters"
     ],
-    "hierGWAS": [],
     "HilbertCurve": [
         "GenomeInfoDb",
         "GenomicRanges",
