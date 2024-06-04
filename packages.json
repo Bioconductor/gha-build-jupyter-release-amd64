@@ -12114,10 +12114,7 @@
         "KEGGREST",
         "XVector"
     ],
-    "Rcwl": [],
-    "RcwlPipelines": [
-        "Rcwl"
-    ],
+    "RcwlPipelines": [],
     "RCy3": [],
     "ReactomePA": [
         "AnnotationDbi",
@@ -12455,7 +12452,6 @@
         "rhdf5client"
     ],
     "ReUseData": [
-        "Rcwl",
         "RcwlPipelines"
     ],
     "rfaRm": [
