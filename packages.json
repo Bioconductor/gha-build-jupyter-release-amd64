@@ -5884,7 +5884,6 @@
         "rtracklayer",
         "zlibbioc"
     ],
-    "coGPS": [],
     "cola": [
         "BiocGenerics",
         "ComplexHeatmap",
