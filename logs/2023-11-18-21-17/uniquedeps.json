@@ -1012,7 +1012,8 @@
     "ChIPseeker": [
         "ggimage",
         "ggupset",
-        "ggVennDiagram"
+        "ggVennDiagram",
+        "RVenn"
     ],
     "chipseq": [
 
@@ -3815,7 +3816,8 @@
     ],
     "mistyR": [
         "iml",
-        "Metrics"
+        "Metrics",
+        "prediction"
     ],
     "mitch": [
 
