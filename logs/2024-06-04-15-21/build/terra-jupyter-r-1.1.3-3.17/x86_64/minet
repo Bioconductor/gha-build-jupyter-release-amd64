@@ -65,7 +65,7 @@ packaged installation of ‘minet’ as ‘minet_3.58.0_R_x86_64-pc-linux-gnu.ta
 * DONE (minet)
 
 The downloaded source packages are in
-	‘/tmp/RtmpNvlWiK/downloaded_packages’
+	‘/tmp/RtmpKhTRwL/downloaded_packages’
 Old packages: 'backports', 'BH', 'bigrquery', 'BiocManager', 'boot', 'brew',
   'brio', 'broom', 'bslib', 'cachem', 'callr', 'cli', 'cluster', 'codetools',
   'commonmark', 'cowplot', 'cpp11', 'crosstalk', 'curl', 'data.table', 'DBI',
@@ -89,6 +89,6 @@ Old packages: 'backports', 'BH', 'bigrquery', 'BiocManager', 'boot', 'brew',
   'uwot', 'vctrs', 'vroom', 'waldo', 'withr', 'xfun', 'XML', 'xml2', 'xopen',
   'yaml', 'zip'
 
-real	0m12.948s
-user	0m8.737s
-sys	0m4.116s
+real	0m12.821s
+user	0m8.286s
+sys	0m4.282s
