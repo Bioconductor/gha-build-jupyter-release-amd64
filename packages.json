@@ -2072,7 +2072,6 @@
         "SummarizedExperiment",
         "biomaRt"
     ],
-    "cogeqc": [],
     "Cogito": [
         "AnnotationDbi",
         "GenomicAlignments",
