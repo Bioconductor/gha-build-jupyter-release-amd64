@@ -3847,7 +3847,6 @@
         "GSEABase",
         "GenomicRanges",
         "KEGGREST",
-        "SPIA",
         "SummarizedExperiment",
         "annotate",
         "graphite",
@@ -5258,7 +5257,6 @@
         "GSEABase",
         "GenomicRanges",
         "KEGGREST",
-        "SPIA",
         "SummarizedExperiment",
         "annotate",
         "graphite",
@@ -11421,7 +11419,6 @@
         "InteractionSet",
         "SummarizedExperiment"
     ],
-    "SPIA": [],
     "SPIAT": [
         "DelayedMatrixStats",
         "DropletUtils",
@@ -12860,7 +12857,6 @@
         "GSEABase",
         "GenomicRanges",
         "KEGGREST",
-        "SPIA",
         "SummarizedExperiment",
         "annotate",
         "graphite",
