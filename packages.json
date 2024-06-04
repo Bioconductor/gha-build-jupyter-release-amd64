@@ -9162,7 +9162,6 @@
         "edgeR",
         "genefilter",
         "qvalue",
-        "snm",
         "sva",
         "zlibbioc"
     ],
@@ -27882,7 +27881,6 @@
         "basilisk.utils",
         "dir.expiry"
     ],
-    "snm": [],
     "SNPediaR": [],
     "SNPhood": [
         "AnnotationDbi",
