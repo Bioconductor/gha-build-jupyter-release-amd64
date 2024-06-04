@@ -14187,7 +14187,6 @@
         "biomaRt",
         "rtracklayer"
     ],
-    "RVS": [],
     "S4Arrays": [],
     "safe": [
         "AnnotationDbi",
