@@ -9461,7 +9461,6 @@
         "edgeR",
         "genefilter",
         "rtracklayer",
-        "sSeq",
         "sva"
     ],
     "GateFinder": [
@@ -14810,8 +14809,7 @@
         "S4Vectors",
         "SummarizedExperiment",
         "XVector",
-        "edgeR",
-        "sSeq"
+        "edgeR"
     ],
     "MMAPPR2": [
         "AnnotationDbi",
@@ -23809,7 +23807,6 @@
         "S4Vectors",
         "XVector"
     ],
-    "sSeq": [],
     "ssize": [],
     "sSNAPPY": [
         "AnnotationDbi",
