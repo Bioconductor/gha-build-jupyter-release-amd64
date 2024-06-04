@@ -12843,7 +12843,6 @@
     "target": [
         "GenomicRanges"
     ],
-    "TargetDecoy": [],
     "TBSignatureProfiler": [
         "ASSIGN",
         "AnnotationDbi",
