@@ -16389,7 +16389,6 @@
     "MIMOSA": [
         "Biobase"
     ],
-    "mina": [],
     "MineICA": [
         "AnnotationDbi",
         "AnnotationForge",
