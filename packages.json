@@ -14223,7 +14223,6 @@
         "rhdf5",
         "sparseMatrixStats"
     ],
-    "oppti": [],
     "optimalFlow": [
         "flowCore",
         "flowMeans"
