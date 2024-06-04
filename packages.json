@@ -17368,7 +17368,6 @@
         "GenomeInfoDb",
         "XVector"
     ],
-    "updateObject": [],
     "uSORT": [
         "biocViews",
         "monocle"
