@@ -10933,7 +10933,6 @@
         "clusterProfiler",
         "enrichplot"
     ],
-    "panp": [],
     "pareg": [
         "AnnotationDbi",
         "Biostrings",
