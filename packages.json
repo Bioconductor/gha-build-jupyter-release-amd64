@@ -2216,7 +2216,6 @@
         "AnnotationFilter",
         "GenomicRanges"
     ],
-    "concordexR": [],
     "condiments": [
         "BiocSingular",
         "GenomicRanges",
