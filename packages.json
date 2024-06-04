@@ -11999,7 +11999,6 @@
         "biomaRt",
         "edgeR"
     ],
-    "Herper": [],
     "hiAnnotator": [
         "BSgenome",
         "Biobase",
