@@ -77,7 +77,6 @@
         "Rsamtools",
         "S4Vectors",
         "XVector",
-        "impute",
         "marray",
         "zlibbioc"
     ],
@@ -795,7 +794,6 @@
     ],
     "AlpsNMR": [
         "BiocParallel",
-        "impute",
         "mixOmics"
     ],
     "altcdfenvs": [
@@ -833,7 +831,6 @@
         "S4Vectors",
         "SummarizedExperiment",
         "XVector",
-        "impute",
         "interactiveDisplayBase",
         "rhdf5",
         "rhdf5filters",
@@ -1860,7 +1857,6 @@
         "annotate",
         "biomaRt",
         "genefilter",
-        "impute",
         "mzID",
         "mzR",
         "pRoloc",
@@ -2776,7 +2772,6 @@
         "XVector",
         "fgsea",
         "graph",
-        "impute",
         "interactiveDisplayBase",
         "zlibbioc"
     ],
@@ -2800,7 +2795,6 @@
         "annotate",
         "edgeR",
         "genefilter",
-        "impute",
         "minet",
         "sva",
         "zlibbioc"
@@ -2978,7 +2972,6 @@
         "bumphunter",
         "dmrseq",
         "graph",
-        "impute",
         "interactiveDisplayBase",
         "marray",
         "regioneR",
@@ -3688,7 +3681,6 @@
         "genefilter",
         "ggbio",
         "graph",
-        "impute",
         "minet",
         "rtracklayer",
         "sva",
@@ -3755,7 +3747,6 @@
         "affy",
         "affyio",
         "graph",
-        "impute",
         "multtest",
         "mzID",
         "mzR",
@@ -3797,8 +3788,7 @@
     "CancerSubtypes": [
         "Biobase",
         "BiocGenerics",
-        "ConsensusClusterPlus",
-        "impute"
+        "ConsensusClusterPlus"
     ],
     "cardelino": [
         "AnnotationDbi",
@@ -4355,7 +4345,6 @@
         "enrichplot",
         "fgsea",
         "ggtree",
-        "impute",
         "qvalue",
         "treeio",
         "zlibbioc"
@@ -4461,7 +4450,6 @@
         "SummarizedExperiment",
         "XVector",
         "genomation",
-        "impute",
         "rtracklayer",
         "seqPattern",
         "zlibbioc"
@@ -4510,7 +4498,6 @@
         "Biobase",
         "BiocGenerics",
         "CGHbase",
-        "impute",
         "marray"
     ],
     "cghMCR": [
@@ -4534,7 +4521,6 @@
         "BiocGenerics",
         "CGHbase",
         "CGHcall",
-        "impute",
         "marray"
     ],
     "CGHregions": [
@@ -4591,7 +4577,6 @@
         "globaltest",
         "goseq",
         "illuminaio",
-        "impute",
         "interactiveDisplayBase",
         "lumi",
         "marray",
@@ -5416,7 +5401,6 @@
         "XVector",
         "affy",
         "affyio",
-        "impute",
         "multtest",
         "mzID",
         "mzR",
@@ -5444,7 +5428,6 @@
         "S4Vectors",
         "affy",
         "affyio",
-        "impute",
         "mzID",
         "mzR",
         "pcaMethods",
@@ -5957,8 +5940,7 @@
         "BiocGenerics",
         "ComplexHeatmap",
         "IRanges",
-        "S4Vectors",
-        "impute"
+        "S4Vectors"
     ],
     "comapr": [
         "AnnotationDbi",
@@ -6288,7 +6270,6 @@
         "biomaRt",
         "genefu",
         "graph",
-        "impute",
         "rhdf5",
         "rhdf5filters",
         "sparseMatrixStats",
@@ -6558,7 +6539,6 @@
         "XVector",
         "affy",
         "affyio",
-        "impute",
         "multtest",
         "mzID",
         "mzR",
@@ -7058,7 +7038,6 @@
         "KEGGREST",
         "S4Vectors",
         "XVector",
-        "impute",
         "zlibbioc"
     ],
     "CSSQ": [
@@ -7594,7 +7573,6 @@
         "affy",
         "affyio",
         "graph",
-        "impute",
         "mzID",
         "mzR",
         "pcaMethods",
@@ -8087,7 +8065,6 @@
         "XVector",
         "affy",
         "affyio",
-        "impute",
         "mzID",
         "mzR",
         "pcaMethods",
@@ -8325,7 +8302,6 @@
         "annotate",
         "edgeR",
         "genefilter",
-        "impute",
         "snpStats",
         "sva",
         "zlibbioc"
@@ -8407,7 +8383,6 @@
         "S4Vectors",
         "SummarizedExperiment",
         "XVector",
-        "impute",
         "multtest",
         "pcaMethods",
         "zlibbioc"
@@ -8901,7 +8876,6 @@
         "annotate",
         "edgeR",
         "genefilter",
-        "impute",
         "sva",
         "zlibbioc"
     ],
@@ -9336,8 +9310,7 @@
     "EGAD": [
         "Biobase",
         "BiocGenerics",
-        "GEOquery",
-        "impute"
+        "GEOquery"
     ],
     "EGSEA": [
         "AnnotationDbi",
@@ -9501,7 +9474,6 @@
         "genefilter",
         "geneplotter",
         "illuminaio",
-        "impute",
         "interactiveDisplayBase",
         "minfi",
         "multtest",
@@ -9720,7 +9692,6 @@
         "fgsea",
         "genomation",
         "ggtree",
-        "impute",
         "interactiveDisplayBase",
         "qvalue",
         "rtracklayer",
@@ -9825,7 +9796,6 @@
         "SummarizedExperiment",
         "XVector",
         "biomaRt",
-        "impute",
         "interactiveDisplayBase",
         "rtracklayer",
         "zlibbioc"
@@ -10626,7 +10596,6 @@
         "LiquidAssociation",
         "S4Vectors",
         "XVector",
-        "impute",
         "zlibbioc"
     ],
     "FastqCleaner": [
@@ -10694,7 +10663,6 @@
         "SummarizedExperiment",
         "XVector",
         "genomation",
-        "impute",
         "rtracklayer",
         "seqPattern",
         "zlibbioc"
@@ -10936,7 +10904,6 @@
         "affy",
         "affyio",
         "graph",
-        "impute",
         "multtest",
         "mzID",
         "mzR",
@@ -11758,7 +11725,6 @@
         "Rsamtools",
         "S4Vectors",
         "XVector",
-        "impute",
         "marray",
         "zlibbioc"
     ],
@@ -11796,7 +11762,6 @@
         "S4Vectors",
         "XVector",
         "biomaRt",
-        "impute",
         "survcomp",
         "zlibbioc"
     ],
@@ -11995,7 +11960,6 @@
         "S4Vectors",
         "SummarizedExperiment",
         "XVector",
-        "impute",
         "rtracklayer",
         "seqPattern",
         "zlibbioc"
@@ -12322,8 +12286,7 @@
     "GEOexplorer": [
         "Biobase",
         "BiocGenerics",
-        "GEOquery",
-        "impute"
+        "GEOquery"
     ],
     "GEOfastq": [],
     "GEOmetadb": [
@@ -12714,7 +12677,6 @@
         "annotate",
         "genefilter",
         "graph",
-        "impute",
         "zlibbioc"
     ],
     "gmoviz": [
@@ -13450,7 +13412,6 @@
         "S4Vectors",
         "SummarizedExperiment",
         "XVector",
-        "impute",
         "zlibbioc"
     ],
     "h5vc": [
@@ -14372,7 +14333,6 @@
     ],
     "immunotation": [],
     "IMPCdata": [],
-    "impute": [],
     "infercnv": [
         "Biobase",
         "BiocGenerics",
@@ -14709,7 +14669,6 @@
         "affy",
         "affyio",
         "graph",
-        "impute",
         "multtest",
         "mzID",
         "mzR",
@@ -15335,7 +15294,6 @@
         "SummarizedExperiment",
         "XVector",
         "fgsea",
-        "impute",
         "pcaMethods",
         "ropls",
         "zlibbioc"
@@ -15409,7 +15367,6 @@
         "affy",
         "affyio",
         "graph",
-        "impute",
         "multtest",
         "mzID",
         "mzR",
@@ -15605,7 +15562,6 @@
         "Wrench",
         "XVector",
         "edgeR",
-        "impute",
         "metagenomeSeq",
         "zlibbioc"
     ],
@@ -15719,7 +15675,6 @@
         "crlmm",
         "genefilter",
         "illuminaio",
-        "impute",
         "methylumi",
         "minfi",
         "multtest",
@@ -15834,7 +15789,6 @@
         "affy",
         "affyio",
         "graph",
-        "impute",
         "multtest",
         "mzID",
         "mzR",
@@ -16033,7 +15987,6 @@
         "XVector",
         "affy",
         "affyio",
-        "impute",
         "interactiveDisplayBase",
         "pcaMethods",
         "proDA",
@@ -16139,7 +16092,6 @@
         "KEGGREST",
         "S4Vectors",
         "XVector",
-        "impute",
         "zlibbioc"
     ],
     "mBPCR": [
@@ -16194,7 +16146,6 @@
         "KEGGREST",
         "S4Vectors",
         "XVector",
-        "impute",
         "zlibbioc"
     ],
     "mCSEA": [
@@ -16337,7 +16288,6 @@
         "bumphunter",
         "genefilter",
         "illuminaio",
-        "impute",
         "lumi",
         "methylumi",
         "minfi",
@@ -16541,7 +16491,6 @@
         "XVector",
         "affy",
         "affyio",
-        "impute",
         "multtest",
         "mzID",
         "mzR",
@@ -16739,7 +16688,6 @@
         "affy",
         "affyio",
         "graph",
-        "impute",
         "multtest",
         "mzID",
         "mzR",
@@ -17027,7 +16975,6 @@
         "genefilter",
         "graph",
         "illuminaio",
-        "impute",
         "interactiveDisplayBase",
         "minfi",
         "multtest",
@@ -17133,9 +17080,7 @@
         "rtracklayer",
         "zlibbioc"
     ],
-    "MethylMix": [
-        "impute"
-    ],
+    "MethylMix": [],
     "methylMnM": [
         "edgeR"
     ],
@@ -17885,7 +17830,6 @@
         "ctc",
         "genefilter",
         "graph",
-        "impute",
         "zlibbioc"
     ],
     "miRmine": [
@@ -17959,7 +17903,6 @@
         "ggtree",
         "graph",
         "graphite",
-        "impute",
         "miRBaseConverter",
         "miRspongeR",
         "multtest",
@@ -18240,7 +18183,6 @@
         "XVector",
         "affy",
         "affyio",
-        "impute",
         "multtest",
         "mzID",
         "mzR",
@@ -18260,7 +18202,6 @@
         "KEGGREST",
         "S4Vectors",
         "XVector",
-        "impute",
         "zlibbioc"
     ],
     "ModCon": [],
@@ -18855,7 +18796,6 @@
         "S4Vectors",
         "affy",
         "affyio",
-        "impute",
         "mzID",
         "mzR",
         "pcaMethods",
@@ -18874,7 +18814,6 @@
         "affy",
         "affyio",
         "edgeR",
-        "impute",
         "msmsEDA",
         "mzID",
         "mzR",
@@ -18893,7 +18832,6 @@
         "S4Vectors",
         "affy",
         "affyio",
-        "impute",
         "mzID",
         "mzR",
         "pcaMethods",
@@ -18918,7 +18856,6 @@
         "affy",
         "affyio",
         "edgeR",
-        "impute",
         "interactiveDisplayBase",
         "msmsEDA",
         "msmsTests",
@@ -19043,7 +18980,6 @@
         "S4Vectors",
         "affy",
         "affyio",
-        "impute",
         "mzID",
         "mzR",
         "pcaMethods",
@@ -19063,7 +18999,6 @@
         "S4Vectors",
         "affy",
         "affyio",
-        "impute",
         "mzID",
         "mzR",
         "pcaMethods",
@@ -19751,7 +19686,6 @@
         "XVector",
         "affy",
         "affyio",
-        "impute",
         "multtest",
         "mzID",
         "mzR",
@@ -19863,7 +19797,6 @@
         "KEGGREST",
         "S4Vectors",
         "XVector",
-        "impute",
         "zlibbioc"
     ],
     "netDx": [
@@ -19924,7 +19857,6 @@
         "S4Vectors",
         "XVector",
         "biomaRt",
-        "impute",
         "zlibbioc"
     ],
     "netSmooth": [
@@ -20539,7 +20471,6 @@
         "annotate",
         "edgeR",
         "genefilter",
-        "impute",
         "made4",
         "omicade4",
         "pcaMethods",
@@ -21394,7 +21325,6 @@
         "biomaRt",
         "fgsea",
         "genefu",
-        "impute",
         "marray",
         "piano",
         "survcomp",
@@ -21449,7 +21379,6 @@
         "S4Vectors",
         "affy",
         "affyio",
-        "impute",
         "mzID",
         "mzR",
         "pcaMethods",
@@ -21834,7 +21763,6 @@
         "ggtree",
         "graph",
         "graphite",
-        "impute",
         "qvalue",
         "treeio",
         "zlibbioc"
@@ -22037,7 +21965,6 @@
         "S4Vectors",
         "SummarizedExperiment",
         "XVector",
-        "impute",
         "pcaMethods",
         "zlibbioc"
     ],
@@ -22111,7 +22038,6 @@
         "S4Vectors",
         "SummarizedExperiment",
         "XVector",
-        "impute",
         "mixOmics",
         "zlibbioc"
     ],
@@ -22307,7 +22233,6 @@
         "S4Vectors",
         "affy",
         "affyio",
-        "impute",
         "mzID",
         "mzR",
         "pcaMethods",
@@ -22488,7 +22413,6 @@
         "annotate",
         "biomaRt",
         "genefilter",
-        "impute",
         "mzID",
         "mzR",
         "pcaMethods",
@@ -22520,7 +22444,6 @@
         "annotate",
         "biomaRt",
         "genefilter",
-        "impute",
         "mzID",
         "mzR",
         "pRoloc",
@@ -22577,7 +22500,6 @@
         "affy",
         "affyio",
         "graph",
-        "impute",
         "mzID",
         "mzR",
         "pcaMethods",
@@ -22763,7 +22685,6 @@
         "S4Vectors",
         "affy",
         "affyio",
-        "impute",
         "mzID",
         "mzR",
         "pcaMethods",
@@ -22937,7 +22858,6 @@
         "Rsamtools",
         "S4Vectors",
         "XVector",
-        "impute",
         "marray",
         "zlibbioc"
     ],
@@ -23023,7 +22943,6 @@
         "XVector",
         "affy",
         "affyio",
-        "impute",
         "mzID",
         "mzR",
         "pcaMethods",
@@ -23515,7 +23434,6 @@
         "XVector",
         "biomaRt",
         "genomation",
-        "impute",
         "rtracklayer",
         "seqPattern",
         "zlibbioc"
@@ -23897,7 +23815,6 @@
         "SummarizedExperiment",
         "XVector",
         "fgsea",
-        "impute",
         "qvalue",
         "zlibbioc"
     ],
@@ -24063,7 +23980,6 @@
         "bumphunter",
         "genefilter",
         "illuminaio",
-        "impute",
         "interactiveDisplayBase",
         "minfi",
         "multtest",
@@ -24252,7 +24168,6 @@
         "Biobase",
         "BiocGenerics",
         "S4Vectors",
-        "impute",
         "pcaMethods"
     ],
     "rfaRm": [
@@ -24718,7 +24633,6 @@
         "affyio",
         "biocViews",
         "graph",
-        "impute",
         "multtest",
         "mzID",
         "mzR",
@@ -24835,7 +24749,6 @@
         "S4Vectors",
         "affy",
         "affyio",
-        "impute",
         "mzID",
         "mzR",
         "pcaMethods",
@@ -24920,7 +24833,6 @@
         "bumphunter",
         "derfinder",
         "derfinderHelper",
-        "impute",
         "qvalue",
         "recount",
         "rtracklayer",
@@ -25208,7 +25120,6 @@
         "BiocGenerics",
         "affy",
         "affyio",
-        "impute",
         "qvalue",
         "zlibbioc"
     ],
@@ -27113,7 +27024,6 @@
         "S4Vectors",
         "XVector",
         "biomaRt",
-        "impute",
         "zlibbioc"
     ],
     "seqArchR": [
@@ -27724,7 +27634,6 @@
         "ensembldb",
         "genefu",
         "graph",
-        "impute",
         "rhdf5",
         "rhdf5filters",
         "rtracklayer",
@@ -29150,7 +29059,6 @@
         "XVector",
         "biomformat",
         "edgeR",
-        "impute",
         "multtest",
         "phyloseq",
         "rhdf5",
@@ -29374,8 +29282,7 @@
         "zlibbioc"
     ],
     "statTarget": [
-        "ROC",
-        "impute"
+        "ROC"
     ],
     "STdeconvolve": [
         "BiocParallel"
@@ -29749,7 +29656,6 @@
         "affy",
         "affyio",
         "cleaver",
-        "impute",
         "multtest",
         "mzID",
         "mzR",
@@ -30400,7 +30306,6 @@
         "KEGGREST",
         "S4Vectors",
         "XVector",
-        "impute",
         "zlibbioc"
     ],
     "TissueEnrich": [
@@ -30593,7 +30498,6 @@
         "XVector",
         "affy",
         "affyio",
-        "impute",
         "mzID",
         "mzR",
         "pcaMethods",
@@ -30976,7 +30880,6 @@
         "SummarizedExperiment",
         "XVector",
         "biomaRt",
-        "impute",
         "rtracklayer",
         "zlibbioc"
     ],
@@ -32188,7 +32091,6 @@
         "XVector",
         "affy",
         "affyio",
-        "impute",
         "multtest",
         "mzID",
         "mzR",
