@@ -3159,7 +3159,6 @@
         "sva",
         "wateRmelon"
     ],
-    "ChemmineOB": [],
     "CHETAH": [
         "DelayedArray",
         "GenomeInfoDb",
@@ -16909,7 +16908,6 @@
     ],
     "Rmagpie": [],
     "RMassBank": [
-        "ChemmineOB",
         "IRanges",
         "MSnbase",
         "MsCoreUtils",
