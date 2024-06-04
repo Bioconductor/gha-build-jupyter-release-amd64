@@ -23035,7 +23035,6 @@
         "XVector"
     ],
     "SMAD": [],
-    "SMAP": [],
     "SMITE": [
         "AnnotationDbi",
         "BioNet",
