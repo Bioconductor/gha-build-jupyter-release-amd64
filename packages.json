@@ -18016,7 +18016,6 @@
         "XVector",
         "mixOmics"
     ],
-    "powerTCR": [],
     "POWSC": [
         "Biobase",
         "DelayedArray",
@@ -21767,8 +21766,7 @@
         "S4Vectors",
         "SingleCellExperiment",
         "SummarizedExperiment",
-        "XVector",
-        "powerTCR"
+        "XVector"
     ],
     "scRNAseqApp": [
         "Biobase",
