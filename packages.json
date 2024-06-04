@@ -14528,7 +14528,6 @@
         "annotate",
         "zlibbioc"
     ],
-    "maCorrPlot": [],
     "MACSr": [
         "AnnotationDbi",
         "AnnotationHub",
