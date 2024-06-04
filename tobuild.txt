@@ -1,8 +1,0 @@
-epiNEM
-MetCirc
-SPIA
-MsBackendMsp
-MsBackendRawFileReader
-MsBackendSql
-MsBackendMgf
-MsBackendMassbank
