@@ -1745,7 +1745,6 @@
     "biocViews": [
         "RBGL"
     ],
-    "biodbChebi": [],
     "biodbNci": [],
     "bioDist": [],
     "biomaRt": [
@@ -13924,7 +13923,6 @@
         "S4Arrays",
         "SummarizedExperiment",
         "XVector",
-        "biodbChebi",
         "ropls"
     ],
     "phenopath": [
