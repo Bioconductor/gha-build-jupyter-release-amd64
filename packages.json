@@ -11418,7 +11418,6 @@
         "XVector",
         "interactiveDisplayBase"
     ],
-    "HPAStainR": [],
     "HTqPCR": [
         "Biobase",
         "affy",
