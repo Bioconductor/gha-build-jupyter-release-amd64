@@ -8214,7 +8214,6 @@
         "MSnbase",
         "MSstatsQC"
     ],
-    "MSstatsSampleSize": [],
     "MSstatsShiny": [
         "Biostrings",
         "MSstatsPTM"
