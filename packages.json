@@ -2618,8 +2618,7 @@
         "rtracklayer"
     ],
     "cyanoFilter": [
-        "flowDensity",
-        "flowWorkspace"
+        "flowDensity"
     ],
     "cydar": [
         "GenomicRanges",
@@ -2653,13 +2652,11 @@
         "scuttle"
     ],
     "CytoML": [
-        "flowWorkspace",
         "ggcyto",
         "openCyto"
     ],
     "CytoPipeline": [
         "PeacoQC",
-        "flowWorkspace",
         "ggcyto"
     ],
     "cytoviewer": [
@@ -2747,8 +2744,7 @@
         "graphite"
     ],
     "ddPCRclust": [
-        "flowDensity",
-        "flowWorkspace"
+        "flowDensity"
     ],
     "debCAM": [
         "GenomicRanges",
@@ -3994,24 +3990,16 @@
     ],
     "flowBin": [],
     "flowCut": [
-        "flowDensity",
-        "flowWorkspace"
+        "flowDensity"
     ],
-    "flowDensity": [
-        "flowWorkspace"
-    ],
+    "flowDensity": [],
     "flowGate": [
-        "flowWorkspace",
         "ggcyto"
     ],
-    "flowStats": [
-        "flowWorkspace"
-    ],
+    "flowStats": [],
     "flowVS": [
-        "flowStats",
-        "flowWorkspace"
+        "flowStats"
     ],
-    "flowWorkspace": [],
     "FoldGO": [
         "AnnotationDbi",
         "KEGGREST",
@@ -4424,9 +4412,7 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "ggcyto": [
-        "flowWorkspace"
-    ],
+    "ggcyto": [],
     "ggmanh": [
         "GenomicRanges",
         "SeqArray"
@@ -5089,9 +5075,7 @@
         "scuttle"
     ],
     "IMMAN": [],
-    "ImmuneSpaceR": [
-        "flowWorkspace"
-    ],
+    "ImmuneSpaceR": [],
     "infercnv": [
         "GenomicRanges",
         "SingleCellExperiment",
@@ -7226,9 +7210,7 @@
         "KEGGREST",
         "SummarizedExperiment"
     ],
-    "openCyto": [
-        "flowWorkspace"
-    ],
+    "openCyto": [],
     "openPrimeR": [
         "DECIPHER",
         "GenomicRanges"
@@ -7472,9 +7454,7 @@
         "oligo",
         "oligoClasses"
     ],
-    "PeacoQC": [
-        "flowWorkspace"
-    ],
+    "PeacoQC": [],
     "peakPantheR": [
         "MSnbase"
     ],
