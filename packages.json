@@ -14855,7 +14855,6 @@
         "interactiveDisplayBase",
         "zlibbioc"
     ],
-    "matchBox": [],
     "MatrixGenerics": [],
     "MatrixQCvis": [
         "AnnotationDbi",
