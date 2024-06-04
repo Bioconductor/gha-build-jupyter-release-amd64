@@ -17687,7 +17687,6 @@
         "qvalue",
         "treeio"
     ],
-    "pgca": [],
     "phantasus": [
         "AnnotationDbi",
         "Biobase",
