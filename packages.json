@@ -23092,7 +23092,6 @@
         "basilisk",
         "basilisk.utils"
     ],
-    "SNPediaR": [],
     "SNPhood": [
         "AnnotationDbi",
         "BSgenome",
