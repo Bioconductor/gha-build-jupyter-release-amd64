@@ -9051,7 +9051,6 @@
         "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "paircompviz": [],
     "pairedGSEA": [
         "AnnotationDbi",
         "Biostrings",
