@@ -1,0 +1,203 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''qusage'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.17 (BiocManager 1.30.22), R 4.3.1 (2023-06-16)
+Installing package(s) 'qusage'
+also installing the dependencies ‘estimability’, ‘numDeriv’, ‘mvtnorm’, ‘emmeans’, ‘fftw’
+
+trying URL 'https://cloud.r-project.org/src/contrib/estimability_1.5.1.tar.gz'
+Content type 'application/x-gzip' length 15968 bytes (15 KB)
+==================================================
+downloaded 15 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/numDeriv_2016.8-1.1.tar.gz'
+Content type 'application/x-gzip' length 76053 bytes (74 KB)
+==================================================
+downloaded 74 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/mvtnorm_1.2-5.tar.gz'
+Content type 'application/x-gzip' length 688437 bytes (672 KB)
+==================================================
+downloaded 672 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/emmeans_1.10.2.tar.gz'
+Content type 'application/x-gzip' length 1507788 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/fftw_1.0-8.tar.gz'
+Content type 'application/x-gzip' length 42484 bytes (41 KB)
+==================================================
+downloaded 41 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/qusage_2.34.0.tar.gz'
+Content type 'application/gzip' length 9935979 bytes (9.5 MB)
+==================================================
+downloaded 9.5 MB
+
+* installing *source* package ‘estimability’ ...
+** package ‘estimability’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘estimability’ as ‘estimability_1.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (estimability)
+* installing *source* package ‘numDeriv’ ...
+** package ‘numDeriv’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘numDeriv’ as ‘numDeriv_2016.8-1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (numDeriv)
+* installing *source* package ‘mvtnorm’ ...
+** package ‘mvtnorm’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gcc -I"/usr/share/R/include" -DNDEBUG      -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c C_FORTRAN_interface.c -o C_FORTRAN_interface.o
+gcc -I"/usr/share/R/include" -DNDEBUG      -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c lpmvnorm.c -o lpmvnorm.o
+gcc -I"/usr/share/R/include" -DNDEBUG      -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c ltMatrices.c -o ltMatrices.o
+gcc -I"/usr/share/R/include" -DNDEBUG      -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c miwa.c -o miwa.o
+gfortran  -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong  -c mvt.f -o mvt.o
+gcc -I"/usr/share/R/include" -DNDEBUG      -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c mvtnorm-init.c -o mvtnorm-init.o
+gfortran  -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong  -c tvpack.f -o tvpack.o
+gcc -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o mvtnorm.so C_FORTRAN_interface.o lpmvnorm.o ltMatrices.o miwa.o mvt.o mvtnorm-init.o tvpack.o -llapack -lblas -lgfortran -lm -lquadmath -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-mvtnorm/00new/mvtnorm/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘mvtnorm’ as ‘mvtnorm_1.2-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mvtnorm)
+* installing *source* package ‘fftw’ ...
+** package ‘fftw’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to enable C11 features... none needed
+checking how to run the C preprocessor... gcc -E
+checking for gcc... (cached) gcc
+checking whether the compiler supports GNU C... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to enable C11 features... (cached) none needed
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for FFTW... yes
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c fftw.c -o fftw.o
+gcc -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o fftw.so fftw.o -lfftw3 -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-fftw/00new/fftw/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘fftw’ as ‘fftw_1.0-8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fftw)
+* installing *source* package ‘emmeans’ ...
+** package ‘emmeans’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘emmeans’ as ‘emmeans_1.10.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (emmeans)
+* installing *source* package ‘qusage’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘qusage’ as ‘qusage_2.34.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (qusage)
+
+The downloaded source packages are in
+	‘/tmp/RtmpWQLO19/downloaded_packages’
+Old packages: 'backports', 'BH', 'bigrquery', 'BiocManager', 'boot', 'brew',
+  'brio', 'broom', 'bslib', 'cachem', 'callr', 'cli', 'cluster', 'codetools',
+  'commonmark', 'cowplot', 'cpp11', 'crosstalk', 'curl', 'data.table', 'DBI',
+  'dbplyr', 'deldir', 'desc', 'digest', 'dplyr', 'dqrng', 'DT', 'evaluate',
+  'fansi', 'farver', 'fastmap', 'filelock', 'FNN', 'foreign', 'fs', 'future',
+  'future.apply', 'GenomicRanges', 'gert', 'ggplot2', 'ggrepel', 'ggridges',
+  'gh', 'globals', 'glue', 'googleAuthR', 'gplots', 'gtable', 'gtools',
+  'haven', 'highr', 'htmltools', 'htmlwidgets', 'httpuv', 'httr2', 'igraph',
+  'interp', 'jsonlite', 'KernSmooth', 'knitr', 'later', 'lattice', 'leiden',
+  'lifecycle', 'listenv', 'locfit', 'matrixStats', 'mgcv', 'munsell', 'nlme',
+  'openssl', 'parallelly', 'patchwork', 'pbdZMQ', 'pkgbuild', 'pkgdown',
+  'pkgload', 'plotly', 'processx', 'progress', 'promises', 'ps', 'ragg',
+  'rapiclient', 'Rcpp', 'RcppAnnoy', 'RcppArmadillo', 'RcppEigen', 'RcppHNSW',
+  'RCurl', 'readr', 'remotes', 'repr', 'reprex', 'reticulate', 'rlang',
+  'rmarkdown', 'roxygen2', 'rpart', 'rprojroot', 'RSQLite', 'rstudioapi',
+  'Rtsne', 'rvest', 'sass', 'scales', 'sctransform', 'scuttle', 'Seurat',
+  'SeuratObject', 'shiny', 'sp', 'spatstat.data', 'spatstat.explore',
+  'spatstat.geom', 'spatstat.random', 'spatstat.sparse', 'spatstat.utils',
+  'stringi', 'stringr', 'survival', 'systemfonts', 'testthat', 'textshaping',
+  'tidyr', 'tidyselect', 'timechange', 'tinytex', 'usethis', 'utf8', 'uuid',
+  'uwot', 'vctrs', 'vroom', 'waldo', 'withr', 'xfun', 'XML', 'xml2', 'xopen',
+  'yaml', 'zip'
+
+real	0m25.582s
+user	0m19.703s
+sys	0m10.851s
