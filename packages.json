@@ -9308,7 +9308,6 @@
         "biomaRt",
         "rtracklayer"
     ],
-    "SELEX": [],
     "SemDist": [
         "AnnotationDbi",
         "KEGGREST",
