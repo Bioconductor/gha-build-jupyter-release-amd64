@@ -11195,7 +11195,6 @@
         "genefilter",
         "made4",
         "omicade4",
-        "rexposome",
         "sva"
     ],
     "OmicsLonDA": [
@@ -13181,7 +13180,6 @@
         "Rcwl",
         "RcwlPipelines"
     ],
-    "rexposome": [],
     "rfaRm": [
         "Biostrings",
         "GenomeInfoDb",
