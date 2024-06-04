@@ -10725,7 +10725,6 @@
         "XVector",
         "rtracklayer"
     ],
-    "GSAR": [],
     "GSCA": [
         "rhdf5",
         "rhdf5filters"
