@@ -28,7 +28,7 @@ packaged installation of ‘qvalue’ as ‘qvalue_2.32.0_R_x86_64-pc-linux-gnu.
 * DONE (qvalue)
 
 The downloaded source packages are in
-	‘/tmp/RtmpoUjGhN/downloaded_packages’
+	‘/tmp/RtmpFHy6VN/downloaded_packages’
 Old packages: 'backports', 'BH', 'bigrquery', 'BiocManager', 'boot', 'brew',
   'brio', 'broom', 'bslib', 'cachem', 'callr', 'cli', 'cluster', 'codetools',
   'commonmark', 'cowplot', 'cpp11', 'crosstalk', 'curl', 'data.table', 'DBI',
@@ -52,6 +52,6 @@ Old packages: 'backports', 'BH', 'bigrquery', 'BiocManager', 'boot', 'brew',
   'uwot', 'vctrs', 'vroom', 'waldo', 'withr', 'xfun', 'XML', 'xml2', 'xopen',
   'yaml', 'zip'
 
-real	0m8.493s
-user	0m4.434s
-sys	0m2.155s
+real	0m10.482s
+user	0m4.672s
+sys	0m2.146s
