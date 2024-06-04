@@ -6247,7 +6247,6 @@
         "flowWorkspace",
         "ncdfFlow"
     ],
-    "immunoClust": [],
     "infercnv": [
         "DelayedArray",
         "GenomicRanges",
