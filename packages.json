@@ -10974,7 +10974,6 @@
         "SummarizedExperiment",
         "XVector"
     ],
-    "nethet": [],
     "netOmics": [
         "AnnotationDbi",
         "Biostrings",
