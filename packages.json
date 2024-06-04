@@ -415,8 +415,7 @@
     "altcdfenvs": [
         "Biostrings",
         "GenomeInfoDb",
-        "XVector",
-        "makecdfenv"
+        "XVector"
     ],
     "AMARETTO": [
         "AnnotationDbi",
@@ -7007,8 +7006,7 @@
         "Biostrings",
         "GenomeInfoDb",
         "XVector",
-        "altcdfenvs",
-        "makecdfenv"
+        "altcdfenvs"
     ],
     "HDF5Array": [
         "DelayedArray"
@@ -8200,7 +8198,6 @@
         "vsn",
         "xcms"
     ],
-    "makecdfenv": [],
     "maPredictDSC": [
         "AnnotationDbi",
         "Biostrings",
