@@ -1,0 +1,237 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''diggit'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.17 (BiocManager 1.30.22), R 4.3.1 (2023-06-16)
+Installing package(s) 'diggit'
+also installing the dependencies ‘mclust’, ‘multicool’, ‘mvtnorm’, ‘pracma’, ‘ks’, ‘diggitdata’
+
+trying URL 'https://cloud.r-project.org/src/contrib/mclust_6.1.1.tar.gz'
+Content type 'application/x-gzip' length 2753243 bytes (2.6 MB)
+==================================================
+downloaded 2.6 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/multicool_1.0.1.tar.gz'
+Content type 'application/x-gzip' length 14969 bytes (14 KB)
+==================================================
+downloaded 14 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/mvtnorm_1.2-5.tar.gz'
+Content type 'application/x-gzip' length 688437 bytes (672 KB)
+==================================================
+downloaded 672 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/pracma_2.4.4.tar.gz'
+Content type 'application/x-gzip' length 397815 bytes (388 KB)
+==================================================
+downloaded 388 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/ks_1.14.2.tar.gz'
+Content type 'application/x-gzip' length 1119246 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/experiment/src/contrib/diggitdata_1.32.0.tar.gz'
+Content type 'application/gzip' length 49577423 bytes (47.3 MB)
+==================================================
+downloaded 47.3 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/diggit_1.32.0.tar.gz'
+Content type 'application/gzip' length 207444 bytes (202 KB)
+==================================================
+downloaded 202 KB
+
+* installing *source* package ‘mclust’ ...
+** package ‘mclust’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gfortran  -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong  -c dmvnorm.f -o dmvnorm.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c init.c -o init.o
+gfortran  -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong  -c logsumexp.f -o logsumexp.o
+gfortran  -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong  -c mclust.f -o mclust.o
+gfortran  -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong  -c mclustaddson.f -o mclustaddson.o
+gcc -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o mclust.so dmvnorm.o init.o logsumexp.o mclust.o mclustaddson.o -llapack -lblas -lgfortran -lm -lquadmath -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-mclust/00new/mclust/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘mclust’ as ‘mclust_6.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mclust)
+* installing *source* package ‘multicool’ ...
+** package ‘multicool’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c compositions.cpp -o compositions.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c multicool.cpp -o multicool.o
+g++ -std=gnu++17 -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o multicool.so RcppExports.o compositions.o multicool.o -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-multicool/00new/multicool/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘multicool’ as ‘multicool_1.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (multicool)
+* installing *source* package ‘mvtnorm’ ...
+** package ‘mvtnorm’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gcc -I"/usr/share/R/include" -DNDEBUG      -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c C_FORTRAN_interface.c -o C_FORTRAN_interface.o
+gcc -I"/usr/share/R/include" -DNDEBUG      -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c lpmvnorm.c -o lpmvnorm.o
+gcc -I"/usr/share/R/include" -DNDEBUG      -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c ltMatrices.c -o ltMatrices.o
+gcc -I"/usr/share/R/include" -DNDEBUG      -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c miwa.c -o miwa.o
+gfortran  -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong  -c mvt.f -o mvt.o
+gcc -I"/usr/share/R/include" -DNDEBUG      -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c mvtnorm-init.c -o mvtnorm-init.o
+gfortran  -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong  -c tvpack.f -o tvpack.o
+gcc -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o mvtnorm.so C_FORTRAN_interface.o lpmvnorm.o ltMatrices.o miwa.o mvt.o mvtnorm-init.o tvpack.o -llapack -lblas -lgfortran -lm -lquadmath -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-mvtnorm/00new/mvtnorm/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘mvtnorm’ as ‘mvtnorm_1.2-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mvtnorm)
+* installing *source* package ‘pracma’ ...
+** package ‘pracma’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** demo
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘pracma’ as ‘pracma_2.4.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pracma)
+* installing *source* package ‘diggitdata’ ...
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘diggitdata’ as ‘diggitdata_1.32.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (diggitdata)
+* installing *source* package ‘ks’ ...
+** package ‘ks’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c ks.c -o ks.o
+gcc -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o ks.so ks.o -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-ks/00new/ks/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ks’ as ‘ks_1.14.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ks)
+* installing *source* package ‘diggit’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘diggit’ as ‘diggit_1.32.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (diggit)
+
+The downloaded source packages are in
+	‘/tmp/Rtmph1Nhld/downloaded_packages’
+Old packages: 'backports', 'BH', 'bigrquery', 'BiocManager', 'boot', 'brew',
+  'brio', 'broom', 'bslib', 'cachem', 'callr', 'cli', 'cluster', 'codetools',
+  'commonmark', 'cowplot', 'cpp11', 'crosstalk', 'curl', 'data.table', 'DBI',
+  'dbplyr', 'deldir', 'desc', 'digest', 'dplyr', 'dqrng', 'DT', 'evaluate',
+  'fansi', 'farver', 'fastmap', 'filelock', 'FNN', 'foreign', 'fs', 'future',
+  'future.apply', 'GenomicRanges', 'gert', 'ggplot2', 'ggrepel', 'ggridges',
+  'gh', 'globals', 'glue', 'googleAuthR', 'gplots', 'gtable', 'gtools',
+  'haven', 'highr', 'htmltools', 'htmlwidgets', 'httpuv', 'httr2', 'igraph',
+  'interp', 'jsonlite', 'KernSmooth', 'knitr', 'later', 'lattice', 'leiden',
+  'lifecycle', 'listenv', 'locfit', 'matrixStats', 'mgcv', 'munsell', 'nlme',
+  'openssl', 'parallelly', 'patchwork', 'pbdZMQ', 'pkgbuild', 'pkgdown',
+  'pkgload', 'plotly', 'processx', 'progress', 'promises', 'ps', 'ragg',
+  'rapiclient', 'Rcpp', 'RcppAnnoy', 'RcppArmadillo', 'RcppEigen', 'RcppHNSW',
+  'RCurl', 'readr', 'remotes', 'repr', 'reprex', 'reticulate', 'rlang',
+  'rmarkdown', 'roxygen2', 'rpart', 'rprojroot', 'RSQLite', 'rstudioapi',
+  'Rtsne', 'rvest', 'sass', 'scales', 'sctransform', 'scuttle', 'Seurat',
+  'SeuratObject', 'shiny', 'sp', 'spatstat.data', 'spatstat.explore',
+  'spatstat.geom', 'spatstat.random', 'spatstat.sparse', 'spatstat.utils',
+  'stringi', 'stringr', 'survival', 'systemfonts', 'testthat', 'textshaping',
+  'tidyr', 'tidyselect', 'timechange', 'tinytex', 'usethis', 'utf8', 'uuid',
+  'uwot', 'vctrs', 'vroom', 'waldo', 'withr', 'xfun', 'XML', 'xml2', 'xopen',
+  'yaml', 'zip'
+
+real	1m23.982s
+user	1m11.920s
+sys	0m14.702s
+* installing *source* package ‘diggitdata’ ...
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘diggitdata’ as ‘diggitdata_1.32.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (diggitdata)
