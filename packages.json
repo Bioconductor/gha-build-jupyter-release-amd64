@@ -13228,7 +13228,6 @@
         "dada2"
     ],
     "RBGL": [],
-    "RBioinf": [],
     "Rbowtie2": [
         "Biostrings",
         "GenomeInfoDb",
