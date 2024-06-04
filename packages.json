@@ -6653,8 +6653,7 @@
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scater",
-        "scuttle",
-        "variancePartition"
+        "scuttle"
     ],
     "muscle": [],
     "musicatk": [
@@ -10858,7 +10857,6 @@
         "SummarizedExperiment",
         "rtracklayer"
     ],
-    "variancePartition": [],
     "VariantAnnotation": [
         "AnnotationDbi",
         "BSgenome",
@@ -11173,8 +11171,7 @@
         "annotate",
         "graphite",
         "pathview",
-        "safe",
-        "variancePartition"
+        "safe"
     ],
     "zFPKM": [
         "GenomicRanges",
