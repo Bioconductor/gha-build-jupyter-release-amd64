@@ -1661,7 +1661,6 @@
         "AnnotationDbi",
         "Biostrings",
         "DOSE",
-        "EBarrays",
         "GOSemSim",
         "GenomeInfoDb",
         "IRanges",
@@ -2490,7 +2489,6 @@
         "AnnotationDbi",
         "Biostrings",
         "Category",
-        "EBarrays",
         "GSEABase",
         "GenomeInfoDb",
         "IRanges",
@@ -2534,7 +2532,6 @@
         "BiocIO",
         "Biostrings",
         "DelayedArray",
-        "EBarrays",
         "GenomeInfoDb",
         "GenomicAlignments",
         "GenomicFeatures",
@@ -6102,10 +6099,7 @@
         "biomaRt",
         "genomeIntervals"
     ],
-    "EBarrays": [],
-    "EBcoexpress": [
-        "EBarrays"
-    ],
+    "EBcoexpress": [],
     "EBSEA": [
         "DESeq2",
         "DelayedArray",
@@ -7591,9 +7585,7 @@
         "biomaRt",
         "rtracklayer"
     ],
-    "gaga": [
-        "EBarrays"
-    ],
+    "gaga": [],
     "gage": [
         "AnnotationDbi",
         "Biostrings",
@@ -7865,9 +7857,7 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "geNetClassifier": [
-        "EBarrays"
-    ],
+    "geNetClassifier": [],
     "GeneTonic": [
         "AnnotationDbi",
         "Biostrings",
