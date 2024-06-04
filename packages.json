@@ -1358,7 +1358,6 @@
         "MatrixGenerics",
         "MultiAssayExperiment",
         "MultiDataSet",
-        "PepsNMR",
         "S4Arrays",
         "S4Vectors",
         "SummarizedExperiment",
@@ -21236,7 +21235,6 @@
     "pengls": [
         "BiocParallel"
     ],
-    "PepsNMR": [],
     "pepStat": [
         "Biobase",
         "BiocGenerics",
