@@ -8583,7 +8583,6 @@
         "treeio",
         "zlibbioc"
     ],
-    "easyreporting": [],
     "easyRNASeq": [
         "AnnotationDbi",
         "Biobase",
