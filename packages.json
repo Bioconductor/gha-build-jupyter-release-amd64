@@ -12755,7 +12755,6 @@
         "msa",
         "treeio"
     ],
-    "M3C": [],
     "m6Aboost": [
         "AnnotationDbi",
         "AnnotationHub",
