@@ -3159,10 +3159,8 @@
         "SummarizedExperiment"
     ],
     "DelayedDataFrame": [],
-    "DelayedRandomArray": [],
     "DelayedTensor": [
         "BiocSingular",
-        "DelayedRandomArray",
         "HDF5Array",
         "beachmat"
     ],
