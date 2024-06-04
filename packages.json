@@ -19404,7 +19404,6 @@
         "scuttle"
     ],
     "statTarget": [],
-    "STdeconvolve": [],
     "stepNorm": [],
     "stJoincount": [
         "DelayedArray",
