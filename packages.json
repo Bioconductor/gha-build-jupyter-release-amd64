@@ -13588,7 +13588,6 @@
         "graph",
         "zlibbioc"
     ],
-    "GSgalgoR": [],
     "GSReg": [
         "AnnotationDbi",
         "Biobase",
