@@ -17844,7 +17844,6 @@
         "XVector",
         "zlibbioc"
     ],
-    "miRNApath": [],
     "miRNAtap": [
         "AnnotationDbi",
         "Biobase",
