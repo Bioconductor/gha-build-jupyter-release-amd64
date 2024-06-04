@@ -10600,7 +10600,6 @@
         "affyio",
         "zlibbioc"
     ],
-    "FScanR": [],
     "FunChIP": [
         "Biobase",
         "BiocParallel",
