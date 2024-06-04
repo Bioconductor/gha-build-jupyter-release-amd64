@@ -9008,7 +9008,6 @@
         "edgeR",
         "zlibbioc"
     ],
-    "DriverNet": [],
     "DropletUtils": [
         "Biobase",
         "BiocGenerics",
