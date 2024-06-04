@@ -6905,7 +6905,6 @@
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
-    "ngsReports": [],
     "nnSVG": [
         "DropletUtils",
         "GenomicRanges",
