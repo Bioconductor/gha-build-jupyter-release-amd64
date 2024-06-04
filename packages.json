@@ -25820,7 +25820,6 @@
         "XVector",
         "zlibbioc"
     ],
-    "similaRpeak": [],
     "simpleSeg": [
         "Biobase",
         "BiocParallel",
