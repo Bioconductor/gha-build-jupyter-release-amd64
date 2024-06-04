@@ -19720,7 +19720,6 @@
         "rtracklayer",
         "zlibbioc"
     ],
-    "PathNet": [],
     "PathoStat": [
         "Biobase",
         "BiocParallel",
