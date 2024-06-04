@@ -13723,7 +13723,6 @@
         "GenomeInfoDb",
         "IRanges",
         "KEGGREST",
-        "ROTS",
         "XVector",
         "affy",
         "annotate",
@@ -16156,7 +16155,6 @@
         "GenomeInfoDb",
         "GenomicRanges",
         "IRanges",
-        "ROTS",
         "S4Arrays",
         "SummarizedExperiment",
         "XVector"
@@ -16182,7 +16180,6 @@
         "XVector"
     ],
     "ROSeq": [],
-    "ROTS": [],
     "RPA": [
         "Biostrings",
         "GenomeInfoDb",
