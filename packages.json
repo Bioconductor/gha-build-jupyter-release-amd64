@@ -13140,7 +13140,6 @@
         "genefilter",
         "goseq",
         "graph",
-        "lpsymphony",
         "pcaExplorer",
         "rtracklayer",
         "topGO",
@@ -13248,9 +13247,7 @@
         "rtracklayer",
         "zlibbioc"
     ],
-    "IHW": [
-        "lpsymphony"
-    ],
+    "IHW": [],
     "ILoReg": [
         "Biobase",
         "DelayedArray",
@@ -14357,7 +14354,6 @@
     "LPEadj": [
         "LPE"
     ],
-    "lpsymphony": [],
     "LRBaseDbi": [
         "AnnotationDbi",
         "Biobase",
