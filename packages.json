@@ -9876,7 +9876,6 @@
         "graph",
         "ncdfFlow"
     ],
-    "flowMap": [],
     "flowMatch": [
         "Biobase",
         "S4Vectors",
