@@ -3316,7 +3316,6 @@
         "rtracklayer",
         "sparseMatrixStats"
     ],
-    "calm": [],
     "CAMERA": [
         "Biobase",
         "BiocParallel",
