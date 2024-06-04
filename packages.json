@@ -21724,7 +21724,6 @@
         "sparseMatrixStats",
         "zellkonverter"
     ],
-    "VERSO": [],
     "vidger": [
         "DESeq2",
         "DelayedArray",
