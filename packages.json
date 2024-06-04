@@ -13513,7 +13513,6 @@
         "affyio"
     ],
     "MANOR": [],
-    "MantelCorr": [],
     "maPredictDSC": [
         "AnnotationDbi",
         "Biobase",
