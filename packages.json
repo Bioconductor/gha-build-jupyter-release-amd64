@@ -12258,7 +12258,6 @@
         "BiocGenerics",
         "GEOquery"
     ],
-    "GEOfastq": [],
     "GEOmetadb": [
         "Biobase",
         "BiocGenerics",
