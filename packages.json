@@ -14836,7 +14836,6 @@
         "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "TurboNorm": [],
     "TVTB": [
         "AnnotationDbi",
         "AnnotationFilter",
