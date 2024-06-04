@@ -13363,7 +13363,6 @@
         "rhdf5",
         "rtracklayer"
     ],
-    "RbcBook1": [],
     "Rbec": [
         "Biostrings",
         "DelayedArray",
