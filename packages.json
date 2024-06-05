@@ -3999,11 +3999,8 @@
         "biomaRt",
         "rtracklayer"
     ],
-    "GeoDiff": [
-        "GeomxTools"
-    ],
+    "GeoDiff": [],
     "GEOexplorer": [],
-    "GeomxTools": [],
     "GeoTcgaData": [
         "GenomicRanges",
         "SummarizedExperiment"
@@ -9105,9 +9102,7 @@
         "SummarizedExperiment",
         "scuttle"
     ],
-    "SpatialDecon": [
-        "GeomxTools"
-    ],
+    "SpatialDecon": [],
     "SpatialExperiment": [
         "DropletUtils",
         "GenomicRanges",
@@ -9134,9 +9129,7 @@
         "scran",
         "scuttle"
     ],
-    "SpatialOmicsOverlay": [
-        "GeomxTools"
-    ],
+    "SpatialOmicsOverlay": [],
     "spatzie": [
         "AnnotationDbi",
         "AnnotationFilter",
