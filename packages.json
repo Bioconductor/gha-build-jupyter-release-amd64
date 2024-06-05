@@ -9496,7 +9496,6 @@
         "SummarizedExperiment"
     ],
     "synapter": [],
-    "SynExtend": [],
     "syntenet": [
         "GenomicAlignments",
         "GenomicRanges",
