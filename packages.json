@@ -9093,7 +9093,6 @@
         "SummarizedExperiment",
         "scuttle"
     ],
-    "SpatialDecon": [],
     "SpatialExperiment": [
         "DropletUtils",
         "GenomicRanges",
