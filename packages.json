@@ -8236,7 +8236,6 @@
         "KEGGREST",
         "SummarizedExperiment"
     ],
-    "rfaRm": [],
     "rfPred": [
         "GenomicRanges",
         "Rsamtools"
