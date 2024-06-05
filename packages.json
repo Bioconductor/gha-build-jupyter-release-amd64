@@ -7078,7 +7078,6 @@
         "biomaRt",
         "rtracklayer"
     ],
-    "procoil": [],
     "proDA": [
         "GenomicRanges",
         "SummarizedExperiment"
