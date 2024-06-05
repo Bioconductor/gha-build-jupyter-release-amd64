@@ -10755,7 +10755,6 @@
         "rtracklayer"
     ],
     "universalmotif": [],
-    "uSORT": [],
     "VAExprs": [
         "GenomicRanges",
         "SingleCellExperiment",
