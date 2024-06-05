@@ -7506,7 +7506,6 @@
         "regioneR",
         "rtracklayer"
     ],
-    "RefPlus": [],
     "RegEnrich": [
         "AnnotationDbi",
         "BiocSet",
