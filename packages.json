@@ -6072,7 +6072,6 @@
         "QFeatures",
         "SummarizedExperiment"
     ],
-    "MSstatsLiP": [],
     "MSstatsQCgui": [],
     "MuData": [
         "GenomicRanges",
