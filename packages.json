@@ -6058,7 +6058,6 @@
         "QFeatures",
         "SummarizedExperiment"
     ],
-    "MSstatsQCgui": [],
     "MuData": [
         "GenomicRanges",
         "MultiAssayExperiment",
