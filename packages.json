@@ -9118,7 +9118,6 @@
         "scran",
         "scuttle"
     ],
-    "SpatialOmicsOverlay": [],
     "spatzie": [
         "AnnotationDbi",
         "AnnotationFilter",
