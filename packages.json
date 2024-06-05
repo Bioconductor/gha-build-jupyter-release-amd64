@@ -2420,7 +2420,6 @@
         "SummarizedExperiment",
         "scuttle"
     ],
-    "CytoML": [],
     "cytoviewer": [
         "DropletUtils",
         "GenomicRanges",
