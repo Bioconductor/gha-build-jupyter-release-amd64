@@ -3999,7 +3999,6 @@
         "biomaRt",
         "rtracklayer"
     ],
-    "GeoDiff": [],
     "GEOexplorer": [],
     "GeoTcgaData": [
         "GenomicRanges",
