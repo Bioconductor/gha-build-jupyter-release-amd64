@@ -6074,7 +6074,6 @@
     ],
     "MSstatsLiP": [],
     "MSstatsQCgui": [],
-    "MSstatsShiny": [],
     "MuData": [
         "GenomicRanges",
         "MultiAssayExperiment",
