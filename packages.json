@@ -6466,7 +6466,6 @@
         "plyranges",
         "rtracklayer"
     ],
-    "odseq": [],
     "OGRE": [
         "AnnotationDbi",
         "AnnotationFilter",
