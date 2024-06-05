@@ -6814,7 +6814,6 @@
     "pepStat": [
         "GenomicRanges"
     ],
-    "PERFect": [],
     "periodicDNA": [
         "BSgenome",
         "GenomicAlignments",
