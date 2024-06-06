@@ -4685,7 +4685,6 @@
         "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "MGFM": [],
     "MGFR": [],
     "mia": [
         "GenomicRanges",
@@ -6854,7 +6853,6 @@
         "SeqArray"
     ],
     "sampleClassifier": [
-        "MGFM",
         "MGFR"
     ],
     "satuRn": [
