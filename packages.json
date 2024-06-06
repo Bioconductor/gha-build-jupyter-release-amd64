@@ -621,7 +621,6 @@
         "SummarizedExperiment",
         "rtracklayer"
     ],
-    "BgeeDB": [],
     "BGmix": [],
     "BicARE": [
         "GSEABase"
@@ -6022,9 +6021,7 @@
         "QFeatures",
         "SummarizedExperiment"
     ],
-    "psygenet2r": [
-        "BgeeDB"
-    ],
+    "psygenet2r": [],
     "puma": [
         "GenomicRanges",
         "SummarizedExperiment",
@@ -6571,7 +6568,6 @@
     ],
     "RITAN": [
         "AnnotationFilter",
-        "BgeeDB",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
