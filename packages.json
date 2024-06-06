@@ -3806,7 +3806,6 @@
         "SummarizedExperiment",
         "rtracklayer"
     ],
-    "idiogram": [],
     "idr2d": [
         "GenomicRanges"
     ],
