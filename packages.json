@@ -31,7 +31,6 @@
     "affycoretools": [
         "AnnotationFilter",
         "BSgenome",
-        "Category",
         "DESeq2",
         "GOstats",
         "GenomicAlignments",
@@ -58,7 +57,6 @@
     "AgiMicroRna": [
         "AnnotationFilter",
         "BSgenome",
-        "Category",
         "DESeq2",
         "GOstats",
         "GenomicAlignments",
@@ -407,7 +405,6 @@
         "rtracklayer"
     ],
     "attract": [
-        "Category",
         "GOstats"
     ],
     "AUCell": [
@@ -940,7 +937,6 @@
         "xcms"
     ],
     "canceR": [
-        "Category",
         "phenoTest"
     ],
     "cardelino": [
@@ -968,9 +964,7 @@
         "scater",
         "scuttle"
     ],
-    "Category": [],
     "categoryCompare": [
-        "Category",
         "GOstats",
         "RCy3"
     ],
@@ -1049,9 +1043,7 @@
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
-    "cellHTS2": [
-        "Category"
-    ],
+    "cellHTS2": [],
     "CelliD": [
         "GenomicRanges",
         "SingleCellExperiment",
@@ -3227,7 +3219,6 @@
         "SummarizedExperiment"
     ],
     "gespeR": [
-        "Category",
         "cellHTS2"
     ],
     "getDEE2": [
@@ -3296,7 +3287,6 @@
         "rtracklayer"
     ],
     "GmicR": [
-        "Category",
         "GOstats"
     ],
     "gmoviz": [
@@ -3335,9 +3325,7 @@
         "clusterProfiler",
         "enrichplot"
     ],
-    "GOstats": [
-        "Category"
-    ],
+    "GOstats": [],
     "GOTHiC": [
         "BSgenome",
         "GenomicAlignments",
@@ -3651,7 +3639,6 @@
         "rtracklayer"
     ],
     "ideal": [
-        "Category",
         "DESeq2",
         "GOstats",
         "GenomicAlignments",
@@ -3766,9 +3753,7 @@
         "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "interactiveDisplay": [
-        "Category"
-    ],
+    "interactiveDisplay": [],
     "IntEREst": [
         "BSgenome",
         "DESeq2",
@@ -4225,9 +4210,7 @@
         "DOSE",
         "enrichplot"
     ],
-    "meshr": [
-        "Category"
-    ],
+    "meshr": [],
     "MesKit": [],
     "Metab": [
         "GenomicRanges",
@@ -4514,7 +4497,6 @@
         "oligoClasses"
     ],
     "MineICA": [
-        "Category",
         "GOstats",
         "GenomicAlignments",
         "GenomicFeatures",
@@ -4563,7 +4545,6 @@
     ],
     "MiRaGE": [],
     "miRLAB": [
-        "Category",
         "GOstats",
         "GenomicRanges",
         "SummarizedExperiment",
@@ -5054,7 +5035,6 @@
         "zinbwave"
     ],
     "netZooR": [
-        "Category",
         "GOstats",
         "GenomicAlignments",
         "GenomicFeatures",
@@ -5384,7 +5364,6 @@
         "SummarizedExperiment"
     ],
     "pcaExplorer": [
-        "Category",
         "DESeq2",
         "GOstats",
         "GenomicRanges",
@@ -5453,9 +5432,7 @@
         "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "phenoTest": [
-        "Category"
-    ],
+    "phenoTest": [],
     "PhIPData": [
         "GenomicRanges",
         "SummarizedExperiment"
@@ -5519,7 +5496,6 @@
         "SummarizedExperiment"
     ],
     "PloGO2": [
-        "Category",
         "GOstats"
     ],
     "plotgardener": [
@@ -6045,7 +6021,6 @@
     "ReportingTools": [
         "AnnotationFilter",
         "BSgenome",
-        "Category",
         "DESeq2",
         "GOstats",
         "GenomicAlignments",
@@ -6295,7 +6270,6 @@
         "rtracklayer"
     ],
     "RNAinteract": [
-        "Category",
         "cellHTS2"
     ],
     "RNAmodR": [
@@ -6813,7 +6787,6 @@
         "SummarizedExperiment"
     ],
     "scTensor": [
-        "Category",
         "DOSE",
         "GOstats",
         "GenomicRanges",
@@ -6969,7 +6942,6 @@
         "rtracklayer"
     ],
     "SGCP": [
-        "Category",
         "GOstats",
         "GenomicRanges",
         "SummarizedExperiment"
@@ -7459,7 +7431,6 @@
         "scuttle"
     ],
     "staRank": [
-        "Category",
         "cellHTS2"
     ],
     "Statial": [
