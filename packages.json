@@ -4683,17 +4683,14 @@
     "memes": [
         "GenomicRanges"
     ],
-    "MeSHDbi": [],
     "meshes": [
         "DOSE",
         "GOSemSim",
-        "MeSHDbi",
         "enrichplot"
     ],
     "meshr": [
         "Category",
         "GSEABase",
-        "MeSHDbi",
         "genefilter"
     ],
     "MesKit": [],
@@ -7554,7 +7551,6 @@
         "GOstats",
         "GSEABase",
         "GenomicRanges",
-        "MeSHDbi",
         "ReactomePA",
         "SingleCellExperiment",
         "SummarizedExperiment",
