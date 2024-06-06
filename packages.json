@@ -5281,7 +5281,6 @@
         "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "miRNAtap": [],
     "miRSM": [
         "BicARE",
         "DOSE",
@@ -8477,9 +8476,7 @@
         "genefilter",
         "scuttle"
     ],
-    "SpidermiR": [
-        "miRNAtap"
-    ],
+    "SpidermiR": [],
     "spiky": [
         "BSgenome",
         "GenomicAlignments",
@@ -8609,8 +8606,7 @@
     ],
     "StarBioTrek": [
         "SpidermiR",
-        "graphite",
-        "miRNAtap"
+        "graphite"
     ],
     "Statial": [
         "DropletUtils",
