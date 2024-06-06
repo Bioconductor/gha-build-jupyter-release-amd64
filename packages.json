@@ -7023,7 +7023,6 @@
         "VariantAnnotation",
         "rtracklayer"
     ],
-    "SimBindProfiles": [],
     "SimBu": [
         "GenomicRanges",
         "SummarizedExperiment"
