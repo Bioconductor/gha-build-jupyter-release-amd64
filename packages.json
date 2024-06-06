@@ -3901,7 +3901,6 @@
         "SummarizedExperiment",
         "rtracklayer"
     ],
-    "goTools": [],
     "GRaNIE": [
         "AnnotationFilter",
         "AnnotationHub",
