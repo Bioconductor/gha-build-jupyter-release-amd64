@@ -3091,7 +3091,6 @@
         "GenomicRanges",
         "Rsamtools"
     ],
-    "GeneMeta": [],
     "geneRxCluster": [
         "GenomicRanges"
     ],
@@ -8246,9 +8245,7 @@
         "MultiAssayExperiment",
         "SummarizedExperiment"
     ],
-    "XDE": [
-        "GeneMeta"
-    ],
+    "XDE": [],
     "Xeva": [
         "CoreGx",
         "GenomicRanges",
