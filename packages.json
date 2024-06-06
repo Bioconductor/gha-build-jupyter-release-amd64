@@ -923,7 +923,6 @@
         "SummarizedExperiment",
         "xcms"
     ],
-    "canceR": [],
     "cardelino": [
         "BSgenome",
         "GenomicAlignments",
