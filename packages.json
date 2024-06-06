@@ -4542,7 +4542,6 @@
         "DOSE",
         "GenomicRanges",
         "ReactomePA",
-        "SPONGE",
         "SummarizedExperiment",
         "clusterProfiler",
         "enrichplot",
@@ -4551,7 +4550,6 @@
     "miRspongeR": [
         "DOSE",
         "ReactomePA",
-        "SPONGE",
         "clusterProfiler",
         "enrichplot"
     ],
@@ -7350,7 +7348,6 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "SPONGE": [],
     "SpotClean": [
         "DropletUtils",
         "GenomicRanges",
