@@ -3813,7 +3813,6 @@
     "interactiveDisplay": [
         "Category"
     ],
-    "InterCellar": [],
     "IntEREst": [
         "BSgenome",
         "DESeq2",
