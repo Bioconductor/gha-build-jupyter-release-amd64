@@ -1746,7 +1746,6 @@
         "SummarizedExperiment",
         "rtracklayer"
     ],
-    "covRNA": [],
     "cpvSNP": [
         "GenomicAlignments",
         "GenomicFeatures",
