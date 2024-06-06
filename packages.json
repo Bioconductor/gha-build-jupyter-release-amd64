@@ -999,7 +999,6 @@
         "SummarizedExperiment"
     ],
     "ccmap": [],
-    "CCPROMISE": [],
     "celaref": [
         "GenomicRanges",
         "MAST",
