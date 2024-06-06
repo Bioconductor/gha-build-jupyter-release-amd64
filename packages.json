@@ -770,7 +770,6 @@
         "genefilter",
         "sva"
     ],
-    "BioNet": [],
     "BioNetStat": [],
     "biosigner": [
         "GenomicRanges",
@@ -8299,7 +8298,6 @@
         "TrajectoryUtils"
     ],
     "SMITE": [
-        "BioNet",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
