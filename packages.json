@@ -589,7 +589,6 @@
         "rtracklayer"
     ],
     "BGmix": [],
-    "BicARE": [],
     "BiFET": [
         "GenomicRanges"
     ],
@@ -4575,7 +4574,6 @@
         "SummarizedExperiment"
     ],
     "miRSM": [
-        "BicARE",
         "DOSE",
         "GenomicRanges",
         "ReactomePA",
