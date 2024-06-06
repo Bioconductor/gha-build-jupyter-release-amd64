@@ -4776,7 +4776,6 @@
     "MSA2dist": [
         "GenomicRanges"
     ],
-    "MsDataHub": [],
     "MsExperiment": [
         "AnnotationFilter",
         "GenomicRanges",
