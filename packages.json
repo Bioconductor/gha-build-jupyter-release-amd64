@@ -714,7 +714,6 @@
         "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
-        "globaltest",
         "rtracklayer"
     ],
     "blacksheepr": [
@@ -1156,7 +1155,6 @@
         "bsseq",
         "bumphunter",
         "ensembldb",
-        "globaltest",
         "goseq",
         "lumi",
         "methylumi",
@@ -2485,7 +2483,6 @@
         "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment",
-        "globaltest",
         "safe"
     ],
     "eisaR": [
@@ -3331,10 +3328,7 @@
         "MultiAssayExperiment",
         "SummarizedExperiment"
     ],
-    "GlobalAncova": [
-        "globaltest"
-    ],
-    "globaltest": [],
+    "GlobalAncova": [],
     "gmapR": [
         "BSgenome",
         "GenomicAlignments",
@@ -7150,9 +7144,7 @@
         "VariantAnnotation",
         "rtracklayer"
     ],
-    "SIM": [
-        "globaltest"
-    ],
+    "SIM": [],
     "SimBindProfiles": [
         "Ringo"
     ],
