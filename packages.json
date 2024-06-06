@@ -323,8 +323,7 @@
     "APL": [
         "GenomicRanges",
         "SingleCellExperiment",
-        "SummarizedExperiment",
-        "topGO"
+        "SummarizedExperiment"
     ],
     "appreci8R": [
         "AnnotationHub",
@@ -679,9 +678,7 @@
         "biomaRt",
         "rtracklayer"
     ],
-    "BgeeDB": [
-        "topGO"
-    ],
+    "BgeeDB": [],
     "BGmix": [],
     "BicARE": [
         "GSEABase",
@@ -763,9 +760,7 @@
         "SummarizedExperiment"
     ],
     "biomaRt": [],
-    "BioMM": [
-        "topGO"
-    ],
+    "BioMM": [],
     "BioNAR": [
         "AnnotationHub"
     ],
@@ -1255,9 +1250,7 @@
         "scater",
         "scuttle"
     ],
-    "cellity": [
-        "topGO"
-    ],
+    "cellity": [],
     "CellMixS": [
         "GenomicRanges",
         "SingleCellExperiment",
@@ -1855,8 +1848,7 @@
         "biovizBase",
         "ensembldb",
         "methylPipe",
-        "rtracklayer",
-        "topGO"
+        "rtracklayer"
     ],
     "CompoundDb": [
         "AnnotationFilter",
@@ -1906,8 +1898,7 @@
     ],
     "consICA": [
         "GenomicRanges",
-        "SummarizedExperiment",
-        "topGO"
+        "SummarizedExperiment"
     ],
     "contiBAIT": [
         "BSgenome",
@@ -2832,8 +2823,7 @@
         "SummarizedExperiment",
         "annotate",
         "globaltest",
-        "safe",
-        "topGO"
+        "safe"
     ],
     "eisaR": [
         "GenomicRanges",
@@ -3405,9 +3395,7 @@
         "flowDensity"
     ],
     "flowDensity": [],
-    "FoldGO": [
-        "topGO"
-    ],
+    "FoldGO": [],
     "FRASER": [
         "BSgenome",
         "DESeq2",
@@ -3857,8 +3845,7 @@
         "rtracklayer"
     ],
     "GOSim": [
-        "annotate",
-        "topGO"
+        "annotate"
     ],
     "goSorensen": [
         "DOSE",
@@ -3897,8 +3884,7 @@
         "SummarizedExperiment",
         "biomaRt",
         "ensembldb",
-        "rtracklayer",
-        "topGO"
+        "rtracklayer"
     ],
     "graphite": [],
     "GreyListChIP": [
@@ -4245,8 +4231,7 @@
         "genefilter",
         "goseq",
         "pcaExplorer",
-        "rtracklayer",
-        "topGO"
+        "rtracklayer"
     ],
     "IdeoViz": [
         "GenomicAlignments",
@@ -5403,8 +5388,7 @@
     ],
     "moanin": [
         "GenomicRanges",
-        "SummarizedExperiment",
-        "topGO"
+        "SummarizedExperiment"
     ],
     "MobilityTransformR": [
         "GenomicRanges",
@@ -6005,8 +5989,7 @@
         "SummarizedExperiment"
     ],
     "OmaDB": [
-        "GenomicRanges",
-        "topGO"
+        "GenomicRanges"
     ],
     "omicade4": [
         "GenomicRanges",
@@ -6251,8 +6234,7 @@
         "SummarizedExperiment",
         "annotate",
         "biomaRt",
-        "genefilter",
-        "topGO"
+        "genefilter"
     ],
     "PDATK": [
         "CoreGx",
@@ -6343,8 +6325,7 @@
         "AnnotationHub",
         "ExperimentHub",
         "GenomicRanges",
-        "OmaDB",
-        "topGO"
+        "OmaDB"
     ],
     "Pi": [
         "GenomicRanges"
@@ -6633,8 +6614,7 @@
     ],
     "psygenet2r": [
         "BgeeDB",
-        "biomaRt",
-        "topGO"
+        "biomaRt"
     ],
     "puma": [
         "GenomicRanges",
@@ -7248,8 +7228,7 @@
         "SummarizedExperiment",
         "biomaRt",
         "ensembldb",
-        "rtracklayer",
-        "topGO"
+        "rtracklayer"
     ],
     "RJMCMCNucleosomes": [
         "GenomicAlignments",
@@ -9003,7 +8982,6 @@
         "annotate",
         "genefilter"
     ],
-    "topGO": [],
     "ToxicoGx": [
         "CoreGx",
         "GenomicRanges",
@@ -9043,8 +9021,7 @@
         "SummarizedExperiment"
     ],
     "transcriptogramer": [
-        "biomaRt",
-        "topGO"
+        "biomaRt"
     ],
     "transcriptR": [
         "GenomicAlignments",
@@ -9070,8 +9047,7 @@
         "DESeq2",
         "GOSemSim",
         "GenomicRanges",
-        "SummarizedExperiment",
-        "topGO"
+        "SummarizedExperiment"
     ],
     "transomics2cytoscape": [
         "RCy3"
@@ -9395,8 +9371,7 @@
     "ViSEAGO": [
         "AnnotationForge",
         "GOSemSim",
-        "biomaRt",
-        "topGO"
+        "biomaRt"
     ],
     "vissE": [
         "AnnotationHub",
