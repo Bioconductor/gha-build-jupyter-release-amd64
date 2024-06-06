@@ -4031,7 +4031,6 @@
         "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "MACSr": [],
     "made4": [
         "GenomicRanges",
         "SummarizedExperiment"
