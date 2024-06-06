@@ -3999,7 +3999,6 @@
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
-    "LRcell": [],
     "lumi": [
         "GenomicAlignments",
         "GenomicFeatures",
