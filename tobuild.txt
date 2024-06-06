@@ -1,0 +1,11 @@
+biocGraph
+pwrEWAS
+MsDataHub
+CoSIA
+crisprScore
+CTdata
+LRcell
+BiocHubsShiny
+hpar
+adductomicsR
+MACSr
