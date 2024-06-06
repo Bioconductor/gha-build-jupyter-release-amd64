@@ -8081,7 +8081,6 @@
         "SummarizedExperiment"
     ],
     "ViSEAGO": [],
-    "vissE": [],
     "Voyager": [
         "DropletUtils",
         "GenomicRanges",
