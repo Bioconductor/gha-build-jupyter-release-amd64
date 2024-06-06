@@ -5808,7 +5808,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "Rcpi",
         "Rsamtools",
         "SummarizedExperiment",
         "ensembldb",
@@ -6052,7 +6051,6 @@
         "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "Rcpi": [],
     "RCy3": [],
     "ReactomePA": [
         "DOSE",
