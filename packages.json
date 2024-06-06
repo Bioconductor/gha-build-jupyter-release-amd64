@@ -1864,7 +1864,6 @@
         "SummarizedExperiment",
         "rtracklayer"
     ],
-    "CTdata": [],
     "cTRAP": [],
     "CTSV": [
         "DropletUtils",
