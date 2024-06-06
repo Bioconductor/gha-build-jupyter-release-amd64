@@ -767,7 +767,6 @@
         "GenomicRanges",
         "beadarray"
     ],
-    "BLMA": [],
     "BloodGen3Module": [
         "ExperimentHub",
         "GenomicRanges",
