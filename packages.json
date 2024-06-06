@@ -5677,7 +5677,6 @@
         "InteractionSet",
         "SummarizedExperiment"
     ],
-    "multiMiR": [],
     "MultimodalExperiment": [
         "GenomicRanges",
         "MultiAssayExperiment",
