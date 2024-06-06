@@ -3109,7 +3109,6 @@
         "flowDensity"
     ],
     "flowDensity": [],
-    "FoldGO": [],
     "FRASER": [
         "BSgenome",
         "DESeq2",
