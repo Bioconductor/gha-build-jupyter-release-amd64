@@ -3590,7 +3590,6 @@
         "SummarizedExperiment",
         "rtracklayer"
     ],
-    "hpar": [],
     "HTSeqGenie": [
         "BSgenome",
         "GenomicAlignments",
@@ -4265,7 +4264,6 @@
         "Rsamtools",
         "SummarizedExperiment",
         "ensembldb",
-        "hpar",
         "mygene",
         "rtracklayer"
     ],
