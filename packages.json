@@ -3414,7 +3414,6 @@
         "SummarizedExperiment",
         "rtracklayer"
     ],
-    "GOSim": [],
     "goSorensen": [
         "DOSE",
         "clusterProfiler",
