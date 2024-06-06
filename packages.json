@@ -8707,7 +8707,6 @@
         "biomaRt",
         "rtracklayer"
     ],
-    "SubCellBarCode": [],
     "SummarizedBenchmark": [
         "GenomicRanges",
         "SummarizedExperiment"
