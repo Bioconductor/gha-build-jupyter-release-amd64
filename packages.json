@@ -5843,7 +5843,6 @@
         "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "netboost": [],
     "netDx": [
         "GenomicRanges",
         "MultiAssayExperiment",
