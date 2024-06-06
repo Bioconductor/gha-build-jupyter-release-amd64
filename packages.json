@@ -4630,7 +4630,6 @@
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
-    "LRBaseDbi": [],
     "LRcell": [
         "AnnotationHub",
         "ExperimentHub"
