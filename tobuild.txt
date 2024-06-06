@@ -1,6 +1,0 @@
-FoldGO
-BgeeDB
-cellity
-BioNetStat
-fastLiquidAssociation
-BioMM
