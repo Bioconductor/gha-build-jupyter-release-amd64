@@ -7388,7 +7388,6 @@
         "SummarizedExperiment",
         "rtracklayer"
     ],
-    "splineTimeR": [],
     "SPLINTER": [
         "AnnotationFilter",
         "BSgenome",
