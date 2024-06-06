@@ -339,9 +339,7 @@
     "AssessORF": [
         "GenomicRanges"
     ],
-    "ASSIGN": [
-        "sva"
-    ],
+    "ASSIGN": [],
     "ASURAT": [
         "GenomicRanges",
         "SingleCellExperiment",
@@ -449,8 +447,7 @@
         "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
-        "rtracklayer",
-        "sva"
+        "rtracklayer"
     ],
     "bambu": [
         "BSgenome",
@@ -521,9 +518,7 @@
         "SummarizedExperiment",
         "scuttle"
     ],
-    "BatchQC": [
-        "sva"
-    ],
+    "BatchQC": [],
     "BayesSpace": [
         "GenomicRanges",
         "SingleCellExperiment",
@@ -657,8 +652,7 @@
     "BioNAR": [],
     "BioNERO": [
         "GenomicRanges",
-        "SummarizedExperiment",
-        "sva"
+        "SummarizedExperiment"
     ],
     "BioNetStat": [],
     "biosigner": [
@@ -732,12 +726,9 @@
     ],
     "bnbc": [
         "GenomicRanges",
-        "SummarizedExperiment",
-        "sva"
+        "SummarizedExperiment"
     ],
-    "bnem": [
-        "sva"
-    ],
+    "bnem": [],
     "BOBaFIT": [
         "AnnotationFilter",
         "BSgenome",
@@ -927,8 +918,7 @@
         "biovizBase",
         "ensembldb",
         "ggbio",
-        "rtracklayer",
-        "sva"
+        "rtracklayer"
     ],
     "CAGEr": [
         "AnnotationFilter",
@@ -1158,7 +1148,6 @@
         "minfi",
         "missMethyl",
         "rtracklayer",
-        "sva",
         "wateRmelon"
     ],
     "CHETAH": [
@@ -1861,8 +1850,7 @@
         "GenomicRanges",
         "SummarizedExperiment",
         "oligo",
-        "oligoClasses",
-        "sva"
+        "oligoClasses"
     ],
     "CSAR": [
         "GenomicRanges"
@@ -1994,8 +1982,7 @@
         "Rsamtools",
         "ShortRead",
         "SummarizedExperiment",
-        "rtracklayer",
-        "sva"
+        "rtracklayer"
     ],
     "dasper": [
         "GenomicAlignments",
@@ -2021,8 +2008,7 @@
         "SummarizedExperiment",
         "apeglm",
         "clusterProfiler",
-        "enrichplot",
-        "sva"
+        "enrichplot"
     ],
     "decompTumor2Sig": [
         "BSgenome",
@@ -2103,8 +2089,7 @@
         "Rsamtools",
         "SummarizedExperiment",
         "bsseq",
-        "rtracklayer",
-        "sva"
+        "rtracklayer"
     ],
     "DEP": [
         "GenomicRanges",
@@ -2181,9 +2166,7 @@
         "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "DExMA": [
-        "sva"
-    ],
+    "DExMA": [],
     "DEXSeq": [
         "DESeq2",
         "GenomicRanges",
@@ -2358,8 +2341,7 @@
     ],
     "doppelgangR": [
         "GenomicRanges",
-        "SummarizedExperiment",
-        "sva"
+        "SummarizedExperiment"
     ],
     "DOSE": [],
     "doseR": [
@@ -2455,9 +2437,7 @@
         "SummarizedExperiment",
         "rtracklayer"
     ],
-    "edge": [
-        "sva"
-    ],
+    "edge": [],
     "EDIRquery": [
         "GenomicRanges",
         "InteractionSet",
@@ -3052,8 +3032,7 @@
         "Rsamtools",
         "ShortRead",
         "SummarizedExperiment",
-        "rtracklayer",
-        "sva"
+        "rtracklayer"
     ],
     "GBScleanR": [
         "GenomicRanges",
@@ -3896,7 +3875,6 @@
         "ensembldb",
         "rtracklayer",
         "satuRn",
-        "sva",
         "tximeta"
     ],
     "isomiRs": [
@@ -3963,9 +3941,7 @@
         "bsseq",
         "rtracklayer"
     ],
-    "KnowSeq": [
-        "sva"
-    ],
+    "KnowSeq": [],
     "LACE": [
         "GenomicRanges",
         "SummarizedExperiment"
@@ -4170,9 +4146,7 @@
         "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "MBECS": [
-        "sva"
-    ],
+    "MBECS": [],
     "mbkmeans": [
         "GenomicRanges",
         "SingleCellExperiment",
@@ -4225,8 +4199,7 @@
         "methylumi",
         "minfi",
         "missMethyl",
-        "rtracklayer",
-        "sva"
+        "rtracklayer"
     ],
     "MEAT": [
         "GenomicAlignments",
@@ -4856,8 +4829,7 @@
     "MSnID": [],
     "MSPrep": [
         "GenomicRanges",
-        "SummarizedExperiment",
-        "sva"
+        "SummarizedExperiment"
     ],
     "msqrob2": [
         "AnnotationFilter",
@@ -5254,8 +5226,7 @@
         "MultiDataSet",
         "SummarizedExperiment",
         "made4",
-        "omicade4",
-        "sva"
+        "omicade4"
     ],
     "OmicsLonDA": [
         "GenomicRanges",
@@ -5374,9 +5345,7 @@
         "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "PAA": [
-        "sva"
-    ],
+    "PAA": [],
     "packFinder": [
         "GenomicRanges"
     ],
@@ -5405,8 +5374,7 @@
         "DEXSeq",
         "GenomicRanges",
         "Rsamtools",
-        "SummarizedExperiment",
-        "sva"
+        "SummarizedExperiment"
     ],
     "pairkat": [
         "GenomicRanges",
@@ -5719,9 +5687,7 @@
         "pRoloc"
     ],
     "PROMISE": [],
-    "PROPS": [
-        "sva"
-    ],
+    "PROPS": [],
     "proteasy": [
         "AnnotationFilter",
         "GenomicAlignments",
@@ -5831,13 +5797,11 @@
     ],
     "qsmooth": [
         "GenomicRanges",
-        "SummarizedExperiment",
-        "sva"
+        "SummarizedExperiment"
     ],
     "qsvaR": [
         "GenomicRanges",
-        "SummarizedExperiment",
-        "sva"
+        "SummarizedExperiment"
     ],
     "Qtlizer": [
         "GenomicRanges"
@@ -6598,8 +6562,7 @@
         "GenomicRanges",
         "SummarizedExperiment",
         "oligo",
-        "oligoClasses",
-        "sva"
+        "oligoClasses"
     ],
     "scanMiR": [
         "GenomicRanges"
@@ -7025,8 +6988,7 @@
         "DESeq2",
         "GenomicRanges",
         "SummarizedExperiment",
-        "sechm",
-        "sva"
+        "sechm"
     ],
     "sevenC": [
         "GenomicAlignments",
@@ -7196,7 +7158,6 @@
         "scds",
         "scran",
         "scuttle",
-        "sva",
         "zellkonverter",
         "zinbwave"
     ],
@@ -7593,7 +7554,6 @@
         "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "sva": [],
     "svaNUMT": [
         "BSgenome",
         "GenomicAlignments",
@@ -7671,8 +7631,7 @@
         "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment",
-        "singscore",
-        "sva"
+        "singscore"
     ],
     "TCGAbiolinks": [
         "GenomicRanges",
@@ -7966,9 +7925,7 @@
         "scater",
         "scuttle"
     ],
-    "trigger": [
-        "sva"
-    ],
+    "trigger": [],
     "triplex": [
         "GenomicRanges"
     ],
@@ -8165,8 +8122,7 @@
         "Rsamtools",
         "SummarizedExperiment",
         "ballgown",
-        "rtracklayer",
-        "sva"
+        "rtracklayer"
     ],
     "VCFArray": [
         "BSgenome",
