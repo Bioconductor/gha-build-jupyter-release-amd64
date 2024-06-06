@@ -3258,7 +3258,6 @@
         "SummarizedExperiment",
         "genomeIntervals"
     ],
-    "GISPA": [],
     "Glimma": [
         "DESeq2",
         "GenomicRanges",
