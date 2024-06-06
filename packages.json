@@ -5456,7 +5456,6 @@
         "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "PloGO2": [],
     "plotgardener": [
         "GenomicAlignments",
         "GenomicRanges",
