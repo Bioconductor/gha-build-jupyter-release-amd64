@@ -330,7 +330,6 @@
     "AssessORF": [
         "GenomicRanges"
     ],
-    "ASSIGN": [],
     "ASURAT": [
         "GenomicRanges",
         "SingleCellExperiment",
@@ -7549,7 +7548,6 @@
         "GenomicRanges"
     ],
     "TBSignatureProfiler": [
-        "ASSIGN",
         "DESeq2",
         "GSVA",
         "GenomicRanges",
