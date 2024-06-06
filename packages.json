@@ -630,7 +630,6 @@
         "clusterProfiler",
         "enrichplot"
     ],
-    "biocGraph": [],
     "BiocHubsShiny": [],
     "BiocOncoTK": [
         "GenomicAlignments",
