@@ -848,9 +848,7 @@
         "GenomicRanges",
         "beadarray"
     ],
-    "BLMA": [
-        "PADOG"
-    ],
+    "BLMA": [],
     "BloodGen3Module": [
         "AnnotationHub",
         "ExperimentHub",
@@ -2816,7 +2814,6 @@
         "GSEABase",
         "GSVA",
         "GenomicRanges",
-        "PADOG",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate",
@@ -6154,7 +6151,6 @@
         "MultiAssayExperiment",
         "SummarizedExperiment"
     ],
-    "PADOG": [],
     "pageRank": [
         "BSgenome",
         "CNEr",
