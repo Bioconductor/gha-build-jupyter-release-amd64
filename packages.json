@@ -1020,9 +1020,7 @@
         "SummarizedExperiment"
     ],
     "ccmap": [],
-    "CCPROMISE": [
-        "PROMISE"
-    ],
+    "CCPROMISE": [],
     "celaref": [
         "GenomicRanges",
         "MAST",
@@ -5669,7 +5667,6 @@
         "SummarizedExperiment",
         "pRoloc"
     ],
-    "PROMISE": [],
     "PROPS": [],
     "proteasy": [
         "AnnotationFilter",
