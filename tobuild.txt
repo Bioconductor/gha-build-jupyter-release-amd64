@@ -1,4 +1,0 @@
-rrvgo
-Rcpi
-simplifyEnrichment
-DOSE
