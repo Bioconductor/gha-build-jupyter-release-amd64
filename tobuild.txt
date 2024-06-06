@@ -1,3 +1,0 @@
-sampleClassifier
-SIM
-GlobalAncova
