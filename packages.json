@@ -5756,7 +5756,6 @@
     "pwOmics": [
         "GenomicRanges"
     ],
-    "pwrEWAS": [],
     "QDNAseq": [
         "GenomicRanges",
         "Rsamtools"
