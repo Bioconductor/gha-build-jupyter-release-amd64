@@ -7650,7 +7650,6 @@
         "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "SWATH2stats": [],
     "switchde": [
         "GenomicRanges",
         "SingleCellExperiment",
