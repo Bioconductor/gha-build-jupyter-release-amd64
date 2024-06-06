@@ -1135,9 +1135,7 @@
     "cfTools": [
         "GenomicRanges"
     ],
-    "cghMCR": [
-        "CNTools"
-    ],
+    "cghMCR": [],
     "ChAMP": [
         "AnnotationFilter",
         "BSgenome",
@@ -1461,7 +1459,6 @@
         "SummarizedExperiment",
         "rtracklayer"
     ],
-    "CNTools": [],
     "CNVfilteR": [
         "AnnotationFilter",
         "BSgenome",
