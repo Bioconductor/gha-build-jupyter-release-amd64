@@ -5268,7 +5268,6 @@
         "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "PAA": [],
     "packFinder": [
         "GenomicRanges"
     ],
