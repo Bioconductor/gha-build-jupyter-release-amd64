@@ -2409,7 +2409,6 @@
         "SummarizedExperiment",
         "rtracklayer"
     ],
-    "edge": [],
     "EDIRquery": [
         "GenomicRanges",
         "InteractionSet",
