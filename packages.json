@@ -6269,7 +6269,6 @@
         "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "pathRender": [],
     "pathview": [],
     "pcaExplorer": [
         "AnnotationForge",
