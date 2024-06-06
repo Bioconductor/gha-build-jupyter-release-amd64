@@ -5730,7 +5730,6 @@
         "QFeatures",
         "SummarizedExperiment"
     ],
-    "psygenet2r": [],
     "puma": [
         "GenomicRanges",
         "SummarizedExperiment",
