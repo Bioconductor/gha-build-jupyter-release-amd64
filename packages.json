@@ -5322,7 +5322,6 @@
         "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "miRNAmeConverter": [],
     "miRNAtap": [],
     "miRSM": [
         "BicARE",
