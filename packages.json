@@ -665,7 +665,6 @@
         "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "BioMM": [],
     "BioNAR": [],
     "BioNERO": [
         "GenomicRanges",
