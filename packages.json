@@ -17,7 +17,6 @@
         "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "adductomicsR": [],
     "ADImpute": [
         "GenomicRanges",
         "SingleCellExperiment",
