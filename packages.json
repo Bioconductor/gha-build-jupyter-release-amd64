@@ -4183,7 +4183,6 @@
         "DOSE",
         "enrichplot"
     ],
-    "meshr": [],
     "MesKit": [],
     "Metab": [
         "GenomicRanges",
@@ -6754,7 +6753,6 @@
         "SingleCellExperiment",
         "SummarizedExperiment",
         "enrichplot",
-        "meshr",
         "schex"
     ],
     "scTGIF": [
