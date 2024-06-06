@@ -778,9 +778,7 @@
         "sva"
     ],
     "BioNet": [],
-    "BioNetStat": [
-        "pathview"
-    ],
+    "BioNetStat": [],
     "biosigner": [
         "GenomicRanges",
         "MultiAssayExperiment",
@@ -2330,7 +2328,6 @@
         "clusterProfiler",
         "enrichplot",
         "genefilter",
-        "pathview",
         "sva"
     ],
     "decompTumor2Sig": [
@@ -2836,7 +2833,6 @@
         "SummarizedExperiment",
         "annotate",
         "globaltest",
-        "pathview",
         "safe",
         "topGO"
     ],
@@ -2898,7 +2894,6 @@
         "SummarizedExperiment",
         "annotate",
         "graphite",
-        "pathview",
         "safe"
     ],
     "enrichplot": [
@@ -3520,8 +3515,7 @@
         "SummarizedExperiment",
         "biomaRt",
         "clusterProfiler",
-        "enrichplot",
-        "pathview"
+        "enrichplot"
     ],
     "GDSArray": [
         "GenomicRanges",
@@ -3943,7 +3937,6 @@
         "SummarizedExperiment",
         "annotate",
         "graphite",
-        "pathview",
         "safe"
     ],
     "gsean": [
@@ -4707,8 +4700,7 @@
         "ExperimentHub",
         "GOSemSim",
         "clusterProfiler",
-        "enrichplot",
-        "pathview"
+        "enrichplot"
     ],
     "magpie": [
         "DESeq2",
@@ -6250,7 +6242,6 @@
         "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "pathview": [],
     "pcaExplorer": [
         "AnnotationForge",
         "Category",
@@ -7570,8 +7561,7 @@
     ],
     "SBGNview": [
         "GenomicRanges",
-        "SummarizedExperiment",
-        "pathview"
+        "SummarizedExperiment"
     ],
     "SC3": [
         "GenomicRanges",
@@ -9593,7 +9583,6 @@
         "SummarizedExperiment",
         "annotate",
         "graphite",
-        "pathview",
         "safe"
     ],
     "zFPKM": [
