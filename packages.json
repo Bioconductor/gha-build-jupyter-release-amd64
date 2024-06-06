@@ -7744,7 +7744,6 @@
         "genefilter",
         "scuttle"
     ],
-    "SpidermiR": [],
     "spiky": [
         "BSgenome",
         "GenomicAlignments",
@@ -7862,9 +7861,7 @@
         "cellHTS2",
         "genefilter"
     ],
-    "StarBioTrek": [
-        "SpidermiR"
-    ],
+    "StarBioTrek": [],
     "Statial": [
         "DropletUtils",
         "GenomicRanges",
