@@ -2836,7 +2836,6 @@
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate",
-        "gage",
         "globaltest",
         "pathview",
         "safe",
@@ -3480,7 +3479,6 @@
         "biomaRt",
         "rtracklayer"
     ],
-    "gage": [],
     "GARS": [
         "DESeq2",
         "DaMiRseq",
