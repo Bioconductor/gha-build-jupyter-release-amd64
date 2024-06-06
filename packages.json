@@ -28,7 +28,6 @@
         "AnnotationFilter",
         "BSgenome",
         "DESeq2",
-        "GOstats",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
@@ -53,7 +52,6 @@
         "AnnotationFilter",
         "BSgenome",
         "DESeq2",
-        "GOstats",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
@@ -398,9 +396,7 @@
         "motifStack",
         "rtracklayer"
     ],
-    "attract": [
-        "GOstats"
-    ],
+    "attract": [],
     "AUCell": [
         "GenomicRanges",
         "SummarizedExperiment"
@@ -957,7 +953,6 @@
         "scuttle"
     ],
     "categoryCompare": [
-        "GOstats",
         "RCy3"
     ],
     "cbaf": [
@@ -3272,9 +3267,7 @@
         "VariantAnnotation",
         "rtracklayer"
     ],
-    "GmicR": [
-        "GOstats"
-    ],
+    "GmicR": [],
     "gmoviz": [
         "GenomicAlignments",
         "GenomicFeatures",
@@ -3311,7 +3304,6 @@
         "clusterProfiler",
         "enrichplot"
     ],
-    "GOstats": [],
     "GOTHiC": [
         "BSgenome",
         "GenomicAlignments",
@@ -3625,7 +3617,6 @@
     ],
     "ideal": [
         "DESeq2",
-        "GOstats",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
@@ -4480,7 +4471,6 @@
         "oligoClasses"
     ],
     "MineICA": [
-        "GOstats",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
@@ -4528,7 +4518,6 @@
     ],
     "MiRaGE": [],
     "miRLAB": [
-        "GOstats",
         "GenomicRanges",
         "SummarizedExperiment",
         "TCGAbiolinks"
@@ -5015,7 +5004,6 @@
         "zinbwave"
     ],
     "netZooR": [
-        "GOstats",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
@@ -5345,7 +5333,6 @@
     ],
     "pcaExplorer": [
         "DESeq2",
-        "GOstats",
         "GenomicRanges",
         "SummarizedExperiment"
     ],
@@ -5475,9 +5462,7 @@
         "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "PloGO2": [
-        "GOstats"
-    ],
+    "PloGO2": [],
     "plotgardener": [
         "GenomicAlignments",
         "GenomicRanges",
@@ -6001,7 +5986,6 @@
         "AnnotationFilter",
         "BSgenome",
         "DESeq2",
-        "GOstats",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
@@ -6766,7 +6750,6 @@
     ],
     "scTensor": [
         "DOSE",
-        "GOstats",
         "GenomicRanges",
         "ReactomePA",
         "SingleCellExperiment",
@@ -6920,7 +6903,6 @@
         "rtracklayer"
     ],
     "SGCP": [
-        "GOstats",
         "GenomicRanges",
         "SummarizedExperiment"
     ],
