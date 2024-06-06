@@ -3738,7 +3738,6 @@
         "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "interactiveDisplay": [],
     "IntEREst": [
         "BSgenome",
         "DESeq2",
