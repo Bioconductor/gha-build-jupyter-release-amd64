@@ -5109,7 +5109,6 @@
         "bamsignals",
         "rtracklayer"
     ],
-    "npGSEA": [],
     "nucleR": [
         "GenomicAlignments",
         "GenomicRanges",
