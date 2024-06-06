@@ -1656,8 +1656,7 @@
         "GSVA",
         "GenomicRanges",
         "SingleCellExperiment",
-        "SummarizedExperiment",
-        "genefu"
+        "SummarizedExperiment"
     ],
     "consensusSeekeR": [
         "GenomicAlignments",
@@ -3117,7 +3116,6 @@
         "QDNAseq",
         "Rsamtools"
     ],
-    "genefu": [],
     "GeneGeneInteR": [
         "GenomicRanges",
         "Rsamtools"
@@ -5456,8 +5454,7 @@
         "CoreGx",
         "GenomicRanges",
         "MultiAssayExperiment",
-        "SummarizedExperiment",
-        "genefu"
+        "SummarizedExperiment"
     ],
     "pdInfoBuilder": [
         "GenomicRanges",
@@ -7128,7 +7125,6 @@
         "SummarizedExperiment",
         "consensusOV",
         "ensembldb",
-        "genefu",
         "rtracklayer"
     ],
     "SigsPack": [
