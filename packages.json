@@ -714,7 +714,6 @@
         "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "bnem": [],
     "BOBaFIT": [
         "AnnotationFilter",
         "BSgenome",
