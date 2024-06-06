@@ -8632,7 +8632,6 @@
         "SummarizedExperiment",
         "rtracklayer"
     ],
-    "webbioc": [],
     "weitrix": [
         "GenomicRanges",
         "SummarizedExperiment"
