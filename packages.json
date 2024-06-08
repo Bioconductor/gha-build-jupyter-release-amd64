@@ -2242,7 +2242,6 @@
         "VariantAnnotation",
         "rtracklayer"
     ],
-    "ILoReg": [],
     "IMAS": [
         "GenomicAlignments",
         "GenomicFeatures",
