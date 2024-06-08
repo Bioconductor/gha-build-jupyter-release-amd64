@@ -1,0 +1,10 @@
+batchelor
+phemd
+DropletUtils
+iSEEhex
+scater
+splatter
+scran
+zinbwave
+SCArray.sat
+iSEEhub
