@@ -3095,7 +3095,6 @@
         "oligo",
         "oligoClasses"
     ],
-    "peco": [],
     "periodicDNA": [
         "BSgenome",
         "GenomicAlignments",
