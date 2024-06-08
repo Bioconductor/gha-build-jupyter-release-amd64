@@ -1258,7 +1258,6 @@
         "VariantAnnotation",
         "rtracklayer"
     ],
-    "DEFormats": [],
     "DegNorm": [
         "GenomicAlignments",
         "GenomicFeatures",
@@ -3591,7 +3590,6 @@
     ],
     "regionReport": [
         "BSgenome",
-        "DEFormats",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicFiles",
