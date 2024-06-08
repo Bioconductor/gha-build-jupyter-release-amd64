@@ -4399,7 +4399,6 @@
         "Rsamtools",
         "rtracklayer"
     ],
-    "structToolbox": [],
     "StructuralVariantAnnotation": [
         "BSgenome",
         "GenomicAlignments",
