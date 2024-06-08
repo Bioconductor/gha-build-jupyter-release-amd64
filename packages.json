@@ -306,7 +306,6 @@
         "scran",
         "scuttle"
     ],
-    "bayNorm": [],
     "BBCAnalyzer": [
         "BSgenome",
         "GenomicAlignments",
