@@ -1920,7 +1920,6 @@
         "rtracklayer"
     ],
     "ggmanh": [],
-    "ggspavis": [],
     "girafe": [
         "GenomicAlignments",
         "Rsamtools",
