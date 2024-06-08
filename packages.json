@@ -3843,7 +3843,6 @@
         "rtracklayer"
     ],
     "scGPS": [],
-    "scMerge": [],
     "scmeth": [
         "BSgenome",
         "GenomicAlignments",
@@ -4057,7 +4056,6 @@
         "ensembldb",
         "rtracklayer",
         "scDblFinder",
-        "scMerge",
         "zinbwave"
     ],
     "SingleMoleculeFootprinting": [
