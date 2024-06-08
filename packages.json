@@ -2082,7 +2082,6 @@
         "minfi",
         "rtracklayer"
     ],
-    "EnrichedHeatmap": [],
     "EnrichmentBrowser": [
         "SummarizedExperiment",
         "safe"
@@ -2354,7 +2353,6 @@
     ],
     "extraChIPs": [
         "BSgenome",
-        "EnrichedHeatmap",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicInteractions",
@@ -4691,7 +4689,6 @@
     "profileplyr": [
         "ChIPseeker",
         "DOSE",
-        "EnrichedHeatmap",
         "GenomicAlignments",
         "GenomicFeatures",
         "Rsamtools",
