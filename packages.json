@@ -2689,7 +2689,6 @@
         "Rsamtools",
         "rtracklayer"
     ],
-    "ivygapSE": [],
     "karyoploteR": [
         "BSgenome",
         "GenomicAlignments",
