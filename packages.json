@@ -4450,7 +4450,6 @@
         "GenomicFeatures",
         "MAST",
         "Rsamtools",
-        "SingleR",
         "TSCAN",
         "TrajectoryUtils",
         "batchelor",
@@ -4477,7 +4476,6 @@
         "VariantAnnotation",
         "rtracklayer"
     ],
-    "SingleR": [],
     "singscore": [],
     "SiPSiC": [],
     "SISPA": [
