@@ -1578,7 +1578,6 @@
     "dittoSeq": [
         "SingleCellExperiment"
     ],
-    "divergence": [],
     "DMCFB": [
         "GenomicAlignments",
         "Rsamtools",
