@@ -4267,7 +4267,6 @@
         "scater",
         "scds",
         "scran",
-        "zellkonverter",
         "zinbwave"
     ],
     "SingleMoleculeFootprinting": [
@@ -4812,9 +4811,7 @@
         "rtracklayer"
     ],
     "VDJdive": [],
-    "velociraptor": [
-        "zellkonverter"
-    ],
+    "velociraptor": [],
     "ViSEAGO": [],
     "Voyager": [
         "DropletUtils",
@@ -4905,7 +4902,6 @@
         "quantro",
         "rtracklayer"
     ],
-    "zellkonverter": [],
     "zenith": [
         "EnrichmentBrowser",
         "safe"
