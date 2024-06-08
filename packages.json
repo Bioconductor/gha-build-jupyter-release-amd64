@@ -1474,7 +1474,6 @@
         "bsseq",
         "rtracklayer"
     ],
-    "DEP": [],
     "derfinder": [
         "BSgenome",
         "GenomicAlignments",
