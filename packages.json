@@ -4172,7 +4172,6 @@
         "cellHTS2"
     ],
     "Statial": [],
-    "stJoincount": [],
     "strandCheckR": [
         "GenomicAlignments",
         "GenomicFeatures",
