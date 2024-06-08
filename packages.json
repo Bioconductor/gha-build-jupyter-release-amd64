@@ -24,7 +24,6 @@
         "oligoClasses",
         "rtracklayer"
     ],
-    "aggregateBioVar": [],
     "AgiMicroRna": [
         "BSgenome",
         "GenomicAlignments",
