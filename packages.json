@@ -1627,7 +1627,6 @@
     ],
     "doppelgangR": [],
     "DOSE": [],
-    "doseR": [],
     "doubletrouble": [
         "GenomicAlignments",
         "Rsamtools",
