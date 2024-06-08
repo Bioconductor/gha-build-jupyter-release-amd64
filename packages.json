@@ -1282,7 +1282,6 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "Dino": [],
     "distinct": [],
     "DMCFB": [
         "GenomicAlignments",
