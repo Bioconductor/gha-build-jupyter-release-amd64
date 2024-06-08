@@ -1,0 +1,276 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''pipeComp'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.17 (BiocManager 1.30.22), R 4.3.1 (2023-06-16)
+Installing package(s) 'pipeComp'
+also installing the dependencies ‘V8’, ‘yaImpute’, ‘aricode’, ‘randomcoloR’, ‘intrinsicDimension’
+
+trying URL 'https://cloud.r-project.org/src/contrib/V8_4.4.2.tar.gz'
+Content type 'application/x-gzip' length 672334 bytes (656 KB)
+==================================================
+downloaded 656 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/yaImpute_1.0-34.tar.gz'
+Content type 'application/x-gzip' length 281305 bytes (274 KB)
+==================================================
+downloaded 274 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/aricode_1.0.3.tar.gz'
+Content type 'application/x-gzip' length 12724 bytes (12 KB)
+==================================================
+downloaded 12 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/randomcoloR_1.1.0.1.tar.gz'
+Content type 'application/x-gzip' length 5913 bytes
+==================================================
+downloaded 5913 bytes
+
+trying URL 'https://cloud.r-project.org/src/contrib/intrinsicDimension_1.2.0.tar.gz'
+Content type 'application/x-gzip' length 81085 bytes (79 KB)
+==================================================
+downloaded 79 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/pipeComp_1.10.0.tar.gz'
+Content type 'application/gzip' length 3720043 bytes (3.5 MB)
+==================================================
+downloaded 3.5 MB
+
+* installing *source* package ‘V8’ ...
+** package ‘V8’ successfully unpacked and MD5 sums checked
+** using staged installation
+Found C++17 compiler: g++
+Target architecture: x86_64 
+
+ [0%] Downloaded 20652 bytes...
+ [0%] Downloaded 32768 bytes...
+ [0%] Downloaded 65518 bytes...
+ [0%] Downloaded 80001 bytes...
+ [0%] Downloaded 96376 bytes...
+ [1%] Downloaded 129126 bytes...
+ [1%] Downloaded 161912 bytes...
+ [1%] Downloaded 178287 bytes...
+ [1%] Downloaded 194662 bytes...
+ [1%] Downloaded 227448 bytes...
+ [2%] Downloaded 243823 bytes...
+ [2%] Downloaded 309359 bytes...
+ [2%] Downloaded 325734 bytes...
+ [3%] Downloaded 374895 bytes...
+ [3%] Downloaded 391270 bytes...
+ [3%] Downloaded 407681 bytes...
+ [3%] Downloaded 440431 bytes...
+ [3%] Downloaded 473217 bytes...
+ [4%] Downloaded 489592 bytes...
+ [4%] Downloaded 522342 bytes...
+ [4%] Downloaded 538753 bytes...
+ [4%] Downloaded 555128 bytes...
+ [4%] Downloaded 604289 bytes...
+ [5%] Downloaded 620664 bytes...
+ [5%] Downloaded 702575 bytes...
+ [6%] Downloaded 751736 bytes...
+ [6%] Downloaded 817272 bytes...
+ [7%] Downloaded 882808 bytes...
+ [7%] Downloaded 899183 bytes...
+ [7%] Downloaded 948344 bytes...
+ [8%] Downloaded 1079416 bytes...
+ [9%] Downloaded 1144952 bytes...
+ [10%] Downloaded 1259649 bytes...
+ [10%] Downloaded 1325185 bytes...
+ [11%] Downloaded 1374310 bytes...
+ [13%] Downloaded 1603704 bytes...
+ [15%] Downloaded 1849473 bytes...
+ [16%] Downloaded 1972353 bytes...
+ [17%] Downloaded 2103425 bytes...
+ [17%] Downloaded 2168961 bytes...
+ [19%] Downloaded 2349158 bytes...
+ [20%] Downloaded 2431105 bytes...
+ [20%] Downloaded 2480230 bytes...
+ [20%] Downloaded 2545766 bytes...
+ [24%] Downloaded 2938982 bytes...
+ [24%] Downloaded 3004518 bytes...
+ [26%] Downloaded 3250287 bytes...
+ [27%] Downloaded 3315823 bytes...
+ [27%] Downloaded 3348609 bytes...
+ [31%] Downloaded 3774575 bytes...
+ [31%] Downloaded 3823736 bytes...
+ [32%] Downloaded 3889272 bytes...
+ [32%] Downloaded 3954808 bytes...
+ [36%] Downloaded 4479096 bytes...
+ [40%] Downloaded 4921473 bytes...
+ [44%] Downloaded 5363832 bytes...
+ [50%] Downloaded 6068353 bytes...
+ [55%] Downloaded 6723713 bytes...
+ [66%] Downloaded 8050808 bytes...
+ [77%] Downloaded 9377894 bytes...
+ [88%] Downloaded 10704989 bytes...
+ [99%] Downloaded 12019832 bytes...
+ [100%] Downloaded 12126286 bytes...
+Using CXXCPP=g++ -std=gnu++17 -E
+Using PKG_CFLAGS=-I/tmp/RtmpyV2JZs/R.INSTALL38753f60e0e/V8/.deps/include
+Using PKG_LIBS=-L/tmp/RtmpyV2JZs/R.INSTALL38753f60e0e/V8/.deps/lib -lv8_monolith
+Running feature test for pointer compression...
+Enabling pointer compression
+Running feature test for sandbox...
+Sandbox not enabled
+** libs
+using C++ compiler: ‘g++ (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+using C++17
+rm -f V8.so RcppExports.o bindings.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -I/tmp/RtmpyV2JZs/R.INSTALL38753f60e0e/V8/.deps/include -DV8_COMPRESS_POINTERS -I'/usr/local/lib/R/site-library/Rcpp/include'    -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -I/tmp/RtmpyV2JZs/R.INSTALL38753f60e0e/V8/.deps/include -DV8_COMPRESS_POINTERS -I'/usr/local/lib/R/site-library/Rcpp/include'    -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c bindings.cpp -o bindings.o
+g++ -std=gnu++17 -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o V8.so RcppExports.o bindings.o -L/tmp/RtmpyV2JZs/R.INSTALL38753f60e0e/V8/.deps/lib -lv8_monolith -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-V8/00new/V8/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘V8’ as ‘V8_4.4.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (V8)
+* installing *source* package ‘yaImpute’ ...
+** package ‘yaImpute’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+using C++ compiler: ‘g++ (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c ANN.cpp -o ANN.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c annImpute.cpp -o annImpute.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c bd_fix_rad_search.cpp -o bd_fix_rad_search.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c bd_pr_search.cpp -o bd_pr_search.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c bd_search.cpp -o bd_search.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c bd_tree.cpp -o bd_tree.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c brute.cpp -o brute.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c kd_dump.cpp -o kd_dump.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c kd_fix_rad_search.cpp -o kd_fix_rad_search.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c kd_pr_search.cpp -o kd_pr_search.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c kd_search.cpp -o kd_search.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c kd_split.cpp -o kd_split.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c kd_tree.cpp -o kd_tree.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c kd_util.cpp -o kd_util.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c perf.cpp -o perf.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c rfoneprox.cpp -o rfoneprox.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c util.cpp -o util.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c yaImpute_init.c -o yaImpute_init.o
+g++ -std=gnu++17 -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o yaImpute.so ANN.o annImpute.o bd_fix_rad_search.o bd_pr_search.o bd_search.o bd_tree.o brute.o kd_dump.o kd_fix_rad_search.o kd_pr_search.o kd_search.o kd_split.o kd_tree.o kd_util.o perf.o rfoneprox.o util.o yaImpute_init.o -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-yaImpute/00new/yaImpute/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘yaImpute’ as ‘yaImpute_1.0-34_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (yaImpute)
+* installing *source* package ‘aricode’ ...
+** package ‘aricode’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include'     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c aricode.cpp -o aricode.o
+g++ -std=gnu++17 -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o aricode.so RcppExports.o aricode.o -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-aricode/00new/aricode/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘aricode’ as ‘aricode_1.0.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (aricode)
+* installing *source* package ‘randomcoloR’ ...
+** package ‘randomcoloR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘randomcoloR’ as ‘randomcoloR_1.1.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (randomcoloR)
+* installing *source* package ‘intrinsicDimension’ ...
+** package ‘intrinsicDimension’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘intrinsicDimension’ as ‘intrinsicDimension_1.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (intrinsicDimension)
+* installing *source* package ‘pipeComp’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘pipeComp’ as ‘pipeComp_1.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pipeComp)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp89AGbk/downloaded_packages’
+Old packages: 'backports', 'BH', 'bigrquery', 'BiocManager', 'boot', 'brew',
+  'brio', 'broom', 'bslib', 'cachem', 'callr', 'cli', 'cluster', 'codetools',
+  'commonmark', 'cowplot', 'cpp11', 'crosstalk', 'curl', 'data.table', 'DBI',
+  'dbplyr', 'deldir', 'desc', 'digest', 'dplyr', 'dqrng', 'DT', 'evaluate',
+  'fansi', 'farver', 'fastmap', 'filelock', 'FNN', 'foreign', 'fs', 'future',
+  'future.apply', 'GenomicRanges', 'gert', 'ggplot2', 'ggrepel', 'ggridges',
+  'gh', 'globals', 'glue', 'googleAuthR', 'gplots', 'gtable', 'gtools',
+  'haven', 'highr', 'htmltools', 'htmlwidgets', 'httpuv', 'httr2', 'igraph',
+  'interp', 'jsonlite', 'KernSmooth', 'knitr', 'later', 'lattice', 'leiden',
+  'lifecycle', 'listenv', 'locfit', 'matrixStats', 'mgcv', 'munsell', 'nlme',
+  'openssl', 'parallelly', 'patchwork', 'pbdZMQ', 'pkgbuild', 'pkgdown',
+  'pkgload', 'plotly', 'processx', 'progress', 'promises', 'ps', 'ragg',
+  'rapiclient', 'Rcpp', 'RcppAnnoy', 'RcppArmadillo', 'RcppEigen', 'RcppHNSW',
+  'RCurl', 'readr', 'remotes', 'repr', 'reprex', 'reticulate', 'rlang',
+  'rmarkdown', 'roxygen2', 'rpart', 'rprojroot', 'RSQLite', 'rstudioapi',
+  'Rtsne', 'rvest', 'sass', 'scales', 'sctransform', 'scuttle', 'Seurat',
+  'SeuratObject', 'shiny', 'sp', 'spatstat.data', 'spatstat.explore',
+  'spatstat.geom', 'spatstat.random', 'spatstat.sparse', 'spatstat.utils',
+  'stringi', 'stringr', 'survival', 'systemfonts', 'testthat', 'textshaping',
+  'tidyr', 'tidyselect', 'timechange', 'tinytex', 'usethis', 'utf8', 'uuid',
+  'uwot', 'vctrs', 'vroom', 'waldo', 'withr', 'xfun', 'XML', 'xml2', 'xopen',
+  'yaml', 'zip'
+
+real	1m35.958s
+user	1m18.891s
+sys	0m18.854s
