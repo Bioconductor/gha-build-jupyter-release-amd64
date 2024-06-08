@@ -2905,7 +2905,6 @@
         "rtracklayer",
         "yarn"
     ],
-    "nnSVG": [],
     "NoRCE": [
         "GenomicAlignments",
         "GenomicFeatures",
