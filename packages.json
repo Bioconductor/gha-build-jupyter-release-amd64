@@ -50,15 +50,12 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "Rsamtools",
-        "SpatialExperiment",
         "VariantAnnotation",
         "alabaster.spatial",
         "alabaster.vcf",
         "rtracklayer"
     ],
-    "alabaster.spatial": [
-        "SpatialExperiment"
-    ],
+    "alabaster.spatial": [],
     "alabaster.vcf": [
         "BSgenome",
         "GenomicAlignments",
@@ -1100,9 +1097,7 @@
         "rtracklayer"
     ],
     "cTRAP": [],
-    "CTSV": [
-        "SpatialExperiment"
-    ],
+    "CTSV": [],
     "cummeRbund": [
         "BSgenome",
         "GenomicAlignments",
@@ -1131,11 +1126,8 @@
     "cytofQC": [
         "CATALYST"
     ],
-    "cytomapper": [
-        "SpatialExperiment"
-    ],
+    "cytomapper": [],
     "cytoviewer": [
-        "SpatialExperiment",
         "cytomapper"
     ],
     "dada2": [
@@ -1268,9 +1260,7 @@
         "regioneR",
         "rtracklayer"
     ],
-    "DESpace": [
-        "SpatialExperiment"
-    ],
+    "DESpace": [],
     "DEXSeq": [
         "Rsamtools"
     ],
@@ -1625,7 +1615,6 @@
     "escheR": [
         "GenomicAlignments",
         "Rsamtools",
-        "SpatialExperiment",
         "rtracklayer"
     ],
     "esetVis": [
@@ -1667,7 +1656,6 @@
         "rtracklayer"
     ],
     "ExperimentSubset": [
-        "SpatialExperiment",
         "TreeSummarizedExperiment"
     ],
     "extraChIPs": [
@@ -1948,9 +1936,7 @@
         "rtracklayer"
     ],
     "ggmanh": [],
-    "ggspavis": [
-        "SpatialExperiment"
-    ],
+    "ggspavis": [],
     "girafe": [
         "GenomicAlignments",
         "Rsamtools",
@@ -2189,7 +2175,6 @@
         "rtracklayer"
     ],
     "imcRtools": [
-        "SpatialExperiment",
         "cytomapper"
     ],
     "InPAS": [
@@ -2315,7 +2300,6 @@
     ],
     "lisaClust": [
         "ClassifyR",
-        "SpatialExperiment",
         "spicyR"
     ],
     "LOBSTAHS": [
@@ -2722,9 +2706,7 @@
     "MOGAMUN": [
         "RCy3"
     ],
-    "MoleculeExperiment": [
-        "SpatialExperiment"
-    ],
+    "MoleculeExperiment": [],
     "monaLisa": [
         "BSgenome",
         "CNEr",
@@ -2940,9 +2922,7 @@
         "rtracklayer",
         "yarn"
     ],
-    "nnSVG": [
-        "SpatialExperiment"
-    ],
+    "nnSVG": [],
     "NoRCE": [
         "GenomicAlignments",
         "GenomicFeatures",
@@ -3867,7 +3847,6 @@
         "GenomicFeatures",
         "Rsamtools",
         "SingleCellSignalR",
-        "SpatialExperiment",
         "ensembldb",
         "rtracklayer"
     ],
@@ -4071,7 +4050,6 @@
         "Rsamtools"
     ],
     "simpleSeg": [
-        "SpatialExperiment",
         "cytomapper"
     ],
     "simplifyEnrichment": [],
@@ -4167,16 +4145,9 @@
         "Rsamtools",
         "rtracklayer"
     ],
-    "spaSim": [
-        "SpatialExperiment"
-    ],
-    "spatialDE": [
-        "SpatialExperiment"
-    ],
-    "SpatialExperiment": [],
-    "SpatialFeatureExperiment": [
-        "SpatialExperiment"
-    ],
+    "spaSim": [],
+    "spatialDE": [],
+    "SpatialFeatureExperiment": [],
     "spatialHeatmap": [],
     "spatzie": [
         "BSgenome",
@@ -4193,12 +4164,9 @@
         "motifmatchr",
         "rtracklayer"
     ],
-    "SPIAT": [
-        "SpatialExperiment"
-    ],
+    "SPIAT": [],
     "spicyR": [
-        "ClassifyR",
-        "SpatialExperiment"
+        "ClassifyR"
     ],
     "spiky": [
         "BSgenome",
@@ -4229,9 +4197,7 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "SpotClean": [
-        "SpatialExperiment"
-    ],
+    "SpotClean": [],
     "SPsimSeq": [],
     "sSNAPPY": [],
     "ssviz": [
@@ -4244,18 +4210,13 @@
         "RUVSeq",
         "Rsamtools",
         "ShortRead",
-        "SpatialExperiment",
         "rtracklayer"
     ],
     "staRank": [
         "cellHTS2"
     ],
-    "Statial": [
-        "SpatialExperiment"
-    ],
-    "stJoincount": [
-        "SpatialExperiment"
-    ],
+    "Statial": [],
+    "stJoincount": [],
     "strandCheckR": [
         "GenomicAlignments",
         "GenomicFeatures",
@@ -4583,7 +4544,6 @@
     ],
     "ViSEAGO": [],
     "Voyager": [
-        "SpatialExperiment",
         "SpatialFeatureExperiment"
     ],
     "VplotR": [
