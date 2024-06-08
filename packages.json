@@ -337,7 +337,6 @@
         "MultiDataSet",
         "ropls"
     ],
-    "BioTIP": [],
     "biovizBase": [
         "BSgenome",
         "GenomicAlignments",
