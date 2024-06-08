@@ -774,7 +774,6 @@
         "ShortRead",
         "rtracklayer"
     ],
-    "CiteFuse": [],
     "ClassifyR": [],
     "cleanUpdTSeq": [
         "BSgenome",
