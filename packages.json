@@ -3461,7 +3461,6 @@
         "VariantAnnotation",
         "rtracklayer"
     ],
-    "RadioGx": [],
     "ramwas": [
         "GenomicAlignments",
         "Rsamtools"
