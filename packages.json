@@ -807,7 +807,6 @@
     ],
     "cbaf": [
         "GenomicAlignments",
-        "GenomicDataCommons",
         "GenomicFeatures",
         "MultiAssayExperiment",
         "RTCGAToolbox",
@@ -825,7 +824,6 @@
     ],
     "cBioPortalData": [
         "GenomicAlignments",
-        "GenomicDataCommons",
         "GenomicFeatures",
         "MultiAssayExperiment",
         "RTCGAToolbox",
@@ -2547,7 +2545,6 @@
     "GDCRNATools": [
         "DESeq2",
         "DOSE",
-        "GenomicDataCommons",
         "SummarizedExperiment",
         "clusterProfiler",
         "enrichplot"
@@ -2620,7 +2617,6 @@
         "Rsamtools",
         "SummarizedExperiment"
     ],
-    "GenomicDataCommons": [],
     "GenomicDistributions": [],
     "GenomicFeatures": [
         "GenomicAlignments",
@@ -5355,7 +5351,6 @@
     ],
     "RTCGAToolbox": [
         "GenomicAlignments",
-        "GenomicDataCommons",
         "GenomicFeatures",
         "MultiAssayExperiment",
         "RaggedExperiment",
@@ -6316,7 +6311,6 @@
     ],
     "TCGAutils": [
         "GenomicAlignments",
-        "GenomicDataCommons",
         "GenomicFeatures",
         "MultiAssayExperiment",
         "RaggedExperiment",
@@ -6354,7 +6348,6 @@
     ],
     "terraTCGAdata": [
         "GenomicAlignments",
-        "GenomicDataCommons",
         "GenomicFeatures",
         "MultiAssayExperiment",
         "RaggedExperiment",
