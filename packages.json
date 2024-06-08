@@ -3748,7 +3748,6 @@
         "Rsamtools"
     ],
     "QFeatures": [],
-    "qmtools": [],
     "qpgraph": [
         "GenomicAlignments",
         "GenomicFeatures",
