@@ -1818,7 +1818,6 @@
         "rtracklayer"
     ],
     "FEAST": [
-        "SC3",
         "TSCAN",
         "TrajectoryUtils"
     ],
@@ -4023,7 +4022,6 @@
     "safe": [],
     "SAIGEgds": [],
     "SBGNview": [],
-    "SC3": [],
     "SCAN.UPC": [
         "oligo",
         "oligoClasses"
