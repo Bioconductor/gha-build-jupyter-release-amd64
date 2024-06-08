@@ -1724,9 +1724,7 @@
         "VariantAnnotation",
         "rtracklayer"
     ],
-    "FEAST": [
-        "TSCAN"
-    ],
+    "FEAST": [],
     "fedup": [
         "RCy3"
     ],
@@ -4096,7 +4094,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "Rsamtools",
-        "TSCAN",
         "celda",
         "ensembldb",
         "rtracklayer",
@@ -4475,7 +4472,6 @@
         "Rsamtools",
         "rtracklayer"
     ],
-    "TSCAN": [],
     "tscR": [],
     "TVTB": [
         "BSgenome",
