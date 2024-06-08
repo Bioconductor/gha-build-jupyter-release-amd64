@@ -13,7 +13,6 @@
         "BSgenome",
         "GenomicAlignments",
         "GenomicFeatures",
-        "Glimma",
         "OrganismDbi",
         "ReportingTools",
         "Rsamtools",
@@ -28,7 +27,6 @@
         "BSgenome",
         "GenomicAlignments",
         "GenomicFeatures",
-        "Glimma",
         "OrganismDbi",
         "ReportingTools",
         "Rsamtools",
@@ -2070,7 +2068,6 @@
         "Rsamtools",
         "ShortRead"
     ],
-    "Glimma": [],
     "glmGamPoi": [],
     "glmSparseNet": [],
     "gmapR": [
