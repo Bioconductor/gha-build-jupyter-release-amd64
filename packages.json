@@ -1654,7 +1654,6 @@
         "GenomicFeatures",
         "Rsamtools",
         "SummarizedExperiment",
-        "megadepth",
         "plyranges",
         "rtracklayer"
     ],
@@ -3514,7 +3513,6 @@
         "SummarizedExperiment",
         "rtracklayer"
     ],
-    "megadepth": [],
     "Melissa": [],
     "memes": [],
     "meshes": [
@@ -4307,7 +4305,6 @@
         "bumphunter",
         "dasper",
         "derfinder",
-        "megadepth",
         "plyranges",
         "rtracklayer"
     ],
