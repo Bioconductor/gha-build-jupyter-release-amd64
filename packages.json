@@ -4237,8 +4237,7 @@
         "Rsamtools"
     ],
     "ReQON": [
-        "Rsamtools",
-        "seqbias"
+        "Rsamtools"
     ],
     "RESOLVE": [
         "BSgenome",
@@ -4836,7 +4835,6 @@
         "seqPattern"
     ],
     "SeqArray": [],
-    "seqbias": [],
     "seqCAT": [
         "BSgenome",
         "GenomicAlignments",
