@@ -50,11 +50,9 @@
         "GenomicFeatures",
         "Rsamtools",
         "VariantAnnotation",
-        "alabaster.spatial",
         "alabaster.vcf",
         "rtracklayer"
     ],
-    "alabaster.spatial": [],
     "alabaster.vcf": [
         "BSgenome",
         "GenomicAlignments",
