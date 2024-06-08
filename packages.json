@@ -1508,7 +1508,6 @@
         "Rsamtools",
         "ShortRead"
     ],
-    "EBSEA": [],
     "EDASeq": [
         "GenomicAlignments",
         "GenomicFeatures",
