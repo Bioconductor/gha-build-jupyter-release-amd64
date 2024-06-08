@@ -4112,7 +4112,6 @@
         "regioneR",
         "rtracklayer"
     ],
-    "SCnorm": [],
     "scone": [
         "EDASeq",
         "GenomicAlignments",
