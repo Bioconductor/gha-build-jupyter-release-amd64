@@ -8,7 +8,6 @@
         "ADAM"
     ],
     "ADImpute": [],
-    "AffiXcan": [],
     "affycoretools": [
         "BSgenome",
         "GenomicAlignments",
