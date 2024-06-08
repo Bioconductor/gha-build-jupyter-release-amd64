@@ -4024,7 +4024,6 @@
     ],
     "scran": [],
     "scReClassify": [],
-    "scRepertoire": [],
     "scRNAseqApp": [
         "GenomicAlignments",
         "Rsamtools",
