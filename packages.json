@@ -1315,7 +1315,6 @@
         "DropletUtils",
         "SpatialExperiment"
     ],
-    "DEsubs": [],
     "DEXSeq": [
         "Rsamtools"
     ],
