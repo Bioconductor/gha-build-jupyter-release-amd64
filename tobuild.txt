@@ -1,6 +1,0 @@
-scCB2
-PharmacoGx
-MultiDataSet
-scater
-DOSE
-SpatialExperiment
