@@ -4213,7 +4213,6 @@
         "Rsamtools",
         "rtracklayer"
     ],
-    "splatter": [],
     "SpliceWiz": [
         "BSgenome",
         "GenomicAlignments",
