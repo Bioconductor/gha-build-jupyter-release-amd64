@@ -5315,10 +5315,8 @@
         "GenomicAlignments",
         "Rsamtools"
     ],
-    "TDbasedUFE": [],
     "TDbasedUFEadv": [
         "DOSE",
-        "TDbasedUFE",
         "enrichplot"
     ],
     "TEKRABber": [
