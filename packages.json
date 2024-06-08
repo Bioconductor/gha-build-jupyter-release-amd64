@@ -978,7 +978,6 @@
         "rtracklayer"
     ],
     "condiments": [
-        "TrajectoryUtils",
         "distinct",
         "scater",
         "slingshot"
@@ -1773,8 +1772,7 @@
         "rtracklayer"
     ],
     "FEAST": [
-        "TSCAN",
-        "TrajectoryUtils"
+        "TSCAN"
     ],
     "fedup": [
         "RCy3"
@@ -4043,7 +4041,6 @@
     "scRNAseqApp": [
         "GenomicAlignments",
         "Rsamtools",
-        "TrajectoryUtils",
         "rtracklayer",
         "slingshot"
     ],
@@ -4226,7 +4223,6 @@
         "MAST",
         "Rsamtools",
         "TSCAN",
-        "TrajectoryUtils",
         "batchelor",
         "celda",
         "ensembldb",
@@ -4271,9 +4267,7 @@
         "wateRmelon"
     ],
     "slalom": [],
-    "slingshot": [
-        "TrajectoryUtils"
-    ],
+    "slingshot": [],
     "SMITE": [
         "GenomicAlignments",
         "GenomicFeatures",
@@ -4586,10 +4580,8 @@
         "rtracklayer"
     ],
     "tradeSeq": [
-        "TrajectoryUtils",
         "slingshot"
     ],
-    "TrajectoryUtils": [],
     "transcriptR": [
         "GenomicAlignments",
         "GenomicFeatures",
@@ -4612,7 +4604,6 @@
         "rtracklayer"
     ],
     "traviz": [
-        "TrajectoryUtils",
         "slingshot"
     ],
     "treekoR": [
@@ -4641,9 +4632,7 @@
         "Rsamtools",
         "rtracklayer"
     ],
-    "TSCAN": [
-        "TrajectoryUtils"
-    ],
+    "TSCAN": [],
     "tscR": [],
     "TVTB": [
         "BSgenome",
