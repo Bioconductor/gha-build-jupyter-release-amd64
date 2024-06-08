@@ -4527,7 +4527,6 @@
         "Rsamtools",
         "ShortRead"
     ],
-    "systemPipeTools": [],
     "TADCompare": [
         "HiCcompare"
     ],
