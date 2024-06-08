@@ -868,7 +868,6 @@
         "xcms"
     ],
     "clusterExperiment": [
-        "mbkmeans",
         "zinbwave"
     ],
     "clusterProfiler": [
@@ -2544,7 +2543,6 @@
         "rtracklayer"
     ],
     "MBECS": [],
-    "mbkmeans": [],
     "mBPCR": [
         "oligoClasses"
     ],
@@ -3110,7 +3108,6 @@
     "NetSAM": [],
     "netSmooth": [
         "clusterExperiment",
-        "mbkmeans",
         "scater",
         "scuttle",
         "zinbwave"
