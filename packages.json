@@ -1917,7 +1917,6 @@
         "EDASeq",
         "GenomicAlignments",
         "GenomicFeatures",
-        "MLSeq",
         "Rsamtools",
         "ShortRead",
         "rtracklayer"
@@ -2845,7 +2844,6 @@
     ],
     "MLInterfaces": [],
     "MLP": [],
-    "MLSeq": [],
     "MMAPPR2": [
         "BSgenome",
         "GenomicAlignments",
