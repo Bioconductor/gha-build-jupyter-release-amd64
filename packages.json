@@ -1677,8 +1677,7 @@
         "rtracklayer"
     ],
     "escape": [
-        "GSVA",
-        "UCell"
+        "GSVA"
     ],
     "escheR": [
         "DropletUtils",
@@ -4701,7 +4700,6 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "UCell": [],
     "Ularcirc": [
         "BSgenome",
         "GenomicAlignments",
