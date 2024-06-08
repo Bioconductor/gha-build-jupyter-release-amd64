@@ -1,4 +1,0 @@
-scTGIF
-SpectralTAD
-TADCompare
-multiHiCcompare
