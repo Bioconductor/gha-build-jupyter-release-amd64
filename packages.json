@@ -294,7 +294,6 @@
         "rtracklayer"
     ],
     "beadarray": [],
-    "BEARscc": [],
     "BEAT": [
         "BSgenome",
         "GenomicAlignments",
