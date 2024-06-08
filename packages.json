@@ -262,20 +262,15 @@
         "Rsamtools",
         "rtracklayer"
     ],
-    "BASiCS": [
-        "scran"
-    ],
+    "BASiCS": [],
     "BASiCStan": [
-        "BASiCS",
-        "scran"
+        "BASiCS"
     ],
     "BasicSTARRseq": [
         "GenomicAlignments",
         "Rsamtools"
     ],
-    "BayesSpace": [
-        "scran"
-    ],
+    "BayesSpace": [],
     "BBCAnalyzer": [
         "BSgenome",
         "GenomicAlignments",
@@ -346,9 +341,7 @@
         "MultiDataSet",
         "ropls"
     ],
-    "BioTIP": [
-        "scran"
-    ],
+    "BioTIP": [],
     "biovizBase": [
         "BSgenome",
         "GenomicAlignments",
@@ -582,9 +575,7 @@
     ],
     "ccmap": [],
     "celaref": [],
-    "celda": [
-        "scran"
-    ],
+    "celda": [],
     "CellBarcode": [
         "GenomicAlignments",
         "Rsamtools",
@@ -746,8 +737,7 @@
     "ChromSCape": [
         "GenomicAlignments",
         "Rsamtools",
-        "rtracklayer",
-        "scran"
+        "rtracklayer"
     ],
     "chromstaR": [
         "GenomicAlignments",
@@ -797,9 +787,7 @@
         "ShortRead",
         "rtracklayer"
     ],
-    "CiteFuse": [
-        "scran"
-    ],
+    "CiteFuse": [],
     "ClassifyR": [],
     "cleanUpdTSeq": [
         "BSgenome",
@@ -1315,9 +1303,7 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "Dino": [
-        "scran"
-    ],
+    "Dino": [],
     "distinct": [],
     "DMCFB": [
         "GenomicAlignments",
@@ -1779,8 +1765,7 @@
         "biovizBase",
         "ensembldb",
         "ggbio",
-        "rtracklayer",
-        "scran"
+        "rtracklayer"
     ],
     "flowCut": [
         "flowDensity"
@@ -2269,8 +2254,7 @@
     "IRISFGM": [
         "DOSE",
         "clusterProfiler",
-        "enrichplot",
-        "scran"
+        "enrichplot"
     ],
     "iSEEhub": [],
     "iSEEu": [],
@@ -2825,9 +2809,7 @@
         "ggbio",
         "rtracklayer"
     ],
-    "msImpute": [
-        "scran"
-    ],
+    "msImpute": [],
     "MSnID": [],
     "MSPrep": [],
     "msqrob2": [],
@@ -2863,9 +2845,7 @@
         "enrichplot",
         "ropls"
     ],
-    "mumosa": [
-        "scran"
-    ],
+    "mumosa": [],
     "MungeSumstats": [
         "BSgenome",
         "GenomicAlignments",
@@ -3187,9 +3167,7 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "pipeComp": [
-        "scran"
-    ],
+    "pipeComp": [],
     "pipeFrame": [
         "BSgenome",
         "GenomicAlignments",
@@ -3890,12 +3868,9 @@
     "scDblFinder": [
         "GenomicAlignments",
         "Rsamtools",
-        "rtracklayer",
-        "scran"
+        "rtracklayer"
     ],
-    "scDD": [
-        "scran"
-    ],
+    "scDD": [],
     "scFeatures": [
         "AUCell",
         "GSVA",
@@ -3905,13 +3880,10 @@
         "SingleCellSignalR",
         "SpatialExperiment",
         "ensembldb",
-        "rtracklayer",
-        "scran"
+        "rtracklayer"
     ],
     "scGPS": [],
-    "scMerge": [
-        "scran"
-    ],
+    "scMerge": [],
     "scmeth": [
         "BSgenome",
         "GenomicAlignments",
@@ -3951,7 +3923,6 @@
         "Rsamtools",
         "rtracklayer"
     ],
-    "scran": [],
     "scReClassify": [],
     "scRNAseqApp": [
         "GenomicAlignments",
@@ -3987,8 +3958,7 @@
         "ensembldb",
         "epivizr",
         "epivizrData",
-        "rtracklayer",
-        "scran"
+        "rtracklayer"
     ],
     "scviR": [],
     "segmenter": [
@@ -4122,9 +4092,7 @@
         "GenomicAlignments",
         "Rsamtools"
     ],
-    "SingleCellSignalR": [
-        "scran"
-    ],
+    "SingleCellSignalR": [],
     "singleCellTK": [
         "GSVA",
         "GenomicAlignments",
@@ -4136,7 +4104,6 @@
         "rtracklayer",
         "scDblFinder",
         "scMerge",
-        "scran",
         "zinbwave"
     ],
     "SingleMoleculeFootprinting": [
@@ -4207,9 +4174,7 @@
         "ggbio",
         "rtracklayer"
     ],
-    "Spaniel": [
-        "scran"
-    ],
+    "Spaniel": [],
     "sparrow": [],
     "SparseSignatures": [
         "BSgenome",
@@ -4227,9 +4192,7 @@
     "SpatialFeatureExperiment": [
         "SpatialExperiment"
     ],
-    "spatialHeatmap": [
-        "scran"
-    ],
+    "spatialHeatmap": [],
     "spatzie": [
         "BSgenome",
         "CNEr",
