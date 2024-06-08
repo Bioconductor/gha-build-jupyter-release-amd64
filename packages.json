@@ -2810,7 +2810,6 @@
         "enrichplot",
         "ropls"
     ],
-    "mumosa": [],
     "MungeSumstats": [
         "BSgenome",
         "GenomicAlignments",
