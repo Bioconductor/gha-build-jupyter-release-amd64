@@ -1983,7 +1983,6 @@
         "Rsamtools",
         "ShortRead"
     ],
-    "FCBF": [],
     "fCCAC": [
         "BSgenome",
         "GenomicAlignments",
@@ -1994,7 +1993,6 @@
     ],
     "fcoex": [
         "DOSE",
-        "FCBF",
         "SingleCellExperiment",
         "clusterProfiler",
         "enrichplot"
