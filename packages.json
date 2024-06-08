@@ -4061,7 +4061,6 @@
         "Cepo"
     ],
     "sccomp": [],
-    "scDataviz": [],
     "scDblFinder": [
         "GenomicAlignments",
         "Rsamtools",
