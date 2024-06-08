@@ -4609,7 +4609,6 @@
     "ssviz": [
         "Rsamtools"
     ],
-    "stageR": [],
     "standR": [
         "DropletUtils",
         "EDASeq",
