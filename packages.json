@@ -2374,15 +2374,9 @@
         "scran",
         "scuttle"
     ],
-    "iSEE": [],
-    "iSEEhex": [
-        "iSEE"
-    ],
-    "iSEEhub": [
-        "iSEE"
-    ],
+    "iSEEhex": [],
+    "iSEEhub": [],
     "iSEEu": [
-        "iSEE",
         "iSEEhex"
     ],
     "IsoformSwitchAnalyzeR": [
