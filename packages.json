@@ -1740,7 +1740,6 @@
     "eudysbiome": [
         "Rsamtools"
     ],
-    "evaluomeR": [],
     "EventPointer": [
         "BSgenome",
         "GenomicAlignments",
