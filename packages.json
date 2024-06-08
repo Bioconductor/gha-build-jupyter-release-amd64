@@ -5081,7 +5081,6 @@
         "Rsamtools",
         "rtracklayer"
     ],
-    "weitrix": [],
     "wiggleplotr": [
         "GenomicAlignments",
         "Rsamtools",
