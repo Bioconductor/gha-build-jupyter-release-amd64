@@ -2664,7 +2664,6 @@
     "GeneGeneInteR": [
         "Rsamtools"
     ],
-    "geneRxCluster": [],
     "GENESIS": [
         "SeqArray",
         "SeqVarTools"
