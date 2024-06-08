@@ -5296,7 +5296,6 @@
         "Rsamtools",
         "rtracklayer"
     ],
-    "target": [],
     "TBSignatureProfiler": [
         "DESeq2",
         "GSVA",
