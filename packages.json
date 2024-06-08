@@ -358,9 +358,7 @@
         "ShortRead",
         "rtracklayer"
     ],
-    "beer": [
-        "PhIPData"
-    ],
+    "beer": [],
     "benchdamic": [
         "ALDEx2",
         "ANCOMBC",
@@ -3646,7 +3644,6 @@
         "ropls"
     ],
     "phenopath": [],
-    "PhIPData": [],
     "PhosR": [],
     "PhyloProfile": [
         "OmaDB"
