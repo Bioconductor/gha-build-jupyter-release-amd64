@@ -2292,7 +2292,6 @@
         "Rsamtools",
         "rtracklayer"
     ],
-    "GNET2": [],
     "GOfuncR": [],
     "GOpro": [
         "MultiAssayExperiment"
