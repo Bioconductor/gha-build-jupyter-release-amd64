@@ -288,7 +288,7 @@ packaged installation of ‘BASiCS’ as ‘BASiCS_2.12.3_R_x86_64-pc-linux-gnu.
 * DONE (BASiCS)
 
 The downloaded source packages are in
-	‘/tmp/RtmphbrVoE/downloaded_packages’
+	‘/tmp/Rtmp3McMSF/downloaded_packages’
 Old packages: 'backports', 'BH', 'bigrquery', 'BiocManager', 'boot', 'brew',
   'brio', 'broom', 'bslib', 'cachem', 'callr', 'cli', 'cluster', 'codetools',
   'commonmark', 'cowplot', 'cpp11', 'crosstalk', 'curl', 'data.table', 'DBI',
@@ -312,6 +312,6 @@ Old packages: 'backports', 'BH', 'bigrquery', 'BiocManager', 'boot', 'brew',
   'uwot', 'vctrs', 'vroom', 'waldo', 'withr', 'xfun', 'XML', 'xml2', 'xopen',
   'yaml', 'zip'
 
-real	2m41.435s
-user	2m26.583s
-sys	0m26.682s
+real	2m39.888s
+user	2m23.403s
+sys	0m26.242s
