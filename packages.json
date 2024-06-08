@@ -2135,7 +2135,6 @@
         "Rsamtools",
         "rtracklayer"
     ],
-    "IFAA": [],
     "igvR": [
         "BSgenome",
         "GenomicAlignments",
