@@ -931,7 +931,6 @@
         "plyranges",
         "rtracklayer"
     ],
-    "cfTools": [],
     "ChAMP": [
         "BSgenome",
         "DMRcate",
