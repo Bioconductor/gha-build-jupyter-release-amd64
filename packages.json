@@ -2119,9 +2119,7 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "HiCDOC": [
-        "multiHiCcompare"
-    ],
+    "HiCDOC": [],
     "HiContacts": [],
     "HiLDA": [
         "BSgenome",
@@ -2856,7 +2854,6 @@
     ],
     "MultiDataSet": [],
     "multiGSEA": [],
-    "multiHiCcompare": [],
     "multiSight": [
         "DOSE",
         "MultiDataSet",
