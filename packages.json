@@ -540,7 +540,6 @@
         "Rsamtools",
         "rtracklayer"
     ],
-    "CATALYST": [],
     "categoryCompare": [
         "RCy3"
     ],
@@ -1122,9 +1121,7 @@
     "CyTOFpower": [
         "diffcyt"
     ],
-    "cytofQC": [
-        "CATALYST"
-    ],
+    "cytofQC": [],
     "cytomapper": [],
     "cytoviewer": [
         "cytomapper"
