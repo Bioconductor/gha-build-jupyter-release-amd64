@@ -1247,7 +1247,6 @@
         "regioneR",
         "rtracklayer"
     ],
-    "cnvGSA": [],
     "CNViz": [
         "AnnotationFilter",
         "BSgenome",
