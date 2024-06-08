@@ -4105,7 +4105,6 @@
         "Rsamtools",
         "rtracklayer"
     ],
-    "SpatialFeatureExperiment": [],
     "spatialHeatmap": [],
     "spatzie": [
         "BSgenome",
@@ -4496,9 +4495,7 @@
         "rtracklayer"
     ],
     "ViSEAGO": [],
-    "Voyager": [
-        "SpatialFeatureExperiment"
-    ],
+    "Voyager": [],
     "VplotR": [
         "GenomicAlignments",
         "Rsamtools"
