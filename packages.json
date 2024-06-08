@@ -4010,7 +4010,6 @@
         "scran"
     ],
     "scGPS": [],
-    "schex": [],
     "scMerge": [
         "batchelor",
         "scater",
@@ -4083,12 +4082,9 @@
     "scTensor": [
         "DOSE",
         "ReactomePA",
-        "enrichplot",
-        "schex"
+        "enrichplot"
     ],
-    "scTGIF": [
-        "schex"
-    ],
+    "scTGIF": [],
     "scTreeViz": [
         "GenomicAlignments",
         "GenomicFeatures",
