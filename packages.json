@@ -4482,7 +4482,6 @@
         "goseq",
         "rtracklayer"
     ],
-    "snapcount": [],
     "SNPhood": [
         "BSgenome",
         "GenomicAlignments",
