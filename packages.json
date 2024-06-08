@@ -2147,7 +2147,6 @@
         "Rsamtools",
         "rtracklayer"
     ],
-    "gscreend": [],
     "GSEABenchmarkeR": [
         "EnrichmentBrowser",
         "safe"
