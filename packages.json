@@ -5814,7 +5814,6 @@
     "sigFeature": [
         "SummarizedExperiment"
     ],
-    "SigFuge": [],
     "signatureSearch": [
         "DOSE",
         "SummarizedExperiment",
