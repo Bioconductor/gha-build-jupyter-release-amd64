@@ -1062,7 +1062,6 @@
         "regioneR",
         "rtracklayer"
     ],
-    "CoreGx": [],
     "corral": [],
     "coseq": [
         "HTSFilter"
@@ -3325,9 +3324,7 @@
     ],
     "PathoStat": [],
     "pcaExplorer": [],
-    "PDATK": [
-        "CoreGx"
-    ],
+    "PDATK": [],
     "pdInfoBuilder": [
         "oligo",
         "oligoClasses"
@@ -3348,9 +3345,7 @@
         "enrichplot"
     ],
     "phantasus": [],
-    "PharmacoGx": [
-        "CoreGx"
-    ],
+    "PharmacoGx": [],
     "phemd": [
         "destiny"
     ],
@@ -3605,9 +3600,7 @@
         "VariantAnnotation",
         "rtracklayer"
     ],
-    "RadioGx": [
-        "CoreGx"
-    ],
+    "RadioGx": [],
     "ramwas": [
         "GenomicAlignments",
         "Rsamtools"
@@ -4764,9 +4757,7 @@
     "TOP": [
         "ClassifyR"
     ],
-    "ToxicoGx": [
-        "CoreGx"
-    ],
+    "ToxicoGx": [],
     "tracktables": [
         "Rsamtools"
     ],
@@ -5039,7 +5030,6 @@
     "xcms": [],
     "xcore": [],
     "Xeva": [
-        "CoreGx",
         "PharmacoGx"
     ],
     "XNAString": [
