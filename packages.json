@@ -632,7 +632,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "RTCGAToolbox",
-        "RaggedExperiment",
         "Rsamtools",
         "TCGAutils",
         "cBioPortalData",
@@ -646,7 +645,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "RTCGAToolbox",
-        "RaggedExperiment",
         "Rsamtools",
         "TCGAutils",
         "rtracklayer"
@@ -993,8 +991,7 @@
         "exomeCopy"
     ],
     "CNVRanger": [
-        "GDSArray",
-        "RaggedExperiment"
+        "GDSArray"
     ],
     "CNVrd2": [
         "BSgenome",
@@ -1059,7 +1056,6 @@
     ],
     "compartmap": [
         "GenomicAlignments",
-        "RaggedExperiment",
         "Rsamtools",
         "rtracklayer"
     ],
@@ -3425,9 +3421,7 @@
         "VariantAnnotation",
         "rtracklayer"
     ],
-    "omicsPrint": [
-        "RaggedExperiment"
-    ],
+    "omicsPrint": [],
     "oncomix": [],
     "ontoProc": [],
     "openPrimeR": [],
@@ -3810,7 +3804,6 @@
     "RadioGx": [
         "CoreGx"
     ],
-    "RaggedExperiment": [],
     "ramwas": [
         "GenomicAlignments",
         "Rsamtools"
@@ -4246,7 +4239,6 @@
     "RTCGAToolbox": [
         "GenomicAlignments",
         "GenomicFeatures",
-        "RaggedExperiment",
         "Rsamtools",
         "TCGAutils",
         "rtracklayer"
@@ -5004,7 +4996,6 @@
     "TCGAutils": [
         "GenomicAlignments",
         "GenomicFeatures",
-        "RaggedExperiment",
         "Rsamtools",
         "rtracklayer"
     ],
@@ -5030,7 +5021,6 @@
     "terraTCGAdata": [
         "GenomicAlignments",
         "GenomicFeatures",
-        "RaggedExperiment",
         "Rsamtools",
         "TCGAutils",
         "rtracklayer"
