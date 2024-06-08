@@ -3145,7 +3145,6 @@
         "SummarizedExperiment",
         "rtracklayer"
     ],
-    "idr2d": [],
     "IFAA": [
         "SummarizedExperiment"
     ],
