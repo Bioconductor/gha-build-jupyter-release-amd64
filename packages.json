@@ -5425,7 +5425,6 @@
         "SingleCellExperiment",
         "glmGamPoi"
     ],
-    "transite": [],
     "tRanslatome": [
         "DESeq2"
     ],
