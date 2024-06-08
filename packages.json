@@ -2071,7 +2071,6 @@
     "gespeR": [
         "cellHTS2"
     ],
-    "getDEE2": [],
     "ggbio": [
         "BSgenome",
         "GenomicAlignments",
