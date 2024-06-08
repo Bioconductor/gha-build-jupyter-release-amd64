@@ -4268,7 +4268,6 @@
         "scater",
         "scuttle"
     ],
-    "sechm": [],
     "segmenter": [
         "ChIPseeker",
         "DOSE",
@@ -4318,9 +4317,7 @@
     "SeqSQC": [],
     "SeqVarTools": [],
     "sesame": [],
-    "SEtools": [
-        "sechm"
-    ],
+    "SEtools": [],
     "sevenC": [
         "GenomicAlignments",
         "Rsamtools",
