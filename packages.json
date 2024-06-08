@@ -1111,10 +1111,7 @@
     "CyTOFpower": [
         "diffcyt"
     ],
-    "cytomapper": [],
-    "cytoviewer": [
-        "cytomapper"
-    ],
+    "cytoviewer": [],
     "dada2": [
         "GenomicAlignments",
         "Rsamtools",
@@ -2155,9 +2152,7 @@
         "Rsamtools",
         "rtracklayer"
     ],
-    "imcRtools": [
-        "cytomapper"
-    ],
+    "imcRtools": [],
     "InPAS": [
         "BSgenome",
         "GenomicAlignments",
@@ -4020,9 +4015,7 @@
     "SimFFPE": [
         "Rsamtools"
     ],
-    "simpleSeg": [
-        "cytomapper"
-    ],
+    "simpleSeg": [],
     "simplifyEnrichment": [],
     "single": [
         "GenomicAlignments",
