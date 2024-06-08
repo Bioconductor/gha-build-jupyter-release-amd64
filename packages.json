@@ -3193,7 +3193,6 @@
         "enrichplot"
     ],
     "phantasus": [],
-    "PharmacoGx": [],
     "phenomis": [
         "MultiDataSet",
         "ropls"
@@ -4751,9 +4750,7 @@
         "rtracklayer"
     ],
     "xcms": [],
-    "Xeva": [
-        "PharmacoGx"
-    ],
+    "Xeva": [],
     "XNAString": [
         "BSgenome",
         "GenomicAlignments",
