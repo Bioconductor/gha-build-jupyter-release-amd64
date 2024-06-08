@@ -632,7 +632,6 @@
     "cellbaseR": [
         "Rsamtools"
     ],
-    "CellBench": [],
     "cellHTS2": [],
     "CelliD": [
         "scater",
