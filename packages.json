@@ -3989,7 +3989,6 @@
     "scClassify": [
         "Cepo"
     ],
-    "sccomp": [],
     "scDblFinder": [
         "GenomicAlignments",
         "Rsamtools",
