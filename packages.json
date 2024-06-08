@@ -1649,8 +1649,7 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "Rsamtools",
-        "rtracklayer",
-        "tRNAdbImport"
+        "rtracklayer"
     ],
     "epivizr": [
         "GenomicAlignments",
@@ -4823,7 +4822,6 @@
         "scater",
         "scuttle"
     ],
-    "tRNAdbImport": [],
     "tRNAscanImport": [
         "BSgenome",
         "GenomicAlignments",
