@@ -958,8 +958,7 @@
         "SummarizedExperiment"
     ],
     "ChIC": [
-        "Rsamtools",
-        "genomeIntervals"
+        "Rsamtools"
     ],
     "chimeraviz": [
         "BSgenome",
@@ -2026,8 +2025,7 @@
         "GenomicAlignments",
         "Rsamtools",
         "ShortRead",
-        "SummarizedExperiment",
-        "genomeIntervals"
+        "SummarizedExperiment"
     ],
     "EBSEA": [
         "DESeq2",
@@ -2647,7 +2645,6 @@
         "seqPattern"
     ],
     "GenomAutomorphism": [],
-    "genomeIntervals": [],
     "GenomicAlignments": [
         "Rsamtools",
         "SummarizedExperiment"
@@ -2754,8 +2751,7 @@
         "GenomicAlignments",
         "Rsamtools",
         "ShortRead",
-        "SummarizedExperiment",
-        "genomeIntervals"
+        "SummarizedExperiment"
     ],
     "Glimma": [
         "DESeq2",
@@ -4022,7 +4018,6 @@
         "biovizBase",
         "easyRNASeq",
         "ensembldb",
-        "genomeIntervals",
         "ggbio",
         "rtracklayer"
     ],
