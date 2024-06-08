@@ -3002,7 +3002,6 @@
     "multiHiCcompare": [
         "HiCcompare"
     ],
-    "MultimodalExperiment": [],
     "multiSight": [
         "DOSE",
         "MultiDataSet",
