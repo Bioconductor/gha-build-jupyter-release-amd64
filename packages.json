@@ -4120,7 +4120,6 @@
         "Rsamtools",
         "rtracklayer"
     ],
-    "spatialDE": [],
     "SpatialFeatureExperiment": [],
     "spatialHeatmap": [],
     "spatzie": [
