@@ -59,7 +59,6 @@
     ],
     "airpart": [
         "SingleCellExperiment",
-        "apeglm",
         "scater",
         "scuttle"
     ],
@@ -182,7 +181,6 @@
         "VariantAnnotation",
         "rtracklayer"
     ],
-    "apeglm": [],
     "APL": [
         "SingleCellExperiment"
     ],
@@ -861,7 +859,6 @@
         "GreyListChIP",
         "Rsamtools",
         "ShortRead",
-        "apeglm",
         "chipseq",
         "rtracklayer",
         "systemPipeR"
@@ -1410,7 +1407,6 @@
     "debrowser": [
         "DESeq2",
         "DOSE",
-        "apeglm",
         "clusterProfiler",
         "enrichplot"
     ],
@@ -1537,7 +1533,6 @@
         "GreyListChIP",
         "Rsamtools",
         "ShortRead",
-        "apeglm",
         "rtracklayer",
         "systemPipeR"
     ],
@@ -4349,7 +4344,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "Rsamtools",
-        "apeglm",
         "rtracklayer"
     ],
     "rmspc": [
@@ -5277,8 +5271,7 @@
         "enrichplot"
     ],
     "TEKRABber": [
-        "DESeq2",
-        "apeglm"
+        "DESeq2"
     ],
     "TENxIO": [
         "SingleCellExperiment"
@@ -5638,7 +5631,6 @@
         "InteractionSet",
         "Rsamtools",
         "ShortRead",
-        "apeglm",
         "csaw",
         "ensembldb",
         "regioneR",
