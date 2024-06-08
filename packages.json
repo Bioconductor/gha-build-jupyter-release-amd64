@@ -2076,7 +2076,6 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "HiCDOC": [],
     "HiLDA": [
         "BSgenome",
         "GenomicAlignments",
