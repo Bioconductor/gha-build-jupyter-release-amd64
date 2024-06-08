@@ -430,7 +430,6 @@
         "Rsamtools",
         "rtracklayer"
     ],
-    "BiocSklearn": [],
     "BioNAR": [],
     "BioNERO": [],
     "BioNetStat": [],
