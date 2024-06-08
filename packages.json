@@ -1507,7 +1507,6 @@
         "ShortRead",
         "rtracklayer"
     ],
-    "EDIRquery": [],
     "eegc": [
         "DOSE",
         "clusterProfiler",
