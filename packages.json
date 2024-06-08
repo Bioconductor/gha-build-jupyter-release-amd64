@@ -3175,7 +3175,6 @@
         "Rsamtools",
         "rtracklayer"
     ],
-    "NormalyzerDE": [],
     "normr": [
         "GenomicAlignments",
         "Rsamtools",
