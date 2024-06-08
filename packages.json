@@ -1580,7 +1580,6 @@
         "oligo",
         "oligoClasses"
     ],
-    "CSAR": [],
     "csaw": [
         "Rsamtools",
         "SummarizedExperiment"
