@@ -263,7 +263,6 @@
         "GenomicAlignments",
         "Rsamtools"
     ],
-    "BayesSpace": [],
     "BBCAnalyzer": [
         "BSgenome",
         "GenomicAlignments",
