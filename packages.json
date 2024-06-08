@@ -2765,7 +2765,6 @@
     "GenomicSuperSignature": [
         "SummarizedExperiment"
     ],
-    "GenomicTuples": [],
     "GenVisR": [
         "BSgenome",
         "GenomicAlignments",
