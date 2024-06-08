@@ -4348,7 +4348,6 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "tradeSeq": [],
     "transcriptR": [
         "GenomicAlignments",
         "GenomicFeatures",
