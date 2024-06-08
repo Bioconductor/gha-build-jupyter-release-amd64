@@ -2870,7 +2870,6 @@
         "TFBSTools",
         "rtracklayer"
     ],
-    "MBASED": [],
     "MBECS": [],
     "mbkmeans": [
         "SingleCellExperiment"
