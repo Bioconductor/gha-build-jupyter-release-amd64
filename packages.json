@@ -60,13 +60,11 @@
         "Rsamtools",
         "SpatialExperiment",
         "VariantAnnotation",
-        "alabaster.mae",
         "alabaster.spatial",
         "alabaster.vcf",
         "rtracklayer",
         "scuttle"
     ],
-    "alabaster.mae": [],
     "alabaster.spatial": [
         "DropletUtils",
         "SpatialExperiment",
