@@ -1,0 +1,95 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''attract'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.17 (BiocManager 1.30.22), R 4.3.1 (2023-06-16)
+Installing package(s) 'attract'
+also installing the dependencies ‘reactome.db’, ‘illuminaHumanv1.db’
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/reactome.db_1.84.0.tar.gz'
+Content type 'application/gzip' length 451952243 bytes (431.0 MB)
+=======================================
+downloaded 339.1 MB
+
+Error in download.file(url, destfile, method, mode = "wb", ...) : 
+  download from 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/reactome.db_1.84.0.tar.gz' failed
+In addition: Warning messages:
+1: In download.file(url, destfile, method, mode = "wb", ...) :
+  downloaded length 0 != reported length 0
+2: In download.file(url, destfile, method, mode = "wb", ...) :
+  URL 'https://mghp.osn.xsede.org/bir190004-bucket01/archive.bioconductor.org/packages/3.17/data/annotation/src/contrib/reactome.db_1.84.0.tar.gz': Timeout of 300 seconds was reached
+Warning in download.packages(pkgs, destdir = tmpd, available = available,  :
+  download of package ‘reactome.db’ failed
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/illuminaHumanv1.db_1.26.0.tar.gz'
+Content type 'application/gzip' length 4848767 bytes (4.6 MB)
+==================================================
+downloaded 4.6 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/attract_1.52.0.tar.gz'
+Content type 'application/gzip' length 4408706 bytes (4.2 MB)
+==================================================
+downloaded 4.2 MB
+
+* installing *source* package ‘illuminaHumanv1.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘illuminaHumanv1.db’ as ‘illuminaHumanv1.db_1.26.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (illuminaHumanv1.db)
+ERROR: dependency ‘reactome.db’ is not available for package ‘attract’
+* removing ‘/tmp/tmp/built/attract’
+
+The downloaded source packages are in
+	‘/tmp/Rtmp6aCTtQ/downloaded_packages’
+Old packages: 'backports', 'BH', 'bigrquery', 'BiocManager', 'boot', 'brew',
+  'brio', 'broom', 'bslib', 'cachem', 'callr', 'cli', 'cluster', 'codetools',
+  'commonmark', 'cowplot', 'cpp11', 'crosstalk', 'curl', 'data.table', 'DBI',
+  'dbplyr', 'deldir', 'desc', 'digest', 'dplyr', 'dqrng', 'DT', 'evaluate',
+  'fansi', 'farver', 'fastmap', 'filelock', 'FNN', 'foreign', 'fs', 'future',
+  'future.apply', 'GenomicRanges', 'gert', 'ggplot2', 'ggrepel', 'ggridges',
+  'gh', 'globals', 'glue', 'googleAuthR', 'gplots', 'gtable', 'gtools',
+  'haven', 'highr', 'htmltools', 'htmlwidgets', 'httpuv', 'httr2', 'igraph',
+  'interp', 'jsonlite', 'KernSmooth', 'knitr', 'later', 'lattice', 'leiden',
+  'lifecycle', 'listenv', 'locfit', 'matrixStats', 'mgcv', 'munsell', 'nlme',
+  'openssl', 'parallelly', 'patchwork', 'pbdZMQ', 'pkgbuild', 'pkgdown',
+  'pkgload', 'plotly', 'processx', 'progress', 'promises', 'ps', 'ragg',
+  'rapiclient', 'Rcpp', 'RcppAnnoy', 'RcppArmadillo', 'RcppEigen', 'RcppHNSW',
+  'RCurl', 'readr', 'remotes', 'repr', 'reprex', 'reticulate', 'rlang',
+  'rmarkdown', 'roxygen2', 'rpart', 'rprojroot', 'RSQLite', 'rstudioapi',
+  'Rtsne', 'rvest', 'sass', 'scales', 'sctransform', 'scuttle', 'Seurat',
+  'SeuratObject', 'shiny', 'sp', 'spatstat.data', 'spatstat.explore',
+  'spatstat.geom', 'spatstat.random', 'spatstat.sparse', 'spatstat.utils',
+  'stringi', 'stringr', 'survival', 'systemfonts', 'testthat', 'textshaping',
+  'tidyr', 'tidyselect', 'timechange', 'tinytex', 'usethis', 'utf8', 'uuid',
+  'uwot', 'vctrs', 'vroom', 'waldo', 'withr', 'xfun', 'XML', 'xml2', 'xopen',
+  'yaml', 'zip'
+Warning message:
+In install.packages(...) :
+  installation of package ‘attract’ had non-zero exit status
+
+real	5m23.390s
+user	0m15.671s
+sys	0m5.445s
+* installing *source* package ‘illuminaHumanv1.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘illuminaHumanv1.db’ as ‘illuminaHumanv1.db_1.26.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (illuminaHumanv1.db)
