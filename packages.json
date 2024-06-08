@@ -270,7 +270,6 @@
     ],
     "BASiCStan": [
         "BASiCS",
-        "glmGamPoi",
         "scran"
     ],
     "BasicSTARRseq": [
@@ -1996,7 +1995,6 @@
         "Rsamtools",
         "ShortRead"
     ],
-    "glmGamPoi": [],
     "glmSparseNet": [],
     "gmapR": [
         "BSgenome",
@@ -4528,9 +4526,7 @@
         "chipseq",
         "rtracklayer"
     ],
-    "transformGamPoi": [
-        "glmGamPoi"
-    ],
+    "transformGamPoi": [],
     "tRanslatome": [],
     "transomics2cytoscape": [
         "RCy3"
