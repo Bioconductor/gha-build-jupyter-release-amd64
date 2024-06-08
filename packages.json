@@ -1684,7 +1684,6 @@
         "Rsamtools",
         "SummarizedExperiment",
         "bumphunter",
-        "fastseg",
         "methylKit",
         "minfi",
         "rtracklayer"
@@ -2380,7 +2379,6 @@
         "ShortRead",
         "SummarizedExperiment"
     ],
-    "fastseg": [],
     "FCBF": [
         "SummarizedExperiment"
     ],
@@ -3575,7 +3573,6 @@
         "GenomicAlignments",
         "Rsamtools",
         "SummarizedExperiment",
-        "fastseg",
         "methylKit",
         "rtracklayer"
     ],
@@ -3641,7 +3638,6 @@
         "GenomicAlignments",
         "Rsamtools",
         "SummarizedExperiment",
-        "fastseg",
         "methylKit",
         "rtracklayer"
     ],
@@ -3649,7 +3645,6 @@
         "GenomicAlignments",
         "Rsamtools",
         "SummarizedExperiment",
-        "fastseg",
         "rtracklayer"
     ],
     "methylPipe": [
