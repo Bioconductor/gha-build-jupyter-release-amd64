@@ -575,7 +575,6 @@
         "Rsamtools"
     ],
     "cellHTS2": [],
-    "CelliD": [],
     "CEMiTool": [
         "DOSE",
         "clusterProfiler",
