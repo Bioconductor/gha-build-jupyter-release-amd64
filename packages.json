@@ -2438,7 +2438,6 @@
         "Rsamtools",
         "ensembldb",
         "rtracklayer",
-        "satuRn",
         "tximeta"
     ],
     "isomiRs": [
@@ -4126,7 +4125,6 @@
     ],
     "safe": [],
     "SAIGEgds": [],
-    "satuRn": [],
     "SBGNview": [],
     "SC3": [],
     "Scale4C": [],
