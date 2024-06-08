@@ -611,7 +611,6 @@
         "clusterProfiler",
         "enrichplot"
     ],
-    "ccfindR": [],
     "ccmap": [],
     "celaref": [
         "MAST"
