@@ -512,7 +512,6 @@
         "Rsamtools",
         "rtracklayer"
     ],
-    "BUScorrect": [],
     "BUSpaRse": [
         "BSgenome",
         "GenomicAlignments",
