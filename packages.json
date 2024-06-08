@@ -2157,7 +2157,6 @@
         "multiHiCcompare"
     ],
     "HiContacts": [],
-    "HiCool": [],
     "HiLDA": [
         "BSgenome",
         "GenomicAlignments",
