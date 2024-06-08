@@ -2562,9 +2562,7 @@
     "Metab": [
         "xcms"
     ],
-    "MetaboAnnotation": [
-        "QFeatures"
-    ],
+    "MetaboAnnotation": [],
     "metabolomicsWorkbenchR": [],
     "MetaboSignal": [
         "GenomicAlignments",
@@ -2894,9 +2892,7 @@
         "rtracklayer"
     ],
     "MouseFM": [],
-    "MsExperiment": [
-        "QFeatures"
-    ],
+    "MsExperiment": [],
     "msgbsR": [
         "BSgenome",
         "GenomicAlignments",
@@ -2916,12 +2912,9 @@
     ],
     "MSnID": [],
     "MSPrep": [],
-    "msqrob2": [
-        "QFeatures"
-    ],
+    "msqrob2": [],
     "MsQuality": [
-        "MsExperiment",
-        "QFeatures"
+        "MsExperiment"
     ],
     "MuData": [],
     "MultiBaC": [
@@ -3421,9 +3414,7 @@
         "recount",
         "rtracklayer"
     ],
-    "PSMatch": [
-        "QFeatures"
-    ],
+    "PSMatch": [],
     "puma": [
         "oligo",
         "oligoClasses"
@@ -3451,7 +3442,6 @@
     "QDNAseq": [
         "Rsamtools"
     ],
-    "QFeatures": [],
     "qpgraph": [
         "GenomicAlignments",
         "GenomicFeatures",
@@ -4073,9 +4063,7 @@
         "VariantAnnotation",
         "rtracklayer"
     ],
-    "scp": [
-        "QFeatures"
-    ],
+    "scp": [],
     "scPipe": [
         "DropletUtils",
         "GenomicAlignments",
