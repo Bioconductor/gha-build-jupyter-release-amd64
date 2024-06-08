@@ -3094,11 +3094,9 @@
     ],
     "oligoClasses": [],
     "OmaDB": [],
-    "omicade4": [],
     "omicplotR": [],
     "omicRexposome": [
-        "MultiDataSet",
-        "omicade4"
+        "MultiDataSet"
     ],
     "OmicsLonDA": [],
     "OMICsPCA": [
