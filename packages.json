@@ -44,7 +44,6 @@
         "Rsamtools",
         "rtracklayer"
     ],
-    "airpart": [],
     "alabaster": [
         "BSgenome",
         "GenomicAlignments",
