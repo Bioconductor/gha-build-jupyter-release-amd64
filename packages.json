@@ -279,7 +279,6 @@
         "GenomicAlignments",
         "Rsamtools"
     ],
-    "batchelor": [],
     "BayesSpace": [
         "scater",
         "scran"
@@ -762,7 +761,6 @@
     "ChromSCape": [
         "GenomicAlignments",
         "Rsamtools",
-        "batchelor",
         "rtracklayer",
         "scater",
         "scran"
@@ -2914,7 +2912,6 @@
         "ropls"
     ],
     "mumosa": [
-        "batchelor",
         "scran"
     ],
     "MungeSumstats": [
@@ -3975,7 +3972,6 @@
     ],
     "scGPS": [],
     "scMerge": [
-        "batchelor",
         "scater",
         "scran"
     ],
@@ -4204,7 +4200,6 @@
         "GenomicFeatures",
         "Rsamtools",
         "TSCAN",
-        "batchelor",
         "celda",
         "ensembldb",
         "rtracklayer",
