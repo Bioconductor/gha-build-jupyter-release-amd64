@@ -944,8 +944,7 @@
         "rtracklayer"
     ],
     "condiments": [
-        "distinct",
-        "slingshot"
+        "distinct"
     ],
     "consensusDE": [
         "EDASeq",
@@ -3920,8 +3919,7 @@
     "scRNAseqApp": [
         "GenomicAlignments",
         "Rsamtools",
-        "rtracklayer",
-        "slingshot"
+        "rtracklayer"
     ],
     "scruff": [
         "BSgenome",
@@ -4131,7 +4129,6 @@
         "wateRmelon"
     ],
     "slalom": [],
-    "slingshot": [],
     "SMITE": [
         "GenomicAlignments",
         "GenomicFeatures",
@@ -4419,9 +4416,7 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "tradeSeq": [
-        "slingshot"
-    ],
+    "tradeSeq": [],
     "transcriptR": [
         "GenomicAlignments",
         "GenomicFeatures",
@@ -4441,9 +4436,7 @@
         "Rsamtools",
         "rtracklayer"
     ],
-    "traviz": [
-        "slingshot"
-    ],
+    "traviz": [],
     "treekoR": [
         "diffcyt"
     ],
