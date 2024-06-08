@@ -258,10 +258,7 @@
         "Rsamtools",
         "rtracklayer"
     ],
-    "BASiCS": [],
-    "BASiCStan": [
-        "BASiCS"
-    ],
+    "BASiCStan": [],
     "BasicSTARRseq": [
         "GenomicAlignments",
         "Rsamtools"
