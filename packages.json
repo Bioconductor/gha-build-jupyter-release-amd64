@@ -2127,7 +2127,6 @@
         "GenomicFeatures",
         "Rsamtools",
         "goseq",
-        "pcaExplorer",
         "rtracklayer"
     ],
     "IdeoViz": [
@@ -3059,7 +3058,6 @@
         "rtracklayer"
     ],
     "PathoStat": [],
-    "pcaExplorer": [],
     "PDATK": [],
     "pdInfoBuilder": [
         "oligo",
