@@ -752,7 +752,6 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "CINdex": [],
     "circRNAprofiler": [
         "BSgenome",
         "GenomicAlignments",
