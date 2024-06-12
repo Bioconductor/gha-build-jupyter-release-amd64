@@ -1394,8 +1394,7 @@
         "enrichplot"
     ],
     "EGSEA": [
-        "GSVA",
-        "safe"
+        "GSVA"
     ],
     "eisaR": [],
     "ELMER": [
@@ -1427,9 +1426,7 @@
         "minfi",
         "rtracklayer"
     ],
-    "EnrichmentBrowser": [
-        "safe"
-    ],
+    "EnrichmentBrowser": [],
     "enrichplot": [
         "DOSE"
     ],
@@ -1974,8 +1971,7 @@
         "rtracklayer"
     ],
     "GSEABenchmarkeR": [
-        "EnrichmentBrowser",
-        "safe"
+        "EnrichmentBrowser"
     ],
     "gsean": [
         "PPInfer"
@@ -3769,7 +3765,6 @@
         "ShortRead",
         "rtracklayer"
     ],
-    "safe": [],
     "SAIGEgds": [],
     "SBGNview": [],
     "SCAN.UPC": [
@@ -4569,8 +4564,7 @@
         "rtracklayer"
     ],
     "zenith": [
-        "EnrichmentBrowser",
-        "safe"
+        "EnrichmentBrowser"
     ],
     "zinbwave": [],
     "ZygosityPredictor": [
