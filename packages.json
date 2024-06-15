@@ -1395,7 +1395,6 @@
     "EGSEA": [
         "GSVA"
     ],
-    "eisaR": [],
     "ELMER": [
         "BSgenome",
         "GenomicAlignments",
