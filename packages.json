@@ -516,9 +516,7 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "CAMERA": [
-        "xcms"
-    ],
+    "CAMERA": [],
     "cardelino": [
         "BSgenome",
         "GenomicAlignments",
@@ -791,9 +789,7 @@
         "Rsamtools",
         "rtracklayer"
     ],
-    "cliqueMS": [
-        "xcms"
-    ],
+    "cliqueMS": [],
     "clusterExperiment": [
         "zinbwave"
     ],
@@ -983,9 +979,7 @@
     ],
     "coseq": [],
     "CoSIA": [],
-    "cosmiq": [
-        "xcms"
-    ],
+    "cosmiq": [],
     "countsimQC": [],
     "CoverageView": [
         "GenomicAlignments",
@@ -1707,8 +1701,7 @@
         "rtracklayer"
     ],
     "flagme": [
-        "CAMERA",
-        "xcms"
+        "CAMERA"
     ],
     "FLAMES": [
         "BSgenome",
@@ -2193,8 +2186,7 @@
     ],
     "ipdDb": [],
     "IPO": [
-        "CAMERA",
-        "xcms"
+        "CAMERA"
     ],
     "IRISFGM": [
         "DOSE",
@@ -2269,8 +2261,7 @@
         "spicyR"
     ],
     "LOBSTAHS": [
-        "CAMERA",
-        "xcms"
+        "CAMERA"
     ],
     "lumi": [
         "GenomicAlignments",
@@ -2321,8 +2312,7 @@
         "rtracklayer"
     ],
     "MAIT": [
-        "CAMERA",
-        "xcms"
+        "CAMERA"
     ],
     "mariner": [
         "GenomicAlignments",
@@ -2410,9 +2400,7 @@
         "DOSE",
         "enrichplot"
     ],
-    "Metab": [
-        "xcms"
-    ],
+    "Metab": [],
     "MetaboAnnotation": [],
     "MetaboSignal": [
         "GenomicAlignments",
@@ -2436,8 +2424,7 @@
         "rtracklayer"
     ],
     "metaMS": [
-        "CAMERA",
-        "xcms"
+        "CAMERA"
     ],
     "MetaPhOR": [
         "DOSE",
@@ -2665,9 +2652,7 @@
         "rtracklayer"
     ],
     "moanin": [],
-    "MobilityTransformR": [
-        "xcms"
-    ],
+    "MobilityTransformR": [],
     "MOGAMUN": [
         "RCy3"
     ],
@@ -2852,9 +2837,7 @@
     ],
     "nanotatoR": [],
     "NBAMSeq": [],
-    "ncGTW": [
-        "xcms"
-    ],
+    "ncGTW": [],
     "NCIgraph": [
         "RCy3"
     ],
@@ -3579,9 +3562,7 @@
         "regioneR",
         "rtracklayer"
     ],
-    "Risa": [
-        "xcms"
-    ],
+    "Risa": [],
     "RITAN": [
         "GenomicAlignments",
         "GenomicFeatures",
@@ -4530,7 +4511,6 @@
         "Rsamtools",
         "rtracklayer"
     ],
-    "xcms": [],
     "Xeva": [],
     "XNAString": [
         "BSgenome",
