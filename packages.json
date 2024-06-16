@@ -1361,9 +1361,7 @@
         "bsseq",
         "rtracklayer"
     ],
-    "easier": [
-        "quantiseqr"
-    ],
+    "easier": [],
     "EasyCellType": [
         "DOSE",
         "clusterProfiler",
@@ -3245,7 +3243,6 @@
     ],
     "qsmooth": [],
     "qsvaR": [],
-    "quantiseqr": [],
     "quantro": [
         "GenomicAlignments",
         "GenomicFeatures",
