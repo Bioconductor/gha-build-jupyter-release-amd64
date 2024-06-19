@@ -1,0 +1,63 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''CAMERA'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.17 (BiocManager 1.30.22), R 4.3.1 (2023-06-16)
+Installing package(s) 'CAMERA'
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/CAMERA_1.56.0.tar.gz'
+Content type 'application/gzip' length 2193633 bytes (2.1 MB)
+==================================================
+downloaded 2.1 MB
+
+* installing *source* package ‘CAMERA’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c fastMatch.c -o fastMatch.o
+gcc -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o CAMERA.so fastMatch.o -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-CAMERA/00new/CAMERA/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘CAMERA’ as ‘CAMERA_1.56.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (CAMERA)
+
+The downloaded source packages are in
+	‘/tmp/RtmpMNkA5u/downloaded_packages’
+Old packages: 'BiasedUrn', 'backports', 'BH', 'bigrquery', 'BiocManager',
+  'boot', 'brew', 'brio', 'broom', 'bslib', 'cachem', 'callr', 'cli',
+  'cluster', 'codetools', 'commonmark', 'cowplot', 'cpp11', 'crosstalk',
+  'curl', 'data.table', 'DBI', 'dbplyr', 'deldir', 'desc', 'digest', 'downlit',
+  'dplyr', 'dqrng', 'DT', 'evaluate', 'fansi', 'farver', 'fastmap', 'filelock',
+  'FNN', 'foreign', 'fs', 'future', 'future.apply', 'GenomicRanges', 'gert',
+  'ggplot2', 'ggrepel', 'ggridges', 'gh', 'globals', 'glue', 'googleAuthR',
+  'gplots', 'gtable', 'gtools', 'haven', 'highr', 'htmltools', 'htmlwidgets',
+  'httpuv', 'httr2', 'igraph', 'interp', 'jsonlite', 'KernSmooth', 'knitr',
+  'later', 'lattice', 'leiden', 'lifecycle', 'listenv', 'locfit',
+  'matrixStats', 'mgcv', 'munsell', 'nlme', 'openssl', 'parallelly',
+  'patchwork', 'pbdZMQ', 'pkgbuild', 'pkgdown', 'pkgload', 'plotly',
+  'processx', 'progress', 'promises', 'ps', 'ragg', 'rapiclient', 'Rcpp',
+  'RcppAnnoy', 'RcppArmadillo', 'RcppEigen', 'RcppHNSW', 'RCurl', 'readr',
+  'remotes', 'repr', 'reprex', 'reticulate', 'rlang', 'rmarkdown', 'roxygen2',
+  'rpart', 'rprojroot', 'RSQLite', 'rstudioapi', 'Rtsne', 'rvest', 'sass',
+  'scales', 'sctransform', 'scuttle', 'Seurat', 'SeuratObject', 'shiny', 'sp',
+  'spatstat.data', 'spatstat.explore', 'spatstat.geom', 'spatstat.random',
+  'spatstat.sparse', 'spatstat.utils', 'stringi', 'stringr', 'survival',
+  'systemfonts', 'testthat', 'textshaping', 'tidyr', 'tidyselect',
+  'timechange', 'tinytex', 'usethis', 'utf8', 'uuid', 'uwot', 'vctrs', 'vroom',
+  'waldo', 'withr', 'xfun', 'XML', 'xml2', 'xopen', 'yaml', 'zip'
+
+real	0m35.817s
+user	0m29.483s
+sys	0m3.630s

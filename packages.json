@@ -516,7 +516,6 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "CAMERA": [],
     "cardelino": [
         "BSgenome",
         "GenomicAlignments",
@@ -1698,9 +1697,7 @@
         "Rsamtools",
         "rtracklayer"
     ],
-    "flagme": [
-        "CAMERA"
-    ],
+    "flagme": [],
     "FLAMES": [
         "BSgenome",
         "GenomicAlignments",
@@ -2183,9 +2180,7 @@
         "ShortRead"
     ],
     "ipdDb": [],
-    "IPO": [
-        "CAMERA"
-    ],
+    "IPO": [],
     "IRISFGM": [
         "DOSE",
         "clusterProfiler",
@@ -2258,9 +2253,7 @@
         "ClassifyR",
         "spicyR"
     ],
-    "LOBSTAHS": [
-        "CAMERA"
-    ],
+    "LOBSTAHS": [],
     "lumi": [
         "GenomicAlignments",
         "GenomicFeatures",
@@ -2309,9 +2302,7 @@
         "TRESS",
         "rtracklayer"
     ],
-    "MAIT": [
-        "CAMERA"
-    ],
+    "MAIT": [],
     "mariner": [
         "GenomicAlignments",
         "Rsamtools",
@@ -2421,9 +2412,7 @@
         "Rsamtools",
         "rtracklayer"
     ],
-    "metaMS": [
-        "CAMERA"
-    ],
+    "metaMS": [],
     "MetaPhOR": [
         "DOSE",
         "RCy3",
