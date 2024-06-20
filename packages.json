@@ -1696,7 +1696,6 @@
         "Rsamtools",
         "rtracklayer"
     ],
-    "flagme": [],
     "FLAMES": [
         "BSgenome",
         "GenomicAlignments",
