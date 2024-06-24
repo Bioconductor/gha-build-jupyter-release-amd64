@@ -215,7 +215,6 @@
         "rtracklayer"
     ],
     "attract": [],
-    "AUCell": [],
     "autonomics": [],
     "BaalChIP": [
         "GenomicAlignments",
@@ -3311,9 +3310,7 @@
         "Rsamtools",
         "rtracklayer"
     ],
-    "RcisTarget": [
-        "AUCell"
-    ],
+    "RcisTarget": [],
     "RCy3": [],
     "ReactomePA": [
         "DOSE",
@@ -3761,7 +3758,6 @@
         "rtracklayer"
     ],
     "scFeatures": [
-        "AUCell",
         "GSVA",
         "GenomicAlignments",
         "GenomicFeatures",
