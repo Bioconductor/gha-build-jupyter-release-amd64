@@ -4307,7 +4307,6 @@
         "Rsamtools",
         "rtracklayer"
     ],
-    "tricycle": [],
     "tRNAscanImport": [
         "BSgenome",
         "GenomicAlignments",
