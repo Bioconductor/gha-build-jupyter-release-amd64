@@ -1581,9 +1581,7 @@
         "Rsamtools",
         "rtracklayer"
     ],
-    "esetVis": [
-        "MLP"
-    ],
+    "esetVis": [],
     "eudysbiome": [
         "Rsamtools"
     ],
@@ -2616,7 +2614,6 @@
         "rtracklayer"
     ],
     "MLInterfaces": [],
-    "MLP": [],
     "MMAPPR2": [
         "BSgenome",
         "GenomicAlignments",
