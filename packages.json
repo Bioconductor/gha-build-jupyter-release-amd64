@@ -3707,12 +3707,10 @@
         "GenomicAlignments",
         "Rsamtools"
     ],
-    "rTRM": [],
     "rTRMui": [
         "GenomicAlignments",
         "MotifDb",
         "Rsamtools",
-        "rTRM",
         "rtracklayer"
     ],
     "RUVSeq": [

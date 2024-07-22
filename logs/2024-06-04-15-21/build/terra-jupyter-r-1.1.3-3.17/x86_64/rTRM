@@ -1,0 +1,262 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''rTRM'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.17 (BiocManager 1.30.22), R 4.3.1 (2023-06-16)
+Installing package(s) 'rTRM'
+also installing the dependencies ‘splitstackshape’, ‘seqLogo’, ‘gdata’, ‘evd’, ‘BSgenome.Mmusculus.UCSC.mm8’, ‘MotifDb’, ‘PWMEnrich’, ‘BSgenome.Mmusculus.UCSC.mm8.masked’, ‘org.Mm.eg.db’
+
+trying URL 'https://cloud.r-project.org/src/contrib/splitstackshape_1.4.8.tar.gz'
+Content type 'application/x-gzip' length 33972 bytes (33 KB)
+==================================================
+downloaded 33 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/seqLogo_1.66.0.tar.gz'
+Content type 'application/gzip' length 906177 bytes (884 KB)
+==================================================
+downloaded 884 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/gdata_3.0.0.tar.gz'
+Content type 'application/x-gzip' length 326299 bytes (318 KB)
+==================================================
+downloaded 318 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/evd_2.3-7.tar.gz'
+Content type 'application/x-gzip' length 1013782 bytes (990 KB)
+==================================================
+downloaded 990 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/BSgenome.Mmusculus.UCSC.mm8_1.4.0.tar.gz'
+Content type 'application/gzip' length 609699050 bytes (581.5 MB)
+=============================
+downloaded 340.0 MB
+
+Error in download.file(url, destfile, method, mode = "wb", ...) : 
+  download from 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/BSgenome.Mmusculus.UCSC.mm8_1.4.0.tar.gz' failed
+In addition: Warning messages:
+1: In download.file(url, destfile, method, mode = "wb", ...) :
+  downloaded length 0 != reported length 0
+2: In download.file(url, destfile, method, mode = "wb", ...) :
+  URL 'https://mghp.osn.xsede.org/bir190004-bucket01/archive.bioconductor.org/packages/3.17/data/annotation/src/contrib/BSgenome.Mmusculus.UCSC.mm8_1.4.0.tar.gz': Timeout of 300 seconds was reached
+Warning in download.packages(pkgs, destdir = tmpd, available = available,  :
+  download of package ‘BSgenome.Mmusculus.UCSC.mm8’ failed
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/MotifDb_1.42.0.tar.gz'
+Content type 'application/gzip' length 3383002 bytes (3.2 MB)
+==================================================
+downloaded 3.2 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/PWMEnrich_4.36.0.tar.gz'
+Content type 'application/gzip' length 1646552 bytes (1.6 MB)
+==================================================
+downloaded 1.6 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/BSgenome.Mmusculus.UCSC.mm8.masked_1.3.99.tar.gz'
+Content type 'application/gzip' length 22497726 bytes (21.5 MB)
+==================================================
+downloaded 21.5 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/org.Mm.eg.db_3.17.0.tar.gz'
+Content type 'application/gzip' length 78182157 bytes (74.6 MB)
+==================================================
+downloaded 74.6 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/rTRM_1.38.0.tar.gz'
+Content type 'application/gzip' length 3755266 bytes (3.6 MB)
+==================================================
+downloaded 3.6 MB
+
+* installing *source* package ‘splitstackshape’ ...
+** package ‘splitstackshape’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘splitstackshape’ as ‘splitstackshape_1.4.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (splitstackshape)
+* installing *source* package ‘seqLogo’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘seqLogo’ as ‘seqLogo_1.66.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (seqLogo)
+* installing *source* package ‘gdata’ ...
+** package ‘gdata’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘gdata’ as ‘gdata_3.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gdata)
+* installing *source* package ‘evd’ ...
+** package ‘evd’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c bvpot.c -o bvpot.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c ccop.c -o ccop.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c evd_init.c -o evd_init.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c fit.c -o fit.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c pot.c -o pot.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c sim.c -o sim.o
+gcc -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o evd.so bvpot.o ccop.o evd_init.o fit.o pot.o sim.o -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-evd/00new/evd/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘evd’ as ‘evd_2.3-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (evd)
+ERROR: dependency ‘BSgenome.Mmusculus.UCSC.mm8’ is not available for package ‘BSgenome.Mmusculus.UCSC.mm8.masked’
+* removing ‘/tmp/tmp/built/BSgenome.Mmusculus.UCSC.mm8.masked’
+* installing *source* package ‘org.Mm.eg.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘org.Mm.eg.db’ as ‘org.Mm.eg.db_3.17.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Mm.eg.db)
+* installing *source* package ‘rTRM’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+Loading required package: igraph
+
+Attaching package: ‘igraph’
+
+The following objects are masked from ‘package:stats’:
+
+    decompose, spectrum
+
+The following object is masked from ‘package:base’:
+
+    union
+
+This graph was created by an old(er) igraph version.
+  Call upgrade_graph() on it to use with the current igraph version
+  For now we convert it on the fly...
+This graph was created by an old(er) igraph version.
+  Call upgrade_graph() on it to use with the current igraph version
+  For now we convert it on the fly...
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘rTRM’ as ‘rTRM_1.38.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rTRM)
+* installing *source* package ‘MotifDb’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+See system.file("LICENSE", package="MotifDb") for use restrictions.
+** testing if installed package can be loaded from final location
+See system.file("LICENSE", package="MotifDb") for use restrictions.
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘MotifDb’ as ‘MotifDb_1.42.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MotifDb)
+* installing *source* package ‘PWMEnrich’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘PWMEnrich’ as ‘PWMEnrich_4.36.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (PWMEnrich)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp2H2Ldm/downloaded_packages’
+Old packages: 'bookdown', 'backports', 'BH', 'bigrquery', 'BiocManager',
+  'boot', 'brew', 'brio', 'broom', 'bslib', 'cachem', 'callr', 'cli',
+  'cluster', 'codetools', 'commonmark', 'cowplot', 'cpp11', 'crayon',
+  'crosstalk', 'curl', 'data.table', 'DBI', 'dbplyr', 'deldir', 'desc',
+  'digest', 'downlit', 'dplyr', 'dqrng', 'DT', 'evaluate', 'fansi', 'farver',
+  'fastmap', 'filelock', 'fitdistrplus', 'FNN', 'foreign', 'fs', 'future',
+  'future.apply', 'GenomicRanges', 'gert', 'ggplot2', 'ggrepel', 'ggridges',
+  'gh', 'globals', 'glue', 'googleAuthR', 'gplots', 'gtable', 'gtools',
+  'haven', 'highr', 'htmltools', 'htmlwidgets', 'httpuv', 'httr2', 'igraph',
+  'interp', 'jsonlite', 'KernSmooth', 'knitr', 'later', 'lattice', 'leiden',
+  'lifecycle', 'listenv', 'locfit', 'matrixStats', 'mgcv', 'munsell', 'nlme',
+  'openssl', 'parallelly', 'patchwork', 'pbdZMQ', 'pkgbuild', 'pkgdown',
+  'pkgload', 'plotly', 'processx', 'progress', 'promises', 'ps', 'ragg',
+  'rapiclient', 'Rcpp', 'RcppAnnoy', 'RcppArmadillo', 'RcppEigen', 'RcppHNSW',
+  'RCurl', 'readr', 'remotes', 'repr', 'reprex', 'reticulate', 'rlang',
+  'rmarkdown', 'roxygen2', 'rpart', 'rprojroot', 'RSQLite', 'rstudioapi',
+  'Rtsne', 'rvest', 'sass', 'scales', 'sctransform', 'scuttle', 'Seurat',
+  'SeuratObject', 'shiny', 'sp', 'spatstat.data', 'spatstat.explore',
+  'spatstat.geom', 'spatstat.random', 'spatstat.sparse', 'spatstat.utils',
+  'stringi', 'stringr', 'survival', 'systemfonts', 'testthat', 'textshaping',
+  'tidyr', 'tidyselect', 'timechange', 'tinytex', 'usethis', 'utf8', 'uuid',
+  'uwot', 'vctrs', 'vroom', 'waldo', 'withr', 'xfun', 'XML', 'xml2', 'xopen',
+  'yaml', 'zip'
+Warning message:
+In install.packages(...) :
+  installation of package ‘BSgenome.Mmusculus.UCSC.mm8.masked’ had non-zero exit status
+
+real	11m5.160s
+user	3m53.366s
+sys	0m19.902s
+ERROR: dependency ‘BSgenome.Mmusculus.UCSC.mm8’ is not available for package ‘BSgenome.Mmusculus.UCSC.mm8.masked’
+* removing ‘/tmp/tmp/built/BSgenome.Mmusculus.UCSC.mm8.masked’
