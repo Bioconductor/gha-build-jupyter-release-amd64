@@ -1,0 +1,59 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''GBScleanR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Warning: unable to access index for repository https://bioconductor.org/packages/3.17/bioc/src/contrib:
+  cannot open URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/PACKAGES'
+Warning: unable to access index for repository https://bioconductor.org/packages/3.17/data/annotation/src/contrib:
+  cannot open URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/PACKAGES'
+Warning: unable to access index for repository https://bioconductor.org/packages/3.17/data/experiment/src/contrib:
+  cannot open URL 'https://bioconductor.org/packages/3.17/data/experiment/src/contrib/PACKAGES'
+Warning: unable to access index for repository https://bioconductor.org/packages/3.17/workflows/src/contrib:
+  cannot open URL 'https://bioconductor.org/packages/3.17/workflows/src/contrib/PACKAGES'
+Bioconductor version 3.17 (BiocManager 1.30.22), R 4.3.1 (2023-06-16)
+Installing package(s) 'GBScleanR'
+Warning: unable to access index for repository https://bioconductor.org/packages/3.17/bioc/src/contrib:
+  cannot open URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/PACKAGES'
+Warning: unable to access index for repository https://bioconductor.org/packages/3.17/data/annotation/src/contrib:
+  cannot open URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/PACKAGES'
+Warning: unable to access index for repository https://bioconductor.org/packages/3.17/data/experiment/src/contrib:
+  cannot open URL 'https://bioconductor.org/packages/3.17/data/experiment/src/contrib/PACKAGES'
+Warning: unable to access index for repository https://bioconductor.org/packages/3.17/workflows/src/contrib:
+  cannot open URL 'https://bioconductor.org/packages/3.17/workflows/src/contrib/PACKAGES'
+Warning: unable to access index for repository https://bioconductor.org/packages/3.17/bioc/src/contrib:
+  cannot open URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/PACKAGES'
+Warning: unable to access index for repository https://bioconductor.org/packages/3.17/data/annotation/src/contrib:
+  cannot open URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/PACKAGES'
+Old packages: 'bookdown', 'htmlTable', 'markdown', 'backports', 'BH',
+  'bigrquery', 'BiocManager', 'boot', 'brew', 'brio', 'broom', 'bslib',
+  'cachem', 'callr', 'cli', 'cluster', 'codetools', 'commonmark', 'cowplot',
+  'cpp11', 'crayon', 'crosstalk', 'curl', 'data.table', 'DBI', 'dbplyr',
+  'deldir', 'desc', 'digest', 'downlit', 'dplyr', 'dqrng', 'DT', 'evaluate',
+  'fansi', 'farver', 'fastmap', 'filelock', 'fitdistrplus', 'FNN', 'foreign',
+  'fs', 'future', 'future.apply', 'gert', 'ggplot2', 'ggrepel', 'ggridges',
+  'gh', 'globals', 'glue', 'googleAuthR', 'gplots', 'gtable', 'gtools',
+  'haven', 'highr', 'htmltools', 'htmlwidgets', 'httpuv', 'httr2', 'igraph',
+  'interp', 'jsonlite', 'KernSmooth', 'knitr', 'later', 'lattice', 'leiden',
+  'lifecycle', 'listenv', 'locfit', 'matrixStats', 'mgcv', 'munsell', 'nlme',
+  'openssl', 'parallelly', 'patchwork', 'pbdZMQ', 'pkgbuild', 'pkgdown',
+  'pkgload', 'plotly', 'processx', 'progress', 'promises', 'ps', 'ragg',
+  'rapiclient', 'Rcpp', 'RcppAnnoy', 'RcppArmadillo', 'RcppEigen', 'RcppHNSW',
+  'RCurl', 'readr', 'remotes', 'repr', 'reprex', 'reticulate', 'rlang',
+  'rmarkdown', 'roxygen2', 'rpart', 'rprojroot', 'RSQLite', 'rstudioapi',
+  'Rtsne', 'rvest', 'sass', 'scales', 'sctransform', 'Seurat', 'SeuratObject',
+  'shiny', 'sp', 'spatstat.data', 'spatstat.explore', 'spatstat.geom',
+  'spatstat.random', 'spatstat.sparse', 'spatstat.utils', 'stringi', 'stringr',
+  'survival', 'systemfonts', 'testthat', 'textshaping', 'tidyr', 'tidyselect',
+  'timechange', 'tinytex', 'usethis', 'utf8', 'uuid', 'uwot', 'vctrs', 'vroom',
+  'waldo', 'withr', 'xfun', 'XML', 'xml2', 'xopen', 'yaml', 'zip'
+Warning message:
+package ‘GBScleanR’ is not available for Bioconductor version '3.17'
+
+A version of this package for your version of R might be available elsewhere,
+see the ideas at
+https://cran.r-project.org/doc/manuals/r-patched/R-admin.html#Installing-packages 
+
+real	12m0.607s
+user	0m1.891s
+sys	0m0.622s
