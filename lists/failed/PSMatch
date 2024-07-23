@@ -1,0 +1,326 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''PSMatch'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Warning: unable to access index for repository https://bioconductor.org/packages/3.17/data/annotation/src/contrib:
+  cannot open URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/PACKAGES'
+Bioconductor version 3.17 (BiocManager 1.30.22), R 4.3.1 (2023-06-16)
+Installing package(s) 'PSMatch'
+also installing the dependencies ‘estimability’, ‘ellipse’, ‘emmeans’, ‘flashClust’, ‘leaps’, ‘multcompView’, ‘scatterplot3d’, ‘dendextend’, ‘FactoMineR’, ‘rpx’, ‘Spectra’, ‘factoextra’
+
+trying URL 'https://cloud.r-project.org/src/contrib/estimability_1.5.1.tar.gz'
+Content type 'application/x-gzip' length 15968 bytes (15 KB)
+==================================================
+downloaded 15 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/ellipse_0.5.0.tar.gz'
+Content type 'application/x-gzip' length 160353 bytes (156 KB)
+==================================================
+downloaded 156 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/emmeans_1.10.3.tar.gz'
+Content type 'application/x-gzip' length 1518766 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/flashClust_1.01-2.tar.gz'
+Content type 'application/x-gzip' length 8367 bytes
+==================================================
+downloaded 8367 bytes
+
+trying URL 'https://cloud.r-project.org/src/contrib/leaps_3.2.tar.gz'
+Content type 'application/x-gzip' length 29375 bytes (28 KB)
+==================================================
+downloaded 28 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/multcompView_0.1-10.tar.gz'
+Content type 'application/x-gzip' length 35884 bytes (35 KB)
+==================================================
+downloaded 35 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/scatterplot3d_0.3-44.tar.gz'
+Content type 'application/x-gzip' length 475696 bytes (464 KB)
+==================================================
+downloaded 464 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/dendextend_1.17.1.tar.gz'
+Content type 'application/x-gzip' length 3544318 bytes (3.4 MB)
+==================================================
+downloaded 3.4 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/FactoMineR_2.11.tar.gz'
+Content type 'application/x-gzip' length 2832656 bytes (2.7 MB)
+==================================================
+downloaded 2.7 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/rpx_2.8.0.tar.gz'
+Content type 'application/gzip' length 309034 bytes (301 KB)
+==================================================
+downloaded 301 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/Spectra_1.10.3.tar.gz'
+Content type 'application/gzip' length 1177253 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/factoextra_1.0.7.tar.gz'
+Content type 'application/x-gzip' length 1386480 bytes (1.3 MB)
+==================================================
+downloaded 1.3 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/PSMatch_1.4.0.tar.gz'
+Error in download.file(url, destfile, method, mode = "wb", ...) : 
+  cannot open URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/PSMatch_1.4.0.tar.gz'
+In addition: Warning message:
+In download.file(url, destfile, method, mode = "wb", ...) :
+  cannot open URL 'https://mghp.osn.xsede.org/bir190004-bucket01/archive.bioconductor.org/packages/3.17/bioc/src/contrib/PSMatch_1.4.0.tar.gz': HTTP status was '503 Service Unavailable'
+Warning in download.packages(pkgs, destdir = tmpd, available = available,  :
+  download of package ‘PSMatch’ failed
+* installing *source* package ‘estimability’ ...
+** package ‘estimability’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘estimability’ as ‘estimability_1.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (estimability)
+* installing *source* package ‘ellipse’ ...
+** package ‘ellipse’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ellipse’ as ‘ellipse_0.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ellipse)
+* installing *source* package ‘flashClust’ ...
+** package ‘flashClust’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using Fortran compiler: ‘GNU Fortran (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gfortran  -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong  -c hc.f -o hc.o
+gfortran  -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong  -c hcass2.f -o hcass2.o
+gcc -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o flashClust.so hc.o hcass2.o -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-flashClust/00new/flashClust/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘flashClust’ as ‘flashClust_1.01-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (flashClust)
+* installing *source* package ‘leaps’ ...
+** package ‘leaps’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c init.c -o init.o
+gfortran  -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong  -c leaps.f -o leaps.o
+gfortran  -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong  -c leapshdr.f -o leapshdr.o
+gcc -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o leaps.so init.o leaps.o leapshdr.o -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-leaps/00new/leaps/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘leaps’ as ‘leaps_3.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (leaps)
+* installing *source* package ‘multcompView’ ...
+** package ‘multcompView’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘multcompView’ as ‘multcompView_0.1-10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (multcompView)
+* installing *source* package ‘scatterplot3d’ ...
+** package ‘scatterplot3d’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘scatterplot3d’ as ‘scatterplot3d_0.3-44_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scatterplot3d)
+* installing *source* package ‘dendextend’ ...
+** package ‘dendextend’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘dendextend’ as ‘dendextend_1.17.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dendextend)
+* installing *source* package ‘rpx’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘rpx’ as ‘rpx_2.8.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rpx)
+* installing *source* package ‘Spectra’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘Spectra’ as ‘Spectra_1.10.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Spectra)
+* installing *source* package ‘emmeans’ ...
+** package ‘emmeans’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘emmeans’ as ‘emmeans_1.10.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (emmeans)
+* installing *source* package ‘FactoMineR’ ...
+** package ‘FactoMineR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0’
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c disjonctif.c -o disjonctif.o
+gcc -I"/usr/share/R/include" -DNDEBUG       -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-k088M3/r-base-4.3.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c init.c -o init.o
+gcc -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o FactoMineR.so disjonctif.o init.o -L/usr/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-FactoMineR/00new/FactoMineR/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘FactoMineR’ as ‘FactoMineR_2.11_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (FactoMineR)
+* installing *source* package ‘factoextra’ ...
+** package ‘factoextra’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘factoextra’ as ‘factoextra_1.0.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (factoextra)
+
+The downloaded source packages are in
+	‘/tmp/RtmpzpcnTq/downloaded_packages’
+Old packages: 'bookdown', 'ggsci', 'htmlTable', 'lme4', 'nloptr', 'pbkrtest',
+  'SparseM', 'backports', 'BH', 'bigrquery', 'BiocManager', 'boot', 'brew',
+  'brio', 'broom', 'bslib', 'cachem', 'callr', 'cli', 'cluster', 'codetools',
+  'commonmark', 'cowplot', 'cpp11', 'crayon', 'crosstalk', 'curl',
+  'data.table', 'DBI', 'dbplyr', 'deldir', 'desc', 'digest', 'downlit',
+  'dplyr', 'dqrng', 'DT', 'evaluate', 'fansi', 'farver', 'fastmap', 'filelock',
+  'fitdistrplus', 'FNN', 'foreign', 'fs', 'future', 'future.apply',
+  'GenomicRanges', 'gert', 'ggplot2', 'ggrepel', 'ggridges', 'gh', 'globals',
+  'glue', 'googleAuthR', 'gplots', 'gtable', 'gtools', 'haven', 'highr',
+  'htmltools', 'htmlwidgets', 'httpuv', 'httr2', 'igraph', 'interp',
+  'jsonlite', 'KernSmooth', 'knitr', 'later', 'lattice', 'leiden', 'lifecycle',
+  'listenv', 'locfit', 'matrixStats', 'mgcv', 'munsell', 'nlme', 'openssl',
+  'parallelly', 'patchwork', 'pbdZMQ', 'pkgbuild', 'pkgdown', 'pkgload',
+  'plotly', 'processx', 'progress', 'promises', 'ps', 'ragg', 'rapiclient',
+  'Rcpp', 'RcppAnnoy', 'RcppArmadillo', 'RcppEigen', 'RcppHNSW', 'RCurl',
+  'readr', 'remotes', 'repr', 'reprex', 'reticulate', 'rlang', 'rmarkdown',
+  'roxygen2', 'rpart', 'rprojroot', 'RSQLite', 'rstudioapi', 'Rtsne', 'rvest',
+  'sass', 'scales', 'sctransform', 'scuttle', 'Seurat', 'SeuratObject',
+  'shiny', 'sp', 'spatstat.data', 'spatstat.explore', 'spatstat.geom',
+  'spatstat.random', 'spatstat.sparse', 'spatstat.utils', 'stringi', 'stringr',
+  'survival', 'systemfonts', 'testthat', 'textshaping', 'tidyr', 'tidyselect',
+  'timechange', 'tinytex', 'usethis', 'utf8', 'uuid', 'uwot', 'vctrs', 'vroom',
+  'waldo', 'withr', 'xfun', 'XML', 'xml2', 'xopen', 'yaml', 'zip'
+
+real	3m45.777s
+user	0m53.837s
+sys	0m22.140s
