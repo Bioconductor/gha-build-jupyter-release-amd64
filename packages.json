@@ -1244,7 +1244,6 @@
         "rtracklayer",
         "systemPipeR"
     ],
-    "diffcoexp": [],
     "diffcyt": [],
     "diffHic": [
         "BSgenome",
