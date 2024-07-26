@@ -787,7 +787,6 @@
         "Rsamtools",
         "rtracklayer"
     ],
-    "cliqueMS": [],
     "clusterExperiment": [
         "zinbwave"
     ],
