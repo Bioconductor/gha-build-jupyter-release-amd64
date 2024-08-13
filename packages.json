@@ -4142,7 +4142,6 @@
     "SVMDO": [
         "DOSE"
     ],
-    "synapter": [],
     "syntenet": [
         "GenomicAlignments",
         "Rsamtools",
