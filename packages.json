@@ -1909,7 +1909,6 @@
         "rtracklayer"
     ],
     "GOfuncR": [],
-    "GOpro": [],
     "goseq": [
         "GenomicAlignments",
         "GenomicFeatures",
