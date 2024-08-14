@@ -2260,7 +2260,6 @@
         "Rsamtools",
         "rtracklayer"
     ],
-    "Macarron": [],
     "MADSEQ": [
         "BSgenome",
         "GenomicAlignments",
