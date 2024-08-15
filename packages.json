@@ -324,7 +324,6 @@
         "rtracklayer"
     ],
     "BioNAR": [],
-    "BioNERO": [],
     "BioNetStat": [],
     "biosigner": [
         "MultiDataSet",
@@ -489,7 +488,6 @@
     ],
     "cageminer": [
         "BSgenome",
-        "BioNERO",
         "GenomicAlignments",
         "GenomicFeatures",
         "OrganismDbi",
