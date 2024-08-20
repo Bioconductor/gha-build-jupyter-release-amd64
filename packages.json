@@ -573,7 +573,6 @@
     "censcyt": [
         "diffcyt"
     ],
-    "Cepo": [],
     "CeTF": [
         "DOSE",
         "RCy3",
@@ -3735,9 +3734,7 @@
     "scBFA": [
         "zinbwave"
     ],
-    "scClassify": [
-        "Cepo"
-    ],
+    "scClassify": [],
     "scDblFinder": [
         "GenomicAlignments",
         "Rsamtools",
