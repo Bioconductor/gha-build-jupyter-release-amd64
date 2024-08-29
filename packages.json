@@ -3214,7 +3214,6 @@
         "Rsamtools",
         "rtracklayer"
     ],
-    "qsmooth": [],
     "qsvaR": [],
     "quantro": [
         "GenomicAlignments",
