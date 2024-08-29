@@ -3709,7 +3709,6 @@
         "ShortRead",
         "rtracklayer"
     ],
-    "SBGNview": [],
     "SCAN.UPC": [
         "oligo",
         "oligoClasses"
