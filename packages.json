@@ -2917,7 +2917,6 @@
         "VariantAnnotation",
         "rtracklayer"
     ],
-    "ontoProc": [],
     "openPrimeR": [],
     "openPrimeRui": [
         "openPrimeR"
@@ -3075,9 +3074,7 @@
         "Rsamtools",
         "rtracklayer"
     ],
-    "pogos": [
-        "ontoProc"
-    ],
+    "pogos": [],
     "POMA": [],
     "PPInfer": [],
     "pqsfinder": [],
@@ -4169,7 +4166,6 @@
     ],
     "TEKRABber": [],
     "tenXplore": [
-        "ontoProc",
         "restfulSE"
     ],
     "TEQC": [
