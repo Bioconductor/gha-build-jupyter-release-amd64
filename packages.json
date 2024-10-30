@@ -3725,7 +3725,6 @@
     "scBFA": [
         "zinbwave"
     ],
-    "scClassify": [],
     "scDblFinder": [
         "GenomicAlignments",
         "Rsamtools",
